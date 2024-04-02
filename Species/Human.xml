@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>HUMAN</Key>
+  <Name>Human</Name>
+  <Description>
+    Los humanos son la especie inteligente más abundante y gregaria de toda la galaxia. Parecen estar presentes en casi todos los planetas libres que albergan formas de vida, y recorren constantemente las rutas espaciales en busca de nuevos mundos que colonizar.
+	[P][B]Fisiologia:[b] Los humanos son mamíferos bipedos de piel ma- yormente lampiña con una gama de colores muy variada, desde tonos color melocotón hasta morenos, chocolate e incluso negros. Los varones alcanzan una estatura media de 1,8 metros de altura; las mujeres suelen ser un poco más bajas y no tan fornidas. Respiran oxígeno y pueden digerir diversos tipos de animales y plantas. Su biología está bien adaptada a muchos entornos de la galaxia, lo que posible- mente explique su predominancia.
+	[P][B]Sociedad:[b] La ambición y la competitividad de los humanos han dividido su especie en muchas sociedades diferentes. Se han extendido a lo largo y ancho de la galaxia, y viven bajo todos los sistemas políticos concebidos, desde el feudalismo y la teocracia hasta la democracia y la autocracia. Sus nive- les tecnológicos presentan una variedad similar.
+	[P][B]Mundo natal:[b] Se cree que los humanos proceden de al- gún lugar de los mundos del Núcleo, quizá de la mismísima Coruscant. Sin embargo, hace ya tanto que comenzaron a explorar la galaxia (puede que incluso antes del descubri- miento de velocidades más rápidas que la luz) que en la ac- tualidad existen innumerables planetas humanos.
+	[P][B]Idioma:[b] El principal idioma que conecta a los humanos como especie individual es el básico, aunque cada sociedad posee su propio dialecto y a veces incluso se desarrollan otras lenguas maternas. Vida en los confines: Los humanos pueden ejercer practicamente cualquier función y oficio en los confines galácticos.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 10 + Fortaleza
+	[P]Umbral de Tensión: 10 + Voluntad
+	[P]Experiencia inicial: 110 PE
+	[P]Capacidad especial: Los humanos empiezan con 1 rango de entrenamiento en 2 habilidades no profesionales distintas de su elección (pero siguen estando limitados a un rango máximo de 2 enestas habilidades durante la creación del personaje)
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>110</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>HUMANAB</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>HUMANABSK</Key>
+          <Name>Additional Non-Career Skills</Name>
+          <Description>Humans start the game with one rank in two different non-career
+          skills of their choice.</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>2</SkillCount>
+              <Requirement>
+                <NonCareer>true</NonCareer>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

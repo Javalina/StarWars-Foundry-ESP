@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>GANK</Key>
+  <Name>Gank</Name>
+  <Description>
+[P]Los Ganks, una misteriosa especie de mercenarios al servicio de los Hutts, se encuentran entre los asesinos más temidos y sanguinarios del Espacio Hutt. Vestidos de pies a cabeza con armaduras de combate de alta tecnología, estos matones y ejecutores sin rostro rara vez son vistos en carne y hueso por quienes no son Ganks. Los Ganks actúan como cazarrecompensas, asesinos y guardaespaldas para los Hutts y otros que estén dispuestos a pagar los créditos por sus servicios y a aprobar sus métodos. Se labraron una reputación de brutalidad sin parangón hace varios miles de años, durante las infames Masacres de los Gank, cuando aniquilaron a toda la especie Porporite para proteger los intereses comerciales de los ryll- neimoidianos. Desde entonces, los Gank han consolidado su posición como una de las armas de alquiler más peligrosas del inframundo galáctico.
+[P][B]Fisiología:[b] Bajo su armadura y su cibernética, los tanques son bípedos carnívoros de constitución poderosa y pelaje de un color que va del amarillo dorado a una mezcla de marrón oscuro y rojo. Su rostro gruñón y sus ojos saltones les confieren un aspecto peligroso y depredador. Agresivos y beligerantes, los tanques son conocidos por su mal genio y sus pocos escrúpulos, aunque son muy protectores con los de su especie. La cibernética es un elemento tan importante de la sociedad de los tanques que prácticamente forma parte de su fisiología, ya que todos los tanques tienen al menos unos cuantos implantes o prótesis diferentes.
+[P][B]Sociedad:[b] Militarista y belicosa, la sociedad de los gank está muy reglamentada y organizada en manadas familiares, a las que a veces se hace referencia de forma no tan inapropiada como "asesinos". Aunque no es evidente para los forasteros, los tanques siguen una estricta jerarquía entre ellos, con los alfas -a menudo los guerreros más experimentados y veteranos- dirigiendo las manadas de sus compañeros. Los tanques rara vez actúan de forma independiente, sino que prefieren coordinarse con otros tanques en pequeños grupos. Los tanques son maestros de las emboscadas y las tácticas de escuadrón, y actúan con una eficacia y una letalidad pocas veces vistas fuera de las unidades de élite. Cuando se ven obligados a trabajar con otras especies menos disciplinadas, los tanques suelen sentirse frustrados por su desordenado enfoque del combate.
+[P]Ganks often take trophies from their foes, a habit that has garnered them the reputation of being thieves as well as killers. Certainly, many Ganks are prone to looting their victims’ bodies, to claim tokens that show the quality and number of foes they have slain. Even amongst Ganks who do not lead a life of violent crime, trophy-taking is often a culturally important practice.
+[P][B]Mundo natal:[b] El mundo natal de los Ganks es desconocido. Muchos sospechan que originalmente proceden de un planeta en algún lugar de la propia Bootana Hutta, o posiblemente de un mundo oculto entre las densas nubes radiactivas de la nebulosa Oktos. Sea como fuere, la mayoría de los tanques trabajan para los hutts en las ciudades verticales de Nar Shaddaa.
+[P][B]Idioma:[b] Aunque los Ganks tienen su propio idioma, es completamente desconocido para los no Ganks, ya que casi nunca se habla en voz alta. Los tanques prefieren comunicarse en silencio a través de sus enlaces cibernéticos. La mayoría de los Ganks también hablan al menos algo de Basic y generalmente hablan con fluidez el Huttese.
+[P][B]Vida al margen:[b] Los tanques viven al borde de la marginalidad y rara vez son bienvenidos en la sociedad "civilizada". Los hutts son conocidos por reclutar pequeños ejércitos de tanques cuando necesitan mercenarios profesionales, además de contratar a grupos más pequeños para contratos especiales. Aunque la mayoría de los tanques se mantienen unidos a sus manadas, en ocasiones alguno se convierte en un cazador solitario. Esto suele ocurrir cuando el único superviviente de una manada se niega a unirse a otra. Estos Tanques solitarios suelen obsesionarse con vengar las muertes de los miembros de su manada, pasando años, si es necesario, para rastrear y cazar a los responsables.
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>110</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GANKOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>GANKOC1OP1</Key>
+          <Name>Coercion</Name>
+          <Description>Ganks may begin the game with one rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GANKOC1OP2</Key>
+          <Name>Vigilance</Name>
+          <Description>Ganks may begin the game with one rank in Vigilance.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>VIGIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GANKOC2</Key>
+      <Name>Cybernetics</Name>
+      <Options>
+        <Option>
+          <Key>GANKOC2OP1</Key>
+          <Name>Cyborg</Name>
+          <Description>Ganks may begin play with up to two cybernetic implants that cost up to 5,000 credits.  Extra credits for obligation may be applied to purchase these cybernetics.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <CyberneticsAdjust>3</CyberneticsAdjust>
+</Species>

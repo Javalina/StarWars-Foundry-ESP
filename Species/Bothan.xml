@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>BOTH</Key>
+  <Name>Bothan</Name>
+  <Description>
+    Los bothans son los principales procuradores de información de la galaxia. Son muy hábiles desvelando secretos o fijándose en cosas que las demás especies pasan por alto, razón por la que constituyen un recurso de valor incalculable para cualquier empresa... si uno se aviene a confiar en ellos.
+	[P][B]Fisiología:[b] Los bothans están dotados de sentidos muy agudizados que les sirven de gran ayuda para recabar y transmitir información. Las fosas nasales de sus estrechos y alargados hocicos pueden distinguir muchos olores, y su vista tiene un alcance de enfoque muy superior. Sus orejas son el doble de grandes que en la mayoría de las especies, y pueden torcerlas y doblarlas para captar sonidos direccionales. Con una estatura media de 1,6 metros, el pequeño tamaño de los bothans les permite pasar desapercibidos y colarse a través de resquicios por los que no cabría un humano.
+	[P]Su mayor ventaja es su pelaje; los bothans pueden comunicarse entre sí mediante ondulaciones de su pelambrera, manifestando cambios de humor y comunicando otras sensaciones más concretas en clave.
+	[P][B]Sociedad:[b] Todos los estratos de la sociedad bothan están basados en la adquisición, manipulación y utilización de conocimientos. A veces se los equipara a hutts y twi'leks, pero tales comparaciones ofenden a los bothans, pues a ellos los motiva el prestigio y no el dinero. A fin de cuentas, la reputación de un bothan es lo único que tiene. El Consejo Bothan gobierna los mundos de los bothans. Todos los grandes clanes poseen un representante en el Consejo, que a su vez designa al jefe del Consejo. Los bothans rehuyen las confrontaciones directas. Su arma es la información, y utilizan los secretos igual que un corelliano jugando al sabacc: la verdad es el as que guardan en la manga.
+	[P]Los bothans poseen la más extensa y elaborada red de inteligencia de toda la galaxia. La denominada Red Espía opera mediante topos, agitadores, agentes durmientes y puntos de entregas que transfieren la información a través de canales clandestinos hasta los maestros espías bothans. Aunque los centros neuralgicos de la Red Espía en Bothawui los dirigen bothans, la mayor parte de los agentes desplegados pertenecen a especies foráneas.
+	[P][B]Mundo natal:[b] Los bothans proceden de Bothawui, un planeta de clima templado situado en el Borde Intermedio. También han establecido grandes colonias en Kothlis y Torolis.
+	[P][B]Idioma:[b] La lengua nativa de los bothans es el bothés, y su forma escrita recibe el nombre de botha. Casi todos los bothans hablan el básico con fluidez. El wrendui, término bothés para referirse a las señales y emociones no verbales transmitidas mediante ondulaciones y rizos del pelaje bothan, posee numerosas formas en clave que un espectador puede interpretar como información explícita si conoce dicha clave. Un espía bothan bien instruido puede alternar entre diferentes formas de wrendui en una misma ondulación de su pelaje.
+	[P][B]Vida en los confines:[b] Los bothans tienden a ejercer profesiones en las que prima el uso de la información. Son excelentes comerciantes, exploradores, ladrones y políticos. Siempre intentarán ascender por la cadena de mando de su profesión actual y también proporcionarán información a la red de espionaje bothan para beneficiar a sus clanes en Bothawui.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 10 + Fortaleza
+	[P]Umbral de Tensión: 11 + Voluntad
+	[P]Experiencia inicial: 100 PE
+	[P]Capacidad especial: Los bothans empiezan el juego con 1 rango en Callejeo (pero siguen estando limitados a un rango 2 en esta habilidad durante la creación del personaje). También comienzan con 1 rango en el talento Actitud convincente.
+  </Description>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SW</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>CONV</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+</Species>

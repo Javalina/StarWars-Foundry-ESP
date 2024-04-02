@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>SAKIYAN</Key>
+  <Name>Sakiyan</Name>
+  <Description>
+Pocos depredadores en la galaxia pueden rivalizar con los Sakiyans. Como rastreadores, sólo son igualados por los Cand. Como cazadores, son iguales a los Trandoshans y Defel. Como asesinos, son prácticamente incomparables. Afortunadamente para el resto de la galaxia, los Sakiyans tienden a tener muy poco interés en cualquier cosa más allá de su propio sistema estelar y rara vez se aventuran lejos de su mundo natal.
+[P]Aunque la destreza cazadora de los sakiyanos parecería hacerles más adecuados para vivir a ras de suelo, todo un segmento de la sociedad sakiyana se ha trasladado más allá de sus tradicionales campamentos forestales, a grandes y elevadas ciudades de repulsores. Allí, las mejores y más brillantes mentes de los sakiyanos han seguido desarrollando y perfeccionando su tecnología de transporte repulsivo, que exportan a toda la galaxia. Esta experiencia les ha permitido resistir múltiples intentos de conquista a lo largo de los años.
+[P]Los sakiyanos son famosos como cazarrecompensas y asesinos; aquellos que abandonan su mundo natal, Saki, encuentran sus habilidades muy solicitadas entre los kajidics Hutt. Sin embargo, no hay amor perdido entre los orgullosos sakiyanos y los hutts, que los dominarían a ellos y a su mundo natal si tuvieran la más mínima oportunidad.
+[P][B]Fisiología: [b]Aunque superficialmente parecidos a los humanos, los sakiyanos son una especie distinta, que ha evolucionado siguiendo líneas convergentes pero que posee varias características notables. Lo más visible es que los sakiyanos tienen el cráneo agrandado y bifurcado, carecen de pelo y tienen orejas puntiagudas. Su piel es muy reflectante, como el metal bruñido, y su color varía desde el negro azabache y el gris oscuro hasta distintos tonos de rojo, azul y morado. También existen sakiyanos albinos y de piel pálida. Con casi el doble de tamaño que el cerebro humano medio, el cerebro de los sakiyans es altamente reflectante.
+[P]Los sakiyanos son capaces de procesar cantidades impresionantes de información sensorial. Tienen sentidos extraordinarios: pueden ver en el espectro infrarrojo y poseen un oído y un olfato excepcionales. Se dice que algunos cazadores sakiyanos rastrean a sus presas sólo con el olfato.
+[P][B]Sociedad: La sociedad sakiyana se organiza en torno a complejas relaciones familiares y de clan. Conocidos como manadas, los clanes sakiyanos forman la base de sus comunidades. Proteger y defender a sus familias y manadas son las principales preocupaciones de los miembros de la especie. Como tales, los sakiyanos tienden a ser territoriales y desconfiados con los extraños y los forasteros, especialmente con los no sakiyanos. Las manadas son grupos homogéneos y relativamente aislados, y sus líderes ejercen autoridad familiar y política sobre sus clanes y comunidades. El tono de la piel de los sakiyanos es uno de los medios por los que las manadas se identifican, aunque la mayoría de los grupos apenas tienen prejuicios manifiestos basados en el color de la piel. La excepción notable es el fanatismo dirigido contra los sakiyanos de piel clara, a los que el resto de la sociedad sakiyana, incluso su propia familia, suele considerar aberraciones. Por ello, los sakiyanos albinos y de piel pálida son más propensos que otros a abandonar Saki y forjarse su propio camino en la galaxia.
+[P]Depredadores hasta la médula, los sakiyanos sienten un gran placer en la caza y la consideran la prueba más auténtica de la valía de un ser. Tienden a verse a sí mismos como los cazadores por excelencia -con cierta justificación- y consideran a la mayoría de las demás especies poco más que presas que mastican bolo alimenticio, apenas dignas del más mínimo respeto. Los sakiyanos también destacan por su falta de sentido del humor, así como por su capacidad intelectual y de resolución de problemas; rara vez aceptan que se les demuestre lo contrario.
+[P][B]Mundo natal: [b]Situado en el borde de la Bootana Hutta, en las profundidades del Espacio Hutt, Saki es un mundo tropical de amplios océanos y exuberantes selvas tropicales, que han sido preservadas por la notable tecnología de repulsión de los Sakiyans. En lugar de limpiar su territorio de caza, se han expandido hacia el cielo con enormes ciudades flotantes y fortalezas. Ver página 70 en el Capítulo II: Espacio Hutt para más información sobre los Saki.
+[P][B]Idioma: [b]A pesar de estar bajo el dominio económico de los hutts, los sakiyanos han mantenido su propia identidad cultural, que incluye su lengua nativa. Sin embargo, la mayoría de los sakiyanos también dominan el hut- tés y hablan al menos un básico rudimentario.
+[P][B]Vida al margen: [b]Gracias a su inteligencia y sus sentidos casi sobrenaturales, los sakiyanos son depredadores naturales y destacan en la caza. La mayoría de los sakiyanos que vagan por la galaxia tienden a convertirse en cazarrecompensas y asesinos, y suelen considerar a sus presas poco más que un deporte. Una falta general de empatía por lo que perciben como especies "inferiores" puede llevar a muchos asesinos y cazarrecompensas sakiyanos a aceptar contratos que podrían ser vistos como desagradables por otros, y su sentido del honor les empuja a completar un contrato casi a cualquier precio.
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>80</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>EXTRACK</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SAKIYANOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>SAKIYANOC1OP1</Key>
+          <Name>Perception</Name>
+          <Description>Los Sakiyans pueden comenzar el juego con uno en Percepción</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>SAKIYANOC1OP2</Key>
+          <Name>Vigilance</Name>
+          <Description>Los Sakiyans pueden comenzar el juego con uno en Vigilancia.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>VIGIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

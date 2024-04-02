@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Armors>
+  <Armor>
+    <Key>AEG</Key>
+    <Name>Equipo para entornos hostiles</Name>
+    <Description>
+Quienes se aventuran más allá de los mundos civilizados de la galaxia no deben olvidar añadir a su equipaje alguna clase de equipo para entornos hostiles. La indumentaria para regiones calurosas y desérticas a menudo incluye túnicas holgadas, visores protectores, turbantes, raciones autorrefrigerantes y recicladores de agua. En climas helados suelen utilizarse chaquetones aislantes, mallas acolchadas con varias capas, gafas antiventisca y diversos tipos de protecciones para la cabeza.
+[P]Un personaje pertrechado con este equipo puede ignorar [SETBACK] impuesto por las condiciones de su entorno. El equipo debe ser el apropiado para el clima existente.
+[P]Modelos de ejemplo: Trajes ambientales Crio 350 e Insolac 200 de la Corporación Medioambiental Pretormin.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Rarity>1</Rarity>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Light</Category>
+    </Categories>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Un personaje pertrechado con este equipo puede ignorar [SETBACK] impuesto por las condiciones de su entorno. El equipo debe ser el apropiado para el clima existente.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>AC</Key>
+    <Name>Ropa blindada</Name>
+    <Description>
+En esta categoría de blindaje se engloban prendas ligeras como chalecos, chaquetas o pantalones que se han reforzado con láminas cerámicas o plastoides, y a veces también con varias capas de tejidos de dispersión energética. Este tipo de blindaje es muy liviano, pero cubre las principales zonas vitales del cuerpo. Las placas protectoras no se aprecian a simple vista si el usuario viste ropas lo bastante voluminosas. Se requiere una tirada Media ([DI][DI]) de Percepción para advertir que una persona lleva ropa blindada.
+[P]Sin embargo, las placas cosidas al tejido no sólo absorben el daño de golpes físicos; también pueden desviar algunos disparos dirigidos a las zonas vitales del usuario.
+[P]Modelos de ejemplo: Traje de asesino Acechador Sombrío del Sindicato Tenloss.
+    </Description>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1000</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Rarity>6</Rarity>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Se requiere una tirada Media ([DI][DI]) de Percepción para advertir que una persona lleva ropa blindada.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>HBA</Key>
+    <Name>Blindaje pesdo de combate</Name>
+    <Description>
+Algunos soldados de asalto, cazarrecompensas e incluso droides estan pertrechados con blindajes pesados. En teoría estos blindajes deberían proteger contra la mayoría de los disparos de blåster, pero en la carrera armamentistica entre potencia de fuego y defensa, la capacidad ofensiva de un buen blåster sigue siendo muy superior a toda protección que pueda vestir un ser humanoide.
+[P]Este tipo de armaduras pueden ser estancas y proporcionar los mismos beneficios que un blindaje laminado completo, o bien presentar la forma de un chaleco pesado con casco protector.
+[P]Modelos de ejemplo: Armadura de soldado de choque mandaloriano.
+    </Description>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+    <Price>5000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Rarity>7</Rarity>
+  </Armor>
+  <Armor>
+    <Key>HC</Key>
+    <Name>Ropa gruesa</Name>
+    <Description>
+Una buena chaqueta de cuero, un mono de técnico o un grueso manto de lana no ofrecen demasiada protección contra el daño, pero desde luego son mejor que nada. La mayoría de los personajes que viven en los confines del Imperio prefieren vestir ropa gruesa para situaciones cotidianas.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>50</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>0</Rarity>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Light</Category>
+    </Categories>
+  </Armor>
+  <Armor>
+    <Key>LAM</Key>
+    <Name>Blindaje laminado</Name>
+    <Description>
+Las tropas de asalto imperiales visten armaduras completas de materiales plastoides que desvian y absorben los daños recibidos. No detienen impactos directos de bláster, pero son razonablemente eficaces contra metralla e impactos contundentes. El blindaje tipico incluye dispositivos de amplificación visual y comunicadores integrados sintonizados con otros en la misma frecuencia. Dado que estos blindajes se han diseñado para funcionar con sistemas potenciados, pueden modificarse fácilmente con accesorios adicionales.
+[P]El blindaje laminado se lleva puesto sobre una malla elástica ajustada. Este método proporciona un aislamiento significativo que facilita la intervención en toda clase de entornos. También se fabrican modelos especializados para usos prolongados en condiciones climáticas extremas.
+[P]Modelos de ejemplo: Blindaje de soldado de asalto del Departamento Imperial de Investigaciones Militares. BLINDAJE PESADO DE COMBATE
+[P]Algunos soldados de asalto, cazarrecompensas e incluso droides estan pertrechados con blindajes pesados. En teoría estos blindajes deberían proteger contra la mayoría de los disparos de blåster, pero en la carrera armamentistica entre potencia de fuego y defensa, la capacidad ofensiva de un buen blåster sigue siendo muy superior a toda protección que pueda vestir un ser humanoide.
+[P]Este tipo de armaduras pueden ser estancas y proporcionar los mismos beneficios que un blindaje laminado completo, o bien presentar la forma de un chaleco pesado con casco protector.
+[P]Modelos de ejemplo: Armadura de soldado de choque mandaloriano.
+    </Description>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>2500</Price>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Rarity>5</Rarity>
+  </Armor>
+  <Armor>
+    <Key>PDS</Key>
+    <Name>Escudo deflector personal</Name>
+    <Description>
+Aunque son poco comunes, voluminosos y difíciles de utilizar, los escudos deflectores personales se cuentan entre las escasas protecciones eficaces contra disparos de bláster. Los escudos deflectores proyectan una pantalla de rayos o partículas que desvía y detiene los proyectiles. Su uso entraña no pocas complicaciones debido a que consumen una extraordinaria cantidad de energía y por tanto solo pueden mantenerse activos durante periodos limitados de tiempo. Cuando un personaje utiliza un escudo deflector personal, el DJ puede gastar 1 obtenida en una de las tiradas del jugador para que el dispositivo se quede sin energia durante el resto del encuentro.
+[P]El generador del escudo tiene suficiente energia para unos diez minutos de duración. Para recargarlo se precisan tres horas de conexión a una instalación eléctrica.
+[P]Las compañías galácticas modernas no suelen manufacturar escudos deflectores personales. La tecnología necesaria para fabricar uno de estos dispositivos sin que la radiación que emite acabe matando a un usuario orgánico es muy inusual, y los pocos que existen son casi todos de fabricación exclusiva y personalizada.
+    </Description>
+    <Defense>2</Defense>
+    <Soak>0</Soak>
+    <Price>10000</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Rarity>8</Rarity>
+    <Categories>
+      <Category>Heavy</Category>
+    </Categories>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>GM may spend [DE] to have the personal deflector shield run out of power for the remainder of the encounter</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>PAD</Key>
+    <Name>Blindaje acolchado</Name>
+    <Description>
+Las milicias y soldados de la Alianza Rebelde suelen vestir blindajes acolchados confeccionados con un tejido flexible de fibras resistentes a los proyectiles energéticos. Tienden a absorber y neutralizar parte de la potencia de los disparos de blåster, aunque no protegen demasiado contra impactos directos. No obstante, el relleno acolchado si proporciona una protección razonable contra golpes y conmociones. También tiene la ventaja de ser relativamente cómodo; muchos individuos pueden vestir un blindaje acolchado sin llamar demasiado la atención de las autoridades locales en los mundos fronterizos.
+[P]Modelos de ejemplo: Armadura policial Protector X de la Compañía Tagge.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>1</Rarity>
+    <Categories>
+      <Category>Resistant</Category>
+    </Categories>
+  </Armor>
+</Armors>

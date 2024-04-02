@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>COLO</Key>
+  <Name>Colono</Name>
+  <Description>
+    En cierto sentido, los colonos son los individuos que más fuera de lugar están en el Borde Exterior. La mayoría proce den de los mundos del Núcleo, donde recibieron una buena educación y formaban parte de la élite cultural y profesional. Un colono no suele poseer la preparación necesaria para sobrevivir en zonas conflictivas, y tampoco se le dan especialmente bien las proezas de carácter fisico.
+	[P]Sin embargo, lo que sí tiene es una excelente visión de conjunto, y por lo general posee los conocimientos necesarios para comprender problemas y la capacidad para resolverios. Lo más probable es que viaje al Borde Exterior en busca de oportunidades, o para dejar atrás su pasado y empezar una nueva vida con más fortuna que la anterior. Y'si no lo consigue, aún puede emplear todos sus conocimientos para medrar, usando sus considerables habilidades sociales para procurarse aliados afines a su causa.
+	[P]Pero no todos los colonos son de naturaleza altruista. Si el conocimiento es poder, y el poder corrompe, es una consecuencia lógica que el colono esté en posición de aprovechar lo que sabe para enriquecerse. Valiéndose de su carisma y de su instinto callejero, un colono puede reunir un equipo extraordinario de especialistas que le vigilen las espaldas y neutralicen a sus enemigos mientras el consolida su poder. Innumerables planetas del Borde Exterior se han convertido en los feudos privados de colonos con ideas ambiciosas y seguidores dispuestos.
+	[P]Como cabría esperar, algunos colonos fracasan en su empeño y son perseguidos por la ley o por sus antiguos camaradas. Estos colonos se ven forzados a abandonar sus vidas acomodadas y sobrevivir donde pueden. Algunos se relacionan con individuos de moral cuestionable, incluso criminales. Por suerte para algunos, estos infortunados poseen habilidades únicas que los hacen muy valiosos.
+	[P]Los colonos más inteligentes (los que más probabilidades tienen de sobrevivir en los primeros meses que pasan en el Borde Exterior) descubren cómo canjear su erudición y sus talentos por dinero y contactos. Proporcionar buenos consejos, asistencia médica o conocimientos valiosos puede granjear fácilmente a un colono el aprecio del lider de una banda, procurándole lo que más necesita: seguridad. Desde una posición de relativa seguridad, un colono sensato hara acopio de contactos e informacion para crear una red que algún día pueda explotar con sus propios fines (sean cuales sean).
+	[P]Los colonos son consumados lideres, negociadores, oradores y estrategas. Un colono puede coger un grupo reducido de operadores capaces y convertirlo en una verdadera fuerza imparable. Contar con la ayuda de un colono en el grupo puede suponer la diferencia entre ir tirando y lograr algo verdaderamente espectacular en la galaxia.
+  </Description>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>DECEP</Key>
+    <Key>CORE</Key>
+    <Key>EDU</Key>
+    <Key>LORE</Key>
+    <Key>LEAD</Key>
+    <Key>NEG</Key>
+    <Key>SW</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>DOCTOR</Key>
+    <Key>POLITICO</Key>
+    <Key>SCHOLAR</Key>
+    <Key>ENTREPRENEUR</Key>
+    <Key>MARSHAL</Key>
+    <Key>PERFORMER</Key>
+  </Specializations>
+</Career>

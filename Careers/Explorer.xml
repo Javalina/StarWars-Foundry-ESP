@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>EXPLORER</Key>
+  <Name>Pionero</Name>
+  <Description>
+    Aun en toda su inmensidad, el Imperio ocupa una fracción minúscula de la galaxia, y los pioneros aspiran a descubrir los innumerables misterios y oportunidades que encierra el universo. Son individuos de vital importancia, pero a la vez suponen un peligro insidioso para el Nuevo Orden: por un lado revelan información, rutas de comercio y recursos muy preciados para el Imperio, pero por otro expanden las fronteras de los territorios en los que rebeldes, criminales y demás iconoclastas pueden ocultarse y eludir la autoridad imperial.
+	[P]El Imperio cuenta con los servicios de infinidad de exploradores y agentes mercantiles, y existen muchas otras entidades similares que trabajan para las millones de corporaciones galácticas que pugnan por aventajarse unas a otras mientras se expanden. Un pionero es un agente libre: él traza su propio camino, explora sus propios descubrimientos y dispone sus propios tratos y contactos especiales. Con frecuencia venderá esta información a un precio adecuado o se ofrecerá para guiar a quienes deseen ir donde él ya ha estado.
+	[P]Otros pioneros peinan la HoloRed y otros servicios de información en busca de grupos, empresas u organizaciones que los necesiten. Por este motivo los pioneros que más viajan son los más cotizados: poseen mapas y datos sobre lugares que tan sólo un pequeño porcentaje de la población de la galaxia sabe siquiera que existen. Un pionero con información sobre el planeta que una compañía desea explotar, o con una ruta segura hacia un rincon de la galaxia donde un grupo planea llevar a cabo operaciones encubiertas, puede cobrar precios elevadísimos.
+	[P]Todo pionero relativamente nuevo en el oficio se enfrenta al clásico dilema: necesita experiencia para conseguir los contratos más jugosos, pero no puede adquirir dicha experiencia porque no lo contrata nadie. En consecuencia, muchos pioneros aprovechan cualquier oportunidad para viajar y trabajar por el Borde Exterior, recabando todos los conocimientos e indicios posibles para amasar contactos, recursos y su propia biblioteca de cartas y rutas de navegación. En la mayoría de las ocasiones, los pioneros ofrecen sus habilidades de astronavegación y pilotaje a cambio de oportunidades laborales.
+  </Description>
+  <CareerSkills>
+    <Key>ASTRO</Key>
+    <Key>COOL</Key>
+    <Key>LORE</Key>
+    <Key>OUT</Key>
+    <Key>XEN</Key>
+    <Key>PERC</Key>
+    <Key>PILOTSP</Key>
+    <Key>SURV</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>FRINGER</Key>
+    <Key>SCOUT</Key>
+    <Key>TRADER</Key>
+    <Key>DRIVER</Key>
+    <Key>ARCHEOLOGIST</Key>
+    <Key>BGMHUNTER</Key>
+  </Specializations>
+</Career>

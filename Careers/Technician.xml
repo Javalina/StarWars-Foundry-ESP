@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>TECHNICIAN</Key>
+  <Name>Técnico</Name>
+  <Description>
+[P]El campo de experiencia del técnico engloba prácticamente todo lo relacionado con la tecnología o con aparatos mecánicos. Sabe como manejar, cuidar, reparar y mejorar casi cualquier cosa que funcione con electricidad o engranajes. La mayoría de los técnicos prefieren tratar con máquinas y droides antes que con personas, pues estas últimas les resultan demasiado impredecibles.
+[P]Pueden encontrarse técnicos por todas partes, en cada estrato social y allí donde haya aunque sea un puñado de máquinas. La formalidad e incluso la pulcritud no suelen contarse entre sus preocupaciones cotidianas. Normalmente huelen a algún tipo de grasa, disolvente o cualquier otra sustancia de las que se utilizan en maquinarias, y hasta sus ropas elegantes suelen tener alguna que otra mancha. Incluso los técnicos que se codean con las altas esferas presentan un aspecto desaliñado e informal; sencillamente no forma parte de su naturaleza ofrecer una imagen profesional. Prefieren dejar que su trabajo hable por ellos.
+[P]Cabe señalar que los técnicos sí tienen sentido del orgullo, el cual radica en su trabajo. Si un técnico devuelve un dispositivo tecnológico a su propietario, y no sólo lo ha reparado sino que lo ha mejorado añadiéndole modificaciones sumamente útiles, la reacción de su cliente puede alegrarle el día o arruinárselo por completo.
+[P]Es por este motivo que los técnicos tienden a agruparse socialmente o se relacionan con personas que saben apreciar la maquinaria. Los cazarrecompensas y contrabandistas con afinidad por la tecnologia serán probablemente los mejores amigos del técnico dentro del grupo. Esta amistad puede ser beneficiosa para ambas partes, habida cuenta de las maravillas que un técnico competente puede hacer por el equipo de sus compañeros.
+[P]Al igual que pilotos y médicos, los técnicos de casi cualquier especialización no suelen tener dificultades para encontrar trabajo en el Borde Exterior. Toda operación, desde las granjas más modestas hasta las estaciones espaciales de mayor tamaño, requiere los servicios de profesionales que puedan asegurar el buen funcionamiento de su tecnologia. Los señores del crimen en concreto gustan de tener en nómina a un técnico, no sólo para que se encargue de sus múltiples aparatos, sino también para que les fabriquen algún que otro "juguete" con el que puedan sorprender a sus enemigos.
+  </Description>
+  <CareerSkills>
+    <Key>ASTRO</Key>
+    <Key>COMP</Key>
+    <Key>COORD</Key>
+    <Key>DISC</Key>
+    <Key>OUT</Key>
+    <Key>MECH</Key>
+    <Key>PERC</Key>
+    <Key>PILOTPL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>MECHANIC</Key>
+    <Key>OUTLAW</Key>
+    <Key>SLICER</Key>
+    <Key>CYBERTECH</Key>
+    <Key>DROIDTECH</Key>
+    <Key>MODDER</Key>
+  </Specializations>
+</Career>

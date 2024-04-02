@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>TRAND</Key>
+  <Name>Trandoshan</Name>
+  <Description>
+    Los trandoshanos son belicosos lagartos humanoides que se han declarado a sí mismos enemigos jurados de los wookiees. Se les puede encontrar allí donde hagan falta brazos fuertes o armas de gran calibre.
+	[P][B]Fisiología:[b] Los trandoshanos son criaturas de sangre fría con una estatura media escasamente inferior a la de sus archienemigos los wookiees. Sus manos de tres dedos carecen de la destreza manual proporcionada por los pulgares oponibles, razón por la que tienen dificultades para manipular aparatos tecnológicos; sin embargo, sus enormes garras compensan con creces esta carencia. Su visión hipersensible les permite captar el espectro infrarrojo de la luz. A edades más tempranas, sus poderes regenerativos son capaces de restaurar miembros amputados en caso de necesidad. Sus escamas presentan colores variados, desde el verde brillante hasta el anaranjado, y pueden cambiar en las temporadas de muda.
+	[P][B]Sociedad:[b] Los trandoshanos (o t'doshok, como se denominan a sí mismos en la lengua dosh), proceden de una sociedad en la que se confiere una gran importancia a la fuerza, la habilidad en la caza, la resistencia y la autosuficiencia. Las madres incuban nidadas de cuatro huevos (el padre casi nunca se involucra en la crianza); las crías trandoshanas pueden caminar y demuestran un talento instintivo para la caza prácticamente desde el nacimiento. A los dos años de edad la madre se los lleva a su primera cacería, y hacia los diez años ya pueden valerse por sí mismos en la mayoría de las situaciones.
+	[P]La sociedad trandoshana gira en torno a dos conceptos: la cacería y la adoración de una diosa conocida como la Tanteadora. Esta deidad vela por el pueblo trandoshano, otorgando bendiciones o imponiendo castigos en función del éxito de sus cazas. Por cada cacería realizada con éxito y cada presa derribada, los trandoshanos reciben jagannath, "marcas divinas" que en conjunto indican el estatus del individuo en la sociedad trandoshana. Si un cazador recibe jagannath, se procura también el favor de su diosa. Cuando un trandoshano muere, se inclina ante la Tanteadora y le ofrece su aljaba de jagannath: el recuento final de estas marcas de prestigio determina su destino en la otra vida. A medida que la sociedad trandoshana ha evolucionado como parte de la comunidad galáctica, la importancia de la cacería se ha fusionado con otros intereses sociales. Ahora un médico trandoshano puede "dar caza" a una cura para una enfermedad virulenta que amenace a su pueblo, o un ingeniero podría tratar de "cazar" mejores diseños de astronaves o armamentos más potentes. De hecho, casi cualquier actividad que beneficie al pueblo trandoshano puede justificarse como una "cacería" digna en lo que respecta a su cultura. Como es lógico, esto no deja lugar para intereses mās frivolos como puede ser el arte.
+	[P][B]Mundo natal:[b] La mayoría de los trandoshanos llaman a su planeta de origen Hsskor, aunque los forasteros lo conocen como Trandosha o Dosha. Comparte estrella con el mundo natal de los wookiees, Kashyyyk. Los trandoshanos también han colonizado la luna boscosa de Trandosha, a la que llaman Wasskah.
+	[P][B]Idioma:[b] La lengua trandoshana, el dosh, suena a oídos humanos como una serie de gruñidos y siseos. Los trandoshanos pueden aprender y utilizar el idioma básico, aunque barbarizan la mayoría de las palabras con sonoros silbidos.
+	[P][B]Vida en los confines:[b] Los trandoshanos sueñan constantemente con tener éxito en sus cacerías y ser bendecidos con jagannath por la Tanteadora. Las profesiones de corte militar orientadas a perseguir objetivos específicos, como los oficios de cazarrecompensas y mercenarios, son las más adecuadas para los instintos de cazador de un trandoshano.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 12 + Fortaleza
+	[P]Umbral de Tensión: 9 + Voluntad
+	[P]Experiencia inicial: 90 PE
+	[P]Capacidad especial: Los trandoshanos empiezan con 1 rango de entrenamiento en Percepción (pero siguen estando limitados a un rango máximo de 2 en esta habilidad durante la creación del personaje).
+	[P]Regeneración: Siempre que un trandoshano recupere Heridas descansando o usando un tanque de bacta, recupera 1 Herida adicional. No recupera esta Herida adicional si un personaje le administra primeros auxilios o tratamiento médico, ni tampoco al utilizar un inyector de estimulantes. Los trandoshanos también pueden regenerar extremidades perdidas, aunque suelen tardar al menos un mes en volver a ser funcionales.
+	[P]Garras: Cuando un trandoshano efectúa tiradas de Pelea para infligir daño a un adversario, suma + 1 al daño y posee un valor de crítico de 3.
+  </Description>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TRANDABREGEN</Key>
+      <Name>Regeneration</Name>
+      <Options>
+        <Option>
+          <Key>TRANDREGEN</Key>
+          <Name>Wound Regeneration</Name>
+          <Description>Whenever a trandoshan would recover one or more wounds from natural rest or recuperation in a Bacta tank, he recovers one additional wound.  Trandoshans can regrow lost limbs as well, though it usully takes at least a month before the limb is usable.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TRANDABCL</Key>
+      <Name>Claws</Name>
+      <Options>
+        <Option>
+          <Key>TRANDCL</Key>
+          <Name>May use claws when brawling</Name>
+          <Description>When a Trandoshan makes Brawl checks to deal damage to an opponent, he deals +1 damage and has a Critical Rating of 3.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

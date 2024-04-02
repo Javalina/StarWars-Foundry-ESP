@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>NIKTO</Key>
+  <Name>Nikto</Name>
+  <Description>
+Tal vez los esclavos más conocidos de los hutts, los fieros y sin sentido del humor niktos de Kintan han servido a sus amos durante miles de años, aunque no siempre con una lealtad inquebrantable. Rígidos y estoicos, las cinco subespecies de Nikto son comunes en todo el Espacio Hutt y los Territorios del Borde Exterior.
+[P][B]Fisiología:[b] Los niktos, humanoides reptilianos de piel dura y curtida y de estatura similar a la de un humano medio, son producto de su duro entorno. Bombardeados durante miles de años por la radiación gamma de una estrella magnetar cercana conocida como M'dweshuu, la vida en Kintan ha tenido que adaptarse rápidamente o enfrentarse a la extinción. La frecuencia de las mutaciones entre los niktos ha acelerado su evolución, alterando su genoma miles de veces más rápido de lo que sería de otro modo. Los Niktos sólo son capaces de una expresión facial muy limitada debido a su falta de musculatura mimética bien desarrollada, y sus ojos están protegidos por una fina membrana transparente. Su expresión aparentemente inexpresiva y su mirada sin pestañear suelen hacer que los demás subestimen su inteligencia.
+[P][B]La sociedad:[b] La civilización nikto surgió de la necesidad. Uniéndose para sobrevivir a los temibles depredadores mutantes de su mundo -entre ellos, los feroces dragones de espina dorsal, las enormes ballenas trog y las feroces bestias de colmillos-, los niktos aprendieron el valor de la cooperación mientras trabajaban juntos para domesticar y conquistar su duro mundo. Aunque las tensiones raciales entre las distintas subespecies de Niktos dieron lugar a varias guerras sangrientas en todo el planeta antes del Tratado de Vontor, los Hutts tienen ciertos tabúes de larga data contra el mestizaje entre las subespecies, ocasionalmente nacen niños de parentesco mixto. La mayoría de los descendientes de estas uniones muestran sólo las características de uno u otro progenitor; nacen relativamente pocos híbridos auténticos.
+[P]La vida de la mayoría de los niktos es dura, a pesar de la "beneficencia" de los hutts, y trabajan duramente al servicio de sus crueles e insensibles amos. Pocos niktos son líderes naturales, y la servidumbre es simplemente una forma de vida: relativamente pocos aspiran a algo más que la esclavitud a un Hutt que tiene menos tendencias sádicas que un Señor Oscuro de los Sith. Aun así, entre los niktos existe una corriente subterránea de anhelo de libertad que no se ha extinguido del todo tras milenios de esclavitud. Ocasionalmente, un Nikto escapa de su amo o compra su libertad, pero un esclavo emancipado debe permanecer siempre alerta para no caer en las garras de otro Hutt.
+[P][B]Mundo natal:[b] Los Niktos evolucionaron en Kintan, un planeta del cúmulo de Si'klaata. Es un mundo de climas y entornos variados, desde vastos desiertos y tundra seca hasta montañas boscosas y archipiélagos tropicales. El factor unificador de Kintan es M'dweshuu y su radiación, que impregna todo el planeta, causando extrañas mutaciones entre los ecosistemas. Aunque los niveles de radiación no son letales (al menos no inmediatamente), Kintan sigue siendo un mundo peligroso y violento. Para más información sobre Kintan, véase la página 62 del Capítulo II: Espacio Hutt.
+[P][B]Idioma:[b] A diferencia de los Klatooinians y los Vodrans, los Niktos no han abandonado su propio idioma. La mayoría de los Niktos son capaces de hablar su lengua nativa, así como Hut- tese. Muchos Niktos también son capaces de hablar al menos algo de Básico, aunque la articulación limitada de sus bocas puede hacer que sean algo difíciles de entender.
+[P][B]Vida al margen:[b] Debido a su relación con los Hutts, la mayoría de los Niktos operan en la zona gris entre lo ilegal y lo inmoral, generalmente haciendo el trabajo sucio que sus amos prefieren no hacer. Mientras que muchos Niktos sirven como guardaespaldas o ejecutores para los Hutts, otros trabajan como pilotos, mecánicos o técnicos. La Obligación inicial de un Nikto suele ser hacia un Hutt, ya sea un Deber hacia un kajidic en particular, una Deuda por la libertad del Nikto o una Recompensa por su cabeza por escapar.
+  </Description>
+  <Source Page="96">Lords of Nal Hutta</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+  </OptionChoices>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>NIKTOCH1OP1</Key>
+      <Name>Kajain'sa'Nikto (Nikto Rojos)</Name>
+      <Description>Los niktos rojos, que evolucionaron en la extensión devastada de los Páramos Interminables, están adaptados a este árido entorno. Los Kajain'sa'Niktos, la subespecie nikto más común, tienen una piel rojiza que oscila entre el naranja claro y el rojo, y lucen pequeños cuernos faciales en la frente y la barbilla. La nariz de un Nikto Rojo está protegida por una membrana semipermeable que impide la inhalación de arena. Membranas similares cubren los tubos respiratorios a ambos lados del cuello para reducir la pérdida de vapor de agua. Esto permite a un Nikto Rojo sobrevivir hasta una semana sin agua fresca.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>RESIL</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP1OC1</Key>
+          <Name>Environmental</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP1OC1OP1</Key>
+              <Name>Entornos deserticos</Name>
+              <Description>Niktos Rojos Pueden eliminar [SETBACK] debido a condiciones ambientales áridas o calurosas..</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP2</Key>
+      <Name>Kadas'sa'Nikto (Nikto Verdes)</Name>
+      <Description>Originarios de los bosques y las regiones costeras templadas de Kintan, los Kadas'sa'Niktos tienen la piel verde escamosa y una franja de crestas óseas que terminan en pequeños cuernos alrededor de los ojos y la barbilla. Los Kadas'sa'Niktos tienen narices visibles y muy sensibles y largas garras para trepar.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>COORD</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <WeaponModifiers>
+        <WeaponModifier>
+          <AllSkillKey>BRAWL</AllSkillKey>
+          <DamageAdd>1</DamageAdd>
+          <Crit>3</Crit>
+        </WeaponModifier>
+      </WeaponModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP2OC1</Key>
+          <Name>Claws</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP2OC1OP1</Key>
+              <Name>Puede utilizar garras en las peleas</Name>
+              <Description>Cuando un Nikto Verde realiza chequeos de Fortaleza para infligir daño a un oponente, inflige +1 de daño y tiene un  Crítico de 3.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+        <OptionChoice>
+          <Key>NIKTOSP2OC2</Key>
+          <Name>Athletics</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP2OC2OP1</Key>
+              <Name>Climbing</Name>
+              <Description>Los Nikto verdes ganan [BOOST] a los chequeos de Atletismo realizados para trepar a árboles y otras superficies que sus garras puedan atravesar.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP3</Key>
+      <Name>Esral'sa'Nikto (Nikto de monte)</Name>
+      <Description>Esral'sa'Nikto, or "Nikto de monte",adaptados al clima variable de las montañas de Kintan. Tienen grandes aletas faciales que utilizan para regular el calor. Estas aletas también mejoran el oído del Esral'sa'Nikto. Su piel es gris azulada y no tienen cuernos ni tubos respiratorios.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>SURV</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <TalentModifiers>
+        <TalentModifier>
+          <Key>NATOUT</Key>
+          <RankAdd>1</RankAdd>
+        </TalentModifier>
+      </TalentModifiers>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP4</Key>
+      <Name>Gluss'sa'Nikto (Nikto Pálido)</Name>
+      <Description>Gluss'sa'Nikto, or "Nikto pálido", proceden de las islas Gluss'elta de Kintan, por lo que son marineros natos. Tienen la piel de color blanco grisáceo, cuernos oculares como los Kadas'sa'Nikto y aletas similares a las de los Esral'sa'Nikto, pero más pequeñas.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>ATHL</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP4OC1</Key>
+          <Name>Aquatic</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP4OC1OP1</Key>
+              <Name>Swimmer</Name>
+              <Description>Un Nikto Pálido nunca sufre penalizaciones de movimiento al viajar por el agua y puede aguantar la respiración durante un número de asaltos igual al doble de su valor de Brawn antes de empezar a ahogarse.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP5</Key>
+      <Name>M'shento'su'Nikto (Nikto del sur)</Name>
+      <Description>M'shento'su'Nikto, or "Nikto del Sur", carecen de cuernos, tienen la nariz tapada y varios pares de tubos respiratorios. Estos tubos son más grandes que los de los Kajain'sa'Nikto, y también actúan como órganos sensoriales ultrasónicos primitivos. El color de su piel varía del blanco al amarillo o naranja.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>PERC</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP5OC1</Key>
+          <Name>Detection</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP5OC1OP1</Key>
+              <Name>Sounds</Name>
+              <Description>Nikto del sur añade [BOOST] a los chequeos de Percepción y Vigilancia para detectar sonidos.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+  </SubSpeciesList>
+</Species>

@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gears>
+  <Gear>
+    <Key>COMLINKH</Key>
+    <Name>Comunicador manual</Name>
+    <Description>
+      Los comunicadores son aparatos muy comunes en toda la galaxia, y presentan una gran variedad dc formas dcpendiendo de su función y del usuario. Cada comunicador sirve para transmitir mensajes sonoros entre dos partes, aunque los modelos más avanzados pueden contactar con múltiples usuarios o redes. Los comunicadores personales suelen ser cilindros pequeños que caben en una mano y tienen la suficiente potencia para llegar a distancias suborbitales. Algunos modelos están integrados en cascos y piezas de blindaje.
+[P]Las versiones de largo alcance suelen transportarse colgados o en mochilas, y su alcance se extiende a todo el planeta e incluso a naves situadas en órbitas alejadas (quizá hasta dentro de un mismo sistema estelar). La mayoría funcionan con una serie de frecuencias convencionales que pueden ajustarse para evitar la detección.
+    </Description>
+    <Sources>
+      <Source Page="171">Edge of the Empire Core Rulebook</Source>
+      <Source Page="186">Age of Rebellion Core Rulebook</Source>
+      <Source Page="180">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Short>A small handheld communications device</Short>
+    <Encumbrance>0</Encumbrance>
+    <Price>25</Price>
+    <Rarity>0</Rarity>
+    <Type>Communications</Type>
+  </Gear>
+  <Gear>
+    <Key>COMLINKL</Key>
+    <Name>Comunicador de largo alcance</Name>
+    <Description>
+      Los comunicadores son aparatos muy comunes en toda la galaxia, y presentan una gran variedad dc formas dcpendiendo de su función y del usuario. Cada comunicador sirve para transmitir mensajes sonoros entre dos partes, aunque los modelos más avanzados pueden contactar con múltiples usuarios o redes. Los comunicadores personales suelen ser cilindros pequeños que caben en una mano y tienen la suficiente potencia para llegar a distancias suborbitales. Algunos modelos están integrados en cascos y piezas de blindaje.
+[P]Las versiones de largo alcance suelen transportarse colgados o en mochilas, y su alcance se extiende a todo el planeta e incluso a naves situadas en órbitas alejadas (quizá hasta dentro de un mismo sistema estelar). La mayoría funcionan con una serie de frecuencias convencionales que pueden ajustarse para evitar la detección.
+    </Description>
+    <Sources>
+      <Source Page="171">Edge of the Empire Core Rulebook</Source>
+      <Source Page="186">Age of Rebellion Core Rulebook</Source>
+      <Source Page="180">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Encumbrance>2</Encumbrance>
+    <Price>200</Price>
+    <Rarity>1</Rarity>
+    <Type>Communications</Type>
+  </Gear>
+  <Gear>
+    <Key>HOLO</Key>
+    <Name>Holomensajero</Name>
+    <Description>
+      Reservados normalmente para asuntos formales o acuerdos entre individuos adinerados, estos pequeños dispositivos con forma de disco proyectan grabaciones holográficas o transmisiones que pueden reproducirse visualmente. El usuario puede sostener un holomensajero en la palma de la mano sin ningún problema. Aunque no son objetos de uso cotidiano, han desempeñado una labor indispensable en numerosas conspiraciones y planes de venganza.
+    </Description>
+    <Sources>
+      <Source Page="171">Edge of the Empire Core Rulebook</Source>
+      <Source Page="186">Age of Rebellion Core Rulebook</Source>
+      <Source Page="181">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Encumbrance>0</Encumbrance>
+    <Price>250</Price>
+    <Rarity>4</Rarity>
+    <Type>Communications</Type>
+    <Categories>
+      <Category>Holoprojector</Category>
+    </Categories>
+  </Gear>
+  <Gear>
+    <Key>SSNT</Key>
+    <Name>Neurotoxina sintética estándar (1 dosis)</Name>
+    <Description>
+      Éste es un veneno sintético universal que se produce en una mirada de mundos, a menudo de forma ilegal. Afecta a las reacciones bioquímicas de la mayoría de los organismos vivos, y puede ser letal. El veneno puede introducirse en el cuerpo de la víctima mediante un pulverizador, mezclado con la comida o inoculado con inyectores o dardos. Resistir el efecto de una sola dosis entraña una dificultad Media ([DI][DI]) mientras que dos o más dosis combinadas en una sola aplicación requieren una tirada Difícil ([DI][DI][DI]) veneno inflige 5 Heridas al objetivo si falla la tirada. Cada generada en esta tirada le causa además 1 de Tensión, provocada por el esfuerzo abrumador de luchar contra la toxina. Por último, el DJ puede gastar para obligar al objetivo a hacer otra tirada para resistirse al veneno en el siguiente asalto, reflejando así la incapacidad de su organismo de rechazar el veneno a tiempo.
+    </Description>
+    <Sources>
+      <Source Page="172">Edge of the Empire Core Rulebook</Source>
+      <Source Page="188">Age of Rebellion Core Rulebook</Source>
+      <Source Page="181">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Encumbrance>0</Encumbrance>
+    <Price>50</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Poisons</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>[B]Average ([DI][DI])[b] (1 dose) or [B]Hard ([DI][DI][DI])[b] (2 doses) [B]Resilience Check[b].  Fail: 5 wound plus 1 strain per [THREAT], extra rounds per [DESPAIR]</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>SSA</Key>
+    <Name>Anestésico sintético estándar (1 dosis)</Name>
+    <Description>
+      Sustancia de uso general producida en muchos planetas para su utilización en procedimientos médicos, diseñada para dejar inconsciente al usuario; no es de extrañar que muchos criminales la encuentren muy valiosa. El veneno puede introducirse en el cuerpo de la víctima mediante un pulverizador, mezclado con la comida o inoculado con inyectores o dardos. Resistir el efecto de una sola dosis entraña una dificultad Media ([DI][DI]), mientras que dos o más dosis combinadas en una sola aplicación requieren una tirada Dificil ([DI][DI][DI]).El veneno inflige 5 de Tension al objetivo si falla la tirada. Además, si en dicha tirada se obtienen [TH] o, el objetivo también debe renunciar a su maniobra gratuita en su próximo turno (pero sigue pudiendo llevar a cabo un máximo de 2 maniobras). En caso de sacar [TH][TH][TH] o más, la víctima estará conmocionada durante su siguiente turno. Por último, el DJ puede gastar [DE] para obligar al objetivo a hacer otra tirada para resistirse al veneno en el siguiente asalto, reflejando así la incapacidad de su organismo de rechazar el veneno a tiempo.
+    </Description>
+    <Encumbrance>0</Encumbrance>
+    <Sources>
+      <Source Page="172">Edge of the Empire Core Rulebook</Source>
+      <Source Page="188">Age of Rebellion Core Rulebook</Source>
+      <Source Page="181">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>35</Price>
+    <Rarity>4</Rarity>
+    <Type>Poisons</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>[B]Average ([DI][DI])[b] (1 dose) or [B]Hard ([DI][DI][DI])[b] (2+ doses) [B]Resilience Check[b].  Fail: 5 strain.  [THREAT] or [THREAT][THREAT]: no free maneuver, [THREAT][THREAT][THREAT] or more: Staggered next turn, extra rounds per [DESPAIR]</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>SSNP</Key>
+    <Name>Neuroparalizante sintético estándar (1 dosis)</Name>
+    <Description>
+      Los venenos que paralizan al objetivo pero dejan intactas sus funciones cognitivas superiores y no le provocan la muerte son dificiles de elaborar y administrar; no obstante, existen algunos tipos. Esta clase de venenos solamente pueden introducirse en el cuerpo del objetivo inoculandolos con inyectores o dardos. Una dosis de cualquier cantidad exige una tirada Difícil ([DI][DI][DI]). El veneno inmoviliza al objetivo durante 3 asaltos si falla esta tirada. Además, cada [TH] obtenida le causa 1 de Tensión, y el DJ puede gastar [DE] para obligar al objetivo a hacer otra tirada para resistirse al veneno en el siguiente asalto, reflejando así la incapacidad de su organismo de rechazar el veneno a tiempo.
+    </Description>
+    <Sources>
+      <Source Page="172">Edge of the Empire Core Rulebook</Source>
+      <Source Page="188">Age of Rebellion Core Rulebook</Source>
+      <Source Page="181">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Encumbrance>0</Encumbrance>
+    <Price>75</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Poisons</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>[B]Hard ([DI][DI][DI]) Resilience Check[b].  Fail: Stuns for 3 rounds, plus 1 strain per [THREAT], extra rounds per [DESPAIR]</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+ 
+    <!-- Cybernetics -->
+  <Gear>
+    <Key>CYARMV</Key>
+    <Name>Brazo cibernético (Mod V)</Name>
+    <Description>
+      Industrias BioTech es una de las principales proveedoras de implantes cibernéticos en toda la galaxia, y sus ciberbrazos Mod V y Mod VI pueden adaptarse a centenares de especies alienigenas. Estos miembros cibernéticos potencian la fuerza del usuario (en el caso del Mod V) o su destreza manual (en el caso del Mod VI). Aunque están pensados para sustituir extremidades perdidas en accidentes, muchos de los clientes de BioTech no tienen ningún reparo en reemplazar sus brazos con equivalentes mecánicos.
+[P]El ciberbrazo Mod V proporciona un + 1 a la Fortaleza, mientras que el Mod VI suma + 1 a la Agilidad. Si un personaje sustituye sus dos brazos por mejoras cibernéticas, debe emplear el mismo modelo para ambas, ya que están diseñadas para funcionar de manera conjunta. Sin embargo, los modificadores de ambos brazos no son acumulativos.
+[P]Modelos de ejemplo: Ciberbrazos Mod V y Mod VI de Industrias Bio Tech.
+    </Description>
+    <Sources>
+      <Source Page="173">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="182">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYARMVI</Key>
+    <Name>Brazo cibernético (Mod VI)</Name>
+    <Description>
+      Industrias BioTech es una de las principales proveedoras de implantes cibernéticos en toda la galaxia, y sus ciberbrazos Mod V y Mod VI pueden adaptarse a centenares de especies alienigenas. Estos miembros cibernéticos potencian la fuerza del usuario (en el caso del Mod V) o su destreza manual (en el caso del Mod VI). Aunque están pensados para sustituir extremidades perdidas en accidentes, muchos de los clientes de BioTech no tienen ningún reparo en reemplazar sus brazos con equivalentes mecánicos.
+[P]El ciberbrazo Mod V proporciona un + 1 a la Fortaleza, mientras que el Mod VI suma + 1 a la Agilidad. Si un personaje sustituye sus dos brazos por mejoras cibernéticas, debe emplear el mismo modelo para ambas, ya que están diseñadas para funcionar de manera conjunta. Sin embargo, los modificadores de ambos brazos no son acumulativos.
+[P]Modelos de ejemplo: Ciberbrazos Mod V y Mod VI de Industrias Bio Tech.
+    </Description>
+    <Sources>
+      <Source Page="173">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="182">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>AG</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYBRAIN</Key>
+    <Name>Ciberimplante cerebral</Name>
+    <Description>
+      Una de las invenciones más fascinantes en el campo de la cibernética es el ciberimplante, un dispositivo computerizado diseñado para aumentar las capacidades cerebrales del usuario. El modelo Aj^6, por ejemplo, es una mejora muy habitual en quienes se encargan de supervisar operaciones a gran escala o procesar cantidades astronómicas de datos con regularidad. El ciberimplante se instala en el cogote del usuario, de oreja a oreja, y se fusiona con su cerebro para ﻿acelerar sus procesos cognitivos y almacenar información de cara a futuros análisis. Esta popular unidad también permite acceso remoto a computadoras y comunicación a distancia.
+[P]El ciberimplante cerebral suma + 1 al Intelecto y lleva integrados un comunicador y una interfaz de acceso a computadoras.
+[P]Modelos de ejemplo: Ciberimplante Constructo Borg Aj^6 de BioTech.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="183">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>INT</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYEYE</Key>
+    <Name>Ojo cibernético</Name>
+    <Description>
+      Las protesis oculares se cuentan entre las mejoras cibernéticas más complicadas, pues el más mínimo error resulta claramente perceptible. La linea de ciberojos de Tecnologías Médicas Athakam supera este tipo de inspecciones; muchos coinciden en que su Mod III es posiblemente su logro culminante. Aunque se ve claramente que no son los ojos naturales del usuario, incrementan su agudeza visual y su capacidad de reconocimiento.
+[P]Los ojos cibernéticos añaden + 1 a las habilidades Alerta y Percepción.
+[P]Modelos de ejemplo: Ciberojos Mod III de Tecnologias Médicas Athakam.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="183">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>7500</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>VIGIL</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>PERC</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYLEGII</Key>
+    <Name>Piernas cibernéticas (Mod II)</Name>
+    <Description>
+      La experiencia de BioTech en el campo de la sustitución de miembros orgánicos por prótesis cibernéticas superiores también se extiende a las piernas. Para quienes tienen los créditos necesarios, la pérdida de tales extremidades no ha de suponer un menoscabo en sus facultades físicas; de hecho, incluso es posible que gocen de mayor movilidad con estas prótesis. Los modelos avanzados como el Mod Il ofrecen una potencia incrementada, y el Mod III emplea dispositivos giroscópicos computerizados para aumentar la velocidad del usuario.
+[P]Las ciberpiernas deben adquirirse por parejas. Las Mod II añaden +1 a la Fortaleza del usuario, mientras que las Mod III suman + 1 a su Agilidad. Para recibir esta bonificación a la característica, el usuario debe sustituir sus dos piernas por equivalentes cibernéticos.
+[P]Modelos de ejemplo: Ciberpiernas Mod II y Mod III de Industrias BioTech.
+    </Description>
+    <Sources>
+      <Source Page="173">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="183">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYLEGIII</Key>
+    <Name>Piernas cibernéticas (Mod III)</Name>
+    <Description>
+      La experiencia de BioTech en el campo de la sustitución de miembros orgánicos por prótesis cibernéticas superiores también se extiende a las piernas. Para quienes tienen los créditos necesarios, la pérdida de tales extremidades no ha de suponer un menoscabo en sus facultades físicas; de hecho, incluso es posible que gocen de mayor movilidad con estas prótesis. Los modelos avanzados como el Mod Il ofrecen una potencia incrementada, y el Mod III emplea dispositivos giroscópicos computerizados para aumentar la velocidad del usuario.
+[P]Las ciberpiernas deben adquirirse por parejas. Las Mod II añaden +1 a la Fortaleza del usuario, mientras que las Mod III suman + 1 a su Agilidad. Para recibir esta bonificación a la característica, el usuario debe sustituir sus dos piernas por equivalentes cibernéticos.
+[P]Modelos de ejemplo: Ciberpiernas Mod II y Mod III de Industrias BioTech.
+    </Description>
+    <Sources>
+      <Source Page="173">Edge of the Empire Core Rulebook</Source>
+      <Source Page="189">Age of Rebellion Core Rulebook</Source>
+      <Source Page="183">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>AG</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYSCANLIMB</Key>
+    <Name>Escaner cibernético</Name>
+    <Description>
+      Este brazo cibernético tiene muchas más funciones que la de sustituir un miembro perdido: también está equipado con un escáner básico para detecciones de alcance medio. El ciberescáner dispone de un holoproyector que muestra los datos captados justo sobre la palma de la mano del usuario, y puede detectar movimiento, formas de vida, rastros de energía y otras señales habituales definidas por el usuario.
+[P]El escáner cibernético Mod IV incorpora un escáner portátil, y a diferencia de otros ciberimplantes, está camuflado bajo una capa de carne sintética para hacerlo pasar por una extremidad corriente.
+[P]Modelos de ejemplo: Escáner cibernético de Tecnologías Neuro-Saav, brazo Escáner Maestro de NeuroFabritech.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+      <Source Page="184">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>4000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>7</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYIMIM</Key>
+    <Name>Implante inmunológico</Name>
+    <Description>
+      Habida cuenta de la gran variedad de formas de vida y la asiduidad con que muchas de ellas viajan por toda la galaxia, no es de extrañar que las enfermedades supongan una de las principales preocupaciones. Muchos viajeros han de recurrir a tratamientos médicos o a fármacos de alguna indole que prevengan dolencias endemicas; pero todo esto varia según el planeta. El implante inmunológico de Tecnologías Médicas Athakam resuelve este problema de forma simple y eficaz mediante el uso de un injerto subcutâneo de amplio espectro diseñado para proteger al usuario contra casi todas las enfermedades conocidas. El implante Mod I es la versión más extendida, y combina un rendimiento generalizado con resultados a largo plazo en un solo paquete implantado bajo la piel.
+[P]Poseer un implante inmunológico añade + 1 al Aguante del usuario.
+[P]Modelos de ejemplo: Implante inmunológico Mod I de Tecnologías Médicas Athakam.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>5000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>RESIL</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYIMARM</Key>
+    <Name>Blindaje subcutaneo</Name>
+    <Description>
+      Otro producto de la omnipresente Compañia Tagge y de otras corporaciones. El blindaje subcutáneo es útil para las ocasiones en las que llevar un blindaje externo pueda resultar poco práctico o incluso ofensivo para socios potenciales. Estas finas placas de blindaje se injertan bajo la piel, donde absorben los disparos enemigos evitando daños graves en los tejidos vulnerables.
+[P]El blindaje subcutâneo añade +1 a la Protección del usuario.
+[P]Modelos de ejemplo: Blindaje subcutaneo Mod V de la Compañía Tagge, implante Durapiel de BioTech.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>7500</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+      <Mod>
+        <Key>SOAKADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYREPLIMB</Key>
+    <Name>Prótesis replimiembro (extremidad)</Name>
+    <Description>
+      Dada la naturaleza frecuentemente violenta de la galaxia y las peligrosas armas que se emplean para zanjar numerosas disputas, muchos de los perdedores (y triunfadores) de tales conflictos acaban con menos dedos, brazos o piernas que cuando los empezaron. Otros escapan con órganos internos destrozados o globos oculares reventados. Aunque se dispone de tecnología de clonación y procedimientos que regeneran la carne para reparar tales perdidas, muy pocos recurren a estas opciones, pues son muy costosas y a menudo ilegales. La amplia mayoría opta por injertarse prótesis mecánicas.
+[P]Las prótesis Replimiembro de Industrias BioTech se encuentran entre las opciones más populares. Estos duplicados cibernéticos están diseñados para desempeñar las mismas funciones que los órganos o extremidades originales, y se implantan con un revestimiento de carne sintética que hace casi imposible distinguirlos de los componentes organicos a los que reemplazan.
+[P]Las extremidades y los principales órganos vitales (incluidos los sensoriales como ojos y oídos, así como el corazón, los pulmones, el higado y otros similares) pueden sustituirse con modelos Replimiembro. No proporcionan ninguna bonificación ni mejora al personaje, únicamente lo devuelven a la normalidad. En la tabla se indican dos precios diferentes para las prótesis cibernéticas Replimiembro: la primera es para extremidades, la segunda para órganos. Sin embargo, el DJ es libre de aumentar o reducir estos precios en función de las circunstancias.
+[P]Modelos de ejemplo: Protesis Replimiembro de Industrias Bio Tech.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+      <Source Page="184">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>2000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>4</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYREPORG</Key>
+    <Name>Prótesis replimiembro (órgano)</Name>
+    <Description>
+      Dada la naturaleza frecuentemente violenta de la galaxia y las peligrosas armas que se emplean para zanjar numerosas disputas, muchos de los perdedores (y triunfadores) de tales conflictos acaban con menos dedos, brazos o piernas que cuando los empezaron. Otros escapan con órganos internos destrozados o globos oculares reventados. Aunque se dispone de tecnología de clonación y procedimientos que regeneran la carne para reparar tales perdidas, muy pocos recurren a estas opciones, pues son muy costosas y a menudo ilegales. La amplia mayoría opta por injertarse prótesis mecánicas.
+[P]Las prótesis Replimiembro de Industrias BioTech se encuentran entre las opciones más populares. Estos duplicados cibernéticos están diseñados para desempeñar las mismas funciones que los órganos o extremidades originales, y se implantan con un revestimiento de carne sintética que hace casi imposible distinguirlos de los componentes organicos a los que reemplazan.
+[P]Las extremidades y los principales órganos vitales (incluidos los sensoriales como ojos y oídos, así como el corazón, los pulmones, el higado y otros similares) pueden sustituirse con modelos Replimiembro. No proporcionan ninguna bonificación ni mejora al personaje, únicamente lo devuelven a la normalidad. En la tabla se indican dos precios diferentes para las prótesis cibernéticas Replimiembro: la primera es para extremidades, la segunda para órganos. Sin embargo, el DJ es libre de aumentar o reducir estos precios en función de las circunstancias.
+[P]Modelos de ejemplo: Protesis Replimiembro de Industrias Bio Tech.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+      <Source Page="184">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>1000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>4</Rarity>
+    <Type>Cybernetics</Type>
+    <BaseMods>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CYWEPIMP</Key>
+    <Name>Arma cibernética</Name>
+    <Description>
+      Hicieron falta seis diseños distintos antes de que los armeros de BlasTech tuvieran éxito, pero el Mod VII, también conocido como "brazo blaster", logró combinar por fin una extremidad de aspecto realista con un arma a distancia mortifera. La compañía utilizo miembros cibernéticos de fabricantes subcontratados como base para sus diseños, modificăndolos con sus propios modelos patentados de armas para crear el producto final. Este antebrazo artificial, muy utilizado por cazarrecompensas y asesinos, puede abrirse y desplegar un bláster de corto alcance para acribillar al enemigo antes incluso de que se percate del peligro.
+[P]El arma cibernética de brazo estándar parece un ciberbrazo ordinario, pero en su interior se aloja una pistola bláster ligera retráctil que puede desplegarse con una actividad menor. El blåster está instalado en el brazo y no se puede quitar, soltar ni desmontar.
+[P]Modelos de ejemplo: Ciberarma Mod VII de Industrias BlasTech, blåster de brazo artificial de Tecnologías Médicas Athakam.
+    </Description>
+    <Sources>
+      <Source Page="174">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Cybernetics</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>4000</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Contains a built-in retractable light blaster pistol</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers>
+      <WeaponModifier>
+        <Unarmed>false</Unarmed>
+        <UnarmedName>Retractable Light Blaster Pistol</UnarmedName>
+        <SkillKey>RANGLT</SkillKey>
+        <AllSkillKey />
+        <Damage>5</Damage>
+        <DamageAdd>0</DamageAdd>
+        <Crit>4</Crit>
+        <CritSub>0</CritSub>
+        <RangeValue>wrMedium</RangeValue>
+        <Qualities>
+          <Quality>
+            <Key>STUNSETTING</Key>
+            <Count>1</Count>
+          </Quality>
+        </Qualities>
+      </WeaponModifier>
+    </WeaponModifiers>
+  </Gear>
+    
+  <Gear>
+    <Key>EBIN</Key>
+    <Name>Electrobinoculares</Name>
+    <Description>
+      Los electrobinoculares pueden presentar infinidad de formas y tamaños, dependiendo de su propósito y de la especie que los utilice. El TD2.3 de Neuro-Saav, por ejemplo, funciona con electricidad y alcanza magnitudes muy elevadas de ampliación de imagen y vistas panorámicas. También permite ver en condiciones de iluminación mínimas o extremas, incluye funrinnes termográficas, y los modelos más caros pueden grabar y reproducir imágenes. En la interfaz se sobreponen diversos indicadores que señalan distancias. elevaciones y velocidades de los objetivos divisados.
+[P]Los electrobinoculares permiten al usuario ver con normalidad en condiciones extremas de iluminación (tanto baja como excesiva), y pueden aumentar la imagen de objetivos situados hasta a 10 kilómetros de distancia. El uso de electrobinoculares elimina hasta 1 [SE] impuesto por el largo alcance o una mala iluminación.
+[P]Modelos de ejemplo: Electrobinoculares modelo TD2.3 de Neuro-Saav, modelo Vista Lejana de Fabritech, modelo 3 de la Compañia Tagge para el ejército imperial.
+    </Description>
+    <Sources>
+      <Source Page="175">Edge of the Empire Core Rulebook</Source>
+      <Source Page="190">Age of Rebellion Core Rulebook</Source>
+      <Source Page="184">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>250</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>User may see in low light or extreme bright light conditions.</MiscDesc>
+      </Mod>
+      <Mod>
+        <MiscDesc>Magnifies targetets up to 10 kilometers away.</MiscDesc>
+      </Mod>
+      <Mod>
+        <MiscDesc>User may remove [SE] imposed due to long range or low light.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>GPS</Key>
+    <Name>Escaner multiusos</Name>
+    <Description>
+      La mayoría de los escáneres son dispositivos pequeños que pueden utilizarse con una sola mano, de diseño sencillo y resistente para que exploradores y pioneros puedan utilizarlos sobre el terreno. Dependiendo del modelo, captan la presencia de formas de vida, fuentes de calor o radiación, emisiones acústicas o cualquier combinación de lo anterior en las proximidades. Algunos funcionan en todas direcciones y muestran las señales captadas en pantallas o mediante holoproyectores, mientras que otros son de uso direccional y únicamente registran lo percibido en la zona hacia la que se orientan. El modelo Ultraescáner de CryonCorp es uno de los más comunes. Tiene el tamaño justo para que pueda acarrearlo un solo explorador, y puede detectar formas de vida, rastrear movimientos, captar metales e interceptar transmisiones de comunicadores de frecuencia estándar. La detección de movimientos tiene un alcance máximo de medio kilómetro, y los demás sistemas pueden captar señales hasta a un kilómetro y medio de distancia. La intercepción de comunicaciones puede captar señales a distancias muy superiores.
+[P]Modelos de ejemplo: Escáner multiuso Ultraescáner de CryonCorp, detector de minerales de Productos Industriales Crozo, escáner de uso general CUE.
+    </Description>
+    <Sources>
+      <Source Page="175">Edge of the Empire Core Rulebook</Source>
+      <Source Page="191">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>3</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+  </Gear>
+  <Gear>
+    <Key>HSCAN</Key>
+    <Name>Escaner de mano</Name>
+    <Description>
+      Ésta es una categoría genérica que abarca una gran variedad de dispositivos manuales de detección diseñados para realizar inspecciones específicas. Algunos de los modelos más comunes son los sensores médicos como el RFX/K manufacturado por Industrias BioTech. Este aparato puede utilizarse por separado o bien conectarse a un medpac o módulo de datos, y muestra diversas señales biométricas que permiten monitorizar el estado del paciente. Otros escáneres pueden captar la presencia de contaminantes en la atmósfera, analizar venenos, identificar alimañas o, en el caso de los mecânicos. localizar fracturas microscopicas o puntos de tensión estructural.
+    </Description>
+    <Sources>
+      <Source Page="176">Edge of the Empire Core Rulebook</Source>
+      <Source Page="191">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>100</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+  </Gear>
+  <Gear>
+    <Key>MBIN</Key>
+    <Name>Macrobinoculares</Name>
+    <Description>
+      Los macrobinoculares son una versión simplificada de los complejos electrobinoculares; emplean un rudimentario mecanismo de visualización para ampliar la imagen de objetos lejanos. Son más fiables que los electrobinoculares porque apenas tienen sistemas que puedan fallar. Sin embargo, apenas poseen prestaciones visuales, no pueden grabar ni reproducir imágenes, y tampoco sirven para ver con poca luz. Exister Innumerables marcas de macrobinoculares en el mercado, aunque la mayoría de sus diferencias son meramente estéticas.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="175">Edge of the Empire Core Rulebook</Source>
+      <Source Page="191">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>75</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+  </Gear>
+  <Gear>
+    <Key>SCANG</Key>
+    <Name>Gafas de visión nocturna</Name>
+    <Description>
+      Aunque son más simples que los electrobinoculares, las gafas de visión nocturna también mejoran la visión mediante una combinación de intensificación lumínica y termografia. Son muy habituales en combates y operaciones ilegales, ya que para usarlas no se requieren manos ni esfuerzos adicionales.
+[P]Unas gafas de visión nocturna permiten al usuario ver con normalidad en la oscuridad.
+[P]Modelos de ejemplo: Gafas de visión nocturna X-2000 de Fabritech, B3 de Torjeka, Luminador de la Compañía Tagge.
+    </Description>
+    <Sources>
+      <Source Page="175">Edge of the Empire Core Rulebook</Source>
+      <Source Page="191">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>150</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>3</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>User may see normally in dark conditions</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>STAG</Key>
+    <Name>Localizador</Name>
+    <Description>
+      Estas balizas en miniatura (miden menos de 3 cm de diametro) suelen colocarse en un objetivo empleando dardos y otros métodos igualmente discretos, y se aferran a él por medios adhesivos o magnéticos. Una vez fijados, transmiten al usuario datos como su posición, dirección y velocidad de desplazamiento, por lo que resultan muy valiosos para seguir el rastro de un enemigo sin levantar sospechas. Los modelos más costosos, como el Fisgón de la Corporación de Vigilancia Rhinsome, pueden transmitir información a través de obstrucciones y a docenas de kilómetros de distancia, mientras que otros más baratos como el Receptor Móvil y el Rastreador Maestro de Industrias de Astroservicios, o la serie Observador de Mecánicas Pioneras suelen tener alcances de emisión muy inferiores y pueden verse bloqueados por edificios grandes, formaciones rocosas o cuerpos metálicos.
+[P]Modelos de ejemplo: Fisgón de la Corporación de Vigilancia Rhinsome, Receptor Móvil y Rastreador Maestro de Industrias de Astroservicios, Observador de Mecánicas Pioneras.
+    </Description>
+    <Sources>
+      <Source Page="176">Edge of the Empire Core Rulebook</Source>
+      <Source Page="191">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>175</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>4</Rarity>
+    <Type>Detection/Surveillance Devices</Type>
+  </Gear>
+  <!--
+  <Gear>
+    <Key>DROIDANTBAT</Key>
+    <Name>Antiquated Battle Droid</Name>
+    <Description>
+      [H3]Antiquated Battle Droid (Various Models)[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="409">Edge of the Empire Core Rulebook</Source>
+    <Price>6500</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Antiquated Battle Droid - Minion.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDASSASIN</Key>
+    <Name>Assassin Droid</Name>
+    <Description>
+      [H3]IG-Series Assassin Droid[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="409">Edge of the Empire Core Rulebook</Source>
+    <Price>65000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Assassin Droid - Nemesis.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDASTRO</Key>
+    <Name>Astromech Droid</Name>
+    <Description>
+      [H3]Astromech Droid (Various Models)[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="409">Edge of the Empire Core Rulebook</Source>
+    <Price>8250</Price>
+    <Rarity>3</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Astromech Droid - Rival.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDPROT</Key>
+    <Name>Protocol Droid</Name>
+    <Description>
+      [H3]Protocol Droid (Various Models)[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="409">Edge of the Empire Core Rulebook</Source>
+      <Source Page="410">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>8000</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Protocol Droid - Rival.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDMAINT</Key>
+    <Name>Maintenance Droid</Name>
+    <Description>
+      [H3]Maintenance Droid (Various Models)[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="409">Edge of the Empire Core Rulebook</Source>
+    <Price>7500</Price>
+    <Rarity>3</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Maintenance Droid - Minion.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDSECUR</Key>
+    <Name>Security Droid</Name>
+    <Description>
+      [H3]Security Droid[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="409">Edge of the Empire Core Rulebook</Source>
+    <Price>9600</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Security Droid - Rival.xml</AdvImportPath>
+  </Gear>
+  <Gear>
+    <Key>DROIDMEDIC</Key>
+    <Name>Medical Droid</Name>
+    <Description>
+      [H3]Medical Droid (Various Models)[h3]
+      Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="409">Edge of the Empire Core Rulebook</Source>
+      <Source Page="410">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>12000</Price>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <Type>Droids</Type>
+    <AdvImportPath>Edge of the Empire Core\Droids\Medical Droid - Rival.xml</AdvImportPath>
+  </Gear>
+  -->
+  <Gear>
+    <Key>BACTAL</Key>
+    <Name>Bacta (1 litro)</Name>
+    <Description>
+      El bacta es un líquido empleado con fines curativos; se elabora a partir de bacterias cultivadas por medios artificiales, un procedimiento desarrollado hace miles de años. Es prácticamente un remedio milagroso, funciona con una gran variedad de especies distintas y sana heridas terribles dejando poca o ninguna cicatriz. Por lo general se usa en tanques de gran tamaño donde ha de sumergirse el paciente, pero también puede administrarse con parches tratados, inyectores, dispensadores portátiles e incluso mediante ingestión. Aunque no es habitual encontrar tanques de bacta de inmersión total lejos de instalaciones médicas totalmente equipadas, algunas naves poseen tanques portátiles y la mayoría de los medpacs y botiquines de campaña incluyen parches de bacta.
+[P]El bacta acelera de manera significativa la velocidad de curación, tal y como se describe en la página 220.
+[P]Modelos de ejemplo: Ninguno.
+    </Description>
+    <Sources>
+      <Source Page="176">Edge of the Empire Core Rulebook</Source>
+      <Source Page="192">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>20</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Medical</Type>
+  </Gear>
+  <Gear>
+    <Key>BACTAT</Key>
+    <Name>Bacta (tanque lleno)</Name>
+    <Description>
+      El bacta es un líquido empleado con fines curativos; se elabora a partir de bacterias cultivadas por medios artificiales, un procedimiento desarrollado hace miles de años. Es prácticamente un remedio milagroso, funciona con una gran variedad de especies distintas y sana heridas terribles dejando poca o ninguna cicatriz. Por lo general se usa en tanques de gran tamaño donde ha de sumergirse el paciente, pero también puede administrarse con parches tratados, inyectores, dispensadores portátiles e incluso mediante ingestión. Aunque no es habitual encontrar tanques de bacta de inmersión total lejos de instalaciones médicas totalmente equipadas, algunas naves poseen tanques portátiles y la mayoría de los medpacs y botiquines de campaña incluyen parches de bacta.
+[P]El bacta acelera de manera significativa la velocidad de curación, tal y como se describe en la página 220.
+[P]Modelos de ejemplo: Ninguno.
+    </Description>
+    <Sources>
+      <Source Page="176">Edge of the Empire Core Rulebook</Source>
+      <Source Page="192">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>4000</Price>
+    <Encumbrance>12</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Medical</Type>
+  </Gear>
+  <Gear>
+    <Key>EMP</Key>
+    <Name>Medpac de emergencia</Name>
+    <Description>
+      Los medpacs son muy comunes incluso en las naves que no participan en actividades de dudosa legalidad, ya que apenas se precisan conocimientos médicos para utilizar su contenido con el fin de tratar una herida o salvar una vida. La mayoría de las naves transportan varios de estos obje- tos, y son un componente básico en casi todos los equipos de supervivencia. Un medpac estándar contiene vendajes de campaña, parches de bacta, medicamentos básicos, an- tisépticos, bisturís y demás instrumental médico, coagulan- tes, aplicadores de carne sintética y mucho más, todo ello diseñado para ser fácil de utilizar y estabilizar rápidamente al paciente. El modelo SOVIC (Soporte Vital Generalizado) también cuenta con un escáner de diagnóstico limitado que permite supervisar las constantes vitales del paciente y una computadora en la que se pueden consultar distintas opciones de tratamiento. Los medpacs de emergencia per- miten la administración de primeros auxilios básicos sobre el terreno.
+[P]Un personaje puede utilizar un medpac para intentar cu- rar a otros realizando tiradas de Medicina sin penalización, tal y como se explica en la página 220.
+[P]Modelos de ejemplo: Medpac de supervivencia de Tecno- logías Médicas Athakam, medpac de emergencia SoViG de Chiewab.
+    </Description>
+    <Sources>
+      <Source Page="176">Edge of the Empire Core Rulebook</Source>
+      <Source Page="192">Age of Rebellion Core Rulebook</Source>
+      <Source Page="185">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>100</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Medical</Type>
+  </Gear>
+  <Gear>
+    <Key>MEDPAC</Key>
+    <Name>Medpac</Name>
+    <Description>
+      El modelo Carne Rápida, sólo un poco más grande pero infinitamente más avanzado que el medpac de emergencia estándar, es  un ejemplo característico de los equipos que suelen llevar consigo los profesionales de la medicina. Contiene instrumental para realizar intervenciones quirúrgicas de campaña, una computadora de diagnóstico y escáner médico de mayor calidad, reproductores avanzados de nutrientes sintéticos para satisfacer los requisitos vitales básicos del paciente y fármacos que mitigan los efectos de la radiación y las toxinas biológicas.
+[P]Este medpac permite al usuario realizar intervenciones médicas relativamente complejas sin las instalaciones necesarias, y rivaliza con las enfermerías de las astronaves de menor tamaño. Un personaje puede intentar curar a otros utilizando un medpac para realizar tiradas de Medicina sin penalización, como se explica en la página 220, pero añadiendo [BO] a todas estas tiradas. Además, cada medpac dispone de un pequeño depósito interno de estimulantes que proporciona el equivalente a 1 inyector de estimulantes por escena (aunque el DJ puede dictaminar que este suministro se agote si se utiliza continuamente).
+[P]Modelos de ejemplo: Botiquín de intervención inmediata de Tecnologías Médicas Athakam, medpac Carne Rápida de BioTech.
+    </Description>
+    <Sources>
+      <Source Page="177">Edge of the Empire Core Rulebook</Source>
+      <Source Page="192">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>400</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Medical</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Grants [BOOST] to all Medicine skill checks</MiscDesc>
+        <Count>1</Count>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>MED</SkillKey>
+            <BoostCount>1</BoostCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>STIMPACK</Key>
+    <Name>Inyector de estimulante</Name>
+    <Description>
+      Los inyectores de estimulantes son frascos tubulares con mecanismos de inyección automática que contienen medicinas, fluido bacta y analgésicos. Son herramientas de campaña para la aplicación de curas de emergencia, muy prácticas para tratar heridas sobre el terreno. Existe un sinfin de fabricantes de inyectores de estimulantes, desde Productos Farmacéuticos Chiewab hasta Tecnologías Médicas Athakam.
+[P]Un personaje debe llevar a cabo 1 maniobra para inyectarse estimulantes a sí mismo o a otro personaje. Los inyectores de estimulantes son objetos de un solo uso, y curan de forma automática 5 Heridas. Se pueden utilizar inyectores de estimulantes más de una vez, pero cada uso cura 1 Herida menos (de modo que la segunda aplicación cura 4, la tercera cura 3, y así sucesivamente). El sexto inyector de estimulantes utilizado no cura ninguna Herida; el organismo del personaje está demasiado saturado de medicamentos. El cuerpo de un personaje tarda 1 día en procesar los estimulantes y poder beneficiarse de nuevo de su efecto máximo. Para más información, consulta la página 220.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="177">Edge of the Empire Core Rulebook</Source>
+      <Source Page="193">Age of Rebellion Core Rulebook</Source>
+      <Source Page="186">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>25</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Medical</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Heals 5 wounds.</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>SYNSK</Key>
+    <Name>Piel sintética</Name>
+    <Description>
+      EsEstos revestimientos de carne artificial se utilizan para tratar heridas y ocultar miembros cibernéticos. La piel sintética se utiliza con mucha más frecuencia como injerto en tejido vivo, normalmente para acelerar su recuperación, miemtras que la carne sintética suele emplearse para cubrir implantes mecánicos y otorgarles aspecto orgánico; hasta es posible utilizarla para dotar a un droide de una apariencia realista. Como ocurre con los inyectores de estimulantes, la piel sintética la producen innumerables empresas, aunque Industrias BioTech es una de las más punteras en este campo.
+[P]Se puede usar un aplicador de piel sintética a modo de primeros auxilios para cortes y magulladuras. Son objetos de una solo uso.
+    </Description>
+    <Sources>
+      <Source Page="177">Edge of the Empire Core Rulebook</Source>
+      <Source Page="193">Age of Rebellion Core Rulebook</Source>
+      <Source Page="186">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Medical</Type>
+  </Gear>
+  <Gear>
+    <Key>CHCUBE</Key>
+    <Name>Cubo de azar</Name>
+    <Description>
+      Los cubos de azar son poliedros cúbicos de seis caras, unas pintadas de rojo y otras de azul. Se utilizan en apuestas simples en las que los jugadores tratan de adivinar el resultado de una tirada. Su sencillez los hace muy populares en mundos fronterizos y expediciones de larga duración donde otras formas de entretenimiento más complicadas tienen mayores probabilidades de acabar fallando.
+    </Description>
+    <Source Page="182">Edge of the Empire Core Rulebook</Source>
+    <Short>
+    </Short>
+    <Price>1</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Entertainment</Type>
+  </Gear>
+  <Gear>
+    <Key>DEJARIK</Key>
+    <Name>Holotablero de Dejarik</Name>
+    <Description>
+      El dejarik se juega con un tablero holográfico sobre el que se proyectan figuras de monstruos reales y mitológicos. Se trata de un juego de habilidad muy popular para dos jugadores. El tablero holografico facilita el control de las bestias en combate como parte del juego, y muchos espectadores disfrutan de la matanza holográfica tanto como de la destreza de los jugadores.
+    </Description>
+    <Source Page="182">Edge of the Empire Core Rulebook</Source>
+    <Short>
+    </Short>
+    <Price>350</Price>
+    <Encumbrance>10</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Entertainment</Type>
+  </Gear>
+  <Gear>
+    <Key>SABACC</Key>
+    <Name>Baraja Sabacc</Name>
+    <Description>
+      Uno de los juegos de azar más populares en toda la galaxia. Se juega con una baraja de naipes con los que debe alcanzarse una combinación que sume 23 ō-23 puntos (o alguna cifra más estrambótica, como un 2 natural o un 3 natural) para ganar la partida. Sin embargo, estos naipes son electrónicos y sus valores cambian de manera aleatoria durante la partida. Por este motivo el sabacc implica un cierto grado de faroleo y cálculo de riesgos además de habilidad y lógica; al mismo tiempo, es casi imposible recurrir a trucos como contar las cartas.
+    </Description>
+    <Source Page="182">Edge of the Empire Core Rulebook</Source>
+    <Short>
+    </Short>
+    <Price>40</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Entertainment</Type>
+  </Gear>
+  <Gear>
+    <Key>BIND</Key>
+    <Name>Grilletes</Name>
+    <Description>
+      Los grilletes presentan numerosas formas, pero todos están diseñados para inmovilizar y retener los apêndices de un prisionero consciente. Los modelos básicos son lo bastante fuertes como para sujetar a un wookiee y forman parte del inventario tipico de todo cazarrecompensas. Existen muchos fabricantes distintos de grilletes, como Seguridad Sindicada Locris, aunque la mayoría de los modelos tienen el mismo diseño básico.
+[P]Zafarse de unos grilletes requiere una exhibición impresionante de fuerza bruta o agilidad. La dificultad en cada caso depende del fabricante y del modelu en cuestión, pero para liberarse de los más comunes se precisa una tirada Desalentadora ([DI][DI][DI][DI]) de Atletismo o Coordinación.
+[P]Modelos de ejemplo: Grilletes modelo 1 de Seguridad Sindicada Locris.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="193">Age of Rebellion Core Rulebook</Source>
+      <Source Page="187">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>25</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Requires a [B]Formidible ([DI][DI][DI][DI][DI]) Athletics[b] or [B]Coordination check[b] to escape</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>COMMJAM</Key>
+    <Name>Emisor de interferencias</Name>
+    <Description>
+      Donde haya personas que desean comunicarse siempre habrá otros que traten de impedirlo, y para eso están los emisores de interferencias. Las versiones más pequeñas pueden neutralizar seriales locales, pero también hay otros tan potentes que son capaces de aislar planetas enteros del resto de la galaxia. El modelo Cranizo de Miradyne es uno de los primeros, un aparato relativamente portatil que puede bloquear las frecuencias de comunicación más comunes en un radio de doscientos cincuenta metros. También puede centrarse en un solo objetivo (por ejemplo, un edificio) que se encuentre a una distancia no superior a tres kilómetros.
+[P]Para despejar las interferencias creadas por estos emisores se requiere una tirada de Computadoras con una dificultad proporcional a la potencia del emisor y la distancia a la que se encuentra. Cuanto más cerca esté y más potente sea, mas aumenta la dificultad. El Granizo impone una tirada Media ([DI][DI]) pero esta dificultad aumenta a distancias. cortas (a discreción del DJ, pero se recomienda elevarla a Dificil o Desalentadora si el dispositivo se encuentra a alcance medio o más cerca).
+[P]Modelos de ejemplo: Emisor de interferencias Granizo-1x de Miradyne.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="194">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Price>400</Price>
+    <Encumbrance>4</Encumbrance>
+    <Rarity>3</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>To break through the jamming, must make a Computers check as determined by GM.  The closer the jammer is to the source, the harder the check will be.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>COMMSCRAM</Key>
+    <Name>Codificador</Name>
+    <Description>
+      Los codificadores son dispositivos empleados para cifrar comunicaciones por motivos de seguridad o de intimidad lo ambos). Pueden conectarse a casi cualquier comunicador y aparato similar, de tal modo que sólo puedan seguir la conversación quienes tengan un codificador con los mismos aiustes configurados. Su reducido tamaño permite ocultarlos con facilidad, algo muy importante teniendo en cuenta que son ilegales para usos civiles en la mayoría de los mundos civilizados. Compañías como Chedak manufacturan modelos como el Mark 5 principalmente para usos militares o policiales, aunque muchos acaban en el mercado negro.
+[P]Utilizar un codificador añade [SE][SE] a todas las tiradas realizadas para descifrar y comprender la transmisión. Modelos de ejemplo: Codificador Mark 5 de Chedak.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="194">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>1000</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>5</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Adds [SE][SE] to any attempt to decode and understand a transmission</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>DISGU</Key>
+    <Name>Material para disfrazarse</Name>
+    <Description>
+      Pese a lo que pueda considerarse un rostro arrebatador sin ningún asomo de duda (o quizá precisamente por este motivo), hay ocasiones en las que un individuo debe ocultar su verdadero aspecto. El material para disfraz es un kit avanzado que contiene todo lo necesario para que un individuo adopte un aspecto distinto: maquillaje, pelucas, lentillas de colores e incluso huellas dactilares falsas y enmascaradores de ADN. Otros pueden contener equipos de camuflaje especializado que permita fundirse con entornos urbanos y rurales en vez de mezclarse con otras personas. Existen numerosos modelos en toda la galaxia, sobre todo si se cuentan los que se producen para especies concretas. Aun así, todos ellos tienen precios y contenidos similares.
+[P]Modelo de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="194">Age of Rebellion Core Rulebook</Source>
+      <Source Page="187">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>100</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>4</Rarity>
+    <Type>Security/Espionage</Type>
+  </Gear>
+  <Gear>
+    <Key>ELB</Key>
+    <Name>Ganzúa electrónica</Name>
+    <Description>
+      La galaxia está llena de mecanismos de seguridad diseñados para proteger o guardar objetos de valor. Un buen ladron sabe que cuanto mayores son las medidas de seguridad, mas valioso es aquello que aseguran, y por tanto mayor es el deseo de apropiarse de ello. Muchas cerraduras están provistas de sistemas electrónicos complejos que sobrepasan con creces la eficacia de las sencillas cerraduras mecanicas de antaño. Las ganzúas electrónicas, como las que fabrican los denominados técnicos clandestinos (un grupo de piratas informáticos y técnicos criminales) son herramientas automatizadas capaces de abrir la mayoría de las cerraduras electrónicas convencionales. También existen modelos mucho más avanzados que no requieren ninguna habilidad por parte del usuario para desbloquear las cerraduras más complicadas.
+[P]Modelos de ejemplo: Ganzúa electrónica de técnico clandestino.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="194">Age of Rebellion Core Rulebook</Source>
+      <Source Page="187">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>1000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>5</Rarity>
+    <Type>Security/Espionage</Type>
+  </Gear>
+  <Gear>
+    <Key>RESBOLT</Key>
+    <Name>Mando de retención</Name>
+    <Description>
+      Los mandos de retención desempeñan la misma función en los droides que los grilletes para los seres vivos. Una vez fijado a un droide, el mando puede invalidar su programación actual. En su configuración más sencilla el mando se limita a desactivar al droide, pero también puede obligarle a cumplir las órdenes impartidas por la persona que empuña el controlador del mando de retención. Compañías como Automatas Industriales fabrican miles de millones de unidades de los modelos convencionales.
+[P]La mayoría de los droides son incapaces de resistirse al efecto de un mando de retención cuando se les acopla (un proceso que requiere de un soldador manual y unos pocos segundos). Sin embargo, los PJ droides están hechos de otra pasta claramente superior a los PNJ droides. Un PJ droide puede realizar una tirada Desalentadora ([DI][DI][DI][DI]) de Disciplina para resistir los efectos de un mando de retención y actuar con normalidad cuando se le instálé uno. Si fallan esta tirada, sólo pueden volver a intentarla con el consentimiento del DJ.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="178">Edge of the Empire Core Rulebook</Source>
+      <Source Page="194">Age of Rebellion Core Rulebook</Source>
+      <Source Page="187">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>35</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>PC droids may make a [B]Daunting ([DI][DI][DI][DI]) Discipline check[b] to ignore effects of the restraining bolt</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>SLIGEAR</Key>
+    <Name>Equipo de piratería informática</Name>
+    <Description>
+      Los piratas informáticos utilizan su formidable talento para acceder a computadoras y controlarlas; estos objetos son sus principales herramientas. Sus armas más destacadas son sus propias computadoras, sumamente personalizadas (a menudo con componentes ilegales) y equipadas con lo último en programas de cifrado, descodificadores y sondas de datos. Entre los demás enseres de su oficio se incluyen chips de crédito falsos para acceder a cuentas ajenas o modificar saldos bancarios. Pero al igual que los propios pira. tas informáticos, sus herramientas son únicas: a menudo. un pirata informático puede identificar a otro limitándose a inspeccionar las huellas electrónicas que ha dejado con su equipo.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="179">Edge of the Empire Core Rulebook</Source>
+      <Source Page="195">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>4</Rarity>
+    <Type>Slicing Tools</Type>
+  </Gear>
+  <Gear>
+    <Key>CRASH</Key>
+    <Name>Equipo de supervivencia</Name>
+    <Description>
+      Aunque la vida suele estar controlada y acomodada, en ocasiones la supervivencia física se convierte en una necesidad perentoria e imprevista. Un aterrizaje forzoso podría dejar varada a la tripulación de una nave en los desiertos de Tatooine, o quizá un deslizador averiado obligue a los pasajeros a pasar un periodo de tiempo prolongado en las nieves de un clima glacial. La mayoría de las naves, sobre todo las de menor tamaño como los cazas y las capsulas de escape, contienen equipos de emergencia que garantizan la supervivencia hasta que se produzca un rescate o se repare el vehiculo accidentado. La Corporación Medioambiental Pretormin, especializada en artículos de exploración y supervivencia, fabrica un modelo muy popular lo bastante pequeño como para guardarlo en una cápsula de emergencia o un raza estelar Su contenido incluye un manto termin, in richillo multiuso, una baliza de socorro, dos comunicadores de emergencia, una bobina de alambre, raciones en barritas, un medpac básico (equivalente al medpac de emergencia GOVIG), dos mascarillas respiratorias, una jarra de agua con filtro, una barra luminosa, cincuenta metros de microfibra de seguridad, diez raciones y una pistola de bengalas. Algunos piratas complementan sus equipos con pistolas bláster compactas u otras armas similares, pues saben que a menudo sus enemigos los buscarán con empeño, aunque Pretormin no las incluye de serie en sus equipos de supervivencia.
+[P]Modelos de ejemplo. Equipo de supervivencia de la Corporación Medioambiental de Pretormin.
+    </Description>
+    <Sources>
+      <Source Page="180">Edge of the Empire Core Rulebook</Source>
+      <Source Page="195">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Price>300</Price>
+    <Encumbrance>5</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Survival</Type>
+  </Gear>
+  <Gear>
+    <Key>RATION</Key>
+    <Name>Raciones</Name>
+    <Description>
+      Tan insipidas e insustanciales como la vida del soldado de asalto imperial, las raciones de campaña son vituallas muy habituales en las aves mas pequeñas, donde se utulizan para complementar o sustituir las provisiones de su despensa. Todas pueden convertirse fácilmente en un plato completo añadiendo un poco de agua y calentándolas mediante un sistema integrado de inducción térmica. La mayoría de las naves se equipan con raciones de emergencia por si se produce alguna catástrofe, como un aterrizaje forzoso o una avería en el motu, y aunque me das se producen para el ejército imperial, la mayoría siguen el mismo patrón estándar. Como cabe suponer, las raciones son artículos de un solo uso.
+[P]Modelos de ejemplo. Raciones de compaña del ejército imperial.
+    </Description>
+    <Sources>
+      <Source Page="179">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>5</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Survival</Type>
+  </Gear>
+  <Gear>
+    <Key>BREATHM</Key>
+    <Name>Mascarillas respiratorias</Name>
+    <Description>
+      No todos los planetas y entornos son aptos para cualquier especie, por lo que muchas necesitan aparatos de respiración para sobrevivir en ellos. Los más básicos son simples tapones nasales que filtran las sustancias contaminantes; también existen modelos de mayor calidad como mascarillas con bombonas de gas, máscaras con filtros para atmósferas venenosas e incluso recicladores de aire acuáticos para actividades submarinas prolongadas.
+[P]La Errante-6 de Ingeniería Atmosférica Gandorthral es un modelo bastante sencillo que suele llevarse a bordo de muchas astronaves; filtra las partículas nocivas de la atmósfera y suministra los gases adicionales necesarios para producir una mezcla de oxigeno y nitrógeno en la proporción adecuada. Otras variantes, sobre todo las fabricadas para especies alienígenas que deben pasar periodos prolongados de tiempo en atmósferas hostiles, pueden resultar más discretas o comodas, pero su función es básicamente la misma.
+[P]Los dispositivos de respiración pueden configurarse para suministrar casi cualquier tipo de atmosfera, aunque las de oxigeno y nitrógeno son las más habituales Sin embargo, algunas variedades de la especie gandiana utilizan recicladores para inhalar una mezcla de amoniaco que reproduce la atmósfera de su planeta natal.
+[P]Modelos de ejemplo: Errante-6 de Ingeniería Atmosférica Gandorthral
+    </Description>
+    <Sources>
+      <Source Page="179">Edge of the Empire Core Rulebook</Source>
+      <Source Page="195">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>25</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Survival</Type>
+  </Gear>
+  <Gear>
+    <Key>SPACESU</Key>
+    <Name>Traje espacial</Name>
+    <Description>
+      Los trajes espaciales son indispensables para todo el que pretenda emprender un viaje interestelar. También resultan de gran utilidad para efectuar reparaciones externas en plena travesía, o para adentrarse en una atmósfera totalmente desconocida. El Estándar X de la Compañia Tagge (que en realidad se produce en una docena de plantas de manufacturado y centros de distribución de Kuat, Fondor, Bilbring y Corellia) es un modelo popular en numerosas astronaves y estaciones espaciales. No incluye sistemas de soporte vital prolongado, pero es muy útil para paseos espaciales. Está provisto de unos propulsores de baja potencia para facilitar el movimiento, botas magnéticas para entornos con poca gravedad, un comunicador integrado y varias microherramientas. Como la mayoría de los trajes espaciales, incluye equipos de reparación para sellar desgarros en el tejido y fugas en las juntas del traje.
+[P]Modelos de ejemplo: Traje espacial Estándar X de la Compañía Tagge.
+    </Description>
+    <Sources>
+      <Source Page="179">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>100</Price>
+    <Encumbrance>4</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Survival</Type>
+  </Gear>
+  <Gear>
+    <Key>TENT</Key>
+    <Name>Tienda de campaña</Name>
+    <Description>
+      Las tiendas pueden encontrarse en los equipos de supervivencia de mayor tamaño, y sirven para que una o varias personas se guarezcan de los elementos. Se pueden improvisar prácticamente con cualquier trozo de tejido, aunque la mayoría prefieren los modelos de duraseda con mecanismos de soporte inteligente que se montan solos.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="180">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>100</Price>
+    <Encumbrance>4</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Survival</Type>
+  </Gear>
+  <Gear>
+    <Key>THERMCL</Key>
+    <Name>Manto térmico</Name>
+    <Description>
+      La protección térmica es obligatoria para quienes no están habituados a las temperaturas extremas. Los mantos térmicos pueden vestirse sobre la marcha o utilizarse a modo. de cobertores o tiendas de campana Improvisadas. Dependiendo de la tecnología a la que pueda acceder el usuario, un manto térmico puede ser una prenda tejida sencilla pero efectiva o una malla sintética ultrafina que puede plegarse y guardarse en un bolsillo. La mayoría proporcionan cobijo para entornos frios. pero los modelos más sofisticados están fabricados con materiales reflectantes que también protegen en zonas de calor extremo.
+[P]Los mantos térmicos eliminan hasta [SE][SE] de todas lastiradas realizadas para resistir los efectos de temperaturas extremas (tanto frio como calor).
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="180">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>200</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Survival</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Removes up to [SETBACK][SETBACK] from any checks made to handle extreme heat or cold.</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>BACKPACK</Key>
+    <Name>Mochila</Name>
+    <Description>
+      Una mochila puede desempeñar muchas y muy importantes funciones, especialmente para acarrear equipo de supervivencia e incluso droides y aliados de menor tamaño. La mayoría son objetos sencillos de tela con correas, y las de mejor calidad tienen refuerzos internos y formas ergonómicas para distribuir de manera óptima el peso y poder acarrearlo durante más tiempo.
+[P]Las mochilas aumentan en 4 puntos el umbral de impedimento del usuario.
+[P]Modelos de ejemplo: Numerosas variedades
+    </Description>
+    <Sources>
+      <Source Page="180">Edge of the Empire Core Rulebook</Source>
+      <Source Page="198">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>50</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Carrying/Storage</Type>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>4</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>CLIMB</Key>
+    <Name>Equipo de escalada</Name>
+    <Description>
+      Aunque los equipos de escalada suelen utilizarse en terreno agreste, lejos de comodidades artificiales como turhnelevadores o simples escaleras también pueden resultar muy útiles para colarse discretamente por lugares elevados.
+[P]Casi todos estos equipos incluyen un rollo de cuerda sintética o cable liquido provisto de un garfio o cualquier otro accesorio para afianzarlo antes de escalar. El equipo básico de Pretormin contiene además cuatro pitones de adhesión rápida que pueden anclarse en casi cualquier superficie. Modelos de ejemplo: Equipo básico de escalada de la Corporación Medioambiental Pretormin.
+    </Description>
+    <Sources>
+      <Source Page="180">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="188">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>50</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Tools/Electronics</Type>
+  </Gear>
+  <Gear>
+    <Key>DATAPAD</Key>
+    <Name>Módulo de datos</Name>
+    <Description>
+      Los módulos de datos son corrientes en la mayoría de los planetas tecnológicamente civilizados, y se utilizan para grabar, almacenar, reproducir y organizar toda clase de información, desde textos básicos hasta grabaciones holograficas. La mayoría tienen incorporada una pantalla diminuta, aunque algunos emplean holoproyectores y son lo bastante pequeños como para llevarlos en una o ambas manos, dependiendo del modelo. Por norma general estan codificados o cifrados para que el dueño sea el único que pueda manipularios; incluso hay algunos que están programados para borrar todo el contenido si un usuario no autorizado trata de acceder a él.
+[P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="181">Edge of the Empire Core Rulebook</Source>
+      <Source Page="196">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>75</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Tools/Electronics</Type>
+  </Gear>
+  <Gear>
+    <Key>ERP</Key>
+    <Name>Parche de reparación de emergencia</Name>
+    <Description>
+      Los parches de reparaciones de emergencia, como el Tecnico de Bolsillo de SoroSuub, tienen un diseño portátil que permite una aplicación instantanea en situaciones urgentes. Consiste en un disco de duracero semiflexible ribeteado de soldadores térmicos de activación automática. Algunos tambien contienen una capa interna aislante que protege contra descargas eléctricas. El parche se puede aplicar rápidamente sobre una parte dañada del chasis de un droide y queda soldado casi al instante, protegiendo así el vulnerable interior de daños adicionales y preservando la integridad estructural de la máquina.
+    </Description>
+    <Sources>
+      <Source Page="182">Edge of the Empire Core Rulebook</Source>
+      <Source Page="197">Age of Rebellion Core Rulebook</Source>
+      <Source Page="50">Endless Vigil</Source>
+    </Sources>
+    <Short>
+    </Short>
+    <Price>25</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Tools/Electronics</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Repairs 3 wounds on a droid.  May be used up to five times a day.</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>RELOAD</Key>
+    <Name>Recargas adicionales</Name>
+    <Description>
+      [H3]Extra Reload[h3]
+      Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="181">Edge of the Empire Core Rulebook</Source>
+      <Source Page="197">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>25</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Reloads/Ammo</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Allows character to ignore "out of ammo" [DE] results with ranged weapons</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>FUSLANT</Key>
+    <Name>Linterna de fusión</Name>
+    <Description>
+      Estos aparatos pequeños y achatados emiten luz y calor en un pequeño radio a su alrededor. También son bastante resistentes y fiables, y suelen incluirse en los equipos de viaje y supervivencia mejor surtidos. Además, se les pueden enchufar otros dispositivos electrónicos como módulos de datos, barras luminosas y escáneres de menor tamaño para proporcionarles la energía necesaria.
+[P]Modelos de ejemplo: Linterna de fusión Máxima Potencia de SoroSuub.
+    </Description>
+    <Sources>
+      <Source Page="181">Edge of the Empire Core Rulebook</Source>
+      <Source Page="197">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>150</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Tools/Electronics</Type>
+  </Gear>
+  <Gear>
+    <Key>GLOWROD</Key>
+    <Name>Barra luminosa</Name>
+    <Description>
+      Una barra luminosa es una fuente de luz manual que ilumina una zona con un haz de luz focal. Se trata de una herramienta muy común con infinidad de diseños y estilos que funciona con una fuente de alimentación interna de naturaleza química o con una pequeña célula de energía recargable. 
+	  [P]Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="181">Edge of the Empire Core Rulebook</Source>
+      <Source Page="197">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>10</Price>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Tools/Electronics</Type>
+  </Gear>
+  <Gear>
+    <Key>JETPACK</Key>
+    <Name>Mochila propulsora</Name>
+    <Description>
+      Una mochila propulsora es ideal para realizar maniobras rápidas y ataques por sorpresa. La mayoría emplean unos propulsores en miniatura para elevar al usuario por los aires durante breves periodos de tiempo, aunque algunos modelos cuentan con dispositivos gravitatorios de refuerzo. Su única desventaja radica en su gran tamaño y peso, en su escasa autonomia y en la considerable habilidad necesaria para manejarlas sin riesgo.
+[P]La Z-6 utiliza una turbina a reacción ventilada para impulsar al usuario, conservando la estabilidad mediante toberas de escape y un giroscopio interno. Se opera mediante una interfaz de control verbal y los mandos direccionales están situados en la muñeca.
+[P]Una mochila propulsora permite al usuario actuar como si fuera un vehículo de Silueta 1, Velocidad 2, Manejo 0 y umbral de Tension de sistemas 3 con capacidad de vuelo exclusivamente atmosférico, y para manejarla se requiere la habilidad Pilotar vehiculo planetario.
+[P]Modelos de ejemplo: Mochila propulsora Z-6 de Mitrinomon.
+    </Description>
+    <Source Page="181">Edge of the Empire Core Rulebook</Source>
+    <Price>4500</Price>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>7</Rarity>
+    <Type>Tools/Electronics</Type>
+  </Gear>
+  <Gear>
+    <Key>TOOLKIT</Key>
+    <Name>Juego de herramientas</Name>
+    <Description>
+      En una galaxia tecnológica, un juego de herramientas es casi esencial. Todo vehiculo, no importa su tamaño ni su función, dispone de alguna clase de equipo de reparaciones para solventar averías mecánicas o oloctricas, ya que no siempre es factible o seguro solicitar asistencia técnica. Los juegos de herramientas también resultan de gran utilidad para reparar droides dañados o componentes cibernéticos, sobre todo los que están tan modificados que no pueden dejarse en manos de mecánicos honrados. Deben incluir una gran variedad de herramientas y utensilios distintos, ya que muchos usuarios gustan de efectuar sus propios apaños y mejoras. Martillos, llaves hidráulicas, mandos de retención, cepillos para acoplamientos de energia, cortadores de fusión, soldadores láser y sónicos, cables y piezas de repuesto, calibradores de energía y desde luego unas gafas protectoras y un par de gruesos guantes son todos componentes básicos de estos juegos de herramientas, muchos de los cuales pueden utilizarse con bastante eficacia como armas improvisadas. Para quienes acostumbran a efectuar reparaciones intensivas, algunos juegos incluyen sondas de diagnóstico y demás instrumentos de medición para determinar la naturaleza de una avería. Casi no hay nada que un competente mecánico no pueda arreglar con un juego de herramientas bien surtido y cuidado, siempre que disponga de tiempo suficiente para llevar a cabo las reparaciones (cosa que a veces también es un problema).
+[P]Los juegos de herramientas permiten el uso de la habilidad Mecânica para reparar la mayoría de los aparatos mecánicos, y también pueden utilizarse para "curar" a droides. Modelos de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="181">Edge of the Empire Core Rulebook</Source>
+      <Source Page="198">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>350</Price>
+    <Encumbrance>4</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Tools/Electronics</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Allows user to perform most mechanical checks to repair devices and droids</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>UTILBELT</Key>
+    <Name>Cinturón de accesorios</Name>
+    <Description>
+      Un cinturón de accesorios es una prenda habitual de quienes participan activamente en misiones que requieren una disponibilidad inmediata de herramientas y utensilios varios; incluso los soldados de asalto imperiales los utilizan a menudo. Cada usuario lo equipa con un contenido diferente según las actividades que pretenda realizar: para misiones de sabotaje suelen pertrecharse con explosivos y chips de piratería informática, mientras que el mecânico de una nave lo llenará con sus herramientas favoritas. Algunos modelos también disponen de fundas para armas y cartucheras para municiones.
+[P]Un cinturón de accesorios aumenta en 1 el umbral de impedimento del usuario.
+[P]Modelo de ejemplo: Numerosas variedades.
+    </Description>
+    <Sources>
+      <Source Page="183">Edge of the Empire Core Rulebook</Source>
+      <Source Page="198">Age of Rebellion Core Rulebook</Source>
+      <Source Page="189">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Price>25</Price>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>0</Rarity>
+    <Type>Carrying/Storage</Type>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <!-- Black Market-->
+  <Gear>
+    <Key>AVASPDOSE</Key>
+    <Name>Especie del avarbusto (1 dosis)</Name>
+    <Description>
+La especia extraída del avarbusto es una droga que induce relajación y letargo; algunos la toman como somnifero ilegal. A diferencia de muchas otras variedades de especia, la elaborada a partir del avarbusto carece de efectos alucinógenos y no provoca adicción en la mayoría de las especies. No obstante, si posee una curiosa propiedad que la distingue de multitud de drogas similares: la especia del avarbusto infunde la necesidad de decir la verdad en quienes la consumen, y puede utilizarse para extraer información si se combina con un interrogatorio dirigido e insistente. Aunque no es especialmente valioso, el avarbusto sólo se encuentra en el planeta Baros y en algunos invernaderos especializados que cultivan sus propias muestras. Es considerablemente menos eficaz que los diversos sueros de la verdad que suele utilizar el Imperio, pero también es más difícil de detectar y menos desagradable para quienes la toman.
+[P]Un personaje que ha consumido especia del avarbusto se siente aletargado y solamente puede incrementar 1 [AB] a [PR] en cada tirada debido a la sensación de sopor que se apodera de él. Además, siempre que el personaje intente mentir u ocultar la verdad de manera intencionada, el DJ incrementa 1 [DI] de su reserva de dados a [CH].Los efectos de la especia del avarbusto duran toda una escena o encuentro de combate.
+[P]Restricciones: La especia del avarbusto está prohibida o muy controlada en la mayoría de los mundos que cuentan con una fuerte presencia imperial.
+    </Description>
+    <Source Page="183">Edge of the Empire Core Rulebook</Source>
+    <Price>25</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>AVASPCARGO</Key>
+    <Name>Especie del avarbusto (contenedor con 100 dosis)</Name>
+    <Description>
+La especia extraída del avarbusto es una droga que induce relajación y letargo; algunos la toman como somnifero ilegal. A diferencia de muchas otras variedades de especia, la elaborada a partir del avarbusto carece de efectos alucinógenos y no provoca adicción en la mayoría de las especies. No obstante, si posee una curiosa propiedad que la distingue de multitud de drogas similares: la especia del avarbusto infunde la necesidad de decir la verdad en quienes la consumen, y puede utilizarse para extraer información si se combina con un interrogatorio dirigido e insistente. Aunque no es especialmente valioso, el avarbusto sólo se encuentra en el planeta Baros y en algunos invernaderos especializados que cultivan sus propias muestras. Es considerablemente menos eficaz que los diversos sueros de la verdad que suele utilizar el Imperio, pero también es más difícil de detectar y menos desagradable para quienes la toman.
+[P]Un personaje que ha consumido especia del avarbusto se siente aletargado y solamente puede incrementar 1 [AB] a [PR] en cada tirada debido a la sensación de sopor que se apodera de él. Además, siempre que el personaje intente mentir u ocultar la verdad de manera intencionada, el DJ incrementa 1 [DI] de su reserva de dados a [CH].Los efectos de la especia del avarbusto duran toda una escena o encuentro de combate.
+[P]Restricciones: La especia del avarbusto está prohibida o muy controlada en la mayoría de los mundos que cuentan con una fuerte presencia imperial.
+    </Description>
+    <Source Page="183">Edge of the Empire Core Rulebook</Source>
+    <Price>2000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <Rarity>7</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>BOOSTBLDOSE</Key>
+    <Name>Potenciador azúl (1 dosis)</Name>
+    <Description>
+El potenciador azul es un derivado de un tinte industrial que se utiliza en la construcción de grandes estructuras (por ejemplo, en el ensamblado de astronaves). Se trata de una droga que mejora el rendimiento, muy popular entre pilotos y artilleros. A menudo se distribuye en forma de líquido azul almacenado en botes metálicos para evitar que se derrame sobre la piel o sobre superficies delicadas. Aunque nadie parece conocer la verdadera historia de esta droga, por lo visto algún imprudente se percato de que la ingesta de este compuesto químico diseñado para pintar astronaves incrementaba de forma drástica los reflejos de humanos y otras muchas especies. Como es lógico, este incremento conlleva un precio: el potenciador azul tiene varios efectos secundarios de lo más perjudiciales, y la sobredosis es muy común, sobre todo entre pilotos que abusan de la droga en misiones de combate prolongadas.
+[P]Un personaje bajo los efectos del potenciador azul puede incrementar 1 vez la Capacidad de cualquier tirada de Agilidad, Intelecto o Astucia debido a la mejora de su concentración y su agudeza mental. Sin embargo, esta perspicacia artificial causa estragos en la mente. Mientras se encuentre bajo los efectos del potenciador azul, el personaje no puede recuperar Tensión al final de ninguna escena ni encuentro durante el resto de la partida. Los efectos beneficiosos del potenciador azul duran toda una escena o encuentro de combate.
+[P]Restricciones: El potenciador azul es ilegal en la mayoría de los planetas.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>10</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>5</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>BOOSTBLCARGO</Key>
+    <Name>Potenciador azúl (contenedor con 100 dosis)</Name>
+    <Description>
+El potenciador azul es un derivado de un tinte industrial que se utiliza en la construcción de grandes estructuras (por ejemplo, en el ensamblado de astronaves). Se trata de una droga que mejora el rendimiento, muy popular entre pilotos y artilleros. A menudo se distribuye en forma de líquido azul almacenado en botes metálicos para evitar que se derrame sobre la piel o sobre superficies delicadas. Aunque nadie parece conocer la verdadera historia de esta droga, por lo visto algún imprudente se percato de que la ingesta de este compuesto químico diseñado para pintar astronaves incrementaba de forma drástica los reflejos de humanos y otras muchas especies. Como es lógico, este incremento conlleva un precio: el potenciador azul tiene varios efectos secundarios de lo más perjudiciales, y la sobredosis es muy común, sobre todo entre pilotos que abusan de la droga en misiones de combate prolongadas.
+[P]Un personaje bajo los efectos del potenciador azul puede incrementar 1 vez la Capacidad de cualquier tirada de Agilidad, Intelecto o Astucia debido a la mejora de su concentración y su agudeza mental. Sin embargo, esta perspicacia artificial causa estragos en la mente. Mientras se encuentre bajo los efectos del potenciador azul, el personaje no puede recuperar Tensión al final de ninguna escena ni encuentro durante el resto de la partida. Los efectos beneficiosos del potenciador azul duran toda una escena o encuentro de combate.
+[P]Restricciones: El potenciador azul es ilegal en la mayoría de los planetas.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>750</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>GLITTERDOSE</Key>
+    <Name>Brillestim (1 dosis)</Name>
+    <Description>
+El brillestim es una variedad de especia en vías de extinción, elaborada a partir de las telarañas que tejen las arañas de energía de Kessel y que recogen los infortunados esclavos destinados a las profundidades de sus minas, donde reina una oscuridad total. Debido a sus propiedades fotoactivas, no puede exponerse a la luz en ningún momento previo a su consumo, así que los mineros deben transportarla cuidadosamente desde la negrura de las cavernas hasta unos contenedores especiales, y de ahí a los diminutos paquetes opacos en los que se vende la droga. Su producción es un secreto celosamente guardado por el Imperio, razón por la que una bodega de carga repleta de brillestim es un auténtico tesoro para todo contrabandista lo bastante ambicioso como para intentar venderlo.
+[P]El valor del brillestim se debe tanto a la singularidad de sus propiedades como a su escasez. Aunque sin duda provoca un buen subidón y es tan adictivo como muchos de sus equivalentes, se rumorea que posee otro efecto mucho más interesante cuando se consume. Se dice que el brillestim otorga capacidades telepaticas limitadas a quien lo ingiere. Naturalmente, hay quienes afirman que esta supuesta telepatia no es más que un delirio inducido por la sustancia, pero muchos creen ciegamente en los poderes mentales que confiere cada dosis. Por desgracia, estos hipotéticos poderes acarrean otro efecto ineludible: el brillestim erosiona la mente de manera lenta pero inexorable, consumiendo ciertos nervios cerebrales asociados a la vista y la coordinación, así como al equilibrio mental.
+[P]El brillestim es una droga sumamente adictiva con propiedades alucinógenas. Utilizarla añade [BO][BO][BO] a todas las tiradas de Alerta y Percepción hasta el final de la escena. Además de esto, algunos consumidores afirman haber manifestado aptitudes telepáticas temporales, que el DJ puede conceder al personaje si lo considera oportuno.
+[P]Restricciones: El brillestim es ilegal en la mayoría de los planetas, y su compraventa está sujeta al férreo control y la supervisión de las autoridades imperiales.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>100</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>7</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>GLITTERCARGO</Key>
+    <Name>Brillestim (100 dose cargo container)</Name>
+    <Description>
+El brillestim es una variedad de especia en vías de extinción, elaborada a partir de las telarañas que tejen las arañas de energía de Kessel y que recogen los infortunados esclavos destinados a las profundidades de sus minas, donde reina una oscuridad total. Debido a sus propiedades fotoactivas, no puede exponerse a la luz en ningún momento previo a su consumo, así que los mineros deben transportarla cuidadosamente desde la negrura de las cavernas hasta unos contenedores especiales, y de ahí a los diminutos paquetes opacos en los que se vende la droga. Su producción es un secreto celosamente guardado por el Imperio, razón por la que una bodega de carga repleta de brillestim es un auténtico tesoro para todo contrabandista lo bastante ambicioso como para intentar venderlo.
+[P]El valor del brillestim se debe tanto a la singularidad de sus propiedades como a su escasez. Aunque sin duda provoca un buen subidón y es tan adictivo como muchos de sus equivalentes, se rumorea que posee otro efecto mucho más interesante cuando se consume. Se dice que el brillestim otorga capacidades telepaticas limitadas a quien lo ingiere. Naturalmente, hay quienes afirman que esta supuesta telepatia no es más que un delirio inducido por la sustancia, pero muchos creen ciegamente en los poderes mentales que confiere cada dosis. Por desgracia, estos hipotéticos poderes acarrean otro efecto ineludible: el brillestim erosiona la mente de manera lenta pero inexorable, consumiendo ciertos nervios cerebrales asociados a la vista y la coordinación, así como al equilibrio mental.
+[P]El brillestim es una droga sumamente adictiva con propiedades alucinógenas. Utilizarla añade [BO][BO][BO] a todas las tiradas de Alerta y Percepción hasta el final de la escena. Además de esto, algunos consumidores afirman haber manifestado aptitudes telepáticas temporales, que el DJ puede conceder al personaje si lo considera oportuno.
+[P]Restricciones: El brillestim es ilegal en la mayoría de los planetas, y su compraventa está sujeta al férreo control y la supervisión de las autoridades imperiales.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>5000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>5</Encumbrance>
+    <Rarity>8</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>LESAIDOSE</Key>
+    <Name>Lesai (1 dosis)</Name>
+    <Description>
+La lesai es una variedad de especia que no se excava, sino que se cultiva en un hongo que solamente se encuentra en determinados tipos de lagartos de los planetas Zebitrope IV y VIII. Recolectando este característico moho púrpura y aplicándolo bajo la mandíbula, los miembros de muchas especies inteligentes pueden eliminar la necesidad de dormir. Las manchas que deja el hongo son muy difíciles de disimular, pero además tiene otros efectos secundarios confirmados. La mayoría de las especies desarrollan una dependencia psicológica (a veces incluso física) a esta sustancia con excesiva rapidez, y si un adicto no consume una dosis con cierta frecuencia se desploma inconsciente durante varios días.
+[P]Un personaje que consume lesai al menos una vez cada periodo de 24 horas no necesita dormir ni sufre penalización ni Tensión alguna por la privación de sueño. El personaje puede recuperar Tensión como si hubiera dormido toda la noche tras cada periodo de 8 o más horas en el que no haya realizado ninguna actividad extenuante (como combates, esfuerzos mentales intensos o discusiones con una carga emocional intensa). El único efecto secundario perceptible de la lesai son las peculiares manchas púrpuras que deja en la zona donde se ha aplicado. Si un personaje que se encuentra bajo los efectos de la lesai pasa un periodo completo de 24 horas sin tomar una dosis, tendrá cada vez más dificultades para mantenerse despierto hasta que vuelva a consumir lesai o logre conciliar el sueño. Algunos oficiales imperiales afirman que la lesai convierte a los adictos en monstruos amorales desprovistos de emociones y compasión. La veracidad de esta afirmación se deja a discreción del DJ, que tiene total libertad para no revelarla a los jugadores cuyos personajes decidan consumir lesai.
+[P]Restricciones: La lesai es ilegal en la mayoría de los planetas con una fuerte presencia imperial.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>500</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>9</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>LESAICARGO</Key>
+    <Name>Lesai (cápsula de carga estanca con 20 dosis)</Name>
+    <Description>
+La lesai es una variedad de especia que no se excava, sino que se cultiva en un hongo que solamente se encuentra en determinados tipos de lagartos de los planetas Zebitrope IV y VIII. Recolectando este característico moho púrpura y aplicándolo bajo la mandíbula, los miembros de muchas especies inteligentes pueden eliminar la necesidad de dormir. Las manchas que deja el hongo son muy difíciles de disimular, pero además tiene otros efectos secundarios confirmados. La mayoría de las especies desarrollan una dependencia psicológica (a veces incluso física) a esta sustancia con excesiva rapidez, y si un adicto no consume una dosis con cierta frecuencia se desploma inconsciente durante varios días.
+[P]Un personaje que consume lesai al menos una vez cada periodo de 24 horas no necesita dormir ni sufre penalización ni Tensión alguna por la privación de sueño. El personaje puede recuperar Tensión como si hubiera dormido toda la noche tras cada periodo de 8 o más horas en el que no haya realizado ninguna actividad extenuante (como combates, esfuerzos mentales intensos o discusiones con una carga emocional intensa). El único efecto secundario perceptible de la lesai son las peculiares manchas púrpuras que deja en la zona donde se ha aplicado. Si un personaje que se encuentra bajo los efectos de la lesai pasa un periodo completo de 24 horas sin tomar una dosis, tendrá cada vez más dificultades para mantenerse despierto hasta que vuelva a consumir lesai o logre conciliar el sueño. Algunos oficiales imperiales afirman que la lesai convierte a los adictos en monstruos amorales desprovistos de emociones y compasión. La veracidad de esta afirmación se deja a discreción del DJ, que tiene total libertad para no revelarla a los jugadores cuyos personajes decidan consumir lesai.
+[P]Restricciones: La lesai es ilegal en la mayoría de los planetas con una fuerte presencia imperial.
+    </Description>
+    <Source Page="184">Edge of the Empire Core Rulebook</Source>
+    <Price>7500</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>2</Encumbrance>
+    <Rarity>10</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>YARROCKDOSE</Key>
+    <Name>Yarrock (1 dosis)</Name>
+    <Description>
+La especia conocida como yarroca se produce en Iridonia desde tiempo inmemorial, elaborada por chamanes para conceder a sus guerreros una claridad mental superior y tendencias agresivas. Aunque existen otras drogas en toda la galaxia que encajan en esta descripción, muchos guerreros fogueados responden con respeto, adulación o incluso temor ante la simple vista de los característicos gránulos negros que contienen yarroca. Bajo los efectos de esta sustancia, un soldado es implacable y puede ignorar tremendas penalidades físicas. Por desgracia, después de toda euforia viene el bajón, y esta droga no es ninguna excepción: cuando se agota la duración de una dosis, se produce el efecto inverso y cada paso se convierte en un viaje interminable hasta que el guerrero termina de metabolizar la sustancia o simplemente se desploma exhausto. Algunos dicen que la droga afecta a la mismísima alma de quien la consume, arrastrándola cada vez más hacia las sombras conforme pasa el tiempo, pero apenas se dispone de datos científicos que confirmen estos temores.
+[P]La yarroca dura una escena. Un personaje que está bajo los efectos de la yarroca no tiene que realizar tiradas de miedo; se considera que las supera automáticamente. Sin embargo, una vez consumida la yarroca, el personaje debe añadir [SE] a todas sus tiradas de Voluntad y Presencia hasta el final de la partida.
+[P]Restricciones: La yarroca es muy inusual, y por tanto muy pocos planetas tienen leyes que dicten su consumo, ya que los únicos cargamentos que llegan lo hacen a través del mercado negro.
+    </Description>
+    <Source Page="185">Edge of the Empire Core Rulebook</Source>
+    <Price>350</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>8</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>YARROCKCARGO</Key>
+    <Name>Yarrock (contenedor con 100 dosis)</Name>
+    <Description>
+La especia conocida como yarroca se produce en Iridonia desde tiempo inmemorial, elaborada por chamanes para conceder a sus guerreros una claridad mental superior y tendencias agresivas. Aunque existen otras drogas en toda la galaxia que encajan en esta descripción, muchos guerreros fogueados responden con respeto, adulación o incluso temor ante la simple vista de los característicos gránulos negros que contienen yarroca. Bajo los efectos de esta sustancia, un soldado es implacable y puede ignorar tremendas penalidades físicas. Por desgracia, después de toda euforia viene el bajón, y esta droga no es ninguna excepción: cuando se agota la duración de una dosis, se produce el efecto inverso y cada paso se convierte en un viaje interminable hasta que el guerrero termina de metabolizar la sustancia o simplemente se desploma exhausto. Algunos dicen que la droga afecta a la mismísima alma de quien la consume, arrastrándola cada vez más hacia las sombras conforme pasa el tiempo, pero apenas se dispone de datos científicos que confirmen estos temores.
+[P]La yarroca dura una escena. Un personaje que está bajo los efectos de la yarroca no tiene que realizar tiradas de miedo; se considera que las supera automáticamente. Sin embargo, una vez consumida la yarroca, el personaje debe añadir [SE] a todas sus tiradas de Voluntad y Presencia hasta el final de la partida.
+[P]Restricciones: La yarroca es muy inusual, y por tanto muy pocos planetas tienen leyes que dicten su consumo, ya que los únicos cargamentos que llegan lo hacen a través del mercado negro.
+    </Description>
+    <Source Page="185">Edge of the Empire Core Rulebook</Source>
+    <Price>20000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <Rarity>9</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>DEATHSTDOSE</Key>
+    <Name>Pildoras letales (1 dosis)</Name>
+    <Description>
+Las píldoras letales son un desagradable invento derivado de la seta balo, del planeta Balosar, que se distribuye en forma líquida dentro de unas inconfundibles ampollas rojas y amarillas. Aunque se trata de una droga con propiedades alucinógenas muy leves, su nombre es más que apropiado: el ingrediente activo, la ixetal cilona, es sumamente adictivo y pernicioso para la salud. Cada dosis extingue una porción cada vez mayor de la vida del consumidor al tiempo que acrecienta la intensidad de la adicción. Las píldoras letales son ilegales por razones evidentes, y no son pocos los contrabandistas que, aun sin poner ningún reparo al tráfico de especia y armamentos ilegales, evitan los cargamentos de esta droga en particular aduciendo lo que ellos llaman "razones éticas". El consumo de píldoras letales también debilita temporalmente el vinculo de una persona con la Fuerza, aunque pocos consumidores e incluso traficantes conocen este dato.
+[P]Las píldoras letales tienen consecuencias muy desagradables a largo plazo, pero a no ser que la campaña se prolongue durante varias décadas o que un personaje lleve ya varios años enganchado, es poco probable que los PJ experimenten la deplorable muerte que provoca esta droga. Una adicción prolongada a las píldoras letales suele reducir a la mitad la esperanza de vida de la mayoría de las especies, aunque algunas son más o menos vulnerables a las propiedades de la ixetal cilona. Los efectos a corto plazo de una sola dosis duran una escena o encuentro de combate, y añaden [SE] a todas las tareas que intente realizar el personaje; a discreción del PJ, también pueden reducir la conexión del personaje con la Fuerza en ciertos aspectos.
+[P]Restricciones: Las píldoras letales son sustancias muy controladas en la mayoría de los planetas, y en el mejor de los casos solamente los mayores de edad pueden comprarlas. Son totalmente ilegales en casi todos los demás mundos, sobre todo en aquellos donde se valore especialmente la salud.
+    </Description>
+    <Source Page="185">Edge of the Empire Core Rulebook</Source>
+    <Price>5</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>0</Encumbrance>
+    <Rarity>1</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>DEATHSTCARGO</Key>
+    <Name>Pildoras letales (contenedor con 100 dosis)</Name>
+    <Description>
+Las píldoras letales son un desagradable invento derivado de la seta balo, del planeta Balosar, que se distribuye en forma líquida dentro de unas inconfundibles ampollas rojas y amarillas. Aunque se trata de una droga con propiedades alucinógenas muy leves, su nombre es más que apropiado: el ingrediente activo, la ixetal cilona, es sumamente adictivo y pernicioso para la salud. Cada dosis extingue una porción cada vez mayor de la vida del consumidor al tiempo que acrecienta la intensidad de la adicción. Las píldoras letales son ilegales por razones evidentes, y no son pocos los contrabandistas que, aun sin poner ningún reparo al tráfico de especia y armamentos ilegales, evitan los cargamentos de esta droga en particular aduciendo lo que ellos llaman "razones éticas". El consumo de píldoras letales también debilita temporalmente el vinculo de una persona con la Fuerza, aunque pocos consumidores e incluso traficantes conocen este dato.
+[P]Las píldoras letales tienen consecuencias muy desagradables a largo plazo, pero a no ser que la campaña se prolongue durante varias décadas o que un personaje lleve ya varios años enganchado, es poco probable que los PJ experimenten la deplorable muerte que provoca esta droga. Una adicción prolongada a las píldoras letales suele reducir a la mitad la esperanza de vida de la mayoría de las especies, aunque algunas son más o menos vulnerables a las propiedades de la ixetal cilona. Los efectos a corto plazo de una sola dosis duran una escena o encuentro de combate, y añaden [SE] a todas las tareas que intente realizar el personaje; a discreción del PJ, también pueden reducir la conexión del personaje con la Fuerza en ciertos aspectos.
+[P]Restricciones: Las píldoras letales son sustancias muy controladas en la mayoría de los planetas, y en el mejor de los casos solamente los mayores de edad pueden comprarlas. Son totalmente ilegales en casi todos los demás mundos, sobre todo en aquellos donde se valore especialmente la salud.
+    </Description>
+    <Source Page="185">Edge of the Empire Core Rulebook</Source>
+    <Price>250</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <Rarity>2</Rarity>
+    <Type>Black Market</Type>
+  </Gear>
+  <Gear>
+    <Key>DATABR</Key>
+    <Name>Extractor de datos</Name>
+    <Description>
+     Los extractores de datos son herramientas básicas del oficio para muchos piratas informáticos. Si bien los droides de piratería informática están programados para descifrar secuencias complejas, los seres orgánicos suelen carecer de esta capacidad innata, y por lo tanto han de recurrir a extractores de datos para llevar a cabo la ingrata tarea de acceder a sistemas computerizados en los que puedan lucir sus verdaderas habilidades. La mayoría de los extractores de datos poseen también funciones de grabación y pueden extraer ingentes cantidades de información de un sistema desprotegido en cuestión de segundos. Por el mismo precio indicado, un droide pirata informático puede optar por instalarse el dispositivo internamente. Los extractores de datos añaden [BO][BO] a todas las tiradas de Computadoras que realice el usuario para piratear una computadora (en vez del único [BO] que se suele recibir por contar con la herramienta adecuada para este trabajo). Restricciones: El Imperio y muchos gobiernos planetarios prohíben la posesión de tecnologías de sustracción de datos. Los cuerpos militares y las fuerzas de la ley las utilizan legalmente, pero lo normal es que estén vetadas a los civiles.
+    </Description>
+    <Source Page="186">Edge of the Empire Core Rulebook</Source>
+    <Price>1000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>6</Rarity>
+    <Type>Slicing Tools</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Adds [BOOST][BOOST] to any Computers check made to slice computers</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>FLESHCAM</Key>
+    <Name>Equipo de camuflaje de identidad</Name>
+    <Description>
+      El equipo de camuflaje de identidad es básicamente material de disfraz de alta tecnología; permite al usuario modificar su aspecto de manera temporal pero drástica, hasta tal punto que puede burlar escáneres biométricos, ocultar su secuencia genética o imitar la de otra persona que haya tenido la generosidad de "donar" una muestra. El disfraz es lo bastante eficaz como para fijar en Formidable ([DI][DI][DI][DI][DI]) la dificultad de todas las tiradas realizadas para identificar correctamente al usuario.
+[P]Restricciones: Muchos de los componentes de este kit son perfectamente legales si se venden por separado, pero la mayoría de las autoridades planetarias e imperiales ven con malos ojos la posesión de materiales que permitan al usuario enmascarar su verdadera identidad a nivel genético.
+    </Description>
+    <Sources>
+      <Source Page="186">Edge of the Empire Core Rulebook</Source>
+      <Source Page="193">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Price>2500</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>7</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>El disfraz es lo bastante eficaz como para fijar en Formidable ([DI][DI][DI][DI][DI]) la dificultad de todas las tiradas realizadas para identificar correctamente al usuario.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Gear>
+  <Gear>
+    <Key>PSF</Key>
+    <Name>Generador de campo de sigilo</Name> 
+    <Description>
+Como sugiere su nombre, los generadores de campo de sigilo personal son dispositivos miniaturizados que permiten al usuario desaparecer de la vista de criaturas orgánicas y de droides con sensores ópticos lo bastante agudos. La mayoría son reliquias de una era largo tiempo olvidada, aunque diversas organizaciones militares contemporáneas han tratado de emular esta tecnología.
+[P]Pese a ser indudablemente eficaces para quienes desean pasar inadvertidos, el principal defecto de la mayoría de los generadores de campo de sigilo personalizados radica en su tendencia a la avería. Los científicos postulan que ésta es una consecuencia inevitable del uso de tecnologías de miniaturización diseñadas para astronaves, de un fallo de diseño o de la antigüedad de muchas de las unidades que aún siguen estando operativas. En cualquier caso, pocos individuos tienen la suerte de poseer uno de estos dispositivos, y la mala fama que tiene su escasa fiabilidad hace que los usuarios potenciales se lo piensen dos veces antes de recurrir a ellos. Cuando se utiliza uno de estos aparatos, es imposible ver al usuario. Además, todas las tiradas realizadas para determinar su posición por otros medios como el oído, el olfato o una atenta observación del entorno tienen una dificultad Formidable ([DI][DI][DI][DI][DI]).
+[P]Restricciones: Los generadores de campo de sigilo personales son cada vez más raros, de modo que pocos gobiernos se molestan en imponer restricciones a su uso. Algunos son artefactos valiosísimos de eras pasadas, mientras que otros son tecnología militar robada y su legalidad viene dada por las circunstancias específicas de su creación. Naturalmente, las fuerzas de la ley no suelen tener en cuenta estas consideraciones cuando arrostan a quienes los utilizan con fines delictivos
+    </Description>
+    <Sources>
+      <Source Page="186">Edge of the Empire Core Rulebook</Source>
+      <Source Page="195">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Price>20000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>1</Encumbrance>
+    <Rarity>9</Rarity>
+    <Type>Security/Espionage</Type>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Cannot be seen visually.  All other means of detecting location use [B]Formidible ([DI][DI][DI][DI][DI]) difficulty[b].
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Gear>
+</Gears>

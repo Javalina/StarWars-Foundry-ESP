@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>HUTT</Key>
+  <Name>Hutt</Name>
+  <Description>
+Los hutts son gasterópodos grandes y longevos con una notable fuerza física y mental. Tienen forma de babosa, carecen de patas y, cuando alcanzan su tamaño adulto, se mueven con lentitud. Aunque los Hutts más infames de la galaxia tienden a ser gángsters y señores del crimen, se pueden encontrar Hutts en casi cualquier profesión. Las siguientes reglas describen la creación de un personaje que es un Hutt adulto joven, de sólo uno o dos siglos de edad.
+[P][B]Fisiología: [b]A medida que envejecen, los Hutts se hacen más grandes y, si son ricos y poderosos, más corpulentos. Dado que los Hutts pueden vivir más de mil años, los más viejos y poderosos son realmente corpulentos. Incluso un Hutt relativamente joven y vigoroso tiene un torso flexible y musculoso de unos dos o tres metros de longitud, coronado por una cabeza ancha con dos ojos enormes y una boca cavernosa. En comparación con el resto de su cuerpo, los brazos de los Hutt parecen rechonchos y cortos, aunque siguen siendo poderosos por derecho propio. 
+[P][B]Sociedad [b]La sociedad hutt gira en torno a la política de clan, y se espera que los hutt de la misma familia trabajen para mejorar el estatus del clan en su conjunto. La lealtad es importante, al igual que vengarse de cualquier desaire. Debido a su larga esperanza de vida, los hutts suelen ser pacientes y se sienten cómodos jugando a largo plazo en la mayoría de los asuntos. La mayoría de los hutts no valoran especialmente la vida o la libertad de las formas de vida no hutt, y la especie hutt mantiene a varias especies "menores" en un estado de esclavitud casi universal. Por supuesto, algunos hutts desafían estos estereotipos.
+[P]La mayoría de los clanes Hutt mantienen organizaciones familiares llamadas kajidics. Para un extraño, puede parecer que no hay diferencia entre una kajidic y un clan... y también puede parecer que no hay diferencia entre una kajidic y un imperio criminal. De hecho, muchos kajídicos están muy implicados en el comercio de esclavos, el tráfico de especias y otras formas de crimen interestelar; la reputación de los hutt como gánsteres despiadados es, en su mayoría, bien merecida. Un Hutt que no se une a la familia kajidic es un paria. No tiene un lugar apropiado en la sociedad hutt, y los demás hutts no saben cómo relacionarse con él.
+[P][B]Mundo natal:[b] Aunque originarios del mundo de Varl, los hutt hace tiempo que reclamaron un nuevo mundo natal: Nal Hutta, cuyo nombre significa "Joya Gloriosa" en huttés. Nal Hutta es, en su mayor parte, un páramo contaminado y pantanoso, de escaso interés para todos excepto para los hutt. Sin embargo, la quinta luna de Nal Hutta, Nar Shaddaa, es un importante puerto espacial y centro comercial.
+Idioma La lengua hutt, el huttés, es hablada por seres sensibles de toda la galaxia. Es una importante lengua comercial cuya universalidad rivaliza con el básico galáctico, especialmente en el Borde Exterior y el Espacio Hutt. Los hutts son perfectamente capaces de aprender a hablar Basic, o casi cualquier otro idioma, pero algunos hutts deciden no hacerlo (o fingir que no lo hacen) para establecer su dominio. Muchos hutts usan traductores, ya sean droides o "sirvientes".
+[P][B]Vida al margen:[b] Los hutts maduros y adinerados evitan el trabajo físico por una cuestión de estatus, pero los más jóvenes, deseosos de hacerse un nombre, a veces destacan como guerreros, donde su gran fuerza física es una ventaja. Intrigantes y negociadores por naturaleza, los hutts son buenos comerciantes, políticos y, por supuesto, criminales. Las obligaciones de los Hutt suelen estar relacionadas con su clan de origen o con las razones que les llevaron a separarse de él.
+  </Description>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>13</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>70</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>ENDUR</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+    <TalentModifier>
+      <Key>NOBFOOL</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>HUTTOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>HUTTOC1OP1</Key>
+          <Name>Coercion</Name>
+          <Description>Hutts may begin the game with one rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>HUTTOC1OP2</Key>
+          <Name>Discipline</Name>
+          <Description>Hutts may begin the game with one rank in Discipline.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DISC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>HUTTOC2</Key>
+      <Name>Movement</Name>
+      <Options>
+        <Option>
+          <Key>HUTTOC2OP1</Key>
+          <Name>Ponderous</Name>
+          <Description>A Hutt can never spend more than one maneuver moving per turn.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,1266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAttachments>
+  <!-- Jury Rigged -->
+  <ItemAttachment>
+    <Key>JURYRIGGEDW</Key>
+    <Name>Jury Rigged (Weapon)</Name>
+    <Description>
+      [H3]Jury Rigged (Weapon)[h3]
+      Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="138">Edge of the Empire Core Rulebook</Source>
+      <Source Page="150">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <Price>0</Price>
+    <HP>0</HP>
+    <JuryRigged>true</JuryRigged>
+    <BaseMods>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>CRITSUB</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>ENCSUB2</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>QUALADVSUB</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>JURYRIGGEDA</Key>
+    <Name>Jury Rigged (Armor)</Name>
+    <Description>
+      [H3]Jury Rigged (Armor)[h3]
+      Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="138">Edge of the Empire Core Rulebook</Source>
+      <Source Page="150">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <Price>0</Price>
+    <HP>0</HP>
+    <JuryRigged>true</JuryRigged>
+    <BaseMods>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>MELEEDEFADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>RANGEDEFADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>ENCSUB2</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <!-- Weapon Attachments-->
+  <ItemAttachment>
+    <Key>AUGSPIN</Key>
+    <Name>Cañon de alta potencia</Name>
+    <Description>
+      Este cañón personalizado sigue un patrón galven actualizado y optimizado, combinado con resistentes adaptadores de impulso para incrementar el daño y la penetración de blindajes de fusiles blaster y fusiles blaster pesados. La desventaja de este aumento en el poder de detención estriba en un desgaste y deterioro paulatinos del armazón del bláster y del cañón, lo que requiere un mantenimiento continuado. Este accesorio sólo se puede instalar en fusiles blaster y fusiles bláster pesados.
+[P]Modelos de ejemplo: Cañón de alta potencia Penetrador 243X de Dolmax, cañón Fulminante HH780 de Arakyd, cañón Perforador 213 de BlasTech.
+[P]Modificadores básicos: Aumenta en 1 punto el daño del arma. Añade [se] a todas las tiradas de Mecánica realizadas para las tareas de mantenimiento del arma.
+[P]Opciones de modificación: 2 modificaciones de +1 al daño, 1 modificación de propiedad de arma (Precisa + 1), 1 modificación de propiedad de arma (Perforante + 1). Ensamblajes necesarios: 2. Precio: 1.750 créditos.
+    </Description>
+    <Type>Weapon</Type>
+    <Sources>
+      <Source Page="188">Edge of the Empire Core Rulebook</Source>
+      <Source Page="200">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <CategoryLimit>
+      <Category>Blaster Rifle</Category>
+      <Category>Heavy Blaster Rifle</Category>
+    </CategoryLimit>
+    <Price>1750</Price>
+    <Rarity>4</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <MiscDesc>
+          Add [SETBACK] to all Mechanics checks when performing
+          maintenance on this weapon.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>BALHILT</Key>
+    <Name>Empuñadura equilibrada</Name>
+    <Description>
+      El equilibrio es la clave para un arma de combate cuerpo a cuerpo bien construida. Los armeros profesionales pueden utilizar modernos materiales ultraligeros para forjar una espada o hacha que no sólo sea ligera, sino también más precisa en manos de un guerrero diestro. Este accesorio puede instalarse en cualquier arma de combate cuerpo a cuerpo.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Concede al arma la propiedad Precisa + 1.
+[P]Opciones de modificación: 1 modificación de propiedad de arma (Precisa + 1), 1 modificación para reducir en 1 punto el impedimento del arma (hasta un mínimo de 1). Ensamblajes necesarios: 2.
+[P]Precio: 1.500 créditos.
+    </Description>
+    <Sources>
+      <Source Page="188">Edge of the Empire Core Rulebook</Source>
+      <Source Page="200">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <TypeLimit>
+      <Type>Melee</Type>
+    </TypeLimit>
+    <Price>1500</Price>
+    <Rarity>5</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>ENCSUB</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>BLASTACT</Key>
+    <Name>Módulo de inducción bláster</Name>
+    <Description>
+      El modulo de inducción es una modificación muy popular entre mercenarios, cazarrecompensas y todo aquel que necesite anotarse un primer impacto decisivo. Este accesorio se puede adaptar a casi cualquier pistola blåster; consiste en una simple mejora del modulo de inducción con un soporte lógico personalizado y un acelerador electromagnético de gran intensidad que permite efectuar disparos más potentes con mayor capacidad de penetración. Por desgracia, este exceso de potencia deteriora el arma, y los blásteres que tienen instalada esta modificación tienden a fallar cada vez más con el uso prolongado. Este accesorio sólo se puede instalar en pistolas blåster que se utilicen con la habilidad Armas a distancia ligeras.
+[P]﻿Modelos de ejemplo: Módulo de inducción Martillo X440 de SoroSuub, actuador de bläster pesado de Dolmax, mōdulo de inducción mejorado 97R de Arakyd.
+[P]Modificadores básicos: Aumenta en 1 punto el daño del arma. Añade [SE] a todas las tiradas de Armas a distancia ligeras cuando se utiliza esta arma.
+[P]Opciones de modificación: 2 modificaciones de + 1 al daño, 2 modificaciones de propiedad de arma (Perforante + 1). Ensamblajes necesarios: 1. Precio: 500 créditos.
+    </Description>
+    <Sources>
+      <Source Page="188">Edge of the Empire Core Rulebook</Source>
+      <Source Page="200">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Blaster Pistol</Category>
+      <Category>Heavy Blaster Pistol</Category>
+    </CategoryLimit>
+    <Price>500</Price>
+    <Rarity>4</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>SETBACKADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+
+  <ItemAttachment>
+    <Key>STUNONLYBLASTER</Key>
+    <Name>Modificación del blaster "Solo aturdir"</Name>
+    <Description>
+      [H3]Stun-Only Blaster Modification[h3]
+      Add this attachment to any blaster pistol or carbine to make it stun-only.  A blaster with this modification costs half the normal price.
+    </Description>
+    <Sources>
+      <Source Page="160">Edge of the Empire Core Rulebook</Source>
+      <Source Page="174">Age of Rebellion Core Rulebook</Source>
+      <Source Page="167">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Blaster Carbine</Category>
+      <Category>Blaster Pistol</Category>
+    </CategoryLimit>
+    <Price>0</Price>
+    <Rarity>1</Rarity>
+    <HP>0</HP>
+    <BaseMods>
+      <Mod>
+        <Key>REMQUALSTUNSETTING</Key>
+      </Mod>
+      <Mod>
+        <Key>STUNDAMAGE</Key>
+      </Mod>
+      <Mod>
+        <Key>PRICEHALF</Key>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+
+  <ItemAttachment>
+    <Key>BIPOD</Key>
+    <Name>Bipode</Name>
+    <Description>
+      Los bípodes son poco más que un par de patas plegables o desmontables que se sitúan bajo el cañón de las armas largas más pesadas o aparatosas para estabilizarlas y mejorar su precisión al disparar. Son especialmente utiles cuando se abre fuego desde un parapeto de baja altura o tendido en el suelo. Por lo general se instalan en armas de apoyo de escuadra o en las armas de precisión de francotiradores para afianzarlas. Este accesorio solamente se puede equipar en fusiles, carabinas y blasteres ligeros de repetición, y hay que llevar a cabo 1 maniobra de preparación para desplegarlo. Modelos de ejemplo: Bipode clásico XA de Armamento Galáctico, bipode de tirador AA20 de Czerka.
+[P]Modificadores básicos: Reduce en 2 la propiedad Aparatosa del arma cuando se dispara tumbado, en cuclillas o con el bipode apoyado de cualquier otro modo sobre una superficie sólida.
+[P]Opciones de modificación: Ninguna.
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 100 créditos.
+    </Description>
+    <Sources>
+      <Source Page="188">Edge of the Empire Core Rulebook</Source>
+      <Source Page="200">Age of Rebellion Core Rulebook</Source>
+      <Source Page="192">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+      <Key>BLASTLTREP</Key>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Rifle</Category>
+      <Category>Heavy Rifle</Category>
+      <Category>Carbine</Category>
+    </CategoryLimit>
+    <Price>100</Price>
+    <Rarity>1</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>-2</Count>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>BOWREC</Key>
+    <Name>Tensor automático para ballestas</Name>
+    <Description>
+Hay pocas armas en la galaxia tan características de una especie como lo es la ballesta läser wookiee. Su utilización requiere una fuerza fisica extraordinaria, sobre todo para cargarla y amartillarla antes de cada disparo. Recargar una ballesta láser es un proceso arduo y prolongado, pero los tensores automáticos facilitan la tarea. Esta modificación conlleva una mejora del modelo básico del arma con varios sistemas potenciados y un cargador de munición que permiten disparar, volver a tensar y recargar la ballesta con un solo movimiento rápido. Estos accesorios sólo pueden instalarse en ballestas láser wookiees, y no están a la venta; el dueño del arma debe construirlos superando una tirada Media ([DI][DI]) de Mecánica o encargárselos al maestro armero que le fabricó la ballesta.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Elimina la necesidad de llevar a cabo 1 maniobra para recargar la ballesta laser.
+[P]Opciones de modificación: 1 modificación de propiedad de arma (Automática).
+[P]Ensamblajes necesarios: 1.
+[P]Precio: No está a la venta, pero los componentes necesarios cuestan 500 créditos.
+    </Description>
+    <Source Page="189">Edge of the Empire Core Rulebook</Source>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Bowcaster</Category>
+    </CategoryLimit>
+    <Price>500</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Removes reloading maneuver requirement from bowcaster.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>AUTOFIRE</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>BOWACC</Key>
+    <Name>Acelerador de ballesta mejorado</Name>
+    <Description>
+      Construido con piezas de blaster y algún que otro componente del generador de un elevador de repulsión, la mejora del acelerador es la segunda modificación más habitual en las ballestas láser wookiees después del tensor automático. Consiste básicamente en una mejora de los mecanismos aceleradores que disparan los destructivos virotes de la ballesta, propulsandolos con más potencia que los modelos de serie. Estos accesorios sólo pueden instalarse en ballestas láser wookiees, y no están a la venta; el dueño del arma debe construirlos superando una tirada Media ([DI][DI]) de Mecánica o encargárselos al maestro armero que le fabricó la ballesta.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Aumenta en 1 punto el daño del arma.
+[P]Opciones de modificación: 2 modificaciones de + 1 al daño, 2 modificaciones de propiedad de arma (Perforante + 1). Ensamblajes necesarios: 1.
+[P]Precio: No está a la venta, pero los componentes necesarios cuestan 250 créditos.
+    </Description>
+    <Source Page="189">Edge of the Empire Core Rulebook</Source>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Bowcaster</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>4</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>FFS</Key>
+    <Name>Limado de mira</Name>
+    <Description>
+      Esta modificación es un viejo truco de asesino que consiste simplemente en rebajar la mira frontal de una pistola bláster limándola por completo. Se trata de una modificación muy común en los blasteres de bolsillo además de borrarle el número de serie. Limar la mira frontal del arma permite desenfundarla con mayor rapidez y minimiza el riesgo de que se enganche en la ropa. Por desgracia, aunque esta modificación facilita la ocultación y el desenfundado del arma, también reduce su precisión al perder un punto de referencia con el que apuntar. Esta modificación sólo se puede instalar en armas del tamaño de una pistola. Para hacerla uno mismo se requiere una tirada Media ([DI][DI]) de Mecánica; el precio indicado es lo que cuesta encargarle a otro la modificación.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Talento innato (Desenfundado rápido), aumenta en 1 la dificultad de las tiradas de combate contra objetivos situados más allá del corto alcance. Opciones de modificación: 1 modificación para reducir en 1 la dificultad de las tiradas realizadas para ocultar el arma. Ensamblajes necesarios: 1. Precio: 25 créditos.
+    </Description>
+    <Sources>
+      <Source Page="190">Edge of the Empire Core Rulebook</Source>
+      <Source Page="201">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Pistol</Category>
+    </CategoryLimit>
+    <Price>25</Price>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Increases the difficulty of combat checks to hit targets at
+          ranges beyond Short range by one.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>QUICKDR</Key>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <MiscDesc>Decreases the difficulty of checks to conceal the weapon by one.</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>FAG</Key>
+    <Name>Empuñadura frontal</Name>
+    <Description>
+      Las empuñaduras frontales son simples asideros verticales que se instalan bajo el cañón de los fusiles y otras armas de tamaño similar. Es una modificación muy popular entre los mercenarios y proporciona al usuario más control sobre el arma. Este accesorio sólo se puede instalar en fusiles (pero no en fusiles pesados) y carabinas.
+[P]Modelos de ejemplo: Empuñadura frontal modelo 9 de Armamento Galáctico, empuñadura de pistola desmontable 14A de Dolmax, empuñadura táctica ergonómica AG44S de Merr-Sonn.
+[P]Modificadores básicos: Reduce la dificultad adicional de las tiradas de Armas a distancia pesadas que se efectúan desde una interacción a sólo [DI] (en vez de [DI][DI])
+[P]Opciones de modificación: 1 modificación de talento innato (A quemarropa + 1 rango), 1 modificación de propiedad de arma (Precisa + 1). Ensamblajes necesarios: 1. Precio: 250 créditos.
+    </Description>
+    <Sources>
+      <Source Page="190">Edge of the Empire Core Rulebook</Source>
+      <Source Page="201">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Rifle</Category>
+      <Category>Carbine</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>1</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Decreases the additional difficulty of making Ranged (Heavy)
+          checks with this weapon while engaged to an
+          additional [DIFFICULTY] (rather than [DIFFICULTY][DIFFICULTY]).
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>POINTBL</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>MB</Key>
+    <Name>Cañon de precisión</Name>
+    <Description>
+      El cañon KX756 de Merr-Sonn fue diseñado para satisfacer las exigencias del fronterizo para quien la precisión a distancias largas es una necesidad. Muy popular entre asesinos y cazarrecompensas, este tipo de cañón mide casi dos metros de largo y está hecho de materiales livianos. Viene equipado con adaptadores de pulso estático mejorados y un patrón de circuitos galven más denso de lo normal que no sólo incrementa el alcance del arma, sino también su precisión. La desventaja de esta mejora radica en que el arma se vuelve algo aparatosa y resulta casi imposible ocultarla debido a ﻿la longitud del cañón. Esta modificación solamente puede instalarse en fusiles bláster.
+[P]Modelos de ejemplo: Cañón de precisión KX756 de MerrSonn, cañón WQ80 Tiro Lejano de SoroSuub, cañón de tirador Ojo de Halcón 3300 de Arakyd.
+[P]Modificadores básicos: Aumenta en 1 intervalo el alcance del arma, que además gana la propiedad Aparatosa 2. Opciones de modificación: 2 modificaciones de propiedad de arma (Precisa + 1), 1 modificación de talento innato (Disparo de precisión).
+[P]Ensamblajes necesarios: 2. Precio: 1.200 créditos.
+    </Description>
+    <Sources>
+      <Source Page="190">Edge of the Empire Core Rulebook</Source>
+      <Source Page="202">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Blaster Rifle</Category>
+    </CategoryLimit>
+    <Price>1200</Price>
+    <Rarity>4</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>RANGEADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>2</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>SNIPSHOT</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>ACCURATE</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>MME</Key>
+    <Name>Filo monomolecular</Name>
+    <Description>
+      Incluso las vibroarmas pueden beneficiarse de un filo capaz de cortar a nivel molecular y endurecido mediante procedimientos de forja láser. Esta modificación sólo se puede instalar en armas de combate cuerpo a cuerpo provistas de filo.
+[P]Modelos de ejemplo: Ninguno indicado.
+[P]Modificadores básicos: Reduce en 1 el valor de crítico del arma (hasta un minimo de 1).
+[P]Opciones de modificación: 2 modificaciones de propiedad de arma (Perforante + 1). Ensamblajes necesarios: 1. Precio: 1.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="190">Edge of the Empire Core Rulebook</Source>
+      <Source Page="202">Age of Rebellion Core Rulebook</Source>
+      <Source Page="194">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Cutting Edge Melee</Category>
+    </CategoryLimit>
+    <Price>1000</Price>
+    <Rarity>5</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>CRITSUB</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>MOS</Key>
+    <Name>Mira multióptica</Name>
+    <Description>
+      La mira multióptica es un artilugio complejo y sofisticado, una maravilla de la moderna tecnología de sensores. Diseñada para el soldado profesional de gustos refinados, cada mira consiste en un voluminoso visor óptico montado sobre el arma y equipado con numerosos sensores: amplificación de luz, termografía, ultrasonidos, emisores de onda milimétrica, captura de vídeo y todas las mejoras ópticas habituales. El dispositivo está conectado a unas gafas mediante un cable reforzado de fibra óptica que transmite las señales visuales directamente al usuario en tiempo real. Esto le permite ver alrededor de esquinas y por encima de obstáculos. Este accesorio se puede instalar en cualquier arma de combate a distancia.
+[P]Modelos de ejemplo: Visor de combate modelo 44 de Armamento Galáctico, omnimira XAD de SoroSuub, mira multióptica Contempladora 480.z1 de Merr-Sonn.
+[P]Modificadores básicos: Elimina hasta [SE][SE] de todas las tiradas realizadas al usar el arma en condiciones de humo, oscuridad y demás circunstancias del entorno que obstruyan la visión.
+[P]Opciones de modificación: 2 modificaciones de habilidad (Percepción).
+[P]Ensamblajes necesarios: 1. Precio: 2.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="202">Age of Rebellion Core Rulebook</Source>
+      <Source Page="51">Savage Spirits</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Ranged</Category>
+    </CategoryLimit>
+    <Price>2000</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Removes up to [SETBACK][SETBACK]  on any checks
+          to use this weapon due to smoke, darkness, or other
+          environmental conditions that obstruct vision.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>PERC</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SB</Key>
+    <Name>Cañon de dispersión</Name>
+    <Description>
+      El cañón Dispersor de BlasTech suele instalarse en fusiles y carabinas blaster, y es una modificación muy habitual entre fronterizos y viajeros espaciales. Diseñado específicamente para el combate a corta distancia, este accesorio sustituye el cañón de serie del blaster por una versión recortada, más ﻿voluminosa y de boca ancha, equipada con un supresor de fogonazos integrado. Empleando un conjunto de cristales prismáticos ubicados en el extremo del cañón y también un patrón galven reconfigurado, el cañon divide el haz del bláster en una serie de rayos más finos que se esparcen al disparar. Si se utiliza en un lugar cerrado, estos rayos pueden alcanzar a varios objetivos apretando una sola vez el gatillo. No obstante, tiene el inconveniente de reducir el alcance del arma. Este accesorio sólo se puede instalar en fusiles y carabinas bláster.
+[P]Modelos de ejemplo: Cañón Dispersor 8405 de BlasTech, cañón Bocarda 800 de SoroSuub, cañón de dispersión Relámpago Encadenado modelo 70 de Arakyd.
+[P]Modificadores básicos: Concede al arma la propiedad Explosion 4 y reduce su alcance en 1 intervalo (hasta un alcance mínimo de interacción).
+[P]﻿Opciones de modificación: 2 modificaciones de propiedad
+[P]de arma (Explosion + 1). Ensamblajes necesarios: 2. Precio: 1.725 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="203">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Blaster Rifle</Category>
+      <Category>Blaster Carbine</Category>
+    </CategoryLimit>
+    <Price>1725</Price>
+    <Rarity>4</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>RANGESUB</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>BLAST</Key>
+        <Count>4</Count>
+        <QualSet>true</QualSet>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>BLAST</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SE</Key>
+    <Name>Filo serrado</Name>
+    <Description>
+      La simplicidad de esta modificación es directamente proporcional a su letalidad. Añadir un filo serrado a un arma es algo que puede hacer casi cualquiera, y un arma cortante con el filo dentado es capaz de causar daños terribles en la carne y el hueso. Esta modificación sólo se puede instalar en armas de combate cuerpo a cuerpo provistas de filo.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Concede al arma la propiedad Letal + 1.
+[P]Opciones de modificación: Ninguna. Ensamblajes necesarios: 1.
+[P]Precio: 50 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="203">Age of Rebellion Core Rulebook</Source>
+      <Source Page="194">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <CategoryLimit>
+      <Category>Cutting Edge Melee</Category>
+    </CategoryLimit>
+    <Price>50</Price>
+    <Rarity>1</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SWC</Key>
+    <Name>Personalización superior del arma</Name>
+    <Description>
+      Incluso el arma más simple puede beneficiarse del talento de un artesano. Un armero competente puede modificar un arma siguiendo las especificaciones de su propietario, convirtiendo un utensilio tosco en una herramienta de muerte y destrucción.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: Concede al arma la propiedad Superior.
+[P]Opciones de modificación: Ninguna. Ensamblajes necesarios: 1.
+[P]Precio: 5.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="203">Age of Rebellion Core Rulebook</Source>
+      <Source Page="194">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <Price>5000</Price>
+    <Rarity>6</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>SUPERIOR</Key>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SHB</Key>
+    <Name>Cañon recortado</Name>
+    <Description>
+      Los cañones recortados son una modificación muy mañosa realizada por espías, agentes de incógnito y todo el que necesite ocultar un arma. Este accesorio es un simple cañón de reemplazo, más corto que el de serie, y permite ocultar una pistola con facilidad y desenfundarla más rápidamente. Este accesorio solamente se puede instalar en pistolas que se utilicen con la habilidad Armas a distancia ligeras.
+[P]Modelos de ejemplo: Cañón corto SB4 de Arakyd, cañón de longitud reducida SBSS de SoroSuub.
+[P]Modificadores básicos: Reduce en 1 la dificultad de las tiradas realizadas para ocultar esta arma. También reduce su alcance en 1 intervalo, hasta un mínimo de corto alcance. Si el arma ya era de corto alcance, se añade [SE] a las tiradas de ataque.
+[P]Opciones de modificación: 1 modificación de talento innato (Desenfundado rápido).
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 250 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="203">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Pistol</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>4</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Reduces the difficulty of checks made to conceal
+          this weapon by 1.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>RANGESUB</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>QUICKDR</Key>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>UBGL</Key>
+    <Name>Lanzagranadas acoplado</Name>
+    <Description>
+      Los lanzagranadas acoplados bajo el cañón están diseñados para proveer a soldados o escuadras militares de armamento pesado contra infantería y armamento ligero contra vehículos en un solo paquete de tamaño reducido. El accesorio consiste en un cañón simple de anima lisa con un cargador automático integrado. Tiene capacidad para un máximo de 6 granadas y se dispara con solo oprimir un botón. Sin embargo, aumenta el peso del arma a la que se acopla, desequilibrandola a la altura del cañón. Este accesorio solamente se puede instalar en fusiles y armas de tamaño similar que se utilicen con la habilidad Armas a distancia pesadas.
+[P]Modelos de ejemplo: Lanzagranadas acoplado modelo Estruendoso de Czerka, lanzagranadas auxiliar XA203 de SoroSuub, lanzagranadas acoplado Vibora de Control de Zonas.
+[P]Modificadores básicos: Permite que el arma dispare granadas. Para resolver el ataque se utiliza el perfil de puntuaciones de la granada, pero se dispara con la habilidad Armas a distancia pesadas y tiene alcance medio. También añade la propiedad Aparatosa + 1 al arma y aumenta su impedimento en 2 puntos. Cabe señalar que las granadas poseen la propiedad Munición limitada 1, que por tanto se debe aplicar también al lanzagranadas.
+[P]Opciones de modificación: 5 modificaciones de propiedad de arma (Munición limitada + 1). Ensamblajes necesarios: 2. Precio: (R) 2.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="191">Edge of the Empire Core Rulebook</Source>
+      <Source Page="205">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Rifle</Category>
+      <Category>Heavy Rifle</Category>
+      <Category>Carbine</Category>
+    </CategoryLimit>
+    <Price>2000</Price>
+    <Rarity>5</Rarity>
+    <Restricted>true</Restricted>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Weapon can fire grenades using the grenade profile, Ranged (Heavy) skill, and has Medium range.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>ENCADD</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>LIMITEDAMMO</Key>
+        <Count>5</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>UBFP</Key>
+    <Name>Lanzallamas acoplado</Name>
+    <Description>
+      El Tormenta de Fuego de Czerka es un lanzallamas acoplado pequeño, poco común pero sumamente eficaz, diseñado para proporcionar potencia adicional a un soldado de infantería en distancias cortas. Es ilegal en muchos planetas y estă clasificado como arma de terrorismo, por lo que únicamente suelen emplearlas los individuos más crueles o desesperados. Este accesorio sólo se puede instalar en fusiles y armas de tamaño similar.
+[P]Modelos de ejemplo: Lanzallamas acoplado Tormenta de Fuego de Czerka, lanzallamas Fuego Solar XR14 de Merr-Sonn, lanzallamas auxiliar Infierno de SoroSuub. Modificadores básicos: Permite disparar el arma utilizando el siguiente perfil a elección del usuario: (Armas a distancia pesadas; daño 10; crítico 2; corto alcance; Explosión 2, Incendiaria 5). También añade la propiedad Aparatosa + 1 al arma.
+[P]Opciones de modificación: Ninguna. Ensamblajes necesarios: 2.
+[P]Precio: (R) 3.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="192">Edge of the Empire Core Rulebook</Source>
+      <Source Page="204">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Rifle</Category>
+      <Category>Heavy Rifle</Category>
+      <Category>Carbine</Category>
+    </CategoryLimit>
+    <Price>3000</Price>
+    <Rarity>5</Rarity>
+    <Restricted>true</Restricted>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Adds a flame projector to the weapon.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+    <WeaponModifiers>
+      <WeaponModifier>
+        <Unarmed>false</Unarmed>
+        <UnarmedName>Flame Projector</UnarmedName>
+        <SkillKey>RANGHVY</SkillKey>
+        <AllSkillKey />
+        <Damage>10</Damage>
+        <DamageAdd>0</DamageAdd>
+        <Crit>2</Crit>
+        <CritSub>0</CritSub>
+        <RangeValue>wrShort</RangeValue>
+        <Qualities>
+          <Quality>
+            <Key>BURN</Key>
+            <Count>5</Count>
+          </Quality>
+          <Quality>
+            <Key>BLAST</Key>
+            <Count>2</Count>
+          </Quality>
+        </Qualities>
+      </WeaponModifier>
+    </WeaponModifiers>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>TOS</Key>
+    <Name>Mira óptica telescópica</Name>
+    <Description>
+      Popular entre tiradores de élite y francotiradores, este accesorio consiste en un tubo alargado que se instala en la parte superior del arma, y en cuyo interior hay varias lentes en diversas configuraciones protegidas por un revestimiento antichoque. La mira resultante amplía la imagen para efectuar disparos a largas distancias. Este accesorio puede instalarse en cualquier arma de combate a distancia, a excepción de las armas de un solo uso (como las granadas) y de otras que por lógica no podrían beneficiarse de una mira (como los lanzallamas).
+[P]Modelos de ejemplo: Mira telescópica 80Z de Merr-Sonn, visor de precisión modelo 40 de Óptica Zikon.
+[P]Modificadores básicos: Reduce en 1 la dificultad de las tiradas de combate a distancia realizadas a alcances largo y extremo.
+[P]Opciones de modificación: Ninguna. Ensamblajes necesarios: 1.
+[P]Precio: 250 créditos.
+    </Description>
+    <Sources>
+      <Source Page="192">Edge of the Empire Core Rulebook</Source>
+      <Source Page="203">Age of Rebellion Core Rulebook</Source>
+      <Source Page="195">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Ranged</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>1</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DIFFSUBLONGEXT</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>TRIPOD</Key>
+    <Name>Tripode</Name>
+    <Description>
+      Diseñados para utilizarlos con las armas portátiles más pesadas de todas, los trípodes son un accesorio muy corriente en las escuadras equipadas con armamento pesado. Se utilizan en posiciones artilladas fijas como soporte para armas de apoyo pesadas como el blaster pesado de repetición E-Web del ejército imperial, para lo que hacen uso de varias tecnologías diferentes (desde servos hidráulicos retráctiles hasta repulsores miniaturizados de baja potencia) para estabilizar las piezas y poder dispararlas de manera segura. Este accesorio sólo se puede instalar en blásteres de repetición tanto ligeros como pesados, así como en cualquier arma portátil que se utilice con la habilidad Artillería. Para desplegar y montar un trípode es necesario llevar a cabo 2 maniobras de preparación.
+[P]Modelos de ejemplo: Trípode 3R para armamento pesado de BlasTech.
+[P]Modificadores básicos: Reduce en 3 la propiedad Aparatosa del arma cuando se monta sobre el trípode. Una vez montada, el arma no puede moverse, tan sólo pivotar sobre su eje.
+[P]Opciones de modificación: 2 modificaciones de propiedad de arma (Aparatosa -1).
+[P]Ensamblajes necesarios: 2. Precio: 250 créditos.
+    </Description>
+    <Sources>
+      <Source Page="193">Edge of the Empire Core Rulebook</Source>
+      <Source Page="204">Age of Rebellion Core Rulebook</Source>
+      <Source Page="195">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+      <Key>BLASTLTREP</Key>
+      <Key>BLASTHVYREP</Key>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Portable Gunnery</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>3</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>-3</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>-2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>WEPSLING</Key>
+    <Name>Portafusil</Name>
+    <Description>
+      Un portafusil es una correa de cuero o tejido sintético diseñada para facilitar el manejo de armas largas como fusiles blaster y lanzaproyectiles. Se producen en una infinidad de formatos distintos, desde simples correas ajustables para colgarse el arma del hombro hasta arneses y bandoleras de varias piezas fabricadas con materiales especializados que se prestan a toda clase de personalizaciones. Estos accesorios solamente se pueden instalar en las armas que se utilizan con la habilidad Armas a distancia pesadas.
+[P]Modelos de ejemplo: Correa de cuero de bantha personalizada, portafusil táctico de tres puntos, portafusil de un punto de desabrochado rápido.
+[P]Modificadores básicos: Reduce en 1 la propiedad Aparatosa del arma.
+[P]Opciones de modificación: 1 modificación de talento innato (Desenfundado rápido).
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 100 créditos.
+    </Description>
+    <Sources>
+      <Source Page="193">Edge of the Empire Core Rulebook</Source>
+      <Source Page="205">Age of Rebellion Core Rulebook</Source>
+      <Source Page="195">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <SkillLimit>
+      <Key>RANGHVY</Key>
+    </SkillLimit>
+    <Price>100</Price>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>-1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>QUICKDR</Key>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>WEPHARN</Key>
+    <Name>Arnés estabilizador</Name>
+    <Description>
+      Los arneses estabilizadores, diseñados para permitir a un único ser vivo utilizar las armas portátiles más pesadas sin ningún tipo de soporte, son accesorios muy difíciles de encontrar en los territorios del Borde Exterior. Cada unidad se lleva ceñida a los hombros y asegurada al torso mediante sujeciones, y consiste en una serie de cinchas y correajes de carga conectados a un servobrazo extensible provisto de giroestabilizador propio al que se acopla un arma pesada. El arnés funciona con una diminuta unidad de alimentación recargable, y ofrece al usuario mayor fuerza y estabilidad para manipular armamento pesado. Este accesorio sólo se puede instalar en armas que se utilicen con las habilidades Armas a distancia pesadas y Artillería.
+[P]Modelos de ejemplo: Arnés de combate WW480 Goliat de Arakyd, arnés potenciado HR12 de Armamento Galáctico, servosoporte de armas pesadas Pequeño Gigante de SoroSuub.
+[P]Modificadores básicos: Reduce en 2 la propiedad Aparatosa del arma.
+[P]Opciones de modificación: 1 modificación de talento innato (Firmeza).
+[P]Ensamblajes necesarios: 2. Precio: 500 créditos.
+    </Description>
+    <Sources>
+      <Source Page="193">Edge of the Empire Core Rulebook</Source>
+      <Source Page="205">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <SkillLimit>
+      <Key>RANGHVY</Key>
+      <Key>GUNN</Key>
+    </SkillLimit>
+    <Price>500</Price>
+    <Rarity>2</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>CUMBERSOME</Key>
+        <Count>-2</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>BRA</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>WEIGHTHEAD</Key>
+    <Name>Peso añadido</Name>
+    <Description>
+      A veces la eficacia de las armas diseñadas para golpear a un enemigo hasta matarlo o dejarlo inconsciente puede incrementarse si se añade peso adicional a la superficie de contacto. Esto puede conseguirse utilizando materiales más pesados en su fabricación o simplemente añadiendo herrajes o bandas de metal al extremo con que se golpea. En ciertas armas de pelea se puede reforzar la zona de los nudillos para conseguir un efecto similar. Este accesorio sólo se puede instalar en armas contundentes que se utilicen con las habilidades Pelea o Armas cuerpo a cuerpo.
+[P]Modelos de ejemplo: Ninguno.
+[P]Modificadores básicos: +1 al daño.
+[P]Opciones de modificación: 1 modificación de + 1 al daño, 1 modificación de propiedad de arma (Conmocionadora + 1). Ensamblajes necesarios: 2.
+[P]Precio: 250 créditos.
+    </Description>
+    <Sources>
+      <Source Page="193">Edge of the Empire Core Rulebook</Source>
+      <Source Page="205">Age of Rebellion Core Rulebook</Source>
+      <Source Page="195">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Weapon</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Bludgeoning Melee</Category>
+      <Category>Bludgeoning Brawl</Category>
+    </CategoryLimit>
+    <Price>250</Price>
+    <Rarity>3</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>CONCUSSIVE</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+
+  <!-- Armor Attachments -->
+  <ItemAttachment>
+    <Key>CW</Key>
+    <Name>Tejido de cortosis</Name>
+    <Description>
+      Aunque no es muy habitual, y de hecho se considera arcaico en los tiempos que corren, algunos fabricantes de blindajes añaden una subcapa de singular tejido de cortosis bajo la superficie de sus equipos de protección. Esto suele reforzar el blindaje contra daños penetrantes, sobre todo los causados por armas de energia, aunque no suele bastar para compensar su elevado precio.
+[P]Modelos de ejemplo: Numerosas variedades.
+[P]Modificadores básicos: El blindaje adquiere la propiedad Cortosis.
+[P]Opciones de modificación: Ninguna.
+[P]Ensamblajes necesarios: 2.
+[P]Precio: 10.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="194">Edge of the Empire Core Rulebook</Source>
+      <Source Page="205">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <Price>10000</Price>
+    <Rarity>8</Rarity>
+    <HP>2</HP>
+    <ItemLimit>
+    </ItemLimit>
+    <BaseMods>
+      <Mod>
+        <Key>CORTOSIS</Key>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>TSS</Key>
+    <Name>Sistema de protección térmica</Name>
+    <Description>
+      Empleando sistemas refrigerantes tanto activos como pasivos en conjunción con un ajustado tejido aislante y revestimientos especiales en las placas de blindaje, este accesorio permite al usuario soportar temperaturas peligrosamente elevadas. El aislamiento térmico es a prueba de llamas, roca y acero fundidos, calor intenso e incluso algunas formas de radiación. Este accesorio se puede instalar en cualquier blindaje que cubra todo el cuerpo y pueda sellarse.
+[P]Modelos de ejemplo: Difusor de calor modelo 451 de la Corporación Atlas, traje Tizón 3100 de Min-Dal, sistema de protección térmica de Armeros Kaminoanos.
+[P]Modificadores básicos: Reduce en 1 la dificultad de las tiradas de Aguante realizadas para resistir los efectos del fuego y el calor extremo. Elimina hasta [SE][SE] añadidos a las tiradas por fuego o temperaturas elevadas. Opciones de modificación: Ninguna.
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 1.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="194">Edge of the Empire Core Rulebook</Source>
+      <Source Page="207">Age of Rebellion Core Rulebook</Source>
+      <Source Page="201">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <CategoryLimit>
+      <Category>Sealed</Category>
+    </CategoryLimit>
+    <Price>1000</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Reduces the difficulty of Resilience checks made
+          to resist the effects of fire and extreme heat by one.
+          Removes up to [SETBACK][SETBACK] added to checks
+          due to extreme heat or fire.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>HEAT</Key>
+    <Name>Sistema de calefacción interna</Name>
+    <Description>
+      Al igual que las protecciones térmicas, también pueden instalarse protecciones contra el frío en los blindajes para proteger al usuario de temperaturas bajo cero y climas helados. Provisto de pequeños pero eficaces dispositivos calefactores y una doble capa aislante contra el frío, este accesorio permite al usuario sobrevivir en entornos a docenas de grados bajo cero de temperatura ambiente. El tipo de protección más extendido es posiblemente el que incorpora el blindaje laminado especializado de los soldados de las nieves del Imperio. Este accesorio puede instalarse en cualquier blindaje que cubra todo el cuerpo y que se pueda sellar.
+[P]Modelos de ejemplo: Mejora de blindaje DL87 Espalda Helada de la Corporación Atlas, sistema de calefacción interna modelo 00 de Min-Dal. Modificadores básicos: Reduce en 1 la dificultad de las tiradas de Aguante realizadas para resistir los efectos del frío extremo. Elimina hasta añadidos a las tiradas por
+[P]temperaturas extremadamente bajas. Opciones de modificación: Ninguna. Ensamblajes necesarios: 1.
+[P]Precio: 1.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="194">Edge of the Empire Core Rulebook</Source>
+      <Source Page="206">Age of Rebellion Core Rulebook</Source>
+      <Source Page="201">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <CategoryLimit>
+      <Category>Sealed</Category>
+    </CategoryLimit>
+    <Price>1000</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Reduces the difficulty of Resilience checks made
+          to resist the effects extreme cold by one.
+          Removes up to [SETBACK][SETBACK] added to checks
+          due to extreme cold.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>EOS</Key>
+    <Name>Sensores ópticos mejorados</Name>
+    <Description>
+      Este sistema se instala en el casco para proporcionar al usuario una amplia variedad de sensores especializados de imagen y sonido. Cada sistema viene equipado con un dispositivo de amplificación pasiva de la luz, detectores de rastros térmicos, receptores de ultrasonidos, emisores de onda milimétrica, captura de vídeo y las mejoras ópticas más comunes. Este accesorio se puede instalar en cualquier tipo de blindaje.
+[P]Modelos de ejemplo: Sistema de visión mejorada MULTI de BioTech, mejora óptica de amplio espectro de la Corporación Atlas, paquete óptico mejorado Anq-Y de Neuro-Saav. Modificadores básicos: Elimina hasta de todas las tiradas de Alerta, Percepción y habilidades de combate si se han añadido debido a oscuridad, humo y demás efectos del entorno que dificulten la visión.
+[P]Opciones de modificación: 1 modificación de habilidad (Alerta).
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 1.750 créditos.
+    </Description>
+    <Sources>
+      <Source Page="194">Edge of the Empire Core Rulebook</Source>
+      <Source Page="206">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <Price>1750</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Removes up to [SETBACK][SETBACK] added to all Perception,
+          Vigilance, and combat skill checks
+          due to darkness, smoke, or other environmental effects
+          that obscure vision.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>VIGIL</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SES</Key>
+    <Name>Sistema de aumento de fuerza</Name>
+    <Description>
+      Los sistemas de aumento de fuerza pueden convertir un blindaje completo en una auténtica servoarmadura. Incorporan una matriz de miómeros (fibras musculares sintéticas) controlados por impulsos eléctricos y reforzadas mediante nanomecanismos hidráulicos para incrementar la fuerza fisica del usuario, permitiendole asi levantar pesos mayores y acarrearlos durante más tiempo. Este accesorio solamente se puede instalar en blindajes laminados o armaduras rīgidas similares de cuerpo entero.
+[P]Modelos de ejemplo: Servomecanismo Xr5 de Automatas Industriales, potenciador muscular Bruto de BioTech, sistema de aumento de fuerza por miómeros de la Corporación Atlas.
+[P]Modificadores básicos: Aumenta en 1 punto la Fortaleza del usuario mientras lleve puesto este blindaje (este aumento no se aplica a la Protección ni al umbral de Heridas). Opciones de modificación: 2 modificaciones de habilidad (Atletismo), 2 modificaciones de talento innato (Firmeza). Ensamblajes necesarios: 2.
+[P]Precio: 5.500 créditos.
+    </Description>
+    <Sources>
+      <Source Page="194">Edge of the Empire Core Rulebook</Source>
+      <Source Page="206">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Hard Full Body</Category>
+    </CategoryLimit>
+    <Price>5500</Price>
+    <Rarity>4</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>ATHL</Key>
+        <Count>2</Count>
+      </Mod>
+      <Mod>
+        <Key>BRA</Key>
+        <Count>2</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>OCS</Key>
+    <Name>Sistema de camuflaje optico</Name>
+    <Description>
+      Los sistemas de camuflaje óptico son una maravilla de la tecnología de ocultación moderna, populares entre asesinos y tropas de reconocimiento por igual. Utilizan una serie de proyectores visuales fásicos combinados con dispositivos de atenuación de sonidos y pantallas térmicas y radiactivas. El modelo Fantasma de Merr-Sonn puede volver prácticamente invisible al usuario. Los dispositivos de camuflaje Óptico permiten al usuario fundirse con el entorno imitando su aspecto (como hacen ciertos animales con capacidades activas de ocultación), y las diversas pantallas radiactivas enmascaran su calor corporal y cualquier radiación electromagnética que puedan emitir sus sensores y aparatos de comunicación. Pero a pesar de su evidente utilidad, estos dispositivos son increíblemente frágiles y su uso está contraindicado en situaciones de combate. Este accesorio se puede instalar en cualquier tipo de blindaje, pero apenas sirve de nada con blindajes pesados laminados y plastoides, pues son demasiado voluminosos y ruidosos para generar un campo de camuflaje apropiado.
+[P]Modelos de ejemplo: Campo de desplazamiento Titilante de BioTech, dispositivo de ocultación Pantalla de Humo de la Corporación Atlas, sistema de camuflaje óptico Fantasma de Merr-Sonn.
+[P]Modificadores básicos: Incrementa 2 veces la Capacidad de todas las tiradas de Sigilo realizadas mientras se lleve puesto este blindaje.
+[P]Opciones de modificación: 1 modificación de talento innato (Sombra furtiva), 1 modificación de habilidad (Sigilo). Ensamblajes necesarios: 2.
+[P]Precio: 5.500 créditos.
+    </Description>
+    <Sources>
+      <Source Page="195">Edge of the Empire Core Rulebook</Source>
+      <Source Page="206">Age of Rebellion Core Rulebook</Source>
+      <Source Page="51">Savage Spirits</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <Price>5500</Price>
+    <Rarity>6</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Upgrades the ability of all Stealth
+          checks twice while wearing this armor.
+        </MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <UpgradeAbilityCount>2</UpgradeAbilityCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>MASSHAD</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>STEAL</Key>
+        <Count>1</Count>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SACUST</Key>
+    <Name>Personalización superior de blindaje</Name>
+    <Description>
+      Cualquier tipo de blindaje puede beneficiarse de una reconstrucción en manos expertas. Un artesano competente puede añadirle un revestimiento plastoide mejorado o incluso placas de duracero para aumentar el grado de protección del blindaje, reduciendo al mismo tiempo su peso y su volumen. Como es natural, un trabajo tan delicado y meticuloso puede negar posibles modificaciones adicionales de otros aspectos del blindaje.
+[P]Modelos de ejemplo: Numerosas variedades.
+[P]Modificadores básicos: Concede al blindaje la propiedad Superior.
+[P]Opciones de modificación: Ninguna.
+[P]Ensamblajes necesarios: 1.
+[P]Precio: 5.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="195">Edge of the Empire Core Rulebook</Source>
+      <Source Page="206">Age of Rebellion Core Rulebook</Source>
+      <Source Page="201">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <Price>5000</Price>
+    <Rarity>6</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Key>SUPERIOR</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>VACUUM</Key>
+    <Name>Sistema de sellado</Name>
+    <Description>
+      Los blindajes integrales pueden equiparse con cierres herméticos para proteger al usuario del vacio espacial. Esta modificación incorpora al blindaje suficientes tejidos aislantes y suministros de aire para sobrevivir durante no más de 10 minutos de exposición al vacío, y como es lógico también protege contra atmósferas hostiles. Este accesorio solamente se puede instalar en blindajes laminados o de combate.
+[P]Modelos de ejemplo: Numerosas variedades.
+[P]Modificadores básicos: Permite al usuario ignorar los efectos del vacío y de atmósferas tóxicas durante un máximo de 10 minutos.
+[P]Opciones de modificación: Ninguna. Ensamblajes necesarios: 1.
+[P]Precio: 1.000 créditos.
+    </Description>
+    <Sources>
+      <Source Page="195">Edge of the Empire Core Rulebook</Source>
+      <Source Page="207">Age of Rebellion Core Rulebook</Source>
+      <Source Page="57">Keeping the Peace</Source>
+    </Sources>
+    <Type>Armor</Type>
+    <ItemLimit>
+    </ItemLimit>
+    <CategoryLimit>
+      <Category>Sealable</Category>
+    </CategoryLimit>
+    <Price>1000</Price>
+    <Rarity>3</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Allows the user to ignore the effects of
+          vacuum or poisonous atmospheric environments
+          for up to 10 minutes.
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <Key>SEALED</Key>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+    </AddedMods>
+  </ItemAttachment>
+</ItemAttachments>

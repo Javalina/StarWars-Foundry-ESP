@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>DROID</Key>
+  <Name>Droid</Name>
+  <Description>
+    Por mucho que el fronterizo medio se burle sin parar de su droide, lo cierto es que se encuentra perdido sin él. Los droides desempeñan diversas funciones en los confines de la galaxia: seguridad y resolución de conflictos, cirugía y medicina, reparaciones técnicas, construcción, astronavegación, pilotaje y trabajos mecánicos. Aunque muchos de estos droides tan sólo poseen una inteligencia rudimentaria, otros están dotados de la capacidad de raciocinio.
+[P][B]INTERPRETAR A UN DROIDE[b]
+[P]Crear un personaje droide en AL FILO DEL IMPERIO es muy sencillo. Se consideran una especie independiente, con bonificaciones y capacidades que reflejan su naturaleza robotica. Los jugadores deben mostrarse creativos al idear su descripción y el modo en que utilizan su equipamiento. Por ejemplo, en vez de anotar que tu droide viste un blindaje laminado, podrías decir que su chasis está revestido de placas metálicas reforzadas; y en vez de empuñar una pistola blåster, podría llevarla integrada en el brazo.
+[P]La personalidad de un droide es un asunto más delicado. El hecho de que el droide sea un PJ implica que tiene conciencia de sí mismo y de su independencia (a menos que al jugador le apetezca interpretar a un personaje totalmente supeditado a los seres biológicos de su entorno, claro). Los jugadores que deseen llevar personajes droides deben tener presente sus origenes y tratar de incorporar a su personalidad elementos de las funciones para las que fueron diseñados en un principio, aun cuando un droide haya asumido un papel que va mucho más allá de su programación original. Así, un droide de control de tráfico podría haber emprendido una carrera profesional como mecánico, pero aún conservaría la mala costumbre de rezongar siempre que su compañero piloto incumple las normativas locales de circulación.
+[P]Descripción física: Los droides se producen con muchas y muy distintas formas, desde chasis que siguen las proporciones bípedas convencionales hasta los que imitan diversos animales, pasando por formas rectangulares o cilíndricas de diseño completamente utilitario.
+[P][B]VARIOS MODELOS DE EJEMPLO[b]
+[P]Un droide puede estar recién salido de la cadena de montaje, con las prestaciones y accesorios físicos y mecánicos de serie, o bien tratarse de una unidad modificada según los gustos de su propietario.
+[P]Droide quirúrgico 2-1B (Geentech/Automatas Industriales): El droide quirúrgico 2-1B es un pensador sumamente inteligente y versátil, como cabría esperar de un droide cuyas decisiones suponen la diferencia entre la vida y la muerte. Su feo chasis oculta una matriz de circuitos de comportamiento extraordinariamente compleja y flexible, y su inteligencia solamente es equiparable a su competencia como cirujano.
+[P]Droide de protocolo 3PO (Cybot Galáctica): La serie 3PO de droides de protocolo se cuenta entre los autómatas más similares a los humanos jamás creados, por lo que resultan ideales para desempeñar sus funciones como embajadores, secretarios políticos, intérpretes y agregados. Sin embargo, sus avanzados verbocerebros AA-1 de SinteTec suelen desarrollar conductas neuroticas y otras peculiaridades.
+[P]Droide asesino IG (Mecánica Holowan): La serie IG, cuya máxima expresión es el letal y temible modelo IG88, es infame por haber producido varios de los droides asesinos más mortíferos de la galaxia. Los droides IG casi nunca se cruzan con un oponente al que no puedan eliminar, y en honor a su carencia total de emociones, siguen al pie de la letra todas las instrucciones de las órdenes de busca y captura.
+[P]Droide policial LE-VO (Grupo Droides de Rseikharhl): El éxito del LE-VO en la lucha contra el crimen en el sector Rseikharhl ha contribuido a su adopción en el resto de la galaxia como complemento ideal para las fuerzas del orden y la seguridad privada. Su programación les exige cumplir las leyes imperiales a rajatabla y emplear la fuerza sólo si es absolutamente necesario. Aunque casi nunca se equipan con armamento letal, saben como sacar el máximo partido a las armas aturdidoras.
+[P]Droide de protocolo LOM (Autómatas Industriales): La serie LOM supuso el intento de Autómatas Industriales por desbancar a Cybot Galáctica del mercado que había monopolizado. AI trato de producir un droide de protocolo muy similar a las unidades 3PO, pero con una cabeza insectoide dirigida a mercados muy exclusivos. Sin embargo, la mala fama ganjeada por la carrera de al menos una de sus unidades como ladrón de joyas hizo que AI cancelase la línea. Algunos de los droides LOM restantes tienen por costumbre desarrollar rasgos de personalidad tan interesantes como inapropiados.
+[P]Droide astromecánico serie R (Autómatas Industriales): La increíblemente prestigiosa serie R engloba varios modelos, desde el voluminoso R1 original hasta la célebre unidad R2, sin olvidar el modelo R6 de inminente aparición en el mercado. Aparte de las unidades R1 (que miden más de dos metros de altura y trabajan a bordo de naves de línea), todos los droides astromecánicos de ña serie R tienen un metro escaso de estatura y están diseñados para encajar en zócalos de cazas estelares para llevar a acabo cálculos de astronavegación y permitir saltos al hiperespacio. También disponen de una enorme variedad de herramientas con la que pueden efectuar todo tipo de reparaciones.
+[P]Sociedad: Hace mucho tiempo que circulan rumores entre contrabandistas sobre la existencia de "mundos droides" habitados por automatas y cíborgs que gobiernan su propia sociedad. Al margen de estas disparatadas historias, los droides carecen de una sociedad exclusiva; en vez de ello viven integrados en las sociedades de sus amos (sean o no humanos). A menos que la personalidad de un droide haya reprogramado sus facultades cognitivas, todos están diseñados para obedecer, y eso es lo que hacen.
+[P]Sin embargo, los droides interpretados por los jugadores constituyen un caso especial. A lo largo de los milenios se han dado innumerables casos de droides que han trascendido su programación original para adquirir conciencia de sí mismos y operar de manera independiente. Algunos de estos autómatas permanecen activos durante cientos de años, reparando y mejorando sus sistemas para maximizar su rendimiento.
+[P]Para algunos de estos droides es motivo de orgullo y satisfacción seguir desempeñando lo mejor posible las labores para las que fueron diseñados; por ejemplo, una unidad R2 podría afanarse constantemente por ser mejor piloto y astronavegante. Otros infringen su programación por completo y deciden emprender nuevos cometidos. El infame 4-LOM empezó siendo un droide de protocolo, para luego convertirse en ladrón de joyas y finalmente uno de los cazarrecompensas más conocidos de la galaxia.
+[P]Vida en los confines: Droides de toda clase trabajan con contrabandistas y colectivos criminales en el Borde Exterior, donde siempre hay individuos dispuestos a ignorar su naturaleza mecánica y respetar a un compañero fronterizo por sus valiosas aptitudes. Algunas unidades lucen su diseño original sin ninguna modificación, mientras que otras se disfrazan hábilmente con otros cuerpos, como las series de protocolo de Cybot Galáctica. Y también hay un puñado de droides, como el capitán pirata ZI-ZO, que dirigen sus propias organizaciones tras comprobar que les resulta más eficiente liderar que servir.
+[P][B]LOS DROIDES Y LA VIDA[b]
+[P]Los dos factures que determinan la vida inteligente, el discernimiento (la capacidad de percibir) y la sapiencia (la sabiduría que deviene de la conciencia de uno mismo) no son cualidades que muchos atribuiran a un droide. Los droides están diseñados para no sentir dolor ni emociones. Pero lo cierto es que operan con un nivel de inteligencia que sobrepasa a la mayoría de las mentes bioquímicas, y si transcurren varios años sin verse sometidos a un borrado de memoria, sus rasgos de personalidad y su sentido de la autoconservación a menudo eclipsan su programación original. ¿Significa esto que los droides pueden desarrollar capacidades de discemimiento y sapiencia con el paso del tiempo? Esta es una cuestión para la que aún no existe una respuesta aceptada de forma universal.
+[P][B]CLASIFICACIÓN DE LOS DROIDES[b]
+[P]Los fabricantes de droides los clasifican en cinco categorías diferenciadas según sus funciones primarias.
+[P]Clase uno (primer grado): Estos droides están especializados en ciencias físicas, matemáticas y medicina, por lo que a menudo se trata de modelos muy inteli gentes, pero carecen de "sentido común".
+[P]Clase dos (segundo grado): Los droides de clase dos trabajan en campos de ingeniería y técnicos, por ejemplo efectuando reparaciones y computando rutas de astronavegación. Suelen ser muy apreciados por su razonable intelecto, su aspecto inofensivo y sus excentricidades.
+[P]Clase tres (tercer grado): Los droides de clase tres suelen tener apariencia humanoide, ya que están diseñados para trabajar directamente con seres orgánicos. Están programados con funciones sociales y de servicio como la interpretación, la enseñanza, el protocolo y la asistencia diplomática.
+[P]Clase cuatro (cuarto grado): Los droides de clase cuatro están provistos de sistemas de armamento y han sido diseñados con fines de seguridad, instrucción y operaciones militares, combates gladiatorios e incluso asesinatos.
+[P]Clase cinco (quinto grado): Los droides de quinto grado son simples unidades obreras ideadas para diversos trabajos manuales y domésticos, desde el mantenimiento y la higiene hasta la carga y descarga. Muchos carecen de los procesos cognitivos mínimos para considerarse inteligentes.	
+  </Description>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>1</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>175</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>ENDUR</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DROIDAB</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>DROIDABSK</Key>
+          <Name>Additional Career Skills</Name>
+          <Description>May train in two additional career skills and one additional specialization skills</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>2</SkillCount>
+              <Requirement>
+                <Career>true</Career>
+              </Requirement>
+            </SkillTraining>
+            <SkillTraining>
+              <SkillCount>1</SkillCount>
+              <Requirement>
+                <Specialization>true</Specialization>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB2</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB2OP1</Key>
+          <Name>Feature</Name>
+          <Description>Droids do not need to eat, sleep, or breath, and are unaffected by vacuum, toxins, and poisons.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB3</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB3OP1</Key>
+          <Name>Inorganic</Name>
+          <Description>Droids do not gain benefits from bacta, stimpacks, or Medicine checks.  They must be repaired with repair patches and Mechanics checks.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB4</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB4OP1</Key>
+          <Name>Mechanical Being</Name>
+          <Description>Droids cannot become Force sensitive, cannot acquire a Force Rating or Force powers, and are not affected by mind-altering Force powers.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB5</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB5OP1</Key>
+          <Name>Cybernetics</Name>
+          <Description>Droids have a cybernetics implant cap of 6.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>DROIDSUB1</Key>
+      <Name>2-1B Surgical</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB2</Key>
+      <Name>3P0 Protocol</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB3</Key>
+      <Name>IG Assassin</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB4</Key>
+      <Name>LE-V0 Law Enforcement</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB5</Key>
+      <Name>LOM Protocol</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB6</Key>
+      <Name>R-Series Astromech</Name>
+      <Description>Please see page 45 of the Edge of the Empire Core Rulebook, or page 53 of the Age of Rebellion Core Rulebook, for details.</Description>
+      <WeaponModifiers>
+        <WeaponModifier>
+          <Unarmed>false</Unarmed>
+          <UnarmedName>Arc Welder</UnarmedName>
+          <SkillKey>MELEE</SkillKey>
+          <AllSkillKey />
+          <Damage>3</Damage>
+          <DamageAdd>0</DamageAdd>
+          <Crit>0</Crit>
+          <CritSub>0</CritSub>
+          <RangeValue>wrEngaged</RangeValue>
+          <Qualities>
+            <Quality>
+              <Key>STUNDAMAGE</Key>
+              <Count>0</Count>
+              <Index>0</Index>
+              <MiscDesc />
+              <DefZone />
+              <VehicleWeaponUpgrades />
+              <DieModifiers />
+            </Quality>
+          </Qualities>
+        </WeaponModifier>
+      </WeaponModifiers>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB7</Key>
+      <Name>Other Model</Name>
+      <Description>Please see "Notable Features" for a description of this type of droid</Description>
+    </SubSpecies>
+  </SubSpeciesList>
+  <NoForceAbilities>true</NoForceAbilities>
+</Species>

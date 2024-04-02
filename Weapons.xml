@@ -1,0 +1,1795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weapons>
+  <Weapon>
+    <Key>BLASTHOLD</Key>
+    <Name>Blaster de bolsillo</Name>
+    <Description>
+      Los blásteres más pequeños son fáciles de disimular, pero su potencia no es nada desdeñable. Sacrifican alcance más que nada, puesto que su cañón es más corto y su carga menos potente. Si un personaje registra al usuario en busca de armas, se añade [SE] a su tirada de Percepción.
+	[P]Modelos de ejemplo: Pistola blaster de ordenanza de los exploradores imperiales, blaster de bolsillo Q2 de Merr-Sonn.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>5</Damage>
+    <Crit>4</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>200</Price>
+    <Rarity>4</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Pistol</Category>
+      <Category>Holdout Blaster</Category>
+      <Category>Blaster</Category>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTLT</Key>
+    <Name>Pistola blaster ligera</Name>
+    <Description>
+	Los blásteres ligeros son un buen compromiso entre discreción y potencia. Son las armas predilectas de quienes suelen necesitar armas de fuego pero prefieren fingir lo contrario. Los contrabandistas, espías y granujas que no desean levantar sospechas son quienes utilizan con más frecuencia este tipo de armas. Las especies más menudas también acostumbran a usar pistolas blaster ligeras, pues su peso y su facilidad de manejo son ideales para seres de su tamaño.
+	[P]Modelos de ejemplo: Pistola blaster modelo 44 de MerrSonn, pistola bláster DL-18 de BlasTech.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>5</Damage>
+    <Crit>4</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>2</HP>
+    <Price>300</Price>
+    <Rarity>4</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Pistol</Category>
+      <Category>Blaster</Category>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTPIS</Key>
+    <Name>Pistola blaster</Name>
+    <Description>
+	Los blásteres ligeros son un buen compromiso entre discreción y potencia. Son las armas predilectas de quienes suelen necesitar armas de fuego pero prefieren fingir lo contrario. Los contrabandistas, espías y granujas que no desean levantar sospechas son quienes utilizan con más frecuencia este tipo de armas. Las especies más menudas también acostumbran a usar pistolas blaster ligeras, pues su peso y su facilidad de manejo son ideales para seres de su tamaño.
+	[P]Modelos de ejemplo: Pistola blaster modelo 44 de MerrSonn, pistola bláster DL-18 de BlasTech.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>6</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>3</HP>
+    <Price>400</Price>
+    <Rarity>4</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Pistol</Category>
+      <Category>Blaster</Category>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTPISHVY</Key>
+    <Name>Pistola bláster pesada</Name>
+    <Description>
+	Las pistolas blaster pesadas son ideales para los viajeros espaciales que quieren dejar bien claro que van armados y son peligrosos. Se trata de armas muy potentes que renuncian al alcance, la sutileza y la ocultación a cambio de un factor superior de intimidación y la capacidad de abrir agujeros enormes en todo lo que sea menos grueso que un mamparo de nave espacial. Las pistolas blaster pesadas están diseñadas para combinar la potencia de un fusil bláster con la forma compacta de una pistola. Aunque no destacan especialmente en ninguno de estos aspectos (son algo menos potentes que los primeros y más voluminosas que las segundas), se hallan en un punto intermedio que las hace excepcionales y mortíferas. Su única desventaja apreciable es que tienen una capacidad inferior a los demás, pues la sacrifican para infligir más daño.
+	[P]El DJ puede gastar [TH][TH][TH] o bien [DE] para hacer que una pistola blaster pesada se quede sin munición (ver página 207).
+	[P]Modelos de ejemplo: Pistola bláster pesada DL-44 de BlasTech, modelo 434 de Merr-Sonn.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>7</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>2</Encumbrance>
+    <HP>3</HP>
+    <Price>700</Price>
+    <Rarity>6</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Heavy Blaster Pistol</Category>
+      <Category>Blaster</Category>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>El DJ puede gastar [TH][TH][TH] o bien [DE] para hacer que una pistola blaster pesada se quede sin munición</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTCARB</Key>
+    <Name>Carabina bláster</Name>
+    <Description>
+	El fusil y la carabina bláster son las armas reglamentarias de los ejércitos y fuerzas de seguridad de toda la galaxia. La mayor longitud de sus cañones supera con creces el alcance de las pistolas blaster, y al tener cartuchos más pesados disparan haces de partículas más potentes.
+	[P]Las tropas de asalto que sirven al Imperio utilizan fusiles bláster E-11 con culatas plegables. A distancias cortas este modelo se puede disparar con una sola mano como si fuera una pistola pesada. La culata puede desplegarse y extenderse para que el soldado de asalto afiance el arma y mejore su precisión contra objetivos más lejanos.
+	[P]Modelos de ejemplo: Fusil bláster E-11 (múltiples fabricantes), fusil blaster A280 de BlasTech.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>9</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>3</Encumbrance>
+    <HP>4</HP>
+    <Price>850</Price>
+    <Rarity>5</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Carbine</Category>
+      <Category>Blaster</Category>
+      <Category>Ranged</Category>
+      <Category>Blaster Carbine</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTRIF</Key>
+    <Name>Fusil bláster</Name>
+    <Description>
+	El fusil y la carabina bláster son las armas reglamentarias de los ejércitos y fuerzas de seguridad de toda la galaxia. La mayor longitud de sus cañones supera con creces el alcance de las pistolas blaster, y al tener cartuchos más pesados disparan haces de partículas más potentes.
+	[P]Las tropas de asalto que sirven al Imperio utilizan fusiles bláster E-11 con culatas plegables. A distancias cortas este modelo se puede disparar con una sola mano como si fuera una pistola pesada. La culata puede desplegarse y extenderse para que el soldado de asalto afiance el arma y mejore su precisión contra objetivos más lejanos.
+	[P]Modelos de ejemplo: Fusil bláster E-11 (múltiples fabricantes), fusil blaster A280 de BlasTech.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>9</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>4</Encumbrance>
+    <HP>4</HP>
+    <Price>900</Price>
+    <Rarity>5</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Rifle</Category>
+      <Category>Blaster Rifle</Category>
+      <Category>Blaster</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTRIFHVY</Key>
+    <Name>Fusil bláster pesado</Name>
+    <Description>
+	Los cazadores y los francotiradores suelen emplear fusiles blaster cargados con un gas acelerador particularmente eficaz, avanzada tecnología de compresión de gas, lentes focalizantes de gran tamaño o alguna combinación de estos tres métodos. Tales armas están diseñadas para disparar ráfagas de proyectiles extremadamente potentes y veloces contra objetivos enormes o acorazados. Los fusiles bláster pesados también son muy eficaces para abatir blancos humanoides. Los daños masivos que infligen pueden interpretarse como un mensaje para los asociados de la víctima.
+	[P]Modelos de ejemplo: Fusiles blaster pesados DLT-19 y RT-97C (ambos de BlasTech).
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>10</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Price>1500</Price>
+    <Rarity>6</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Heavy Rifle</Category>
+      <Category>Blaster</Category>
+      <Category>Heavy Blaster Rifle</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+      </Quality>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTLTREP</Key>
+    <Name>Bláster ligero de repetición</Name>
+    <Description>
+	Los blásteres ligeros de repetición son armas de apoyo para unidades militares y mercenarias. Ofrecen una elevada cadencia de fuego y están diseñados para el fuego de supresión y la neutralización de objetivos de infantería no acorazados. La lluvia de proyectiles láser que desatan estas armas automáticas suele bastar para que los enemigos que no sean abatidos se arrojen cuerpo a tierra.
+	[P]Modelos de ejemplo: Blaster ligero de repetición T-21 de Blas Tech.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>11</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>7</Encumbrance>
+    <HP>4</HP>
+    <Price>2250</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+      </Quality>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTHVYREP</Key>
+    <Name>Bláster pesado de repetición</Name>
+    <Description>
+Estas mortíferas armas están diseñadas para destruir vehículos pequeños, objetivos acorazados y enemigos protegidos tras parapetos no reforzados. Los blásteres pesados de repetición, como el modelo E-Web por el que sienten predilección las tropas de asalto imperiales, son verdaderas armas de apoyo. Deben instalarse sobre tripodes y conectarse a generadores portátiles. Para utilizarlos se precisa una dotación de dos hombres, uno como artillero y otro que maneje el generador y los acoplamientos de energía. En unidades militares, el segundo operador suele encargarse de supervisar un dispositivo de comunicaciones integrado en el generador para la selección de objetivos.
+[P]Los blásteres pesados de repetición son demasiado voluminosos para utilizarlos sin trípode, a menos que el usuario posea una fuerza extraordinaria. Para desplegar el trípode, la dotación debe realizar 3 acciones. El precio de venta indicado incluye un trípode como el descrito en la página 193. Modelos de ejemplo: Bláster de repetición E-Web de Blas Tech.
+    </Description>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>15</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>9</Encumbrance>
+    <HP>4</HP>
+    <Price>6000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Ranged</Category>
+      <Category>Portable Gunnery</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+      </Quality>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>5</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BOWCAST</Key>
+    <Name>Ballesta láser</Name>
+    <Description>
+Las ballestas laser suelen asociarse a los wookiees de Kashyyyk; son tan características de esta especie como los palos gaffi para los moradores de las arenas.
+[P]Los distintos tipos de proyectiles que pueden dispararse con estas armas ofrecen al usuario un amplio abanico de opciones. La munición estándar consiste en unos virotes metálicos que son acelerados por dos polarizadores situados a ambos lados de la punta del arma. Esto incrementa la potencia y la velocidad del proyectil hasta tal punto que su alcance es equiparable al de los blásteres convencionales.
+[P]El virote típico es un explosivo miniaturizado capaz de atravesar blindajes, metal y los gruesos pellejos de las criaturas gigantes que habitan Kashyyyk. Existen otros tipos de virotes que provocan estallidos sónicos, fogonazos que aturden y ciegan o cortinas de humo ideales para cubrir el avance de los guerreros wookiees.
+[P]Cada ballesta láser se fabrica artesanalmente para su propietario, de ahí su desorbitado precio. La mayoría requieren de una fuerza considerable para amartillarlas, aunque los mecanismos de carga automática son una de las modificaciones más comunes; la ballesta låser de Chewbacca está equipada con uno de estos mecanismos (además de un visor intensificador de luz). Las puntuaciones que se enumeran en la tabla corresponden a una ballesta láser que dispara virotes explosivos convencionales sin mecanismo tensor automático. Cuando se usa este modelo, antes de cada disparo hay que llevar a cabo 1 maniobra para tensar el arma. Modelos de ejemplo: Cada ejemplar tiene un diseño exclusivo.    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>10</Damage>
+    <Crit>3</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>5</Encumbrance>
+    <HP>2</HP>
+    <Price>1250</Price>
+    <Rarity>7</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Bowcaster</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>KNOCKDOWN</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTION</Key>
+    <Name>Bláster ionizador</Name>
+    <Description>
+Estas armas antidroides funcionan combinando la unidad de alimentación de un fusil bláster con un mando de retención de droides convencional. Pese a lo que su nombre pueda sugerir, el mando no inutiliza droides por medios mecánicos, sino que se acopla a su revestimiento externo y transmite una señal de interrupción que no puede ignorarse. El blaster ionizador amplifica esta señal valiéndose de la unidad de alimentación para proyectarla a una distancia de unos 12 metros en un arco amplio y disperso.
+[P]Los seres orgánicos apenas notan una breve punzada, pero la señal de interrupción abruma a los droides y les produce una sobrecarga de energía que invalida cualquier tipo de escudo que pudiera resistirla. La mayoría de los droides que son alcanzados por estas descargas ionizadoras se quedan inertes durante media hora (lo que se refleja en el daño por aturdimiento).
+[P]Los blásteres ionizadores únicamente funcionan contra droides y ciborgs, y tan sólo infligen daño a la Tensión (como dicta su propiedad Aturdidora). No surten ningún efecto en criaturas orgánicas aparte de una dolorosa y momentánea punzada.
+[P]Modelos de ejemplo: Blaster de iones casero jawa, carabina iónica DEMP 2 de Merr-Sonn.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>10</Damage>
+    <Crit>5</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>250</Price>
+    <Rarity>3</Rarity>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Ranged</Category>
+      <Category>Carbine</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>5</Count>
+      </Quality>
+      <Quality>
+        <Key>ION</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>DISRPIS</Key>
+    <Name>Pistola disruptora</Name>
+    <Description>
+Las armas disruptoras son ilegales en la mayoría de los mundos civilizados. Concentran haces energéticos de partículas con tal intensidad que pueden llegar a desintegrar extremidades y demás partes corporales de sus víctimas. Funcionan básicamente con la misma tecnología que los fusiles bláster, pero están equipadas con un estimulador de moléculas gaseosas sobredimensionado y un módulo de actuación especializado que procesa un volumen de gas blåster muy superior al habitual y lo transfiere a un cilindro galven, donde se genera y superconcentra el rayo resultante. La mayoría de las armas disruptoras tienen poco alcance, aunque existen modelos de fusiles con un alcance extendido gracias al uso de costosos cilindros galven reforzados; estas armas están diseñadas específicamente para francotiradores y disparos de precisión.
+[P]El Sindicato Tenloss fabrica dos de los pocos modelos de disruptores que se producen en masa, el fusil DXR-6 y la pistola DX-2. Su principal mercado objetivo es la infame organización criminal del Sol Negro, aunque también suministran sus productos a diversos canallas sin escrúpulos y otros granujas. Se tiene constancia de inquisidores e interrogadores imperiales que han llegado a empuñar este tipo de armas, quizá con el propósito de intimidar e infundir miedo más que por sus usos prácticos.
+[P]Cada vez que un objetivo es alcanzado por un arma disruptora, todo impacto crítico genera un resultado de Tullido a menos que se obtenga otro más grave en la Tabla 6-10.
+[P]En las armas disruptoras no se pueden instalar mejoras ni accesorios que aumenten su alcance o permitan efectuar múltiples disparos.
+[P]Modelos de ejemplo: Fusil disruptor Tenloss DXR-6, pistola disruptora Tenloss DX-2.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>10</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>3000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>4</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Cada vez que un objetivo es alcanzado por un arma disruptora, todo impacto crítico genera un resultado de Tullido a menos que se obtenga otro más grave en la Tabla 6-10.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>DISRRIF</Key>
+    <Name>Fusil disruptor</Name>
+    <Description>
+Las armas disruptoras son ilegales en la mayoría de los mundos civilizados. Concentran haces energéticos de partículas con tal intensidad que pueden llegar a desintegrar extremidades y demás partes corporales de sus víctimas. Funcionan básicamente con la misma tecnología que los fusiles bláster, pero están equipadas con un estimulador de moléculas gaseosas sobredimensionado y un módulo de actuación especializado que procesa un volumen de gas blåster muy superior al habitual y lo transfiere a un cilindro galven, donde se genera y superconcentra el rayo resultante. La mayoría de las armas disruptoras tienen poco alcance, aunque existen modelos de fusiles con un alcance extendido gracias al uso de costosos cilindros galven reforzados; estas armas están diseñadas específicamente para francotiradores y disparos de precisión.
+[P]El Sindicato Tenloss fabrica dos de los pocos modelos de disruptores que se producen en masa, el fusil DXR-6 y la pistola DX-2. Su principal mercado objetivo es la infame organización criminal del Sol Negro, aunque también suministran sus productos a diversos canallas sin escrúpulos y otros granujas. Se tiene constancia de inquisidores e interrogadores imperiales que han llegado a empuñar este tipo de armas, quizá con el propósito de intimidar e infundir miedo más que por sus usos prácticos.
+[P]Cada vez que un objetivo es alcanzado por un arma disruptora, todo impacto crítico genera un resultado de Tullido a menos que se obtenga otro más grave en la Tabla 6-10.
+[P]En las armas disruptoras no se pueden instalar mejoras ni accesorios que aumenten su alcance o permitan efectuar múltiples disparos.
+[P]Modelos de ejemplo: Fusil disruptor Tenloss DXR-6, pistola disruptora Tenloss DX-2.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>10</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>5</Encumbrance>
+    <HP>4</HP>
+    <Price>5000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Rifle</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>5</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Cada vez que un objetivo es alcanzado por un arma disruptora, todo impacto crítico genera un resultado de Tullido a menos que se obtenga otro más grave en la Tabla 6-10.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>SLUGPIS</Key>
+    <Name>Pistola de proyectiles sólidos</Name>
+    <Description>
+Estas armas cortas, compactas y ruidosas son bastante poco comunes. Normalmente quienes las utilizan lo hacen por su valor sentimental, porque son una herencia de algún pariente lejano procedente de un mundo primitivo, o simplemente porque son las únicas armas de fuego disponibles en el planeta en el que se encuentran.
+[P]Modelos de ejemplo: Pistola de proyectiles Asaltante de Oriolanis.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>4</Damage>
+    <Crit>5</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>100</Price>
+    <Rarity>3</Rarity>
+    <Type>Slugthrower</Type>
+    <Categories>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+  </Weapon>
+  <Weapon>
+    <Key>SLUGRIF</Key>
+    <Name>Fusil de proyectiles sólidos</Name>
+    <Description>
+Los fusiles de proyectiles sólidos son versiones de mayor tamaño de las pistolas; también utilizan reacciones químicas para disparar una bala a gran velocidad hacia el objetivo. El cañón de un fusil de proyectiles sólidos es más largo y grueso que el de una pistola, y puede disparar cartuchos de mayor calibre a distancias muy superiores. Sin embargo, adolecen de una precisión y una capacidad de penetración escasas, por no mencionar la necesidad de cargarlas con municiones poco corrientes que deben fabricarse a mano o adquirirse a precios prohibitivos.
+[P]Con todo, numerosas culturas primitivas y nómadas utilizan fusiles de proyectiles sólidos, a menudo de fabricación casera. Un buen ejemplo de esto son los bandidos tusken de Tatooine, tribus nomadas violentas y rudimentarias que apenas tienen acceso al tipo de gas empleado en los blásteres, y aún menos a la tecnología de estimulación de moléculas de gas. De vez en cuando rapiñan munición durante sus incursiones a las granjas de humedad del planeta y reciclan los cartuchos para utilizarlos en sus toscos fusiles de francotirador. Estas armas son muy eficaces contra los colonos, los diminutos jawas y las ratas womp que habitan sus inhóspitos desiertos.
+[P]Modelos de ejemplo: Fusil de proyectiles dresseliano, fusil de caza 6-2Aug2 de Armamento Czerka.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>7</Damage>
+    <Crit>5</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>5</Encumbrance>
+    <HP>1</HP>
+    <Price>250</Price>
+    <Rarity>3</Rarity>
+    <Type>Slugthrower</Type>
+    <Categories>
+      <Category>Rifle</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BOLA</Key>
+    <Name>Boleadoras/red</Name>
+    <Description>
+En ocasiones un cazarrecompensas ha de capturar con vida a un enemigo en vez de matarlo. Tanto las boleadoras como las redes se utilizan para apresar al objetivo y poder acercarse a él sin peligro para atraparlo e inmovilizarlo, normalmente con el propósito de entregarlo a las autoridades o a alguna organización criminal. Ambas armas están diseñadas para arrojarse o lanzarse a distancias cortas con objeto de enredar al blanco. Aunque resulta más fácil utilizar un arma aturdidora, las boleadoras y las redes poseen ciertas ventajas. La sencillez de su diseño permite ocultarlas de los detectores de armas, y además se han dado casos de armas aturdidoras que han provocado daños irreversibles a sus objetivos.
+[P]Las boleadoras y las redes se sirven de la propiedad Apresadora para incapacitar al objetivo, por lo que su eficacia depende de algo más que de un simple impacto con éxito. Debido a la elevada destreza que requiere su manejo, sólo los individuos más capacitados (o desesperados) suelen recurrir a su uso. Casi todos los demás se limitan a fijar sus blåsteres para aturdir si necesitan abatir a un objetivo sin causarle daños.
+[P]El usuario puede gastar un [TR] para asegurarse de que la víctima quede tan enredada que no pueda llevar a cabo ninguna maniobra, y la única acción que podrá realizar cada turno será una tirada Formidable ([DI][DI][DI][DI][DI]) de Atletismo para liberarse.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>2</Damage>
+    <Crit>0</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>2</HP>
+    <Price>20</Price>
+    <Rarity>2</Rarity>
+    <Type>Thrown</Type>
+    <Qualities>
+      <Quality>
+        <Key>KNOCKDOWN</Key>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>ENSNARE</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>El usuario puede gastar un [TR] para asegurarse de que la víctima quede tan enredada que no pueda llevar a cabo ninguna maniobra, y la única acción que podrá realizar cada turno será una tirada Formidable ([DI][DI][DI][DI][DI]) de Atletismo para liberarse.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>FLAME</Key>
+    <Name>Lanzallamas</Name>
+    <Description>
+Los ingenios flamígeros se utilizan principalmente para destruir equipo (estructuras y cultivos, por ejemplo), y no como armas antipersona. Eso no quita que abrasen la carne y el hueso con la misma eficacia.
+[P]Los lanzallamas son populares en parte por su amplio e indiscriminado cono de fuego, capaz de envolver en llamas a varios individuos simultaneamente. Cuando se activa la propiedad Incendiaria del arma, el usuario puede aplicarla a uno de los objetivos alcanzados por el ataque; como la propiedad puede activarse varias veces, con cada una de estas activaciones se puede afectar a un objetivo distinto. Sin embargo, el DJ puede gastar [TH][TH] o bien [DE] para aplicar la propiedad Incendiaria del arma a un aliado alcanzado por el ataque original.
+[P]Modelos de ejemplo: Carabina incineradora C-22 de Merr-Sonn, fusil incinerador CR-24 de Merr-Sonn.
+    </Description>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>8</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>6</Encumbrance>
+    <HP>2</HP>
+    <Price>1000</Price>
+    <Rarity>6</Rarity>
+    <Type>Explosives/Other</Type>
+    <Categories>
+      <Category>Ranged</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>BURN</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>8</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>When triggering Burn quality, may apply it to any target hit by the attack</MiscDesc>
+      </Mod>
+      <Mod>
+        <MiscDesc>El DJ puede gastar [TH][TH] o bien [DE] para aplicar la propiedad Incendiaria del arma a un aliado alcanzado por el ataque original.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>MISS</Key>
+    <Name>Lanzamisiles</Name>
+    <Description>
+Los lanzamisiles son armas pesadas y portátiles que disparan munición autopropulsada. La mayoría se cargan con proyectiles protônicos diseñados para destruir vehículos pequeños, pero también pueden dispararse otros tipos de munición.
+[P]Los lanzamisiles son artefactos complejos, equipados con repulsores estabilizadores en miniatura para facilitar su acarreo a las tropas de infantería, además de pantallas de rastreo avanzado que identifican la velocidad, alcance y energía residual del objetivo. Esta última es una señal especialmente importante, ya que los lanzamisiles pueden dispararse en una de tres modalidades posibles. La primera es la detección de infrarrojos, que sigue el rastro de calor emitido por un vehiculo. La segunda percibe diferencias en los campos gravitatorios, de modo que puede captar y perseguir vehículos repulsores. Estas dos modalidades pueden ser burladas soltando bengalas incandescentes o cápsulas con microrrepulsores para engañar a los sensores del misil. Para saber más sobre la mecánica de juego de estas dos modalidades de ataque, consulta la descripción de la propiedad Guiada.
+[P]La tercera modalidad de disparo de los lanzamisiles es el fuego directo. Requiere más habilidad, pero lanza el proyectil en linea recta y es imposible desviarlo con ninguna de las contramedidas descritas en el párrafo anterior (aunque también pierde la propiedad Guiada). Como es lógico, si otro objetivo se interpone en su trayectoria o si el atacante no ha apuntado bien, el misil impactará en lo primero que encuentre sin ningún tipo de discriminación. Para poder disparar un lanzamisiles es necesario llevar a cabo antes 1 maniobra de preparación.
+[P]Modelos de ejemplo: Lanzamisiles PLX-2M de Merr-Sonn.
+    </Description>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>20</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrExtreme</RangeValue>
+    <Encumbrance>7</Encumbrance>
+    <HP>4</HP>
+    <Price>7500</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Explosives/Other</Type>
+    <Categories>
+      <Category>Ranged</Category>
+      <Category>Portable Gunnery</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>10</Count>
+      </Quality>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>PREPARE</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>FRAGGR</Key>
+    <Name>Granada de fragmentación</Name>
+    <Description>
+Puede encontrarse una gran variedad de granadas en toda la galaxia, desde explosivos caseros fabricados con caparazo. nes orgánicos en mundos primitivos hasta bombas rellenas de afiladas esquirlas metálicas y producidas en masa. Todas desempeñan la misma función: causar el máximo daño y confusión posibles en una amplia zona de efecto.
+[P]Las granadas de fragmentación son muy eficaces contra objetivos desprotegidos, a los que desgarran la carne y provocan tremendas contusiones en los tejidos blandos. Su efecto se ve considerablemente reducido por los blindajes como el que usan las tropas de asalto imperiales. Quienes se preguntan por qué los soldados de infantería del Imperio utilizan blindajes incapaces de detener un disparo de blaster es muy posible que nunca los hayan visto salir indemnes de entre el humo y los escombros tras la explosión de una granada.
+[P]Las granadas de fragmentación pueden fijarse para detonar con el impacto o hasta 3 asaltos después de que se active su temporizador interno al comienzo de la acción del atacante. Algunas también están provistas de un interruptor de presión que provoca la detonación inmediata de la granada si se suelta una vez apretado.
+[P]Modelos de ejemplo: Granada C-22 de Merr-Sonn.
+    </Description>
+    <Categories>
+      <Category>Ranged</Category>
+      <Category>Grenade</Category>
+    </Categories>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>8</Damage>
+    <Crit>4</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>50</Price>
+    <Rarity>5</Rarity>
+    <Type>Explosives/Other</Type>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>STUNGR</Key>
+    <Name>Granada aturdidora</Name>
+    <Description>
+Las granadas aturdidoras emplean ondas sonicas, descargas cinéticas y otros métodos para aturdir a sus objetivos.
+[P]Como ocurre con las de fragmentación, las granadas aturdidoras pueden fijarse para detonar con el impacto o hasta 3 asaltos después de que se active su temporizador interno. Muy pocas granadas aturdidoras tienen detonadores accionados por interruptores de presión.
+[P]Modelos de ejemplo: Granada aturdidora C-10 de Merr-Sonn.
+    </Description>
+    <Categories>
+      <Category>Ranged</Category>
+      <Category>Grenade</Category>
+    </Categories>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>8</Damage>
+    <Crit>0</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>75</Price>
+    <Rarity>4</Rarity>
+    <Type>Explosives/Other</Type>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>8</Count>
+      </Quality>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>STUNDAMAGE</Key>
+      </Quality>
+      <Blast>8</Blast>
+      <Disorient>3</Disorient>
+      <LimitedAmmo>1</LimitedAmmo>
+      <StunDamage>true</StunDamage>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>THERMDET</Key>
+    <Name>Detonador térmico</Name>
+    <Description>
+Estos insidiosos explosivos son del tamaño de una granada de fragmentación, pero poseen una envoltura de termita y baradio en cuyo interior se aloja un núcleo de baradio. Al detonar, la fusión resultante libera una oleada de particulas que lo desintegra todo en el radio de efecto de la deflagración. La mayoría de las autoridades prohíben el uso de estos artefactos debido a la inestabilidad del baradio. Un solo detonador térmico puede arrasar un edificio entero.
+[P]Cuando se utiliza un detonador térmico, un resultado de en la tirada produce un estallido prematuro. El usuario sufre el daño completo del arma a menos que pueda realizar una maniobra adicional para apartarse a tiempo, en cuyo caso únicamente sufre el daño por Explosion.
+[P]Los detonadores térmicos pueden fijarse para estallar con el impacto o bien 3 asaltos después de su activación al comienzo de la acción del atacante. Algunos también disponen de un interruptor de presión que, una vez apretado, detona el dispositivo en cuanto se suelta. Los detonadores térmicos son tan potentes que su propiedad Explosión afecta a todos los que estén a corto alcance del objetivo original.
+[P]Modelos de ejemplo: Detonador térmico clase A de Merr-Sonn.
+    </Description>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>20</Damage>
+    <Crit>2</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>2000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Explosives/Other</Type>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>15</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>4</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Any [DE] on check means detonator exploded prematurely.  User takes full damage unless an additional maneuver can be performed.  If so, user takes Blast damage.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>BRASS</Key>
+    <Name>Guantes de descarga</Name>
+    <Description>
+Un fino entramado de cables de metal convierte un par de manoplas aislantes ordinarias en guantes de descarga. Los practicantes de artes marciales pueden utilizarlos para potenciar sus brutales puñetazos, y más de un rufián ha "cerrado un acuerdo" con un apretón de manos que deja al rival retorciéndose en el suelo.
+[P]Modelos de ejemplo: Guantes corellianos de defensa personal X-21.
+    </Description>
+    <SkillKey>BRAWL</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>1</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>25</Price>
+    <Rarity>0</Rarity>
+    <Type>Brawling</Type>
+    <Categories>
+      <Category>Bludgeoning Brawl</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Add [SETBACK] to Perception checks to find brass knuckles on a person's body.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>SHOCKGL</Key>
+    <Name>Nudilleras</Name>
+    <Description>
+Los luchadores sin escrúpulos y los que desean proteger sus puños del duro pellejo de ciertas especies alienígenas emplean nudilleras metálicas, guanteletes o cualquier otro tipo de envoltura sólida para manos y otras extremidades. Los matones de algunos planetas las definen como "argumentos contundentes para la negociación".
+[P]Otra gran ventaja de las nudilleras de metal estriba en la facilidad con que pueden ocultarse en un bolsillo o compartimento similar hasta que hagan falta, razón por la que se añade a las tiradas de Percepción de los personajes que registren al usuario en busca de armas.
+    </Description>
+    <SkillKey>BRAWL</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>5</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>1</HP>
+    <Price>300</Price>
+    <Rarity>2</Rarity>
+    <Type>Brawling</Type>
+    <Categories>
+      <Category>Bludgeoning Brawl</Category>
+      <Category>Powered Brawl</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>STUN</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <!-- Melee -->
+  <Weapon>
+    <Key>KNIFE</Key>
+    <Name>Cuchillo de combate</Name>
+    <Description>
+Los más feroces combatientes utilizan cuchillos afilados para mutilar y sajar a sus enemigos. También son más fáciles de ocultar que las armas de fuego, e igualmente letales si el usuario sabe como empuñarlos.
+[P]Los cuchillos se consideran armas propias de ladrones, asesinos y gente vulgar, por lo que llevar uno a la vista puede provocar rechazo social entre gente educada o imponer respeto en los peores antros de maldad y vileza.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>1</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>25</Price>
+    <Rarity>1</Rarity>
+    <Type>Melee</Type>
+    <Categories>
+      <Category>Cutting Edge Melee</Category>
+    </Categories>
+  </Weapon>
+  <Weapon>
+    <Key>GAFF</Key>
+    <Name>Palo gaffi</Name>
+    <Description>
+Los bandidos tusken de Tatooine suelen emplear unas varas brutales fabricadas con madera de tractus del desierto, hueso y cuerno de dragon krayt, o con metal rapiñado de vehículos siniestrados. En uno de los extremos del palo gaffi hay cuatro cuchillas que utilizan para cortar y rajar a sus enemigos. El otro extremo está curvado hacia fuera y termina en algún tipo de pincho, aunque la parte convexa puede usarse como maza rudimentaria. Aunque parezca un arma tosca, su ingenio radica en su versatilidad: según cómo se enarbole, puede utilizarse para cortar, perforar o golpear. También tiene usos prácticos, ya sea como cayado para los terrenos escabrosos de Tatooine o con el fin de pastorear a los descomunales banthas de los bandidos tusken.
+[P]Para empuñar un bastón gaffi es preciso emplear ambas manos.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>2</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Price>100</Price>
+    <Rarity>2</Rarity>
+    <Type>Melee</Type>
+    <Hands>whTwoHanded</Hands>
+    <Categories>
+      <Category>Bludgeoning Melee</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>DEFENSIVE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>FORCEP</Key>
+    <Name>Pica de fuerza</Name>
+    <Description>
+Las picas de fuerza son varas metálicas de un metro de longi- tud con una punta energetizada en un extremo. En una de sus posibles configuraciones, la punta vibra con suficiente poten- cia como para destrozar carne, acero y piedra. La otra confi- guración emite una descarga eléctrica regulable que puede ser de baja intensidad (para utilizarla como picana o disuadir al objetivo) o de alta intensidad (capaz de infligir un dolor atroz o incluso causar la muerte). Ambas configuraciones presentan un diseño intuitivo; apenas se requiere destreza para blandir una vara y causar un daño devastador con la vibración o la descarga eléctrica. Sin embargo, en manos de un usuario experimentado es casi tan poderosa como un sable de luz.
+[P]Si se fija para aturdir, la pica de fuerza no se beneficia de la propiedad Perforante 2. Para empuñar una pica de fuerza es preciso emplear ambas manos.
+[P]Modelos de ejemplo: Pica de fuerza Controladora de SoroSuub.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Categories>
+      <Category>Powered Melee</Category>
+    </Categories>
+    <Damage>0</Damage>
+    <DamageAdd>3</DamageAdd>
+    <Crit>2</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>500</Price>
+    <Rarity>4</Rarity>
+    <Type>Melee</Type>
+    <Hands>whTwoHanded</Hands>
+    <Qualities>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>When using stun setting, may not benefit from Pierce quality</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Weapon>
+  <Weapon>
+    <Key>LTSABER</Key>
+    <Name>Sable de luz</Name>
+    <Description>
+El arma de los jedi no es un objeto nada común en AL FILO DEL IMPERIO. Los rufianes y granujas de la galaxia no suelen codearse con tan venerables caballeros. Si se topan con uno de estos individuos, la escoria de la galaxia haría bien en mantenerse apartada de su camino, pues sus armas están hechas de energía pura y pueden atravesar cualquier cosa, desde extremidades hasta compuertas de naves espaciales.
+[P]Normalmente se requiere la habilidad Sable de luz para poder blandir una de estas formidables armas. Sin embargo, dado que esta habilidad no es una opción para ninguno de los PJ que pueden crearse con este manual, si alguno de ellos empuña un sable de luz deberá hacerlo sin entrenamiento (escogiendo Fortaleza o Agilidad como característica básica). Esto es así deliberadamente; existen muy pocas personas en la galaxia capaces de esgrimir un sable de luz de manera eficaz en combate. No obstante, si el DJ lo estima pertinente, puede crear la habilidad Sable de luz y permitir que los jugadores la adquieran con normalidad. Los sables de luz son inmunes a los efectos de la propiedad Hendedura.
+    </Description>
+    <SkillKey>LTSABER</SkillKey>
+    <Damage>10</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>1</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>10000</Price>
+    <Rarity>10</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Lightsaber</Type>
+    <Categories>
+      <Category>Lightsaber</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>SUNDER</Key>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TRUNCH</Key>
+    <Name>Porra</Name>
+    <Description>
+Las porras pueden ser de metal, madera, hueso o cualquier otro material, pero todas cumplen la misma función básica: magullar la carne, romper huesos y fracturar cráneos. Los cuerpos policiales de toda la galaxia emplean porras para intimidar y controlar a los alborotadores y a los maleantes de poca monta. En las regiones más civilizadas este método es preferible a la fuerza letal.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>2</DamageAdd>
+    <Crit>5</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Price>15</Price>
+    <Rarity>1</Rarity>
+    <Type>Melee</Type>
+    <Categories>
+      <Category>Bludgeoning Melee</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>VIBAX</Key>
+    <Name>Vibrohacha</Name>
+    <Description>
+Los gamorreanos, sobre todo los que trabajan al servicio de los infames hutts, suelen ir armados con largas armas de asta provistas de una cabeza de hacha con tecnología vibratoria. La mayoría son muy pesadas y únicamente aptas para seres de considerable fuerza y un centro de gravedad bajo (las criaturas más altas y estilizadas suelen tener dificultades para blandir las pesadas hojas de las hachas sin perder el equilibrio).
+[P]Las vibrohachas provocan unos daños tremendos y brutales. La zona del impacto sufre un destrozo considerable debido al filo del hacha y a la vibración. Por este motivo, las heridas causadas por vibrohachas son particularmente atroces, de ahí su elevado daño y probabilidad de impacto crítico. Para empuñar una vibrohacha es preciso emplear ambas manos.
+[P]Modelos de ejemplo: Vibrohacha Rebanadora BD-1 de SoroSuub.
+    </Description>
+    <Sources>
+      <Source Page="167">Edge of the Empire Core Rulebook</Source>
+      <Source Page="182">Age of Rebellion Core Rulebook</Source>
+      <Source Page="175">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>3</DamageAdd>
+    <Crit>2</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>750</Price>
+    <Rarity>5</Rarity>
+    <Type>Melee</Type>
+    <Hands>whTwoHanded</Hands>
+    <Categories>
+      <Category>Cutting Edge Melee</Category>
+      <Category>Powered Melee</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>SUNDER</Key>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>VIBKN</Key>
+    <Name>Vibrocuchillo</Name>
+    <Description>
+Un vibrocuchillo es básicamente un cuchillo de combate modificado, pero el diseño ha resultado ser tan efectivo que ya se fabrican modelos de serie por toda la galaxia. Su premisa es muy simple: lleva incorporado un pequeño pero potente dispositivo en el mango que hace vibrar la hoja a una velocidad increíblemente alta, de tal modo que se convierte en una especie de motosierra en miniatura. Los vibrocuchillos no son tan potentes como los sables de luz contra la mayoría de los materiales, pero tampoco hace falta ser un jedi para empuñarlos de manera eficaz.
+[P]Modelos de ejemplo: Vibrofilo Treppus-2 de Merr-Sonn.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>1</DamageAdd>
+    <Crit>2</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>1</Encumbrance>
+    <HP>2</HP>
+    <Price>250</Price>
+    <Rarity>3</Rarity>
+    <Type>Melee</Type>
+    <Categories>
+      <Category>Cutting Edge Melee</Category>
+      <Category>Powered Melee</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>VIBSW</Key>
+    <Name>Vibroespada</Name>
+    <Description>
+      En muchas civilizaciones galácticas es una costumbre arraigada mejorar el sencillo pero efectivo diseño de la espada mediante inductores de vibraciones ultrasónicas. Estas vibraciones de alta frecuencia potencian su filo hasta tal punto que puede cortar con suma facilidad la mayoría de los materiales sólidos.
+[P]Existen muchas variedades de vibrofilos, pero la vibroespada es más habitual entre los individuos que se las dan de duelistas.
+[P]Modelos de ejemplo: Espada de duelo Damask-4 de Merr-Sonn.
+    </Description>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>2</DamageAdd>
+    <Crit>2</Crit>
+    <RangeValue>wrEngaged</RangeValue>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>750</Price>
+    <Rarity>5</Rarity>
+    <Type>Melee</Type>
+    <Categories>
+      <Category>Cutting Edge Melee</Category>
+      <Category>Powered Melee</Category>
+    </Categories>
+    <Qualities>
+      <Quality>
+        <Key>DEFENSIVE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <!-- Vehicle-only weapons -->
+  <Weapon>
+    <Key>AUTOBLAST</Key>
+    <Name>Cañon bláster automático</Name>
+    <Description>
+      [H3]Auto-Blaster[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <SkillKey>GUNN</SkillKey>
+    <Categories>
+      <Category>Blaster</Category>
+    </Categories>
+    <Damage>3</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>5</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>3000</Price>
+    <Rarity>3</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>2</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTCANLT</Key>
+    <Name>Cañon bláster ligero</Name>
+    <Description>
+      [H3]Light Blaster Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Blaster</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>4</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>4000</Price>
+    <Rarity>2</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>2</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLASTCANHVY</Key>
+    <Name>Cañon blaster pesado</Name>
+    <Description>
+      [H3]Heavy Blaster Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Blaster</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>5000</Price>
+    <Rarity>3</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>CML</Key>
+    <Name>Lanzamisiles de impacto</Name>
+    <Description>
+      [H3]Concussion Missile Launcher[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Missile</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>7500</Price>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>CMLORD</Key>
+    <Name>Misil de impacto</Name>
+    <Description>
+      [H3]Concussion Missile[h3]
+      Please see page 229 of the Edge of the Empire Core Rulebook, or page 242 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="229">Edge of the Empire Core Rulebook</Source>
+      <Source Page="242">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Missile</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>500</Price>
+    <Restricted>true</Restricted>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <Ordnance>true</Ordnance>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>IONLT</Key>
+    <Name>Cañon de iones ligero</Name>
+    <Description>
+      [H3]Light Ion Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Ion</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>5000</Price>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>ION</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>IONMED</Key>
+    <Name>Cañon de iones medio</Name>
+    <Description>
+      [H3]Medium Ion Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Ion</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>6000</Price>
+    <Rarity>6</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>5</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>ION</Key>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>IONHVY</Key>
+    <Name>Cañon de iones pesado</Name>
+    <Description>
+      [H3]Heavy Ion Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Ion</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>7</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>7500</Price>
+    <Rarity>7</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>6</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>ION</Key>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>LASERLT</Key>
+    <Name>Cañon laser ligero</Name>
+    <Description>
+      [H3]Light Laser Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>5500</Price>
+    <Rarity>4</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>LASERMED</Key>
+    <Name>Cañon laser medio</Name>
+    <Description>
+      [H3]Medium Laser Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>7000</Price>
+    <Rarity>4</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>LASERHVY</Key>
+    <Name>Cañon laser pesado</Name>
+    <Description>
+      [H3]Heavy Laser Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>7500</Price>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>4</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>PTL</Key>
+    <Name>Lanza torpedos de protones</Name>
+    <Description>
+      [H3]Proton Torpedo Launcher[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Proton Torpedo</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>8</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>2</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>9000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Vehicle</Type>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>LASERQUAD</Key>
+    <Name>Cañones láser cuádruples</Name>
+    <Description>
+      [H3]Quad Laser Cannon[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>8000</Price>
+    <Rarity>6</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>4</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>LINKED</Key>
+        <Count>3</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TRACTLT</Key>
+    <Name>Campo de tracción ligero</Name>
+    <Description>
+      [H3]Light Tractor Beam[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Tractor</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>6000</Price>
+    <Rarity>4</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>4</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>TRACTOR</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TRACTMED</Key>
+    <Name>Campo de tracción mediano</Name>
+    <Description>
+      [H3]Medium Tractor Beam[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Tractor</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>8000</Price>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>5</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>TRACTOR</Key>
+        <Count>4</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TRACTHVY</Key>
+    <Name>Campo de tracción fuerte</Name>
+    <Description>
+      [H3]Heavy Tractor Beam[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Tractor</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <RangeValue>wrShort</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>10000</Price>
+    <Rarity>6</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>5</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>TRACTOR</Key>
+        <Count>6</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TURBOLT</Key>
+    <Name>Turboláser ligero</Name>
+    <Description>
+      [H3]Light Turbolaser[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>9</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrMedium</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>12000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Vehicle</Type>
+    <SizeLow>5</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TURBOMED</Key>
+    <Name>Turbolaser medio</Name>
+    <Description>
+      [H3]Medium Turbolaser[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>10</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>15000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Vehicle</Type>
+    <SizeLow>6</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TURBOHVY</Key>
+    <Name>Turbolaser pesado</Name>
+    <Description>
+      [H3]Heavy Turbolaser[h3]
+      Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="230">Edge of the Empire Core Rulebook</Source>
+      <Source Page="240">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Laser</Category>
+    </Categories>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>11</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <RangeValue>wrLong</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>20000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Type>Vehicle</Type>
+    <SizeLow>6</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>ELECHARPOON</Key>
+    <Name>Arpón electromagnetico</Name>
+    <Description>
+      [H3]Electromagnetic Harpoon[h3]
+      Please see page 249 of the Edge of the Empire Core Rulebook, or page 263 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="249">Edge of the Empire Core Rulebook</Source>
+      <Source Page="263">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <RangeValue>wrClose</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>3000</Price>
+    <Rarity>3</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>2</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Qualities>
+      <Quality>
+        <Key>KNOCKDOWN</Key>
+      </Quality>
+      <Quality>
+        <Key>ENSNARE</Key>
+        <Count>5</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>5</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>CONGRENLAUNCH</Key>
+    <Name>Lanzagranadas de impacto</Name>
+    <Description>
+      [H3]Concussion Grenade Launcher[h3]
+      Please see page 253 of the Edge of the Empire Core Rulebook, or page 265 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="253">Edge of the Empire Core Rulebook</Source>
+      <Source Page="265">Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>10</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <RangeValue>wrExtreme</RangeValue>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>7500</Price>
+    <Rarity>5</Rarity>
+    <Type>Vehicle</Type>
+    <SizeLow>2</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Scale>wsPersonal</Scale>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>8</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>20</Count>
+      </Quality>
+    </Qualities>
+  </Weapon>
+</Weapons>

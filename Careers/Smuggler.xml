@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>SMUG</Key>
+  <Name>Contrabandista</Name>
+  <Description>
+    Aunque se pasan la mayor parte de sus vidas escabullendose de las autoridades imperiales, manteniendo en perfecto funcionamiento los sistemas de vuelo de sus naves, eludien do disparos de blaster y ganando lo justo para comer, los contrabandistas suelen estar considerados como los seres con mayor libertad de toda la galaxia. Recorren las rutas hiperespaciales de sistema a sistema, de planeta en planeta, proporcionando todo aquello que la gente pueda desear y necesitar, pero que les resulte imposible conseguir por me dios legítimos.
+	[P]Por desgracia, esta libertad es con frecuencia una ilusión: muchos contrabandistas contraen importantes deudas con individuos poderosos y ofrecen sus naves como avales simplemente para poder seguir ejerciendo su oficio. Estos acuerdos casi siempre acaban condenando al contrabandista a una especie de servidumbre por adeudo, a menos que encuentren el modo de saldar la deuda. Y para eso se requiere dar un golpe a lo grande, un encargo de tamaña recompensa financiera que el contrabandista pueda permitirse volver a comprar su nave y trabajar por cuenta propia una vez más.
+	[P]Pocos contrabandistas sobreviven a tales encargos. La mayoría se resignan a las circunstancias y siguen adelante con sus naves.
+	[P]Pero incluso habiendo arriesgado sus naves como garantias, los contrabandistas suelen gozar de un alto grado de autonomía, y desarrollan muchas y muy diversas habilidades y talentos que resultan de gran utilidad para todo grupo que se disponga a afrontar los peligros del Borde Exterior. Los contrabandistas se las apañan perfectamente bien en los bajos fondos y demás entornos marginales, y por lo general saben cómo conseguir lo que necesitan, sobre todo cuando la ilegalidad no supone ningún problema.
+	[P]Los contrabandistas son una parte indispensable de la sociedad en el Borde Exterior. Teniendo en cuenta las tasas, restricciones y prohibiciones manifiestas de los artículos (a veces incluso de primera necesidad) enviados a planetas que no están enteramente sometidos a la ley del Imperio, un gran número de personas tendría enormes dificultades para subsistir dignamente, quizá hasta perecería de inanición o debido a la escasez de medicamentos. Las naves de los contrabandistas son el cordón umbilical que proporciona sustento a muchos de los núcleos de población más remotos.
+	[P]Y está claro que los cargamentos más lucrativos son aquellos cuya posesión está penada con una estancia prolongada en las minas de especia de Kessel.
+  </Description>
+  <CareerSkills>
+    <Key>COORD</Key>
+    <Key>DECEP</Key>
+    <Key>UND</Key>
+    <Key>PERC</Key>
+    <Key>PILOTSP</Key>
+    <Key>SKUL</Key>
+    <Key>SW</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>PILOT</Key>
+    <Key>SCOUND</Key>
+    <Key>THIEF</Key>
+    <Key>CHARMER</Key>
+    <Key>GAMBLER</Key>
+    <Key>GUNSLINGER</Key>
+  </Specializations>
+</Career>

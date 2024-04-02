@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>WOOK</Key>
+  <Name>Wookiee</Name>
+  <Description>
+    Fuertes, inteligentes y feroces en combate, los wookiees son los mejores amigos de aquellos a quienes juran lealtad... y los peores enemigos de todos los demás. Por desgracia, prácticamente han desaparecido de la población galáctica y están camino de convertirse en un recuerdo olvidado de la Antigua República.
+	[P][B]Fisiología:[b] Los wookiees tienen un tamaño desmesurado; sus más de 2 metros de estatura infunden panico a sus enemigos. Y tienen buenos motivos para asustarse, pues en toda la galaxia hay pocas especies que igualen en fuerza o mal genio a los wookiees. Poseen largas extremidades provistas de garras retráctiles en los dedos de manos y pies para desenvolverse con soltura en los entornos arbóreos de su mundo natal.
+	[P][B]Únicamente emplean estas garras para escalar, nunca para el combate, pues tal cosa se considera deshonrosa en la cultura wookiee. Su pelaje crece en diversos colores, oscureciéndose al alcanzar la edad madura y encaneciendo en la vejez (los wookiees pueden vivir varios siglos).
+	[P][B]Sociedad:[b] Aunque sus atributos físicos les confieren un aspecto amenazador, los wookiees se adhieren a estrictos códigos de honor y lealtad. Están estrechamente unidos por lazos familiares y de amistad, pues en Kashyyyk existen peligros que aterrorizan a los wookiees más fieros. Casi la mitad de la superficie del planeta está cubierta por árboles wroshyr de varios kilómetros de altura, característicos del sistema ecológico exclusivo de Kashyyyk y hogar de la mayoría de las comunidades wookiees. En el séptimo nivel de estos bosques, los wookiees han construido inmensas ciudades sobre los árboles en las que tecnología y naturaleza se fusionan en armonía. Las competencias mecánicas y la ingeniería son aptitudes innatas en los wookiees.
+	[P][B]Habiendo dominado gran parte de los niveles superiores de Kashyyyk, los wookiees se disponían a explorar las estrellas por sus propios medios cuando una especie vecina, la trandoshana, aterrizó en su planeta para colonizarlo y explotar sus recursos. A pesar de que los trandoshanos poseían un armamento más avanzado, los wookiees lograron expulsar de Kashyyyk a los colonos, y no tardaron en desguazar la tecnología que abandonaron en su huida, incluida una nave espacial con motores sublumínicos. Cuando los trandoshanos regresaron, los wookiees los rechazaron por segunda vez, y luego se hicieron a las estrellas.
+	[P][B]El conflicto entre wookiees y trandoshanos se prolongó durante los años posteriores de la Antigua República, y los mediadores enviados por esta apoyaron con frecuencia a los honorables wookiees. Pero los trandoshanos tuvieron su oportunidad cuando Palpatine instauró su Imperio. Enviaron emisarios al antiguo senador para relatarle sus disputas con los wookiees. Los imperiales escucharon las tribulaciones de los trandoshanos y encerraron a los rabiosos wookiees en campamentos de trabajos forzados, encañonando a los niños wookiees para obligar a los adultos a emplear su pericia técnica en la construcción de material bélico para el Imperio, incluidas varias piezas de ambas Estrellas de la Muerte.
+	[P][B]Mundo natal:[b] Los wookiees son oriundos del planeta boscoso Kashyyyk, un mundo cubierto de inmensos y antiquísimos bosques en los que crecen los kilométricos árboles wroshyr. Estos árboles forman un ecosistema de distintos niveles en Kashyyyk, siendo los superiores los más seguros. Cuanto más se desciende hacia las profundidades de los bosques del planeta, más peligrosas son la flora y la fauna que se encuentran. En los niveles inferiores ni siquiera un wookiee puede sobrevivir durante mucho tiempo.
+	[P][B]Idioma:[b] La lengua wookiee, denominada shyriiwook, no cesa de asombrar a los lingüistas con los increíbles matices de los gruñidos y rugidos que conforman su lenguaje. Pocos individuos de otras especies saben hablar este idioma o alguno de sus dialectos, como el xaczik que hablan los wookiees de las islas de Wartaki. En contraposición, la fisiologia wookiee no les permite hablar los idiomas de otras especies, incluido el básico, aunque la mayoría de los wookiees lo entienden sin demasiado problema.
+	[P][B]Vida en los confines:[b] Durante la era del Imperio, casi todos los wookiees libres son fugitivos buscados. Pocos se molestan en sacar el tema, pues saben que es más sensato agradar a un wookiee que soliviantarlo. Los wookiees que no viven esclavizados en los campamentos de trabajos forzados del Imperio pueden ejercer cualquier profesión que combine peligro, tecnología y exploración. Detestan el oficio del cazarrecompensas, aunque algunos renegados como Snoova han emprendido este camino.
+
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 14 + Fortaleza
+	[P]Umbral de Tensión: 8 + Voluntad
+	[P]Experiencia inicial: 90 PE
+	[P]Capacidad especial:Los wookiees empiezan con 1 rango de entrenamiento en Pelea (pero siguen estando limitados a un rango máximo de 2 en esta habilidad durante la creación del personaje).
+  </Description>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>14</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>WOOKAB</Key>
+      <Name>Furia</Name>
+      <Options>
+        <Option>
+          <Key>WOOKABRAGE</Key>
+          <Name>Furia wookiee:</Name>
+          <Description>i un wookiee ha sufrido Heridas, aña- de + 1 al daño infligido con ataques de Pelea y Armas cuerpo a cuerpo. Si un wookiee sufre heridas críticas, en vez de lo anterior suma +2 al daño causado con ataques de Pelea y Armas cuerpo a cuerpo.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

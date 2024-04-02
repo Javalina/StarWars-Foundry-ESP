@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Characteristics>
+  <Characteristic>
+    <Key>BR</Key>
+    <Name>Fortaleza</Name>
+    <Abbrev>Br</Abbrev>
+    <Description>
+      La Fortaleza del personaje es una combinación de su fuer- za bruta, su constitución y su resistencia general, así como su capacidad para aplicar estos atributos en distintas situa ciones. Un personaje con una puntuación elevada de For- taleza es robusto y se halla en buena forma fisica, no suele enfermar y goza de una complexión fuerte. La Fortaleza se utiliza para diversas habilidades fisicas como el Atletismo y la Pelea. También sirve para determinar el umbral inicial de Heridas del personaje
+    </Description>
+  </Characteristic>
+  <Characteristic>
+    <Key>AG</Key>
+    <Name>Agilidad</Name>
+    <Abbrev>Ag</Abbrev>
+    <Description>
+      La Agilidad mide la destreza manual del personaje, su coor- dinación mano-ojo y su control corporal. Un personaje con una puntuación alta de Agilidad tiene un buen sentido del equilibrio, es flexible y posee manos hábiles. La Agilidad se utiliza para diversas habilidades físicas como la Coordina- ción, y es esencial para habilidades de combate como Ar- mas a distancia ligeras y Armas a distancia pesadas.
+    </Description>
+  </Characteristic>
+  <Characteristic>
+    <Key>INT</Key>
+    <Name>Inteligencia</Name>
+    <Abbrev>Int</Abbrev>
+    <Description>
+      El Intelecto mide la inteligencia, educación, agudeza mental y raciocinio. Un personaje con una puntuación alta de Inte- lecto puede extrapolar o interpolar datos, recordar detalles y experiencias previas, idear estrategias a largo plazo y con- templar las posibles repercusiones de acciones presentes. El Intelecto se usa en diversas habilidades mentales como As- tronavegación, Computadoras y todas las de conocimientos (como Saber arcaico y Xenología).
+    </Description>
+  </Characteristic>
+  <Characteristic>
+    <Key>CUN</Key>
+    <Name>Astucia</Name>
+    <Abbrev>Cun</Abbrev>
+    <Description>
+      La Astucia refleja lo ingenioso, inteligente, sagaz y creativo que puede ser el individuo. Un personaje con una puntua- ción elevada de Astucia es espabilado, capta enseguida las señales sociales y del entorno, y puede idear rápidamente planes y tácticas a corto plazo. La Astucia se utiliza para di versas habilidades mentales como el Engaño, la Percepción y la Supervivencia.
+    </Description>
+  </Characteristic>
+  <Characteristic>
+    <Key>WIL</Key>
+    <Name>Voluntad</Name>
+    <Abbrev>Wil</Abbrev>
+    <Description>
+      La Voluntad refleja disciplina, autocontrol, fortaleza mental y convicción. Un personaje con una puntuación alta de Volun- tad puede sobreponerse a la tensión y la fatiga, conserva la calma en situaciones caóticas y puede influir en individuos de carácter débil. La Voluntad se utiliza para diversas habili- dades como Coacción y Alerta. También sirve para determi- nar el umbral inicial de Tensión del personaje.
+    </Description>
+  </Characteristic>
+  <Characteristic>
+    <Key>PR</Key>
+    <Name>Presencia</Name>
+    <Abbrev>Pr</Abbrev>
+    <Description>
+      La Presencia es una medida del encanto, carisma, autocon- fianza y personalidad. Un personaje con una puntuación elevada de Presencia es un līder nato, llama la atención de todos cuando entra en una habitación, puede entablar conversación con casi cualquiera y se adapta rápidamente a los entornos sociales. La Presencia es la característica más Importante para las habilidades de relaciones personales como Carisma y Liderazgo.
+    </Description>
+  </Characteristic>
+</Characteristics>

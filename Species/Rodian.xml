@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>ROD</Key>
+  <Name>Rodian</Name>
+  <Description>
+	Los rodianos nacen para cazar, pues su planeta de origen es un mundo hostil que inculca instintos asesinos. Para aquellos a cuya cabeza se ha puesto precio, vislumbrar un morro verde ahusado o captar un inconfundible hedor a podrido indica que hay un cazarrecompensas rodiano siguiendo su rastro.
+	[P][B]Fisiología:[b] Los rodianos han evolucionado de una especie de lagartos trepadores y aún conservan algunos de los atributos de sus antepasados, especialmente los enormes ojos y las ventosas que tienen en los dedos de manos y pies para facilitar la escalada. Hoy en día estos rasgos físicos no bastan para que un rodiano adulto de 1,6 metros de altura se mantenga adherido a una roca o árbol durante mucho tiempo, pero sí han salvado a más de un rodiano de caidas que habrían matado a muchos individuos de otras especies.
+	[P][B]Sociedad:[b] La historia de Rodia es una historia de violencia. Hace mucho tiempo, este mundo tropical estaba infestado de feroces depredadores, así que los indefensos antepasados de los rodianos debían adaptarse o morir. Y se adaptaron, ocultándose entre las ramas de los árboles o trepando hasta cuevas situadas en lo alto de las montañas, donde aprendieron a fabricar herramientas y urdir planes para cazar a los depredadores. Su talento para la caza creció a pasos agigantados, y pronto se convirtió en el eje central de su sociedad.
+	[P]Los rodianos mejoraron sus aptitudes de cazadores hasta tal punto que acabaron provocando la extinción de la mayor parte de los depredadores de Rodia. Cuando ya no les quedaba casi nada para cazar, se volvieron unos contra otros. Las cacerías gladiatorias entre campeones rivales se transformaron paulatinamente en escaramuzas y posteriormente desembocaron en guerras tribales.
+	[P]La beligerante cultura rodiana estuvo a punto de provocar el bloqueo e incomunicación del planeta cuando fue descubierto por exploradores de la Antigua República. Pero los līderes rodianos consiguieron reprimir sus violentas tendencias culturales el tiempo suficiente para establecer contacto con el resto de la galaxia. Varios milenios después, la cultura rodiana ha dejado atrás lo peor de sus impulsos agresivos, aunque siguen venerando el arte de la caza.
+	[P][B]Mundo natal:[b] El planeta Rodia, situado en el Borde Intermedio, es el mundo de origen de los rodianos. En él se fusionan el desarrollo urbano e industrial con extensiones de selva tropical que se conserva intacta, proporcionando a los valerosos jóvenes rodianos una gran variedad de entornos en los que poner a prueba sus aptitudes para la caza.
+	[P][B]Idioma:[b] Debido a la estructura de sus bocas, los rodianos tienen dificultades para expresarse en el idioma básico; algunos ni siquiera se molestan en intentarlo, y optan por utilizar exclusivamente su lengua materna, el rodés.
+	[P][B]Vida en los confines:[b] Debido a la herencia cultural de "la cacería", los rodianos tienden a ofrecer sus servicios como cazarrecompensas o pistoleros a sueldo. A menudo aceptan desafíos que les vienen grandes, fantaseando con los homenajes que recibirán en Rodia por haber capturado a su presa.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 10 + Fortaleza
+	[P]Umbral de Tensión: 10 + Voluntad
+	[P]Experiencia inicial: 100 PE
+	[P]Capacidad especial: Los rodianos empiezan con 1 rango de entrenamiento en Supervivencia (pero siguen estando limitados a un rango máximo de 2 en esta habilidad durante la creación del personaje). También comienzan el juego con 1 rango del talento Rastreador experto.
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SURV</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>EXTRACK</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+</Species>

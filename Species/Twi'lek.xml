@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>TWI</Key>
+  <Name>Twi'lek</Name>
+  <Description>
+    Los twi'leks son una de las especies no humanas más abundantes en la galaxia. Son expertos negociadores, muy hábiles adivinando las intenciones de miembros de otras especies y empleando la astucia para conseguir lo que se proponen.
+	[P][B]Fisiología:[b] Los twi'leks poseen dos tentáculos prensiles, llamados tchun-tchin o lekku, que nacen de la parte posterior de sus cabezas. Estas colas craneales les sirven a modo de segundas lenguas con las se comunican mediante señales y gestos. La gran variedad de colores que puede presentar la piel de los twi'leks es un indicativo de los clanes a los que pertenecen y de sus regiones de procedencia.
+	[P][B]Sociedad:[b] La familia lo es todo en la sociedad twi'lek. El gobierno de Ryloth está formado por una alianza de clanes dirigentes, cada uno de los cuales controla un pueblo pequeño o todo un distrito urbano. Los cinco miembros más importantes de una familia twi'lek lideran sus respetables clanes dirigentes, cuyo poder e influencia se proyecta hacia los peldaños inferiores del linaje familiar. Según la tradición, cuando un líder del clan dirigente muere, los cuatro restantes deben exiliarse a las áridas Tierras Brillantes, donde merodean los feroces lyleks. Sin embargo, en la práctica todos los líderes de los clanes encuentran nuevas e ingeniosas formas de eludir este exilio.
+	El sistema de clanes ha estratificado la sociedad twi'lek en una serie de castas. Los últimos vástagos de un linaje familiar se consideran de baja cuna y son vendidos como esclavos. Los líderes twi'leks se ofenden ante cualquier acusación de promover la esclavitud y afirman que jamás pondrían grilletes a los de su propia especie; prefieren echar la culpa a los demás clanes. Pese a ello, casi todos los clanes practican lo que ellos denominan "servidumbre por contrato".
+	[P][B]Mundo natal:[b] Aunque su planeta de origen, Ryloth, se encuentra en el Borde Exterior, pueden encontrarse twi'leks en numerosos mundos por toda la galaxia conocida debido a su naturaleza emprendedora y al tráfico de esclavos.
+	[P][B]Idioma:[b] El ryl es la lengua materna de Ryloth, pero hay muy pocos twi'leks que no dominen el básico. Lo que diferencia a los twi'leks de otras especies es su segundo idioma, no verbal, que ellos laman lekku o twi'leki. En conversaciones cotidianas los twi'leks añaden énfasis y contenido a sus palabras agitando y crispando las colas de sus cabezas. Si precisan de intimidad, los twi'leks pueden conversar en completo silencio valiéndose únicamente de los gestos que realizan con estos apéndices para transmitir información compleja.
+	[P][B]Vida en los confines:[b] Dados sus talentos lingüísticos, su astucia natural y sus aptitudes sociales, los twi'leks encajan perfectamente en cargos administrativos, políticos y directivos. Los miembros de menor categoría de un clan que no están satisfechos con su estatus suelen marcharse de Ryloth para buscarse la vida, impulsados por un espíritu emprendedor para fundar sus propios negocios o establecer sus propios sindicatos del crimen.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 10 + Fortaleza
+	[P]Umbral de Tensión: 10 + Voluntad
+	[P]Experiencia inicial: 100 PE
+	[P]Capacidad especial: Los twi'leks empiezan con 1 rango de entrenamiento en Carisma o bien en Engaño (pero siguen estando limitados a un rango máximo de 2 en ambas habilidades durante la creación del personaje). Además, al hacer una tirada de habilidad, un twi'lek puede eliminar [SE] impuesto por condiciones ambientales áridas o calurosas.
+	</Description>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TWIABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>TWISKCH</Key>
+          <Name>Charm</Name>
+          <Description>Twi'leks may begin the game with one rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>TWISKDEC</Key>
+          <Name>Deception</Name>
+          <Description>Twi'leks may begin the game with one rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TWIENV</Key>
+      <Name>Environmental</Name>
+      <Options>
+        <Option>
+          <Key>TWIENVHOT</Key>
+          <Name>Arid/Hot Environments</Name>
+          <Description>
+            When making skill checks, Twi'leks may remove [SETBACK] imposed due to arid or hot environmental conditions.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

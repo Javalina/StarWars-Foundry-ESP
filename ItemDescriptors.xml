@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ItemDescriptors>
+  <!-- Qualities -->
+  
+  <ItemDescriptor>
+    <Key>ACCURATE</Key>
+    <Name>Precisa</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas Precisas son mas faciles de apuntar o empunar, ya sea por su diseño o por la tecnología utilizada en su fabricación. Cada nivel de esta propiedad añade [BO] a la reserva de dados del atacante cuando utiliza esta arma.</ModDesc>
+    <QualDesc>Las armas Precisas son mas faciles de apuntar o empunar, ya sea por su diseño o por la tecnología utilizada en su fabricación. Cada nivel de esta propiedad añade [BO] a la reserva de dados del atacante cuando utiliza esta arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>AUTOFIRE</Key>
+    <Name>Automática</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Un arma automática puede ajustarse para disparar en rápida sucesión y acribillar toda una zona con rayos, metralla, balas o cualquier otro tipo de proyectil. La ventaja de disparar en modo automático estriba en la posibilidad de alcanzar a múltiples objetivos o herir varias veces a un solo blanco
+	[P]Generalmente los ataques con armas fijadas en fuego automático son menos precisos, por lo que debe añadirse [DI] a la tirada de ataque. El usuario puede optar por no disparar en modo automático; en tal caso no podrá activar esta propiedad, pero tampoco sufrirá la mencionada penalización.
+	[P]Si el ataque impacta, el atacante puede activar esta propiedad gastando  [AD][AD]. esto puede hacerse más de una vez; por cada activación de la propiedad Automática, el arma inflinge 1 impacto adicional al blanco. Cada uno de estos impactos causa el daño básico del arma más el número de [SU] obtenidos en la tirada que no hayan sido anulados
+	[P]Estos impactos adicionales pueden asignarse al mismo objetivo o repartirse entre varios objetivos situados dentro del alcance del arma. Si el atacante desea alcanzar a varios objetivos, debe declararlo antes de efectuar la tirada. Además, para tener éxito el objetivo iniicial debe ser siempre el que tenga más defensa y entrañe mayor dificultad (si cada una de estas condiciones las cumpliese un objetivo distinto, el PJ decide cúal de ellos es el jugador inicial). El primer impacto debe asignarse siempre al objetivo inicial, y todo impacto adicional generado puede asignarse a cualquiera de los demás objetivos designados.
+	[P]Las armas automáticas también pueden inflingir 1 herida crítica con cada impacto generado por el ataque, para lo que se debe cubrir el coste habitual; esta herida crítica debe sufrirla el objetivo del impacto que la ha causado. 
+	</ModDesc>
+    <QualDesc>Un arma automática puede ajustarse para disparar en rápida sucesión y acribillar toda una zona con rayos, metralla, balas o cualquier otro tipo de proyectil. La ventaja de disparar en modo automático estriba en la posibilidad de alcanzar a múltiples objetivos o herir varias veces a un solo blanco
+	[P]Generalmente los ataques con armas fijadas en fuego automático son menos precisos, por lo que debe añadirse [DI] a la tirada de ataque. El usuario puede optar por no disparar en modo automático; en tal caso no podrá activar esta propiedad, pero tampoco sufrirá la mencionada penalización.
+	[P]Si el ataque impacta, el atacante puede activar esta propiedad gastando  [AD][AD]. esto puede hacerse más de una vez; por cada activación de la propiedad Automática, el arma inflinge 1 impacto adicional al blanco. Cada uno de estos impactos causa el daño básico del arma más el número de [SU] obtenidos en la tirada que no hayan sido anulados
+	[P]Estos impactos adicionales pueden asignarse al mismo objetivo o repartirse entre varios objetivos situados dentro del alcance del arma. Si el atacante desea alcanzar a varios objetivos, debe declararlo antes de efectuar la tirada. Además, para tener éxito el objetivo iniicial debe ser siempre el que tenga más defensa y entrañe mayor dificultad (si cada una de estas condiciones las cumpliese un objetivo distinto, el PJ decide cúal de ellos es el jugador inicial). El primer impacto debe asignarse siempre al objetivo inicial, y todo impacto adicional generado puede asignarse a cualquiera de los demás objetivos designados.
+	[P]Las armas automáticas también pueden inflingir 1 herida crítica con cada impacto generado por el ataque, para lo que se debe cubrir el coste habitual; esta herida crítica debe sufrirla el objetivo del impacto que la ha causado. </QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>BREACH</Key>
+    <Name>Brecha</Name>
+    <Type>Weapon</Type>
+    <Description></Description>
+    <ModDesc>Las armas de Brecha pueden atravesar los blindajes más resistentes; la mayoría son armas pesadas o sistemas de armamento de naves espaciales.
+[P]Las armas que poseen esta propiedad ignoran 1 punto de Blindaje por cada punto de Brecha lo que significa que tambien ignoran 10 puntos de Protección por cada punto que tengan en esta propiedad).</ModDesc>
+    <QualDesc>Las armas de Brecha pueden atravesar los blindajes más resistentes; la mayoría son armas pesadas o sistemas de armamento de naves espaciales.
+[P]Las armas que poseen esta propiedad ignoran 1 punto de Blindaje por cada punto de Brecha lo que significa que tambien ignoran 10 puntos de Protección por cada punto que tengan en esta propiedad).</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>BURN</Key>
+    <Name>Incendiaria</Name>
+    <Type>Weapon</Type>
+    <Description></Description>
+    <ModDesc>Las armas dotadas de esta propiedad infligen daños continuadoз durante un cicerto periodo de tiempo. Si el ataque tiene éxito, el objetivo sigue sufriendo el daño básico del arma durante tantos asaltos como el valor de esta propiedad. Este daño se aplica al principio de cada una de las acciones del objetivo.
+[P]La víctima puede ser capaz de evitar este daño revolcándose por el suelo y gastando una acción para hacer una tirada de Agilidad, que será una tirada Media ([DI][DI]) de Coordinacion sobre superficies duras como lus cuitedures de una nave espacial, o una tirada Fácil ([DI]) de Coordinación sobre hierba o terreno blando. Arrojarse a una masa de agua anula el efecto por completo. En ambas situaciones se asume que las llamas se producen por combustion y no por reacción química (porque en ese caso lo más probable es que la víctima no pueda hacer nada por sofocarlas).</ModDesc>
+    <QualDesc>Las armas dotadas de esta propiedad infligen daños continuadoз durante un cicerto periodo de tiempo. Si el ataque tiene éxito, el objetivo sigue sufriendo el daño básico del arma durante tantos asaltos como el valor de esta propiedad. Este daño se aplica al principio de cada una de las acciones del objetivo.
+[P]La víctima puede ser capaz de evitar este daño revolcándose por el suelo y gastando una acción para hacer una tirada de Agilidad, que será una tirada Media ([DI][DI]) de Coordinacion sobre superficies duras como lus cuitedures de una nave espacial, o una tirada Fácil ([DI]) de Coordinación sobre hierba o terreno blando. Arrojarse a una masa de agua anula el efecto por completo. En ambas situaciones se asume que las llamas se producen por combustion y no por reacción química (porque en ese caso lo más probable es que la víctima no pueda hacer nada por sofocarlas).</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>BLAST</Key>
+    <Name>Explosión</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>El arma posee un amplio radio de efecto explosivo o de dispersión, como la detonación de una granada o la cabeza explosiva de un proyectil disparado con un lanzamisiles. Si el ataque se realiza con éxito y se activa esta propiedad, todo personaje (sea aliado o enemigo) que esté a alcance de interacción del objetivo original sufre tantas Heridas como el valor de Explosión del arma (más 1 Herida adicional por cada [SU] neto obtenido, como es habitual).
+[P]En zonas relativamente pequeñas y cerradas, el DJ puede dictaminar que todos los presentes sufren el daño del arma.
+[P]Si no se activa la Explosión, el artefacto estalla igualmente, pero la mala suerte o la escasa puntería del usuario lo la rápida reacción de sus blancos) impiden que la explosión afecte a todos los que se encuentran en su radio de efecto. Sin embargo, el usuario puede activar la Explosión aunque haya fallado el ataque si gasta [AD][AD][AD]. En este caso, el objetivo original y todos los que éste tenga a alcance de interacción sufren tanto daño como el valor de Explosión del arma.</ModDesc>
+    <QualDesc>El arma posee un amplio radio de efecto explosivo o de dispersión, como la detonación de una granada o la cabeza explosiva de un proyectil disparado con un lanzamisiles. Si el ataque se realiza con éxito y se activa esta propiedad, todo personaje (sea aliado o enemigo) que esté a alcance de interacción del objetivo original sufre tantas Heridas como el valor de Explosión del arma (más 1 Herida adicional por cada [SU] neto obtenido, como es habitual).
+[P]En zonas relativamente pequeñas y cerradas, el DJ puede dictaminar que todos los presentes sufren el daño del arma.
+[P]Si no se activa la Explosión, el artefacto estalla igualmente, pero la mala suerte o la escasa puntería del usuario lo la rápida reacción de sus blancos) impiden que la explosión afecte a todos los que se encuentran en su radio de efecto. Sin embargo, el usuario puede activar la Explosión aunque haya fallado el ataque si gasta [AD][AD][AD]. En este caso, el objetivo original y todos los que éste tenga a alcance de interacción sufren tanto daño como el valor de Explosión del arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>CONCUSSIVE</Key>
+    <Name>Conmocionadora</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Los potentes golpes o las ondas de choque causadas por el arma pueden conmocionar al objetivo y restringir su actividad a las acciones más básicas. El objetivo queda conmocionado (ver página 218) durante tantos asaltos como el valor de esta propiedad. Un objetivo conmocionado no puede realizar acciones.}</ModDesc>
+    <QualDesc>Los potentes golpes o las ondas de choque causadas por el arma pueden conmocionar al objetivo y restringir su actividad a las acciones más básicas. El objetivo queda conmocionado (ver página 218) durante tantos asaltos como el valor de esta propiedad. Un objetivo conmocionado no puede realizar acciones.</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>CORTOSIS</Key>
+    <Name>Cortosis</Name>
+    <Description></Description>
+    <ModDesc>El cortosis es un mineral que se encuentra principalmente en el Borde Exterior. Se trata de un recurso natural extremadamente raro y valioso, y se utilizó sobre todo durante las Guerras Clon contra los caballeros jedi. Existen dos variedades de mineral de cortosis. Las menos comunes pueden neutralizar el haz de un sable de luz y apagarlo temporalmente. El cortosis ordinario, aun siendo con diferencia el más habitual, es un material milagroso; si se funde y se forja un blindaje con él, conforma un entramado a nivel molecular extremadamente resistente contra armas de energia.
+[P]Las armas que poseen la propiedad Cortosis son inmunes. a la propiedad Hendedura. Los blindajes de cortosis inmunizan la Protección del usuario contra las propiedades Perforante y Brecha.</ModDesc>
+    <QualDesc>Cortosis</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>CUMBERSOME</Key>
+    <Name>Aparatosa</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Un arma aparatosa es pesada, incómoda, dificil de manejar o voluminosa. Para usarla debidamente, un personaje necesita tener una puntuación de fortaleza igual o superior al valor de esta propiedad. Por cada punto de Fortaleza que le falte al personaje, deberá aumentar en 1 la dificultad de todas las tiradas que haga mientras utilice el arma.</ModDesc>
+    <QualDesc>Un arma aparatosa es pesada, incómoda, dificil de manejar o voluminosa. Para usarla debidamente, un personaje necesita tener una puntuación de fortaleza igual o superior al valor de esta propiedad. Por cada punto de Fortaleza que le falte al personaje, deberá aumentar en 1 la dificultad de todas las tiradas que haga mientras utilice el arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>DEFENSIVE</Key>
+    <Name>Defensiva</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas Defensivas son particularmente eficaces desviando ataques cuerpo a cuerpo. Un personaje que empuña un arma dotada de esta propiedad aumenta su Defensa en cuerpo a cuerpo tantos puntos como el valor de Defensiva del arma.</ModDesc>
+    <QualDesc>Las armas Defensivas son particularmente eficaces desviando ataques cuerpo a cuerpo. Un personaje que empuña un arma dotada de esta propiedad aumenta su Defensa en cuerpo a cuerpo tantos puntos como el valor de Defensiva del arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>DEFLECTION</Key>
+    <Name>Desvio</Name>
+    <Description></Description>
+    <ModDesc>Un objeto que posee esta propiedad aumenta la Defensa del usuario contra ataques a distancia en tantos puntos comUn objeto que posee esta propiedad aumenta la Defensa del usuario contra ataques a distancia en tantos puntos como su valor de Desvío.</ModDesc>
+	<QualDesc></QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>DISORIENT</Key>
+    <Name>Desorientación</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Un arma con la propiedad Desorientación puede atontar a un oponente. Si se activa esta propiedad, el objetivo queda desorientado [ver pagina 218) durante tantos asaltos como el valor de Desorientación del arma. Un objetivo desorientado añade a todas sus tiradas de habilidad.</ModDesc>
+    <QualDesc>Un arma con la propiedad Desorientación puede atontar a un oponente. Si se activa esta propiedad, el objetivo queda desorientado [ver pagina 218) durante tantos asaltos como el valor de Desorientación del arma. Un objetivo desorientado añade [SE] a todas sus tiradas de habilidad.</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>ENSNARE</Key>
+    <Name>Apresadora</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas Apresadoras sujetan al objetivo y constriñen sus movimientos. Si se activa esta propiedad, el objetivo queda inmovilizado (ver página 218) durante tantos asaltos como el valor de Apresadora del arma. Un objetivo apresado pue de emplear su acción para hacer una tirada Dificil [DI][DI][DI] de Atletismo en su turno que le permita liberarse y anular asi este efecto. Un objetivo inmovilizado no puede llevar a cabo maniobras.</ModDesc>
+    <QualDesc>Las armas Apresadoras sujetan al objetivo y constriñen sus movimientos. Si se activa esta propiedad, el objetivo queda inmovilizado (ver página 218) durante tantos asaltos como el valor de Apresadora del arma. Un objetivo apresado pue de emplear su acción para hacer una tirada Dificil [DI][DI][DI] de Atletismo en su turno que le permita liberarse y anular asi este efecto. Un objetivo inmovilizado no puede llevar a cabo maniobras.</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>GUIDED</Key>
+    <Name>Guiada</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Ciertos tipos de proyectiles pueden beneficiarse de correcciones de trayectoria después de ser disparados, como es el caso de los misiles teledirigidos. Si un personaje falla el tiro con un arma Guiada pero logra activar esta propiedad, puede efectuar una tirada de ataque al final del asalto. La dificultad de esta tirada se calcula comparando la Silueta del arma (0) con la del objetivo (ver página 235), y para hacerla se utilizan tantos dados de Capacidad como el valor de esta propiedad. Si el personaje supera la tirada, el proyectil alcanza al objetivo y le inflige daño con normalidad.
+[P]Para activar esta propiedad hay que sacar [AD][AD][AD]. a menos que se indique lo contrario en la descripción del arma. Es preciso recordar que este effecto puede volver a activarse en cada ataque posterior, lo que representa ajustes en la trayectoria de seguimiento del objetivo.
+[P]Existen contramedidas electrónicas diseñadas para burlar proyectiles concretos, como las bengalas que se lanzan para desviar misiles infrarrojos. Estos sistemas aumentan directamente la Defensa del objetivo contra ataques dotados de la propiedad Guiada.</ModDesc>
+    <QualDesc>Guided {0}</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>KNOCKDOWN</Key>
+    <Name>Derribo</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Si se activa esta propiedad, el impacto del arma tumba al objetivo.
+A menos que se especifique lo contrario, para activar el Derribo se requiere [AD][AD]. más 1 [AD] adicional por cada punto de Silueta por encima de 1.</ModDesc>
+    <QualDesc>Si se activa esta propiedad, el impacto del arma tumba al objetivo.
+A menos que se especifique lo contrario, para activar el Derribo se requiere [AD][AD]. más 1 [AD] adicional por cada punto de Silueta por encima de 1.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>INACCURATE</Key>
+    <Name>Imprecisa</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas Imprecisas son piezas chapuceras o de mala calidad, lo que significa que su precisión es notablemente inferior. Tambien es posible que la propia naturaleza del arma limite su precisión. Las armas Imprecisas añaden tantos [SE] a la reserva de dados del atacante como su valor en esta propiedad.</ModDesc>
+    <QualDesc>Las armas Imprecisas son piezas chapuceras o de mala calidad, lo que significa que su precisión es notablemente inferior. Tambien es posible que la propia naturaleza del arma limite su precisión. Las armas Imprecisas añaden tantos [SE] a la reserva de dados del atacante como su valor en esta propiedad.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>INFERIOR</Key>
+    <Name>Inferior</Name>
+    <Description></Description>
+    <ModDesc>Un objeto Inferior es un ejemplar muy deficiente de su especie, de mala calidad o con componentes defectuosos. Un arma Inferior genera automaticamente [TH] en todas las tiradas relacionadas con su uso, y su daño básico se reduce en 1 punto. Un blindaje Inferior tiene 1 punto adicional de impedimento y la Defensa que proporciona se reduce en 1: si no ofrece ninguna Defensa, entonces es su valor de Protección lo que disminuye en 1 punto (hasta un minimo de 0).</ModDesc>
+    <QualDesc>Un objeto Inferior es un ejemplar muy deficiente de su especie, de mala calidad o con componentes defectuosos. Un arma Inferior genera automaticamente [TH] en todas las tiradas relacionadas con su uso, y su daño básico se reduce en 1 punto. Un blindaje Inferior tiene 1 punto adicional de impedimento y la Defensa que proporciona se reduce en 1: si no ofrece ninguna Defensa, entonces es su valor de Protección lo que disminuye en 1 punto (hasta un minimo de 0).</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>ION</Key>
+    <Name>Ionica</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas lónicas están diseñadas para afectar a sistemas eléctricos en vez de causar daños. Se instalan en naves espaciales para inutilizar los escudos, sensores y motores de sus oponentes. Poseen menos alcance que las armas laser e infligen más daño que éstas, pero su daño se inflige como Tensión de sistemas al objetivo (normalmente un vehiculo). Aun así, se ve reducido igualmente por el Blindaje y la Protección. Las armas lónicas afectan a los droides, que sufren este daño en su umbral de Tensión.</ModDesc>
+    <QualDesc>Las armas lónicas están diseñadas para afectar a sistemas eléctricos en vez de causar daños. Se instalan en naves espaciales para inutilizar los escudos, sensores y motores de sus oponentes. Poseen menos alcance que las armas laser e infligen más daño que éstas, pero su daño se inflige como Tensión de sistemas al objetivo (normalmente un vehiculo). Aun así, se ve reducido igualmente por el Blindaje y la Protección. Las armas lónicas afectan a los droides, que sufren este daño en su umbral de Tensión.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>LIMITEDAMMO</Key>
+    <Name>Munición limitada</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Algunas armas disparan proyectiles especialmente grandes o complejos que cuestan sumas considerables de créditos, o bien son objetos arrojadizos que se gastan cuando se disparan. Un arma con Munición limitada puede utilizarse para efectuar tantos ataques como su valor en esta propiedad antes de necesitar recarga (para lo que hace falta 1 maniobra). Además, cada disparo gasta una cantidad discreta de proyectiles que deben comprarse o reponerse de alguna forma para poder recargar el arma. Esto tambien se aplica a las granadas y a otras armas de un solo uso que tengan la propiedad Munición limitada 1 (en estos casos se sobrentiende que el usuario no recarga la granada, sino que coge una nueva, aunque su representación mecánica es la misma).</ModDesc>
+    <QualDesc>Algunas armas disparan proyectiles especialmente grandes o complejos que cuestan sumas considerables de créditos, o bien son objetos arrojadizos que se gastan cuando se disparan. Un arma con Munición limitada puede utilizarse para efectuar tantos ataques como su valor en esta propiedad antes de necesitar recarga (para lo que hace falta 1 maniobra). Además, cada disparo gasta una cantidad discreta de proyectiles que deben comprarse o reponerse de alguna forma para poder recargar el arma. Esto tambien se aplica a las granadas y a otras armas de un solo uso que tengan la propiedad Munición limitada 1 (en estos casos se sobrentiende que el usuario no recarga la granada, sino que coge una nueva, aunque su representación mecánica es la misma).</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>LINKED</Key>
+    <Name>Enlazada</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Algunas armas, como los cañones läser del Z-95 Cazacabezas, estan diseñadas para disparar de forma simultanea contra un mismo objetivo, lo que aumenta la probabilidad de impactar y el daño que infligen. Si se supera una tirada de ataque con un arma Enlazada, ésta produce I impacto de la forma habitual. Además, el usuario puede gastar [AD][AD] para efectuar 1 impacto adicional; esto puede hacerse un maximo de veces igual al valor de la propiedad Enlazada del arma. Los impactos adicionales de las armas enlazadas sólo se pueden adjudicar al objetivo original. Cada impacto inflige el daño básico del arma más el total neto de [SU] obtenidos en la tirada de ataque.</ModDesc>
+    <QualDesc>Algunas armas, como los cañones läser del Z-95 Cazacabezas, estan diseñadas para disparar de forma simultanea contra un mismo objetivo, lo que aumenta la probabilidad de impactar y el daño que infligen. Si se supera una tirada de ataque con un arma Enlazada, ésta produce I impacto de la forma habitual. Además, el usuario puede gastar [AD][AD] para efectuar 1 impacto adicional; esto puede hacerse un maximo de veces igual al valor de la propiedad Enlazada del arma. Los impactos adicionales de las armas enlazadas sólo se pueden adjudicar al objetivo original. Cada impacto inflige el daño básico del arma más el total neto de [SU] obtenidos en la tirada de ataque.</QualDesc>
+    <IsBoolean>false</IsBoolean>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>PIERCE</Key>
+    <Name>Perforante</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Un ataque efectuado con un arma Perforante ignora 1 punto dc Protección por cada punto dc cota propiedad. Si cl valor del arma en esta propiedad es superior a la Proteccion del objetivo, la ignora por completo. Así, un arma Perforante 3 contra un objetivo con Protección 2 ignoraría estos 2 puntos de Protección, pero el punto restante de Perforante se pierde sin efectos adicionales.</ModDesc>
+    <QualDesc>Un ataque efectuado con un arma Perforante ignora 1 punto dc Protección por cada punto dc cota propiedad. Si cl valor del arma en esta propiedad es superior a la Proteccion del objetivo, la ignora por completo. Así, un arma Perforante 3 contra un objetivo con Protección 2 ignoraría estos 2 puntos de Protección, pero el punto restante de Perforante se pierde sin efectos adicionales.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>PREPARE</Key>
+    <Name>Preparación</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas que tienen esta propiedad requieren un cierto tiempo de preparación antes de poder utilizarse. El usuario debe realizar tantas maniobras de preparación como el valor de esta propiedad para poder efectuar ataques con esta arma.</ModDesc>
+    <QualDesc>Las armas que tienen esta propiedad requieren un cierto tiempo de preparación antes de poder utilizarse. El usuario debe realizar tantas maniobras de preparación como el valor de esta propiedad para poder efectuar ataques con esta arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>SLOWFIRING</Key>
+    <Name>Disparo lento</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Las armas de Disparo lento suelen ser piezas de artillería grandes, pesadas y fijas, como los turboláseres de las naves de línea o los cañones iónicos de defensa planetaria. Aunque infligen cantidades increibles de daño, necesitan tiempo para recargarse o enfriarse entre disparos. El valor de un arma en esta propiedad indica lo rápidamente que puede volver a disparar después de cada ataque. Por ejemplo, un turboláser pesado con Disparo lento 2 debe esperar 2 asaltos después de cada disparo para poder abrir fuego de nuevo.
+</ModDesc>
+    <QualDesc>Las armas de Disparo lento suelen ser piezas de artillería grandes, pesadas y fijas, como los turboláseres de las naves de línea o los cañones iónicos de defensa planetaria. Aunque infligen cantidades increibles de daño, necesitan tiempo para recargarse o enfriarse entre disparos. El valor de un arma en esta propiedad indica lo rápidamente que puede volver a disparar después de cada ataque. Por ejemplo, un turboláser pesado con Disparo lento 2 debe esperar 2 asaltos después de cada disparo para poder abrir fuego de nuevo.
+</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STAGGER</Key>
+    <Name>Stagger Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Stagger {0}</ModDesc>
+    <QualDesc>Stagger {0}</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STUN</Key>
+    <Name>Aturdidora</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Un arma Aturdidora inflige Tensión al objetivo. Cuando se activa esta propiedad, el objetivo sufre tanta Tensión como el valor de Aturdidora del arma.</ModDesc>
+    <QualDesc>Un arma Aturdidora inflige Tensión al objetivo. Cuando se activa esta propiedad, el objetivo sufre tanta Tensión como el valor de Aturdidora del arma.</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STUNDROID</Key>
+    <Name>Stun (Droid Only) Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Stun {0} (Droid Only)</ModDesc>
+    <QualDesc>Stun {0} (Droid Only)</QualDesc>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STUNSETTING</Key>
+    <Name>Fijar para aturdir</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Algunas armas infligen daño por aturdimiento en vez de daño normal. En estos casos, el daño sufrido por un disparo del arma se aplica como Tensión en vez de como Heridas. La Protección del objetivo lo reduce con normalidad.
+[P]Una variante de esta propiedad es la de Fijar para aturdir. Con una actividad menor, el usuario puede ajustar la configuración de su arma para que aturda al objetivo, en cuyo caso inflige daño de aturdimiento como se describe en el párrafo anterior. Cuando se usa una de estas armas para aturdir al objetivo, su alcance cambia a corto y no puede aumentarse de ninguna manera.</ModDesc>
+    <QualDesc>Algunas armas infligen daño por aturdimiento en vez de daño normal. En estos casos, el daño sufrido por un disparo del arma se aplica como Tensión en vez de como Heridas. La Protección del objetivo lo reduce con normalidad.
+[P]Una variante de esta propiedad es la de Fijar para aturdir. Con una actividad menor, el usuario puede ajustar la configuración de su arma para que aturda al objetivo, en cuyo caso inflige daño de aturdimiento como se describe en el párrafo anterior. Cuando se usa una de estas armas para aturdir al objetivo, su alcance cambia a corto y no puede aumentarse de ninguna manera.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STUNDAMAGE</Key>
+    <Name>Daño de aturdimiento</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Algunas armas infligen daño por aturdimiento en vez de daño normal. En estos casos, el daño sufrido por un disparo del arma se aplica como Tensión en vez de como Heridas. La Protección del objetivo lo reduce con normalidad.
+[P]Una variante de esta propiedad es la de Fijar para aturdir. Con una actividad menor, el usuario puede ajustar la configuración de su arma para que aturda al objetivo, en cuyo caso inflige daño de aturdimiento como se describe en el párrafo anterior. Cuando se usa una de estas armas para aturdir al objetivo, su alcance cambia a corto y no puede aumentarse de ninguna manera.</ModDesc>
+    <QualDesc>Algunas armas infligen daño por aturdimiento en vez de daño normal. En estos casos, el daño sufrido por un disparo del arma se aplica como Tensión en vez de como Heridas. La Protección del objetivo lo reduce con normalidad.
+[P]Una variante de esta propiedad es la de Fijar para aturdir. Con una actividad menor, el usuario puede ajustar la configuración de su arma para que aturda al objetivo, en cuyo caso inflige daño de aturdimiento como se describe en el párrafo anterior. Cuando se usa una de estas armas para aturdir al objetivo, su alcance cambia a corto y no puede aumentarse de ninguna manera.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>STUNDAMAGEDROID</Key>
+    <Name>Stun Damage (Droid Only) Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Stun Damage (Droid Only)</ModDesc>
+    <QualDesc>Stun Damage (Droid Only)</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>SUNDER</Key>
+    <Name>Hendedura</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Cuando se activa esta propiedad, el atacante elige un objeto que el objetivo tenga a là vista (un arma, un escudo ó un objeto enganchado al cinturón). Ese objeto sufre 1 nivel de daño: pasa a Menor si estaba intacto, de Menor a Moderado, o de Moderado a Extremo. Si un arma que ya tiene daños Extremos recibe un impacto de lendedura con éxito, es destruida.
+[P]Para activar esta propiedad se requiere [AD]. Si se activa varias veces en un mismo ataque, cada una de ellas puede aplicarse a la misma arma, lo que puede hacer que pase de intacta a destruida habiendo recibido un solo golpe.</ModDesc>
+    <QualDesc>Cuando se activa esta propiedad, el atacante elige un objeto que el objetivo tenga a là vista (un arma, un escudo ó un objeto enganchado al cinturón). Ese objeto sufre 1 nivel de daño: pasa a Menor si estaba intacto, de Menor a Moderado, o de Moderado a Extremo. Si un arma que ya tiene daños Extremos recibe un impacto de lendedura con éxito, es destruida.
+[P]Para activar esta propiedad se requiere [AD]. Si se activa varias veces en un mismo ataque, cada una de ellas puede aplicarse a la misma arma, lo que puede hacer que pase de intacta a destruida habiendo recibido un solo golpe.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+    <IsActiveQuality>true</IsActiveQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>SUPERIOR</Key>
+    <Name>Superior</Name>
+    <Description></Description>
+    <ModDesc>Un objeto Superior es un ejemplar extraordinario de su especie, una verdadera obra maestra. Un arma Superior genera 1 [AD] automatica en todas las tiradas relacionadas con su uso, y su daño básico se aumenta en 1 punto. Un blindaje Superior tiene 1 punto menos de impedimento y la Protección que proporciona se aumenta en 1.</ModDesc>
+    <QualDesc>Un objeto Superior es un ejemplar extraordinario de su especie, una verdadera obra maestra. Un arma Superior genera 1 [AD] automatica en todas las tiradas relacionadas con su uso, y su daño básico se aumenta en 1 punto. Un blindaje Superior tiene 1 punto menos de impedimento y la Protección que proporciona se aumenta en 1.</QualDesc>
+    <IsBoolean>true</IsBoolean>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>TRACTOR</Key>
+    <Name>Tractor Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Tractor {0}</ModDesc>
+    <QualDesc>Tractor {0}</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>VICIOUS</Key>
+    <Name>Letal</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Cuando este arma infringe un impacto o herida crítica, se añade 10 veces el valor de esta propiedad al resultado de la tirada de crítico. Por ejemplo, un arma letal 3 sumaría +30 al resultado de todo impacto crítico.</ModDesc>
+    <QualDesc>Cuando este arma infringe un impacto o herida crítica, se añade 10 veces el valor de esta propiedad al resultado de la tirada de crítico. Por ejemplo, un arma letal 3 sumaría +30 al resultado de todo impacto crítico.</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>VICIOUSDROID</Key>
+    <Name>Vicious (Droid Only) Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Vicious (Droid Only) {0}</ModDesc>
+    <QualDesc>Vicious (Droid Only) {0}</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+  <ItemDescriptor>
+    <Key>UNWIELDY</Key>
+    <Name>Unwieldy Quality</Name>
+    <Description></Description>
+    <Type>Weapon</Type>
+    <ModDesc>Unwieldy {0}</ModDesc>
+    <QualDesc>Unwieldy {0}</QualDesc>
+    <IsQuality>true</IsQuality>
+  </ItemDescriptor>
+</ItemDescriptors>
+

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>GAND</Key>
+  <Name>Gand</Name>
+  <Description>
+    Los gandianos son una misteriosa especie insectoide cuyos "buscadores" se toman el rastreo de sus presas como un deber religioso. Son excepcionalmente buenos vaticinando la ubicación de sus objetivos empleando métodos rituales que las demás especies pueden considerar primitivos y bárbaros.
+	[P][B]Fisiología:[b] Aunque predominantes en los confines del Borde Exterior, los gandianos siguen siendo un enigma para los xenobiólogos. Se han identificado más de una docena de subespecies gandianas diferenciadas. Todos están recubiertos por un denso exoesqueleto quitinoso y alcanzan una estatura media de 1,6 metros en su edad adulta. Tienen tres dedos en cada mano, pero son tan diestros como los de otros seres humanoides y pueden manipular equipamientos diseñados para criaturas con cinco dedos.
+	[P]La diferencia entre las subespecies gandianas radica en los aspectos biológicos de sus aparatos respiratorios. La mayoría de los gandianos que recorren las rutas espaciales parecen carecer de la necesidad de respirar. La digestión de los alimentos que guardan en sus estómagos produce el amoniaco necesario para sus procesos bioquímicos. Los desechos resultantes de estos procesos y el exceso de amoniaco se expulsan a través de sus exoesqueletos. Estos gandianos suelen exudar un desagradable almizcle con olor a metano. Otras subespecies poseen pulmones funcionales y su digestión no produce amoniaco, por lo que se ven obligados a emplear un sistema respiratorio artificial.
+	[P]Aún hay muchas preguntas sin respuesta sobre la biología gandiana, ya que no permiten que otras especies los estudien. Algunos xenobiólogos conjeturan que los rituales religiosos de los gandianos ocultan algún tipo de manipulación genética que ha producido las diversas variedades de gandianos.
+	[P][B]Sociedad:[b] Los gandianos tienen una cultura muy hermética. Lo poco que se sabe de ellos es que la religión y la vida son dos conceptos muy interrelacionados en su cultura. Una asamblea de ancianos conocidos como los ruetsavii rige las diversas sectas religiosas que representan las virtudes de la vida gandiana. Los habitantes de otros mundos están más familiarizados con la secta religiosa de los "buscadores", los gandianos que abandonan su planeta natal para emprender cacerías rituales en las que capturan presas y procuran bendiciones divinas a su pueblo. Se rumorea que existen muchas más sectas, ocupadas sobre todo en los campos de la genética, la medicina y la ingeniería, pero se desconocen sus naturalezas exactas.
+	[P][B]Mundo natal:[b] Gand es un mundo del Borde Exterior envuelto en una masa gaseosa de amoniaco y metano. El comercio se lleva a cabo en estaciones orbitales, pues casi nunca se permite a los forasteros descender a la superficie del planeta. Los pocos alienígenas que aterrizan en ella deben permanecer en todo momento en distritos especiales acondicionados específicamente para ellos.
+	[P][B]Idioma:[b] Los droides tienen mucha más facilidad que los lingüistas humanoides mejor entrenados para reproducir los chasquidos y chirridos de la lengua gandiana. Al no necesitar inhalar gases respirables, la mayoría de los gandianos carecen de cuerdas vocales que les permitan articular los sonidos del básico y de otros idiomas. Deben utilizar droides o aparatos de traducción para conversar con individuos que no entiendan su idioma.
+	[P]La gramática empleada por los gandianos refleja el lugar que ocupan en la sociedad. Antes de que un gandiano se gane su identidad y sea aceptado entre sus iguales, se refiere a sí mismo usando la tercera persona y denominándose "gandiano". Una vez que lleva a cabo algún acto de distinción, el gandiano puede adoptar el apellido de su familia. Los gandianos no pueden utilizar sus nombres hasta haberse convertido en "personas insignes" (janwuine en su lengua) y haber sido preconizados por sus iguales. Por este motivo, muchos habitantes de otros mundos consideran a los gandianos una especie sumamente humilde.
+	[P][B]Vida en los confines:[b] Habida cuenta del elevado índice de éxitos de los buscadores gandianos al capturar a sus presas, sus clientes se muestran perfectamente dispuestos a ignorar sus misterios culturales y sus extraños olores. Los buscadores gandianos están muy solicitados como cazarrecompensas, investigadores privados, asesinos, rastreadores de morosos y asesores en temas de seguridad.
+	[P][B]CAPACIDADES DE LA ESPECIE[b]
+	[P]Umbral de Heridas: 10 + Fortaleza
+	[P]Umbral de Tensión: 10 + Voluntad
+	[P]Experiencia inicial: 100 PE
+	[P]Capacidad especial: Capacidad especial:Los gandianos empiezan el juego con 1 rango de entrenamiento en Disciplina (pero siguen estando limitados a un rango máximo de 2 en esta habilidad durante la creación del personaje).
+	[P]Respiración amoniacal: Una diferencia notable entre las dos principales subespecies de gandianos es que una de ellas tiene pulmones y la otra no. La variedad pulmonada respira una mezcla de gas de amonio. Los gandianos que carecen de pulmones no respiran en absoluto, sino que extraen de la comida todas las sustancias necesarias para su metabolismo. Para interpretar a un gandiano, el jugador debe decidir si quiere que su personaje tenga pulmones o no. Si opta por jugar con un gandiano sin pulmones, su personaje seră inmune a la asfixia (pero no a las heridas sufridas por la exposición al vacío). Si prefiere interpretar a un gandiario pulmonado, empieza el juego con una mascarilla de amoniaco y el oxígeno se considera una atmósfera peligrosa de magnitud 8 para él. No obstante, recibe +10 PE iniciales a cambio.
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GANDAB</Key>
+      <Name>Breathing</Name>
+      <Options>
+        <Option>
+          <Key>GANDABLUNG</Key>
+          <Name>Has Lungs</Name>
+          <Description>Requires ammonia respirator</Description>
+          <StartingAttributes>
+            <Experience>10</Experience>
+          </StartingAttributes>
+        </Option>
+        <Option>
+          <Key>GANDABNOLUNG</Key>
+          <Name>Lungless</Name>
+          <Description>Immune to suffocation</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>HIREDGUN</Key>
+  <Name>Pistolero a sueldo</Name>
+  <Description>
+    Cuando hay que pelear, el pistolero a sueldo está en primera línea. Actúa de manera menos independiente que el cazarrecompensas; prefiere tener una misión específica, un objetivo que alcanzar y un puñado de créditos para gastar una vez finalizado el encargo. Los pistoleros a sueldo son músculos. y fuerza aplicada, contratados para defender o atacar según la situación lo requiera. Infligen daño o protegen a otros a cambio de créditos, y es por este motivo que son individuos simples y a veces muy directos (lo que no está nada mal, para variar).
+	[P]Los pistoleros a sueldo que uno suele encontrarse en el Borde Exterior tienen con toda probabilidad uno de los tres historiales siguientes: pueden tratarse de antiguos soldados imperiales (o quizá incluso de la República, antes de su caida), haber servido en algún tipo de cuerpo militante planetario o corporativo, o sencillamente ser tipos duros que han aprendido a disparar y pelear porque era su única esperanza para sobrevivir. Pero da igual cómo los haya adquirido; un pistolero a sueldo posee la clase de habilidades y talentos que le aseguran contratos en el Borde Exterior y en los márgenes de la sociedad.
+	[P]Muchos pistoleros a sueldo son auténticos mercenarios que trabajan por cuenta propia o contratados por algún tipo de gremio o compañía. Al igual que los cazarrecompensas, los pistoleros a sueldo que forman parte de un gremio suelen disfrutar de muchos privilegios; no obstante, carecen de libertad de acción. Más de un pistolero a sueldo ha renunciado a un contrato porque infringia su código ético personal o se sentía totalmente explotado por terribles condiciones de trabajo. Por desgracia, tales mercenarios se ven obligados a vigilar sus espaldas durante años.
+	[P]Los pistoleros a sueldo independientes gozan de las mayores libertades, pero también han de pasar mucho tiempo buscando trabajo, preferiblemente uno en el que sus expectativas de vida no se midan en días. La reputación puede serlo todo para estos profesionales, aunque una sencilla prueba de habilidad y competencia puede granjearles un mejor acuerdo si logran impresionar con ella a su cliente.
+  </Description>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>DISC</Key>
+    <Key>MELEE</Key>
+    <Key>PILOTPL</Key>
+    <Key>RANGLT</Key>
+    <Key>RESIL</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>BODYGUARD</Key>
+    <Key>MARAUDER</Key>
+    <Key>MERCENARY</Key>
+    <Key>ENFORCER</Key>
+    <Key>DEMOLITIONIST</Key>
+    <Key>HEAVY</Key>
+  </Specializations>
+</Career>

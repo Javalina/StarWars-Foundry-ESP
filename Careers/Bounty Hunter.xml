@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>BOUNT</Key>
+  <Name>Cazarrecompensas</Name>
+  <Description>
+    El nombre lo dice todo: es un cazador que se gana la vida. atrapando fugitivos para cobrar el dinero ofrecido por su captura. Los cazarrecompensas suelen ser temidos, aborrecidos, despreciados y muy solicitados en toda la galaxia. Son expertos rastreadores, combatientes brutales e investigadores eficaces. Normalmente prefieren la maña, el sigilo y las trampas a los asaltos frontales, pero los cazarrecompensas más respetados harán lo que sea necesario con tal de capturar a sus presas y cobrar sus honorarios.
+	[P]Los cazarrecompensas suelen pertenecer a una de estas categorías: imperiales, gremiales o independientes. Los cazarrecompensas imperiales son básicamente empleados. fijos de la Oficina de Seguridad Imperial (o de algún otro departamento legal del Imperio), y nunca aceptan encargos de corporaciones, pequeños gobiernos o individuos. Son miembros de confianza de la extensa comunidad que impone la ley en el Imperio, constituida en su mayoría por antiguos militares que han optado por un tipo de servicio menos disciplinario (aunque peligroso).
+	[P]Los cazarrecompensas que se unen a un gremio disfrutan de muchos privilegios extraordinarios: pension completa allí donde esté presente el gremio, una formación excepcional, acceso a todo el material de tecnologia punta que requieran para misiones especificas y un volumen constante de trabajo proporcionado por los responsables del gremio que negocian en su nombre. El inconveniente de todas estas ventajas es que los cazarrecompensas gremiales no tienen voz ni voto en lo que respecta a los contratos que les son asignados, y si se niegan a aceptar un encargo pueden ser cesados de manera inmediata.
+	[P]La mayor libertad de acción es la que disfrutan los cazarrecompensas independientes, aunque también acarrea los mayores desafios y peligros. Pese a que los independientes suelen aceptar encargos imperiales [suelen ser los más disponibles y lucrativos), les encanta la idea de que realmente no forman parte del Imperio. El hecho de no estar afiliado a ningún gremio también les permite escoger los contratos que prefieren, y tan sólo han de responder ante si mismos del éxito o fracaso en su cumplimiento.
+	[P]Los personajes jugadores serán casi con toda seguridad cazarrecompensas gremiales o independientes. Sin embargo, sea cual sea el tipo de cazarrecompensas interpretado, el personaje debe estar en posesión de un Certificado Imperial de Pacificación (CIP), una licencia especifica dispensada por el Imperio que todo cazarrecompensas debe tener en regla para poder ejercer su oficio de manera profesional. Sin estos papeles y permisos legales, un cazarrecompensas es poco más que un secuestrador, y posiblemente un asesino. Todo personaje que escoja la profesión del cazarrecompensas recibe automáticamente un CIP, a menos que el jugador prefiera lo contrario. Aunque parezca una decisión extraña, puede propiciar
+  </Description>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>PERC</Key>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+    <Key>RANGHVY</Key>
+    <Key>SW</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ASSAS</Key>
+    <Key>GADG</Key>
+    <Key>SURV</Key>
+    <Key>MARTIALARTIST</Key>
+    <Key>OPERATOR</Key>
+    <Key>SKIPTRACER</Key>
+  </Specializations>
+</Career>
