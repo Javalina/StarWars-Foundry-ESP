@@ -1,0 +1,32 @@
+<Vehicle>
+  <Key>AA5SPEEDERTRUCK</Key>
+  <Name>Camión deslizador pesado A-A5 de TRAST</Name>
+  <Description>
+      El A-A5 que se fabrica en Transportes Pesados Trast es un vehículo muy popular en los territorios del Borde Exterior. Construido para acarrear cargamentos pesados a granel, el ponderoso A-A5 tiene una carrocería maciza y duradera equipada con sistemas a prueba de choque para soportar los abusos más duros. Además posee planchas de blindaje adicionales que lo hacen casi invulnerable contra el fuego de armas cortas. El vehículo está dividido en dos compartimentos principales, uno para la tripulación y otro para la carga. Éste último es muy espacioso y dispone de numerosos anclajes, correas de sujeción y otros medios para afianzar el cargamento, así como una serie de bancos plegables para albergar un máximo de veinticinco seres vivos cuando no se transporta material (aunque todos bastante apretados e incómodos).
+    </Description>
+  <Source Page="250">Edge of the Empire Core Rulebook</Source>
+  <MaxAltitude>3 metros</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>1 piloto, 2 copilotos</Crew>
+  <EncumbranceCapacity>220</EncumbranceCapacity>
+  <Passengers>25</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <HP>3</HP>
+  <Price>10000</Price>
+  <Rarity>2</Rarity>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Type>Speeder Truck</Type>
+  <VehicleWeapons>
+  </VehicleWeapons>
+</Vehicle>

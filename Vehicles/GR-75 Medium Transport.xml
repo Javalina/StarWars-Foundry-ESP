@@ -1,0 +1,38 @@
+<Vehicle>
+  <Key>GR75</Key>
+  <Name>Transporte mediano GR-75</Name>
+  <Description>
+      Barato y fiable, el transporte mediano clase GR-75 de Astilleros Gallofree es uno de los cargueros más comunes en las rutas espaciales. Utilizado en toda la galaxia por militares y empresas comerciales como remolque y transporte para distancias largas, el GR-75 posee un fuselaje de diseño único que consiste en un bastidor central o quilla en cuyo interior se encuentra el núcleo del reactor de la nave, y al que se ﻿acopla un extenso conjunto de plataformas de carga automatizadas que pueden ajustarse con facilidad para transportar contenedores de todas las formas y tamaños. [P]Los contenedores (o habitáculos de pasajeros) se aseguran mediante potentes pantallas magnéticas que los protegen de los peligros del espacio profundo, y todo el armazón está cubierto por un revestimiento de duracero reforzado que contiene los motores de la nave. Dado que la mayor parte del transporte se reserva para la carga, los siete tripulantes que lo manejan deben alojarse en un estrecho módulo de mando que se extiende a lo largo del bastidor central.
+    </Description>
+  <Source Page="261">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>1 piloto, 1 copiloto, 1 ingeniero, 1 sobrecargo, 3 tripulantes</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>100</Passengers>
+  <Consumables>6 meses</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <HP>2</HP>
+  <Price>180000</Price>
+  <Rarity>4</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Medium Transport</Category>
+  </Categories>
+  <Type>Transport</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+  </VehicleWeapons>
+</Vehicle>

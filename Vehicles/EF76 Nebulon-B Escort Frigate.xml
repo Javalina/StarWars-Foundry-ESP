@@ -1,9 +1,8 @@
 <Vehicle>
   <Key>EF76</Key>
-  <Name>EF76 Nebulon-B Escort Frigate</Name>
+  <Name>Fragata de escolta EF76 NEBULON-B</Name>
   <Description>
-    [H3]EF76 Nebulon-B Escort Frigate[h3]
-    Please see page 268 of the Edge of the Empire Core Rulebook, or page 278 of the  Age of Rebellion Core Rulebook, for details.
+    Las fragatas Nebulon-B de Astilleros de Impulsores Kuat fueron designadas como naves de escolta por la Armada Imperial, y se les encomendaban tareas de protección de convoyes, exploración y vigilancia. Alargadas y de aspecto engañosamente frágil, estas naves poseen una sección frontal con múltiples cubiertas conectada a una voluminosa sección de ingeniería en popa a través de un delgado armazón central, y disponen de una cantidad asombrosa de armas para su tamaño, incluidos una docena de turboláseres, numerosos cañones láser ligeros e incluso un trío de proyectores de campos de tracción. Además de estas armas de energía, las fragatas empleadas por la Armada Imperial transportan dos escuadrones de ataque formados por doce cazas TIE cada uno. Todo ello, sumado al grueso blindaje y a los potentes escudos, convierte a las fragatas Nebulon-B en enemigos formidables.
   </Description>
   <Sources>
     <Source Page="268">Edge of the Empire Core Rulebook</Source>
@@ -13,11 +12,11 @@
   <HyperdriveBackup>12</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srLong</SensorRangeValue>
-  <Crew>920 Officers, Pilots, and Enlisted Crew</Crew>
-  <Starfighters>Twenty-Four Starfighters</Starfighters>
+  <Crew>920 oficiales, pilotos, y tripulantes</Crew>
+  <Starfighters>24 cazas</Starfighters>
   <EncumbranceCapacity>4000</EncumbranceCapacity>
   <Passengers>75</Passengers>
-  <Consumables>Two Years</Consumables>
+  <Consumables>2 años</Consumables>
   <Silhouette>6</Silhouette>
   <Speed>3</Speed>
   <Handling>-1</Handling>

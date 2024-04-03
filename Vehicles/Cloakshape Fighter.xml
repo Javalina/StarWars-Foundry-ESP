@@ -1,0 +1,74 @@
+<Vehicle>
+  <Key>CLOAKSHAPE</Key>
+  <Name>Caza capa</Name>
+  <Description>
+      El Capa de ISK es un caza aeroespacial construido originariamente por la extinta Ingeniería de Sistemas Kuat en las décadas previas a las Guerras Clon. Con su fuselaje relativamente aerodinámico y ligero, el Capa se diseñó como caza de superioridad aérea y espacial con énfasis en el combate atmosférico y suborbital. Funciona con un par de motores iónicos de retropropulsión 807b/9 de la propia ISK complementados con un elevador repulsor ligero, una configuración que proporciona al caza una velocidad respetable pero mínima agilidad. Carece de hiperimpulsor y no lleva escudos; para compensarlo, los cazas Capa poseen cascos reforzados fuertemente blindados que les confieren una resistencia increible. A pesar de su rendimiento deficiente, su escaso alcance y su autonomía limitada, los cazas Capa se han mantenido en la brecha durante décadas gracias a dos características fundamentales: son baratos y se prestan fácilmente a la modificación.
+[P]A menudo se dice que no existen los cazas Capa de serie. Su sencillo diseño, sus componentes modulares y sus múltiples acoplamientos de energía y puertos para dispositivos computerizados convierten a estos cazas en candidatos időneos para la personalización. A lo largo de las décadas se han diseñado y vendido numerosos recambios para el Capa, y la facilidad con que pueden instalarse y utilizarse les ha permitido competir con cazas modernos con cierto grado de éxito. Los cambios más habituales son las mejoras en plantas motrices, hiperimpulsores, computadoras de navegación y generadores de escudo, además de incluir armamentos más pesados y sistemas de comunicaciones y sensores más sofisticados. Por este motivo, pese a tratarse de un caza tco ricamente anticuado, sigue siendo una opción muy atractiva para individuos ahorrativos o con un presupuesto escaso.
+    </Description>
+  <Source Page="254">Edge of the Empire Core Rulebook</Source>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>1 piloto</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <HP>3</HP>
+  <Price>38000</Price>
+  <Rarity>4</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Type>Starfighter</Type>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>LASERLT</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>CML</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

@@ -1,19 +1,20 @@
 <Vehicle>
   <Key>YT1300</Key>
-  <Name>YT-1300 Light Freighter</Name>
+  <Name>Carguero ligero YT-1300</Name>
   <Description>
-    [H3]YT-1300 Light Freighter[h3]
-    Please see page 264 of the Edge of the Empire Core Rulebook for details.
+    El YT-1300 de la Corporación de Ingeniería Corelliana es con toda probabilidad el carguero ligero más común de todos los que están actualmente en servicio; no en vano es el epitome del concepto de nave de carga. Veloz, duradero y sumamente adaptable, el YT-1300 consta de una sección central alrededor de la cual se disponen una serie de compartimentos modulares que le dan a la nave su característica forma de disco. Dos mandíbulas de atraque y estiba se extienden desde la proa, y la inconfundible cabina lateral, marca de fábrica de la CIC, se encuentra situada en el lado de estribor. En el centro del disco, tanto en la parte dorsal como en la ventral, hay sendos afustes de armamento.
+[P]Recién salido de la cadena de montaje (configuración que no suele durar, tratándose de una nave tan versátil y fácilmente modificable), el YT-1300 está relativamente bien armado y equipado con un pequeño pero potente generador de escudos. Tan sólo lleva un arma, un cañón láser medio en la cureña dorsal, pero la nave dispone de varios afustes de serie para instalar armas adicionales. De los cientos de miles de unidades de esta popular nave que se encuentran actualmente en servicio activo, es muy posible que no haya dos iguales, y ninguna conservará la configuración de fábrica.
+[P]Debido al ingente número de cargueros existentes y a las décadas que llevan en funcionamiento, el YT-1300 es una imagen muy común entre los filibusteros, contrabandistas y piratas del Borde Exterior. De hecho, muchos de estos hombres y mujeres fogueados cuentan este modelo como el primero o el mejor de todos los que han tenido jamás, y normalmente ambas cosas.
   </Description>
   <Source Page="264">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>12</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot, One Engineer</Crew>
+  <Crew>1 piloto, 1 copiloto, 1 ingeniero</Crew>
   <EncumbranceCapacity>165</EncumbranceCapacity>
   <Passengers>6</Passengers>
-  <Consumables>Two Months</Consumables>
+  <Consumables>2 meses</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>3</Speed>
   <Handling>-1</Handling>

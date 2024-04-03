@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>WAYFARER</Key>
-  <Name>Wayfarer-Class Medium Freighter</Name>
+  <Name>Carguero mediano clase trotamundos</Name>
   <Description>
-    [H3]Wayfarer-Class Medium Freighter[h3]
-    Please see page 263 of the Edge of the Empire Core Rulebook for details.
+    El carguero clase Trotamundos de Ingeniería de Sistemas Kuat es un recién llegado al mercado de los transportes medios. Diseñado para acoplarse a contenedores modulares de carga construidos específicamente para la nave, el Trotamundos debía revolucionar los transportes galácticos; pero lo cierto es que tuvo un proceso de desarrollo plagado de altibajos. Para cuando los primeros Trotamundos salieron de fábrica para sus vuelos de prueba, el proyecto había excedido con creces su presupuesto y su plazo de finalización. Tan sólo se construyó uno de los diversos tipos de contenedores de carga exclusivos de estos cargueros, el que transportaba mercancía a granel. Esto, combinado con el hecho de que los contenedores del Trotamundos están hechos a medida y que la nave es incapaz de acarrear contenedores convencionales, limitó considerablemente su utilidad. Pese a que nunca llegó a revolucionar el sector del transporte, sí logró abrirse un hueco en los conglomerados mercantiles más prósperos de las zonas más desarrolladas de la galaxia que pueden permitirse la producción de contenedores hechos a medida.
+[P]La propia nave tiene un diseño extraño y poco práctico; el contenedor modular cuelga de un armazón que se extiende por el lado de babor del casco. La estructura del Trotamundos está levemente desequilibrada, y para sacarle el máximo partido se requiere un piloto hábil y comedido a los mandos.
   </Description>
   <Source Page="263">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>14</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Captain, One Pilot, One Co-Pilot, One Engineer, One Cargo Master, Six Crew</Crew>
+  <Crew>1 capitan, 1 piloto, 1 copiloto, 1 ingeniero, 1 sobrecargo, 6 tripulantes</Crew>
   <EncumbranceCapacity>850</EncumbranceCapacity>
   <Passengers>6</Passengers>
-  <Consumables>Three Months</Consumables>
+  <Consumables>3 meses</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>3</Speed>
   <Handling>-2</Handling>

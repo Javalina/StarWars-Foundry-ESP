@@ -1,0 +1,65 @@
+<Vehicle>
+  <Key>STARWIND</Key>
+  <Name>Yate de recreo viento estelar</Name>
+  <Description>
+      El yate de recreo de clase Viento Estelar fue el primer intento de Astilleros de Impulsores Kuat por hacerle la competencia a la serie YT de la Corporación de Ingenieria Corelliana. Sin embargo, antes de que el proyecto viese la luz, AIK cambio de opinión y lo reconvirtió en yate de recreo.﻿
+[P]El Viento Estelar ha tenido un éxito moderado en el mercado, aunque su rediseño conserva muchos aspectos de su origen como carguero ligero. La nave tiene forma de tridente, con dos secciones amplias a ambos lados del fuselaje principal. En una de estas secciones laterales se encuentran los alojamientos de la tripulación, y en la otra hay una bodega de carga de tamaño decente. El bastidor central contiene el puente de mando, los camarotes de los huéspedes, un salón de gala, una sala de estar, la cocina, una sala de conferencias, un holoteatro y hasta una mesa de relax de gravedad cero. En conjunto, la nave posee un catálogo exhaustivo de lujos y un espacio considerable para la carga.
+Sin embargo, el principal defecto del Viento Estelar es su precio: cuesta tanto como un carguero ligero y un yate de lujo combinados. Ésta es la razón por la que no se ha vendido tanto como se desearía, aunque algunos señores del crimen y contrabandistas ricos han adoptado este modelo de nave como cuartel general personal.
+    </Description>
+  <Source Page="263">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>1 piloto, 1 copiloto, 1 ingenieros, 2 artilleros</Crew>
+  <EncumbranceCapacity>85</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>4 meses</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <HP>2</HP>
+  <Price>210000</Price>
+  <Rarity>6</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Type>Freighter</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>LASERMED</Key>
+      <Location>Dorsal</Location>
+      <Turret>true</Turret>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>LASERMED</Key>
+      <Location>Ventral</Location>
+      <Turret>true</Turret>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

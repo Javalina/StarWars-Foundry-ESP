@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>SPACEMASTER</Key>
-  <Name>Space Master Medium Transport</Name>
+  <Name>Transporte mediano Amo del espacio</Name>
   <Description>
-      [H3]Space Master Medium Transport[h3]
-      Please see page 262 of the Edge of the Empire Core Rulebook for details.
+      El transporte mediano Amo del Espacio es la versión de Astilleros de Impulsores Kuat del modelo GR-75 manufacturado por Astilleros Gallofree. Es ligeramente más pequeño pero sigue un diseño conceptual similar, construido en torno a un bastidor central con numerosos puntos de acoplamiento para contenedores modulares de carga. Un motor de formas bulbosas le proporciona una propulsión mediocre, y un puente de mando similar a un platillo conforma la proa de la nave.
+[P]El Amo del Espacio es más lento y desgarbado que el GR-75, además de tener menor capacidad de carga. No obstante, posee ciertas ventajas sobre su competidor, como instalaciones más espaciosas para sus ocho tripulantes y afustes de armas integrados con cañones láser defensivos. Estas humildes naves viajan por toda la galaxia transportando cargamentos de aquí para allá.
     </Description>
   <Source Page="262">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>4</HyperdrivePrimary>
   <HyperdriveBackup>15</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srMedium</SensorRangeValue>
-  <Crew>One Captain, One Pilot, One Co-Pilot, Two Engineers, One Cargo Master, Three Crew</Crew>
+  <Crew>1 capitan, 1 piloto, 1 copiloto, 2 ingeniero, 1 sobrecargo, 3 tripulantes</Crew>
   <EncumbranceCapacity>800</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>Three Months</Consumables>
+  <Consumables>2 meses</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>2</Speed>
   <Handling>-4</Handling>

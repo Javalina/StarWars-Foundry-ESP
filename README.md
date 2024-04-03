@@ -51,7 +51,7 @@ En construcción...
 
 ## Wiki 📖
 
-Puedes encontrar mucho más dsobre Ogg en su página web [OggDude´s](https://www.swrpgcommunity.com/gm-resources/apps-dice-utilities/oggdudes-generator)
+Puedes encontrar mucho más sobre Ogg en su página web [OggDude´s](https://www.swrpgcommunity.com/gm-resources/apps-dice-utilities/oggdudes-generator)
 
 ## Autores ✒️
 

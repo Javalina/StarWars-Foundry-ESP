@@ -1,0 +1,79 @@
+<Vehicle>
+  <Key>STARGALLEON</Key>
+  <Name>Transporte artillado galeón estelar</Name>
+  <Description>
+    Utilizado principalmente por el Cuerpo de Logística de la Armada Imperial como transporte de cargas pesadas para trayectos largos, el Galeón Estelar es otra nave resistente y bien consolidada manufacturada por Astilleros de Impulsores Kuat. Se trata de un navío inmenso, giboso y pesadamente lento, del tamaño de una fragata y con una capacidad de carga de 100.000 toneladas métricas en sus cavernosas bodegas modulares. El transporte es todo lo utilitario que puede ser una nave. En la zona frontal se encuentran el puente, las dependencias de la tripulación y los principales sistemas. El resto de la nave es espacio de carga. A popa del puente de mando hay una descomunal bodega de carga con múltiples cubiertas equipada con numerosos mamparos deslizantes, plataformas extensibles, sofisticados mecanismos de prevención de abordajes y un sistema de estiba de tecnología punta. De hecho, las dos secciones del fuselaje pueden separarse si la nave corre peligro de perder la carga. Tanto el puente de mando como la bodega de carga tienen capacidad para vuelo hiperespacial. La sección frontal dispone de un hiperimpulsor y una computadora de navegación convencionales, mientras que la sección de carga utiliza un sistema automatizado de cápsulas de salvamento que efectúa el salto al hiperespacio en cuanto se desprende del fuselaje principal, evitando así que caiga en manos de piratas.
+[P]Debido a su tamaño, solidez y armamento pesado, el Imperio utiliza Galeones Estelares para transportar cargamentos valiosos sin tener que recurrir a naves de escolta.
+  </Description>
+  <Source Page="265">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>150 oficiales, 150 tripulantes</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>300</Passengers>
+  <Consumables>6 meses</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>85</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <HP>2</HP>
+  <Price>1500000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Type>Transport</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>CML</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

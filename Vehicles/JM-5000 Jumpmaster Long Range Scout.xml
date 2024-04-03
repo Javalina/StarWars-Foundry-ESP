@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>JM5000</Key>
-  <Name>JM-5000 Jumpmaster Long Range Scout</Name>
+  <Name>Explorador de largo alcance saltador maestro SM-5000</Name>
   <Description>
-      [H3]JM-5000 Jumpmaster Long Range Scout[h3]
-      Please see page 256 of the Edge of the Empire Core Rulebook for details.
+      Las naves de exploración profunda clase Saltador Maestro de la Corporación de Ingeniería Corelliana son pequeños vehículos monoplaza diseñados para el reconocimiento autônomo de largo alcance. El casco de los Saltadores Maestros es plano y tiene la forma aproximada de una media luna; en su interior se alojan potentes sensores de alta precisión. Un módulo cilíndrico situado a estribor del eje central de la nave contiene la cabina, el diminuto y espartano camarote del piloto, la planta motriz y el hiperimpulsor. Los Saltadores Maestros tienen poco blindaje y solo van armados con un cañón láser ligero, por lo que dependen de su velocidad y sus sensores para eludir los problemas.
+[P]Debido precisamente a la potencia de estos sensores, los Saltadores Maestros sirven en muchos ejércitos planetarios como naves de vigilancia y patrulleras de avanzada en los sistemas estelares. No obstante, su función principal la desempeñan en el Cuerpo Civil de Astronavegación, el grupo voluntario de exploradores, astronavegantes y cartografos que se encarga de mantener actualizadas las cartas de navegación hiperespacial.
     </Description>
   <Source Page="256">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>3</HyperdrivePrimary>
   <HyperdriveBackup>15</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srExtreme</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>30</EncumbranceCapacity>
   <Passengers>1</Passengers>
-  <Consumables>Two month</Consumables>
+  <Consumables>2 meses</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>4</Speed>
   <Handling>1</Handling>

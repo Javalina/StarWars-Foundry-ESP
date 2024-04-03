@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>YT2400</Key>
-  <Name>YT-2400 Light Freighter</Name>
+  <Name>Carguero ligero YT-2400</Name>
   <Description>
-    [H3]YT-2400 Light Freighter[h3]
-    Please see page 265 of the Edge of the Empire Core Rulebook for details.
+    Los cargueros ligeros YT-2400 de la Corporación de Ingeniería Corelliana son una mejora de la anticuada pero fiable clase YT-1300. Partiendo de las lecciones aprendidas a lo largo de las décadas desde el lanzamiento inicial de los YT-1300, los ingenieros de la CIC equiparon el YT-2400 con toda la potencia y los sistemas de vuelo y estiba más sofisticados que pudieron instalarle. El YT-2400 tiene un fuselaje discoidal formado por un núcleo central circular y varios módulos de carga y pasajeros a su alrededor. Como en todos los cargueros de las series YT, la cabina sobresale por el lado de estribor unida al fuselaje principal mediante ﻿un par de arbotantes reforzados. La sección de la cabina tiene su propia escotilla de acceso y una cápsula de salvamento para la tripulación. Con todo, este modelo es ligeramente más pequeño que el YT-1300, por lo que aprovecha mejor el espacio disponible. La proa de la nave y el arbotante frontal de la cabina contienen la bodega de carga principal y los alojamientos de la tripulación. Frente a la cabina se halla la cocina y un cuarto de aseo, y en la parte posterior del núcleo central hay varios camarotes privados, la sección de ingeniería y la cápsula de salvamento de los pasajeros.
+[P]Aunque se fabricó oficialmente como carguero civil para usos empresariales legítimos, la campaña publicitaria y los departamentos de producción de la Corporación de Ingeniería Corelliana son plenamente conscientes de que la mayoría de sus clientes operan al margen de la ley. La nave se vende con la etiqueta de "blindaje doble", que en esencia es un eufemismo comercial para referirse al blindaje de categoría militar. Los YT-2400 también poseen generadores de escudos pesados, espacio para reactores y motores de iones de mayor tamaño y varios afustes de armas especializados que salen vacíos de la cadena de montaje.
   </Description>
   <Source Page="265">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>12</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot/Engineer</Crew>
+  <Crew>1 piloto, 1 copiloto/ingeniero</Crew>
   <EncumbranceCapacity>140</EncumbranceCapacity>
   <Passengers>6</Passengers>
-  <Consumables>Two Months</Consumables>
+  <Consumables>2 meses</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>3</Speed>
   <Handling>0</Handling>

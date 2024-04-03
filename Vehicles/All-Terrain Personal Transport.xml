@@ -1,15 +1,14 @@
 <Vehicle>
   <Key>ATPT</Key>
-  <Name>All-Terrain Personal Transport</Name>
+  <Name>Transporte personal todoterreno</Name>
   <Description>
-      [H3]All-Terrain Personal Transport[h3]
-      Please see page 252 of the Edge of the Empire Core Rulebook for details.
+      Muchos mundos fronterizos o con escasez de recursos no pueden permitirse vehículos militares o policiales de costosa tecnología repulsora, ni tampoco pueden construir los andadores pesados que utiliza el ejército del Imperio. En vez de eso, sus cuerpos militares o fuerzas de defensa deben pertrecharse con transportes equipados con ruedas y orugas como medios de locomoción, más antiguos pero también más fiables. Estos transportes de personal suelen ser extremadamente simples, lo que también tiene una ventaja: son menos propensos a fallos y averías.
     </Description>
   <Source Page="252">Edge of the Empire Core Rulebook</Source>
   <MaxAltitude>
   </MaxAltitude>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>15</EncumbranceCapacity>
   <Passengers>1</Passengers>
   <Silhouette>2</Silhouette>

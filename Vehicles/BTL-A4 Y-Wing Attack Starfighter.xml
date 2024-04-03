@@ -1,10 +1,9 @@
 <Vehicle>
   <Key>BTLA4</Key>
-  <Name>BTL-A4 Y-Wing Attack Starfighter</Name>
+  <Name>Caza BTL-A4 ALA-A</Name>
   <Description>
-      [H3]BTL-A4 Y-Wing Attack Starfighter[h3]
-      Please see page 257 of the Edge of the Empire Core Rulebook, page 268 of the Age of Rebellion Core Rulebook, or page 257 of the Force and Destiny Core Rulebook, for details.
-    </Description>
+El modelo BTL-A4 es una variante monoplaza, mientras que el BTL-S3 cuenta con un segundo asiento para un artillero u oficial de sensores situado detrás del piloto. En el BTL-S3, el artillero dispara las torretas de cañones de iones, pero en el BTL-A4 estos cañones están fijos en el morro de la nave y los controla el piloto. Las puntuaciones de este perfil cubren ambas variantes, ya que apenas presentan diferencias adicionales.
+</Description>
   <Sources>
     <Source Page="257">Edge of the Empire Core Rulebook</Source>
     <Source Page="268">Age of Rebellion Core Rulebook</Source>
@@ -14,10 +13,10 @@
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>false</NaviComputer>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>10</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>One Week</Consumables>
+  <Consumables>1 semana</Consumables>
   <Silhouette>3</Silhouette>
   <Speed>4</Speed>
   <Handling>0</Handling>

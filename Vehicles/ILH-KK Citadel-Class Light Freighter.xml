@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>ILHKKCITADEL</Key>
-  <Name>ILH-KK Citadel-Class Light Freighter</Name>
+  <Name>Carguero ligero ILH-KK clase ciudadela</Name>
   <Description>
-      [H3]ILH-KK Citadel-Class Light Freighter[h3]
-      Please see page 260 of the Edge of the Empire Core Rulebook for details.
+      Manufacturado por Koensayr, una corporación más conocida por sus cazas estelares y componentes de astronaves que por sus cargueros, el clase Ciudadela es un transporte de carga pequeño y relativamente veloz construido para competir con los cargueros ligeros modelo YT e YV de la CIC. [P]Estas naves, famosas por su fiabilidad y dureza, tienen un fuselaje ancho y plano que recuerda a las lanzaderas clase Lambda de la Armada Imperial, con dos estabilizadores verticales alargados en popa y un tercero en el medio, más corto y grueso, donde se encuentran el transpondedor y los sistemas de comunicación de la nave. La sección frontal del fuselaje contiene el puente de mando y los camarotes de los tres tripulantes, y en la parte posterior hay más camarotes para los pasajeros. Los cargueros de la clase Ciudadela tienen un blindaje grueso para una nave de su tamaño y categoría, y están equipados con escudos de grado militar. Se han granjeado una merecida reputación por su capacidad de encajar un castigo increíble y pese a ello descargar sanos y salvos tanto al pasaje como el cargamento.
+[P]Aunque en teoría los cargueros de la clase Ciudadela son transportes de pasajeros, están extraordinariamente bien armados para desempeñar esta labor. Gracias a su armamento pesado, su potente reactor KM-440.al y unas amarras externas en crujía que pueden utilizarse para remolcar dos cazas estelares, muchos de estos cargueros han sido rehabilitados como naves de combate. La mayoría de estos Ciudadelas reconvertidos han acabado en manos de filibusteros y contrabandistas.
     </Description>
   <Source Page="260">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>15</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srMedium</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot, One Engineer</Crew>
+  <Crew>1 piloto, 1 copiloto, 1 ingeniero</Crew>
   <EncumbranceCapacity>95</EncumbranceCapacity>
   <Passengers>14</Passengers>
-  <Consumables>Six Months</Consumables>
+  <Consumables>6 meses</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>3</Speed>
   <Handling>-1</Handling>

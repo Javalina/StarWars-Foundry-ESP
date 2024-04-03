@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>Z95AF4</Key>
-  <Name>Z-95-AF4 Headhunter</Name>
+  <Name>Z-95-AF4 Cazacabezas</Name>
   <Description>
-      [H3]Z-95-AF4 Headhunter[h3]
-      Please see page 258 of the Edge of the Empire Core Rulebook for details.
+      Diseñado como parte de una iniciativa conjunta entre la Corporación Incom y la Corporación Subpro durante los primeros días de las Guerras Clon, el minúsculo Z-95 fue considerado uno de los cazas estelares más capaces de su época. De dimensiones reducidas, blindaje ligero y escudos poco potentes, el Z-95 es un caza monoplaza de corto alcance propulsado por un multirreactor 44-a5 de Incom. Su fuselaje aerodinámico, combinado con un índice increíble de aceleración para su peso, hacen del Z-95 una nave sumamente ágil y veloz. En un principio se clasificó como interceptor e iba armado con cañones bláster triples montados en las alas, pero no tardó en demostrar su valía como caza de superioridad espacial. Su diseño ha sido revisado en numerosas ocasiones, y en la actualidad casi todos los modelos van equipados con cañones láser dobles y lanzamisiles de impacto.
+[P]A pesar de su antigüedad, el Z-95 sigue gozando de gran popularidad. Aun considerandose obsoleto en comparación con otros cazas modernos como el Ala-Y de Koensayr y el moderno Ala-X de Incom (que guarda un parecido más que superficial con el Cazacabezas), este pequeño caza estelar sigue siendo uno de los más vendidos en los territorios del Borde Exterior.
     </Description>
   <Source Page="258">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>0</HyperdrivePrimary>
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>false</NaviComputer>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>8</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>One Day</Consumables>
+  <Consumables>1 día</Consumables>
   <Silhouette>3</Silhouette>
   <Speed>4</Speed>
   <Handling>1</Handling>

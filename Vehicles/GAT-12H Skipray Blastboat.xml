@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>GAT12HSKIPRAY</Key>
-  <Name>GAT-12H Skipray Blastboat</Name>
+  <Name>Barcaza rápida GAT-12H rayo saltador</Name>
   <Description>
-      [H3]GAT-12H Skipray Blastboat[h3]
-      Please see page 259 of the Edge of the Empire Core Rulebook for details.
+      La barcaza rápida Rayo Saltador de Sistemas de Flota Sienar es otro diseño anterior a las Guerras Clon, una patrullera artillada y acorazada que desciende de las cañoneras clase Turbotormenta empleadas por la Antigua República. Catalogada oficialmente como patrullera en las campañas ﻿publicitarias de SFS, la Rayo Saltador parece desafiar toda clasificación. Es ligeramente más grande que el típico caza estelar pesado, y consta de una sección frontal de fuselaje estrecho, reforzada y fuertemente armada, unida a una sección de popa pivotante formada por un pilón central y un gran alerón. La sección de proa contiene una cabina de mando acorazada en la que se sientan los cuatro tripulantes. A cada lado de la cabina se extienden dos estabilizadores horizontales inclinados hacia abajo; cada uno de ellos lleva equipado un conjunto de sensores Siep-Irol Omni-Vu que proporcionan al Rayo Saltador una visualización excepcional del espacio circundante en combate. En la sección frontal del fuselaje se alojan también la mayoría de los sistemas de armamento de la nave: un cañón de iones, un lanzatorpedos de protones y un lanzamisiles de impacto situados en el morro, y una torreta con un cañón läser doble en la parte posterior de la carlinga, sobre la cresta dorsal de la nave. La configuración rotatoria del alerón que conforma el tercio de popa de la barcaza está formada por dos alas horizontales conectadas a un cilindro blindado central que pivota alrededor del potente motor iónico de la nave. Estas alas se colocan en posición vertical para volar y giran hasta quedar en posición horizontal para aterrizar; en los extremos de ambas alas hay sendos cañones de iones.
+[P]Aunque fue diseñada inicialmente para que la Armada Imperial la utilizase como caza estelar pesado con capacidad hiperespacial, el prototipo resultante fue rechazado de pleno por el Almirantazgo por no encajar en las rígidas formaciones navales de combate, en las que por aquel entonces no tenían cabida los cazas pesados de varios tripulantes. En respuesta a la negativa, SFS puso el Rayo Saltador a la venta en el mercado público, donde halló un nicho de fieles consumidores entre las fuerzas de defensa planetaria y las diversas ﻿flotas corporativas, mercenarias y piratas que operan en el Borde Exterior. El Rayo Saltador es una eficaz y mortífera patrullera antinave que puede enfrentarse sin temor a naves mucho más grandes que ella.
     </Description>
   <Source Page="259">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>15</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot, One Comms/Sensor Operator, Two Gunners</Crew>
+  <Crew>1 piloto, 1 copiloto, 1 operator de comunicaciones y sensores, 1 artillero</Crew>
   <EncumbranceCapacity>20</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>One Month</Consumables>
+  <Consumables>1 mes</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>4</Speed>
   <Handling>-1</Handling>

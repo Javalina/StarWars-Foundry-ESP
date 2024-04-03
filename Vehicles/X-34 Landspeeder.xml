@@ -1,14 +1,13 @@
 <Vehicle>
   <Key>X34SPEEDER</Key>
-  <Name>X-34 Landspeeder</Name>
+  <Name>Deslizador terrestre X-34</Name>
   <Description>
-      [H3]X-34 Landspeeder[h3]
-      Please see page 251 of the Edge of the Empire Core Rulebook for details.
+      El X-34 de SoroSuub es un deslizador terrestre biplaza de uso civil y reputada fiabilidad. Impulsado por el motor de repulsión Estrellas Gemelas de SoroSuub y equipado con un trío de turbohélices de baja potencia, el X-34 proporciona utilidad y un rendimiento respetable (por no hablar de estilo y elegancia) en un paquete compacto y asequible. Consume menos que la mayoría de los modelos de SoroSuub, pero viene con muy pocas prestaciones de serie. Posee una cabina confortable con dos asientos ergonómicos forrados con un cuero recauchutado muy resistente al desgaste. Los mandos son sencillos y el vehiculo se deja conducir con mucha facilidad, por lo que resulta muy práctico como deslizador utilitario.
     </Description>
   <Source Page="251">Edge of the Empire Core Rulebook</Source>
-  <MaxAltitude>1 meters</MaxAltitude>
+  <MaxAltitude>1 metro</MaxAltitude>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>15</EncumbranceCapacity>
   <Passengers>1</Passengers>
   <Silhouette>2</Silhouette>

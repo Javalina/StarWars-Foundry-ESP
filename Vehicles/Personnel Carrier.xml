@@ -1,15 +1,15 @@
 <Vehicle>
   <Key>PERSCARR</Key>
-  <Name>Personnel Carrier</Name>
+  <Name>Transporte de personal</Name>
   <Description>
-      [H3]Personnel Carrier[h3]
-      Please see page 252 of the Edge of the Empire Core Rulebook for details.
+      Desarrollado por la República durante las Guerras Clon, el AT-PT es un andador de infantería pequeño y monoplaza diseñado para transportar un solo soldado a la batalla en los entornos más hostiles. Conocidos por su construcción sólida y relativamente simple, estos vehículos se componen de un modulo de mando central acorazado suspendido entre dos ágiles patas de articulaciones invertidas. El módulo central contiene una cabina estanca muy poco espaciosa (apenas caben el piloto, su arma reglamentaria y un parche de reparación de emergencia). EI AT-PT puede recorrer con soltura una amplia variedad de terrenos, desde bosques frondosos hasta llanuras y núcleos urbanos aglomerados, vadeando cuerpos de agua poco profundos y subiendo pendientes de hasta 45° de inclinación.
+[P]Los AT-PT van armados con un surtido versátil de armamento antipersonal, incluido un potente cañón bláster doble y un lanzagranadas de impacto de repetición situado en el "menton" del vehículo, con los que puede destruir unidades de infantería y vehículos ligeros. Aunque sus sensores son rudimentarios en el mejor de los casos, está equipado con sistemas de comunicación cifrada de alta potencia gracias a los cuales una escuadra de estos pequeños andadores puede actuar con una eficacia extrema.
     </Description>
   <Source Page="252">Edge of the Empire Core Rulebook</Source>
   <MaxAltitude>
   </MaxAltitude>
   <SensorRangeValue>srNone</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot</Crew>
+  <Crew>1 piloto, 1 copiloto</Crew>
   <EncumbranceCapacity>100</EncumbranceCapacity>
   <Passengers>15</Passengers>
   <Silhouette>3</Silhouette>

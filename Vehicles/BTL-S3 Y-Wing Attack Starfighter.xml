@@ -1,9 +1,9 @@
 <Vehicle>
   <Key>BTLS3</Key>
-  <Name>BTL-S3 Y-Wing Attack Starfighter</Name>
+  <Name>Caza BTL-S3 ALA-Y </Name>
   <Description>
-      [H3]BTL-S3 Y-Wing Attack Starfighter[h3]
-      Please see page 257 of the Edge of the Empire Core Rulebook, or page 268 of the Age of Rebellion Core Rulebook, for details.
+El Ala-Y de Koensayr es un cazabombardero estelar pesado de asalto muy especializado. Conocido por sus pilotos con el apelativo cariñoso de "diapasón", el Ala-Y consiste en una sección central de fuselaje flanqueada por dos motores carenados que a su vez están unidos a unas estructuras alargadas y reforzadas que sirven como guías de impulso. La sección central alberga una cabina fuertemente blindada con un sistema completo de soporte vital, así como los sistemas de armamento de la nave y un puerto para droides astromecánicos situado en la parte posterior de la cabina. El motor Novaldex, el generador de escudos, el hiperimpulsor y otros muchos sistemas esenciales están en la parte central del fuselaje, entre ambos carenados, cada uno de los cuales contiene un potente motor iónico R200 fabricado por Koensayr.
+[P]Haciendo honor a su función como destructores de naves, los Alas-Y tienen un blindaje grueso y potentes escudos para protegerse mientras se aproximan a sus objetivos. Con su estilizada sección cruzada, la eficacia de su protección y la potencia de sus armas, están sobradamente preparados para una labor que les obliga a abrirse paso luchando hasta un blanco, soltar su carga explosiva y regresar sin dejar de combatir. A pesar de su reputación como astronave fiable, los Alas-Y poseen algunas peculiaridades que requieren un mantenimiento relativamente arduo. Tal es así que muchas dotaciones y técnicos astronáuticos han desmontado permanentemente el carenado, en su mayor parte estético, para poder acceder más fácilmente a los sistemas internos del caza: raro es el Ala-Y que vuela con el fuselaje intacto.    </Description>
     </Description>
   <Sources>
     <Source Page="257">Edge of the Empire Core Rulebook</Source>
@@ -13,10 +13,10 @@
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>false</NaviComputer>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot, One Gunner</Crew>
+  <Crew>1 piloto, 1 artillero</Crew>
   <EncumbranceCapacity>10</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>One Week</Consumables>
+  <Consumables>1 semana</Consumables>
   <Silhouette>3</Silhouette>
   <Speed>4</Speed>
   <Handling>0</Handling>

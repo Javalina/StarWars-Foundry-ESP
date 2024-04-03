@@ -1,0 +1,38 @@
+<Vehicle>
+  <Key>LUXURY3000</Key>
+  <Name>Yate espacial lujo 3000 de SoroSuub</Name>
+  <Description>
+      El popular yate espacial de la Corporación SoroSuub es el último grito en transporte de lujo de personalidades importantes. Cada uno de estos navíos está hecho a medida desde la quilla hasta las necesidades específicas del propietario. Toda decisión respecto a su diseño, desde el modelo de hiperimpulsor hasta las maderas exóticas y metales preciosos utilizados en los acabados de los aposentos privados, se dejan en manos del propietario y de los diseñadores expertos de SoroSuub. De este modo la nave puede equiparse para un sinfín de usos diferentes, desde el traslado de funcionarios del gobierno destacados hasta despachos móviles de influyentes ejecutivos comerciales o naves de recreo para la celebración de extravagantes fiestas.
+[P]Aunque cada yate es único, con prestaciones y comodidades tan variadas como los gustos de sus posibles propietarios, todos tienen algunos elementos en común. El casco de la nave es estrecho y alargado, con el puente de mando a proa para disfrutar de una vista completa del espacio circundante a través de sus portillas panorámicas. Los pasajeros viajan en camarotes de lujo situados en la zona posterior del puente de mando, y disponen de un gran comedor, una suite de lujo, un centro de ocio, una cubierta de observación y varios camarotes más pequeños pero muy bien equipados. Tanto los motores sublumínicos como el hiperimpulsor van instalados dentro de estructuras carenadas externas localizadas en la popa del navío.
+    </Description>
+  <Source Page="262">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>1 piloto, 1 copiloto/ingeniero</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>1 mes</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>0</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <HP>4</HP>
+  <Price>120000</Price>
+  <Rarity>6</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Type>Yacht</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+  </VehicleWeapons>
+</Vehicle>

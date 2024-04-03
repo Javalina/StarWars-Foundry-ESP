@@ -1,20 +1,20 @@
 <Vehicle>
   <Key>MARAUDER</Key>
-  <Name>Marauder-Class Assault Corvette</Name>
+  <Name>Corbeta de asalto clase merodeador</Name>
   <Description>
-    [H3]Marauder-Class Assault Corvette[h3]
-    Please see page 267 of the Edge of the Empire Core Rulebook for details.
+    La fiable corbeta clase Merodeador es una nave antigua de probada eficacia que lleva al servicio de numerosas armadas de la galaxia desde los tiempos de la Antigua República. Diseñada y fabricada por Tecnologías Sienar, la Merodeador fue ideada como una nave flexible y veloz para tareas de patrulla y escolta. Aunque en un principio iba dirigida a la Armada de la República, su diseño fue rechazado y SRS no supo qué hacer con él. Con el tiempo los derechos de producción de la corbeta se vendieron a la Autoridad del Sector Corporativo, donde halló un nicho en el servicio de marina y en numerosas agencias gubernamentales y policiales de los planetas del Borde Exterior.
+[P]Actualmente la venerable corbeta Merodeador aún continúa al servicio de numerosas organizaciones gubernamentales, paramilitares y piratas del Borde Exterior. Son naves alargadas y gráciles, con una sección de proa acorazada en forma de cuña y alas anchas curvadas en delta que parten de la sección de popa, justo encima de los propulsores. Gracias a su favorable indice de potencia con arreglo a su peso, las Merodeador son relativamente veloces y ágiles para su tamaño. Con su excelente manejo, la capacidad ofensiva que le confieren sus turboláseres ligeros y proyectores de campo de tracción, y la posibilidad de albergar un escuadrón de cazas estelares en su interior, estas corbetas pueden defenderse perfectamente de casi todas las naves de combate de su clase.
   </Description>
   <Source Page="267">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srMedium</SensorRangeValue>
-  <Crew>177 Officers, Pilots, and Enlisted Crew</Crew>
-  <StarFighters>Twelve Fighters, Two Shuttles</StarFighters>
+  <Crew>177 oficiales, pilotos, y tripulantes</Crew>
+  <StarFighters>12 cazas, 2 lanzaderas</StarFighters>
   <EncumbranceCapacity>175</EncumbranceCapacity>
   <Passengers>80</Passengers>
-  <Consumables>Three Months</Consumables>
+  <Consumables>2 meses</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>3</Speed>
   <Handling>0</Handling>

@@ -1,19 +1,20 @@
 <Vehicle>
   <Key>FIRESPRAY</Key>
-  <Name>Firespray Patrol Craft</Name>
+  <Name>Patrullera Firespray</Name>
   <Description>
-      [H3]Firespray Patrol Craft[h3]
-      Please see page 255 of the Edge of the Empire Core Rulebook for details.
+      Con su aspecto elefantino, su exclusiva posición de vuelo vertical y el interior rotatorio de la cabina para efectuar aterrizajes horizontales, la Firespray se consideró un diseño revolucionario tanto en apariencia como en funcionalidad. En un principio solamente se construyeron y entregaron seis prototipos a una penitenciaría de la República en Oovo IV, poco tiempo antes de que estallara la Batalla de Naboo. De aquellas seis naves, una fue robada por un cazarrecompensas llamado Jango Fett que destruyó las otras cinco para evitar que lo persiguieran. La pérdida de unos prototipos tan costosos supuso un duro varapalo para ISK, por lo que decidieron suspender el programa Firespray.
+[P]Ideada en un principio como nave de patrulla y persecución intrasistémica, las seis Firespray originales volaban impulsadas por un cuarteto de generadores Kuat X-F-16 de alta potencia que proporcionaban energía a un par de motores iónicos F-31, diseñados por Astilleros de Impulsores Kuat y que ocupaban la mayor parte del espacio interno de la nave. Esta combinación de generadores e impulsores confería a las naves una velocidad más que suficiente para encargarse de cargueros errantes, transportes y lanzaderas. Dado que en su diseño primaba la utilidad sobre la comodidad, el espacio interior de la Firespray resultaba increiblemente apretado. En la zona baja de popa había una pequeña bodega de carga equipada con un puesto de guardia y seis celdas poco espaciosas. Entre los generadores, motores iónicos y demás sistemas de la nave se alojaba la peculiar cabina rotatoria que giraba 180° al piloto y al tablero de mandos durante despegues y aterrizajes.
+[P]Recientemente, ISK ha vuelto a introducir la Firespray en el mercado como respuesta al aumento de la demanda de naves patrulleras en los mundos controlados por el Imperio. Estos nuevos modelos se han construido partiendo de los planos de los seis prototipos originales, aunque se han beneficiado de tres décadas de avances en tecnología astronautica. Debido a la creciente demanda y a una agresiva campaña publicitaria, las nuevas naves son un lujo muy de moda entre agencias de la ley, cazarrecompensas e incluso algunos contrabandistas y piratas.
     </Description>
   <Source Page="255">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>3</HyperdrivePrimary>
   <HyperdriveBackup>15</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot, Two Guards</Crew>
+  <Crew>1 piloto, 2 guardias</Crew>
   <EncumbranceCapacity>40</EncumbranceCapacity>
   <Passengers>6</Passengers>
-  <Consumables>One month</Consumables>
+  <Consumables>1 mes</Consumables>
   <Silhouette>4</Silhouette>
   <Speed>4</Speed>
   <Handling>0</Handling>

@@ -1,10 +1,10 @@
 <Vehicle>
   <Key>TIELN</Key>
-  <Name>TIE/LN Starfighter</Name>
+  <Name>Caza estelar TIE/LN</Name>
   <Description>
-      [H3]TIE/LN Starfighter[h3]
-      Please see page 257 of the Edge of the Empire Core Rulebook, page 270 of the Age of Rebellion Core Rulebook, or page 261 of the Force and Destiny Core Rulebook, for details.
-    </Description>
+Este diminuto y frágil caza de motor iónico doble lleva décadas en servicio como el principal caza de superioridad espacial de la Armada Imperial. Ligero, veloz e increíblemente ágil, el emblemático caza TIE es una astronave de combate minimalista y funcional. Consiste en una cabina de vuelo esférica de blindaje ligero provista de una portilla circular de transpariacero de gran tamaño; la cabina va encajada entre dos enormes alas hexagonales revestidas de paneles solares. EI TIE no tiene escudos, tren de aterrizaje, hiperimpulsor ni soporte vital, por lo que el piloto debe utilizar un traje de vacío. Posee muy pocos sistemas computerizados. El diseño original se ha minimizado todo lo posible hasta resultar en una nave asombrosamente rápida y ágil, pero con un elevado indice de desgaste.
+[P]Además de su ligereza, el caza TIE también hace gala de una sencillez increible. Se propulsa mediante una versión miniaturizada del reactor de ionización solar l-a2b de SFS, que capta energia solar a través de los paneles integrados en las alas y la suministra a un motor iónico doble P-s4 de alta potencia, también de SFS, así como a los cañones láser dobles situados bajo la cabina. Los cazas TIE son naves de corto alcance por sus propias limitaciones. Cuando no están atracados en instalaciones navales planetarias u orbitales, para entrar en combate deben viajar a bordo de naves de transporte como fragatas de escolta o destructores estelares.    </Description>
+  </Description>
   <Sources>
     <Source Page="257">Edge of the Empire Core Rulebook</Source>
     <Source Page="270">Age of Rebellion Core Rulebook</Source>
@@ -14,10 +14,10 @@
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>false</NaviComputer>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>4</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>Two days</Consumables>
+  <Consumables>2 dias</Consumables>
   <Silhouette>3</Silhouette>
   <Speed>5</Speed>
   <Handling>3</Handling>

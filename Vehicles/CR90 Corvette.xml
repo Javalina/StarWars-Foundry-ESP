@@ -1,9 +1,9 @@
 <Vehicle>
   <Key>CR90</Key>
-  <Name>CR90 Corvette</Name>
+  <Name>Corbeta CR90</Name>
   <Description>
-    [H3]CR90 Corvette[h3]
-    Please see page 266 of the Edge of the Empire Core Rulebook, page 274 of the  Age of Rebellion Core Rulebook, or page 266 of the Force and Destiny Core Rulebook, for details.
+    La veloz y fiable corbeta clase CR90 de la Corporación de Ingeniería Corelliana es una nave de línea ligera muy versátil, capaz de desempeñar múltiples funciones tanto en organizaciones civiles como en cuerpos militares. Alargada y estilizada, la CR90 posee un perfil característico de cintura de avispa con una sección central estrecha flanqueada por una enorme batería de once motores de turbinas iónicas Girodyne en popa y un amplio sector de proa con forma de cabeza de martillo en cuyo interior se encuentra el puente de mando y las dependencias de la tripulación. Las CR90 son extraordinariamente veloces y ágiles para su tamaño, y pueden habilitarse como transportes de tropas, cargueros, naves transespaciales de pasajeros, naves consulares o incluso navíos de escolta fuertemente armados.
+[P]Las corbetas suelen estar equipadas con un par de turboláseres dobles T&B montados en torretas, una en la parte dorsal y otra en la ventral, como armamento principal. Además de estos también disponen de cuatro turbolāseres ligeros, dos a cada lado, montados sobre torretas dorsales en la sección central del fuselaje. Esto las hace ideales para atravesar bloqueos y también como naves de escolta pesadas para ejércitos con presupuestos limitados.
   </Description>
   <Sources>
     <Source Page="266">Edge of the Empire Core Rulebook</Source>
@@ -14,10 +14,10 @@
   <HyperdriveBackup>0</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srLong</SensorRangeValue>
-  <Crew>30-165 Crew</Crew>
+  <Crew>30-165 tripulantes</Crew>
   <EncumbranceCapacity>2500</EncumbranceCapacity>
   <Passengers>600</Passengers>
-  <Consumables>One Year</Consumables>
+  <Consumables>1 año</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>3</Speed>
   <Handling>-1</Handling>

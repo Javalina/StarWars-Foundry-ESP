@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>DP20</Key>
-  <Name>DP20 Gunship</Name>
+  <Name>Nave artillera DP20</Name>
   <Description>
-    [H3]DP20 Gunship[h3]
-    Please see page 266 of the Edge of the Empire Core Rulebook for details.
+    Coloquialmente conocida como la "artillera corelliana", la DP20 está diseñada en su totalidad como nave militar con un solo propósito. Fabricada por la CIC para las flotas de la República Galáctica, las DP20 se desplegaron como respuesta a la creciente amenaza de droides renegados y bandas piratas que disponían de cazas estelares de segunda mano. Están formadas por tres secciones de fuselaje dispuestas a lo largo de un único corredor reforzado de múltiples cubiertas, y se propulsan mediante un gigantesco generador de ionización que les proporciona una velocidad considerable.
+[P]Erizadas de turboláseres, torretas láser cuádruples y lanzamisiles de impacto, estas naves existen por y para la destrucción de cazas estelares. Van fuertemente armadas y escudadas para protegerse de posibles oleadas de cazas, y están equipadas con potentes computadoras de selección de objetivo con las que sus armas pueden seguir y derribar naves pequeñas, ágiles y veloces. Por todo ello, la artillera corelliana es una consumada nave anticaza y antinaves de línea. Sin embargo, a pesar de su utilidad hay muy pocas de estas naves al servicio activo de la moderna Armada Imperial.
   </Description>
   <Source Page="266">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>2</HyperdrivePrimary>
   <HyperdriveBackup>16</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srLong</SensorRangeValue>
-  <Crew>91 Officers and Enlisted Crew</Crew>
+  <Crew>91 oficiales y tripulantes</Crew>
   <EncumbranceCapacity>300</EncumbranceCapacity>
   <Passengers>0</Passengers>
-  <Consumables>Eight Months</Consumables>
+  <Consumables>8 meses</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>4</Speed>
   <Handling>-1</Handling>
