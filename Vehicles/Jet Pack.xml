@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Key>JETPACK</Key>
-  <Name>Jet Pack</Name>
-  <Description>[H3]Jet Pack[h3]
-Please see page 181 of the Edge of the Empire Core Rulebook for details.
+  <Name>Mochila propulsora</Name>
+  <Description>
+  Una mochila propulsora es ideal para realizar maniobras rápidas y ataques por sorpresa. La mayoría emplean unos propulsores en miniatura para elevar al usuario por los aires durante breves periodos de tiempo, aunque algunos modelos cuentan con dispositivos gravitatorios de refuerzo. Su única desventaja radica en su gran tamaño y peso, en su escasa autonomía y en la considerable habilidad necesaria para manejarlas sin riesgo.
+La Z-6 utiliza una turbina a reacción ventilada para impulsar al usuario, conservando la estabilidad mediante toberas de escape y un giroscopio interno. Se opera mediante una. interfaz de control verbal y los mandos direccionales están situados en la muñeca.
+[P]Una mochila propulsora permite al usuario actuar como si fuera un vehículo de Silueta 1, Velocidad 2, Manejo 0 y umbral de Tensión de sistemas 3 con capacidad de vuelo exclusivamente atmosférico, y para manejarla se requiere la habilidad Pilotar vehículo planetario.
+Modelos de ejemplo: Mochila propulsora Z-6 de Mitrinomon.
 </Description>
   <Source Page="181">Edge of the Empire Core Rulebook</Source>
   <Type>Jet Pack</Type>
@@ -17,10 +20,10 @@ Please see page 181 of the Edge of the Empire Core Rulebook for details.
   <Restricted>false</Restricted>
   <BaseMods />
   <WeaponModifiers />
-  <MaxAltitude>70 meters</MaxAltitude>
+  <MaxAltitude>70 metros</MaxAltitude>
   <NaviComputer>false</NaviComputer>
   <SensorRangeValue>srNone</SensorRangeValue>
-  <Crew>One pilot</Crew>
+  <Crew>1 piloto</Crew>
   <Silhouette>1</Silhouette>
   <Speed>2</Speed>
   <Handling>0</Handling>
