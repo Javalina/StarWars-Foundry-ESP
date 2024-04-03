@@ -46,7 +46,7 @@ _Herramientas usadas para desarrollar el proyecto_
 * [GITHUB](https://rometools.github.io/rome/) - Control de versiones
 
 ## Contribuyendo 🖇️
-
+ 
 En construcción...
 
 ## Wiki 📖

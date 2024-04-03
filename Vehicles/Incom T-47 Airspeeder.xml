@@ -1,17 +1,17 @@
 <Vehicle>
   <Key>T47AIRSPEEDER</Key>
-  <Name>Incom T-47 Airspeeder</Name>
+  <Name>Aerodeslizador T-47 de INCOM</Name>
   <Description>
-      [H3]Incom T-47 Airspeeder[h3]
-      Please see page 249 of the Edge of the Empire Core Rulebook for details.
+      El T-47 de Incom es un potente aerodeslizador para altitudes bajas. Este vehículo de perfil bajo y forma de cuña tiene capacidad para dos tripulantes que se sientan espalda contra espalda en una carlinga estrecha pero bien aprovechada; el asiento del piloto está orientado hacia el frente, y el operador de los sistemas del vehículo se sienta mirando a popa. La planta motriz del T-47 es el fiable motor repulsor KD49 de Karydee, que le proporciona una potencia de remolque extraordinaria junto con una velocidad y agilidad superiores a la media. El KD49 se complementa con uno de los retropropulsores iónicos 51.2 de Incom para cuando se necesita impulsión adicional.
+[P]Como muchos otros productos de la Incom, el T-47 se diseñó para facilitar las modificaciones por parte del usuario final. En este caso, los diseñadores de Incom creyeron que la diversidad de las economías industriales y comerciales de la galaxia requería un vehículo que pudiera adaptarse con facilidad a cualquier tipo de tarea o entorno. El elevador de repulsión del aerodeslizador genera una potencia inmensa que, combinada con distintos sistemas electrónicos de redundancia y un diseño modular, le permiten satisfacer las demandas de peso y rendimiento de cualquier modificación posterior. La propia Corporación Incom vende paquetes de modificaciones para el T-47, al igual que varios fabricantes menores. También se rumorea que ciertas fuerzas paramilitares e insurgentes de la galaxia han equipado estos recios vehículos con armas y blindajes pesados; aunque estos rumores entran dentro de lo posible, Incom los niega oficialmente.
     </Description>
   <Source Page="249">Edge of the Empire Core Rulebook</Source>
   <Sources>
     <Source>Edge of the Empire Core Rulebook</Source>
   </Sources>
-  <MaxAltitude>175 meters</MaxAltitude>
+  <MaxAltitude>175 metros</MaxAltitude>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot, One Co-Pilot/Cargo Handler</Crew>
+  <Crew>1 piloto, 1 copiloto/operario de carga</Crew>
   <EncumbranceCapacity>6</EncumbranceCapacity>
   <Passengers>0</Passengers>
   <Silhouette>2</Silhouette>

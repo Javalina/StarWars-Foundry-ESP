@@ -1,19 +1,19 @@
 <Vehicle>
   <Key>ACTIONVI</Key>
-  <Name>Action VI Bulk Transport</Name>
+  <Name>Transporte acción IV</Name>
   <Description>
-      [H3]Action VI Bulk Transport[h3]
-      Please see page 260 of the Edge of the Empire Core Rulebook for details.
+      El Acción VI de la Corporación de Ingeniería Corelliana, el modelo más reciente de la popular serie Acción, es el ejemplo perfecto del típico transporte mercante. Pesado, lento y voluminoso, el transporte Acción VI mide cien metros de eslora y tiene un casco anguloso de escaso blindaje y sección transversal estrecha y elevada. Posee dos bodegas de carga principales, una en proa y otra en popa, equipadas con sofisticados sistemas de estibación y seguridad que pueden configurarse para manipular toda clase de cargamentos, desde inmensos contenedores estancos y palés de carga hasta ganado. La tripulación se aloja y trabaja en una estructura cilíndrica reforzada que se extiende por toda la cresta dorsal del transporte, entre las bodegas de proa y popa.
+Los transportes de la serie Acción VI no van armados, apenas tienen blindaje y sólo poseen unos escudos rudimentarios. No obstante, como la mayoría de las naves fabricadas por la CIC, son muy personalizables y pueden equiparse fácilmente con sistemas de armamento, planchas de blindaje y generadores de escudo más potentes.
     </Description>
   <Source Page="260">Edge of the Empire Core Rulebook</Source>
   <HyperdrivePrimary>3</HyperdrivePrimary>
   <HyperdriveBackup>20</HyperdriveBackup>
   <NaviComputer>true</NaviComputer>
   <SensorRangeValue>srMedium</SensorRangeValue>
-  <Crew>Twenty Crew</Crew>
+  <Crew>20 tripulantes</Crew>
   <EncumbranceCapacity>10000</EncumbranceCapacity>
   <Passengers>5</Passengers>
-  <Consumables>Three Months</Consumables>
+  <Consumables>3 Meses</Consumables>
   <Silhouette>5</Silhouette>
   <Speed>2</Speed>
   <Handling>-3</Handling>

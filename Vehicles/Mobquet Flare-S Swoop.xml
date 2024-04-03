@@ -1,6 +1,6 @@
 <Vehicle>
   <Key>FLARESSWOOP</Key>
-  <Name>Mobquet Flare-S Swoop</Name>
+  <Name>Acelerador destellos de MOBQUET</Name>
   <Description>
       [H3]Mobquet Flare-S Swoop[h3]
       Please see page 250 of the Edge of the Empire Core Rulebook for details.
@@ -8,7 +8,7 @@
   <Source Page="250">Edge of the Empire Core Rulebook</Source>
   <MaxAltitude>350 meters</MaxAltitude>
   <SensorRangeValue>srNone</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>4</EncumbranceCapacity>
   <Passengers>1</Passengers>
   <Silhouette>2</Silhouette>

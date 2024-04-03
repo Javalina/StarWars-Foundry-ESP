@@ -1,14 +1,13 @@
 <Vehicle>
   <Key>T16SKYHOPPER</Key>
-  <Name>Incom T-16 Skyhopper</Name>
+  <Name>Saltador aéreo T-16 de INCOM</Name>
   <Description>
-      [H3]Incom T-16 Skyhopper[h3]
-      Please see page 248 of the Edge of the Empire Core Rulebook for details.
+      El Saltador Aéreo T-16 de Incom, vehículo predilecto de corredores, temerarios y agencias de la ley de toda la galaxia, proporciona diversión y riesgo a partes iguales. Se trata de un diminuto y frágil vehículo aéreo de silueta piramidal con tres alas de perfil aerodinámico dispuestas en una formación triangular. El T-16 es veloz, ágil e increíblemente complejo a los mandos. Posee una carlinga monoplaza presurizada y su medio de propulsión son los impresionantes motores iónicos E-16/x. Puede alcanzar una velocidad sorprendente en rumbos directos y goza de gran maniobrabilidad tanto a baja altitud como en los limites superiores de la atmósfera. Se construye principalmente para el ocio y el deporte, aunque muchas fuerzas de la ley y grupos paramilitares de toda la galaxia utilizan modelos artillados con blindajes ligeros para misiones de patrulla y reconocimiento. Algunos incluso sirven para la instrucción de pilotos de cazas estelares, ya que la distribución de sus mandos y sus perfiles de rendimiento son similares, entre otros, a los del Z-95 Cazacabezas o el reciente T-65 Ala-X.
     </Description>
   <Source Page="248">Edge of the Empire Core Rulebook</Source>
-  <MaxAltitude>300 kilometers</MaxAltitude>
+  <MaxAltitude>300 kilometros</MaxAltitude>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>12</EncumbranceCapacity>
   <Passengers>1</Passengers>
   <Silhouette>2</Silhouette>

@@ -1,17 +1,16 @@
 <Vehicle>
   <Key>AIRSPEEDER</Key>
-  <Name>Airspeeder</Name>
+  <Name>Aerodeslizador</Name>
   <Description>
-      [H3]Airspeeder[h3]
-      Please see page 248 of the Edge of the Empire Core Rulebook, or page 254 of the Force and Destiny Core Rulebook, for details.
+      Es muy habitual emplear pequeños aerodeslizadores civiles para actividades deportivas o de recreo, así como para el transporte de cargamento y pasajeros. Los modelos civiles como éste casi nunca tienen armas ni blindaje. El perfil indicado representa un modelo genérico de aerodeslizador.
     </Description>
   <Sources>
     <Source Page="248">Edge of the Empire Core Rulebook</Source>
     <Source Page="254">Force and Destiny Core Rulebook</Source>
   </Sources>
-  <MaxAltitude>300 kilometers</MaxAltitude>
+  <MaxAltitude>300 kilometros</MaxAltitude>
   <SensorRangeValue>srShort</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 piloto</Crew>
   <EncumbranceCapacity>30</EncumbranceCapacity>
   <Passengers>6</Passengers>
   <Silhouette>2</Silhouette>

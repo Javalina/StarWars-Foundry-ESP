@@ -1,17 +1,16 @@
 <Vehicle>
   <Key>74ZSPEEDERBIKE</Key>
-  <Name>Aratech 74-Z Speeder Bike</Name>
+  <Name>Moto deslizadora militar 74-Z de Aratech</Name>
   <Description>
-      [H3]Aratech 74-Z Speeder Bike[h3]
-      Please see page 250 of the Edge of the Empire Core Rulebook, or page 263 of the Age of Rebellion Core Rulebook, for details.
+      La 74-Z, una versión militar de la popular moto deslizadora 74-Y de Aratech, es un vehículo de alto rendimiento empleado por tropas del ejército imperial para misiones de exploración, mensajería o transporte rápido de tropas. Con apenas cuatro metros y medio de longitud, la 74-Z es, como casi todas las motos deslizadoras y aceleradores de carreras, poco más que un potente motor repulsor provisto de sillín y mandos de control. El piloto controla sus movimientos con un manillar doble y dos juegos de pedales. Los modelos que utiliza el ejército imperial van equipados con comunicadores, sensores ópticos rudimentarios, un emisor de interferencias de corto alcance y un blåster ligero de repetición integrado.
     </Description>
   <Sources>
     <Source Page="250">Edge of the Empire Core Rulebook</Source>
     <Source Page="263">Age of Rebellion Core Rulebook</Source>
   </Sources>
-  <MaxAltitude>25 meters</MaxAltitude>
+  <MaxAltitude>25 metros</MaxAltitude>
   <SensorRangeValue>srClose</SensorRangeValue>
-  <Crew>One Pilot</Crew>
+  <Crew>1 Piloto</Crew>
   <EncumbranceCapacity>5</EncumbranceCapacity>
   <Passengers>1</Passengers>
   <Silhouette>2</Silhouette>

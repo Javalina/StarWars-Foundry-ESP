@@ -550,55 +550,48 @@
     <Rarity>4</Rarity>
     <Type>Detection/Surveillance Devices</Type>
   </Gear>
-  <!--
+<!--Droides-->
   <Gear>
     <Key>DROIDANTBAT</Key>
-    <Name>Antiquated Battle Droid</Name>
+    <Name>Droide de combate anticuado</Name>
     <Description>
-      [H3]Antiquated Battle Droid (Various Models)[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+      Los modelos más comunes de este tipo son los droides de combate B1 fabricados por Autómatas de Combate Baktoides. Hace una generación, estos droides de aspecto fragil sembraron el terror en la galaxia. Legiones enteras engrosaron los ejércitos separatistas durante las Guerras Clon, pero los años posteriores no han tratado bien a este diseño, que ya era de por si de fabricación barata. Aunque nin gün ejército que se precie sigue utilizando estos droides en grandes cantidades, aún pueden encontrarse en las fuerzas de señores del crimen, mercenarios y otras gentes de mal vivir del submundo galáctico.
     </Description>
     <Source Page="409">Edge of the Empire Core Rulebook</Source>
     <Price>6500</Price>
     <Rarity>5</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Antiquated Battle Droid - Minion.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDASSASIN</Key>
-    <Name>Assassin Droid</Name>
+    <Name>Droide asesino</Name>
     <Description>
-      [H3]IG-Series Assassin Droid[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+      Los droides asesinos, ilegales prácticamente en toda la galaxia conocida, son sofisticadas máquinas de matar que combinan su poderío físico con las facultades mentales necesarias para adaptarse a una amplia variedad de circunstancias. Sin embargo, es más importante resaltar que estos droides se diseñan sin las restricciones universalcs que cvitan que actúen en contra de formas de vida orgánicas. Aunque resultan increíblemente letales contra aquellos a los que se les ordena dar caza, los droides asesinos son igualmente peligrosos para quienes los utilizan o fabrican. Sencillamente no reconocen el valor de la vida, y destruirán cualquier cosa que se interponga en su camino si les beneficia de algún modo.
     </Description>
     <Source Page="409">Edge of the Empire Core Rulebook</Source>
     <Price>65000</Price>
     <Rarity>8</Rarity>
     <Restricted>true</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Assassin Droid - Nemesis.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDASTRO</Key>
-    <Name>Astromech Droid</Name>
+    <Name>Droide astromecánico</Name>
     <Description>
-      [H3]Astromech Droid (Various Models)[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+      Los droides astromecánicos como la famosa serie R2, una visión común en toda la galaxia, son relativamente pequeños, prácticos, diseñados para interactuar y reparar maquinaria de diversas complejidades dependiendo del modelo específico. Muchos aparatos tecnológicos se diseñan para ser compatibles con estos droides, que se conectan directamente a ellos mediante clavijas especiales. Algunas naves están incluso diseñadas con la intención de que sea un droide conectado el que se encargue de ciertas funciones computacionales; por ejemplo, algunos cazas estelares utilizan droides astromecánicos como computadoras de navegación para el viaje hiperespacial.
     </Description>
     <Source Page="409">Edge of the Empire Core Rulebook</Source>
     <Price>8250</Price>
     <Rarity>3</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Astromech Droid - Rival.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDPROT</Key>
-    <Name>Protocol Droid</Name>
+    <Name>Droide de protocolo</Name>
     <Description>
-      [H3]Protocol Droid (Various Models)[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.
+      Existiendo como existen cientos o miles de razas inteligentes diseminadas a lo largo de millones de planetas en toda la galaxia, en circunstancias diplomáticas la comunicación puede ser un problema importante. Los droides de protocolo están diseñados para solventar este problema, gracias a los literalmente millones de idiomas que sus avanzados cerebros electrónicos les permiten almacenar. Tal y como su nombre indica estos droides no son únicamente traductores, sino que también evitan malentendidos asegurándose de que no se producen choques culturales. Éste es el motivo por el que, si no se les borra la memoria de forma regular y empiezan a desarrollar una personalidad, tienen tendencia a sufrir de un nerviosismo y ansiedad extremos..
     </Description>
     <Sources>
       <Source Page="409">Edge of the Empire Core Rulebook</Source>
@@ -608,42 +601,36 @@
     <Rarity>5</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Protocol Droid - Rival.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDMAINT</Key>
-    <Name>Maintenance Droid</Name>
+    <Name>Droide de mantenimiento</Name>
     <Description>
-      [H3]Maintenance Droid (Various Models)[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+      Los droides de mantenimiento, fabricados en muy diversos modelos, pueden construirse con cualquier apariencia imaginable, desde máquinas similares a arañas hasta pequeños automatas parecidos a cajas, pasando por enormes leviatanes del tamaño de vehículos utilizados para reparar puentes y estructuras similares. Pueden encontrarse practicamente en cualquier lugar de la galaxia que posea el sufi-﻿ciente nivel tecnológico para su utilización, y los puertos espaciales en especial están repletos de ellos. Generalmente su nivel de inteligencia es bajo y no suponen ninguna amenaza para los seres orgánicos, pero es bien sabido que algunas averías o una reprogramación malintencionada pueden volverlos en contra de sus amos, en ocasiones con una eficacia terrible.
     </Description>
     <Source Page="409">Edge of the Empire Core Rulebook</Source>
     <Price>7500</Price>
     <Rarity>3</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Maintenance Droid - Minion.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDSECUR</Key>
-    <Name>Security Droid</Name>
+    <Name>Droide de seguridad</Name>
     <Description>
-      [H3]Security Droid[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook for details.
+      Los droides de seguridad, versiones más civilizadas y restringidas de los droides asesinos, no son ilegales pero sí se mantienen cuidadosamente regulados a causa de los posibles abusos a los que se prestan. Generalmente están programados con un conocimiento extenso de protocolos de mantenimiento del orden, y al viajar a menudo los actualizan utilizando bases de datos locales para asegurarse de que sus acciones cumplen las leyes planetarias, de sistema y sectoriales. Usualmente se les encomienda la protección de lugares o individuos específicos, y responderán ante cualquier amenaza para su protegido utilizando la fuerza apropiada, en ocasiones letal.
     </Description>
     <Source Page="409">Edge of the Empire Core Rulebook</Source>
     <Price>9600</Price>
     <Rarity>5</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Security Droid - Rival.xml</AdvImportPath>
   </Gear>
   <Gear>
     <Key>DROIDMEDIC</Key>
-    <Name>Medical Droid</Name>
+    <Name>Droide médico</Name>
     <Description>
-      [H3]Medical Droid (Various Models)[h3]
-      Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.
+      Los droides médicos pueden fabricarse en multitud de modelos, desde sencillos droides asistentes capaces de tratar heridas leves o diagnosticar enfermedades básicas hasta los droides quirúrgicos complejos y extremadamente avanzados que se utilizan en astronaves militares y en los principales centros urbanos de toda la galaxia.
     </Description>
     <Sources>
       <Source Page="409">Edge of the Empire Core Rulebook</Source>
@@ -653,9 +640,8 @@
     <Rarity>4</Rarity>
     <Restricted>false</Restricted>
     <Type>Droids</Type>
-    <AdvImportPath>Edge of the Empire Core\Droids\Medical Droid - Rival.xml</AdvImportPath>
   </Gear>
-  -->
+
   <Gear>
     <Key>BACTAL</Key>
     <Name>Bacta (1 litro)</Name>
