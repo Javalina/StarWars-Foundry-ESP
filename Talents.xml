@@ -82,11 +82,6 @@
     <Key>BLO</Key>
     <Name>Resistencia a venenos</Name>
     <Description>Cada rango de este talento añade [BO] a todas las tiradas que haga el personaje para resistir o recuperarse de los efectos de venenos, ponzoñas y toxinas. La duración del efecto of daño que esté padeciendo a causa de un veneno, ponzoña o toxina se reduce en 1 asalto por cada rango que tenga en este talento (hasta un minimo de 1 asalto).</Description>
-    <Sources>
-      <Source Page="132">Edge of the Empire Core Rulebook</Source>
-      <Source Page="143">Age of Rebellion Core Rulebook</Source>
-      <Source Page="32">Unlimited Power</Source>
-    </Sources>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
@@ -206,10 +201,6 @@
     <Key>DEFDRI</Key>
     <Name>Conducción defensiva</Name>
     <Description>Cada rango de este talento aumenta en 1 la Defensa en todas las zonas del vehículo que esté pilotando el personaje.</Description>
-    <Sources>
-      <Source Page="134">Edge of the Empire Core Rulebook</Source>
-      <Source Page="145">Age of Rebellion Core Rulebook</Source>
-    </Sources>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
     <RosterMods>
@@ -286,7 +277,7 @@
   <Talent>
     <Key>FERSTR</Key>
     <Name>Fuerza salvaje</Name>
-    <Description> Cada rango de este talento añade 1 al daño de 1 impacto causado por todo ataque realizado con exito por el personaje utilizando las habilidades Armas cuerpo a cuerpo y Pelea.</Description>
+    <Description>Cada rango de este talento añade 1 al daño de 1 impacto causado por todo ataque realizado con exito por el personaje utilizando las habilidades Armas cuerpo a cuerpo y Pelea.</Description>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
     <Damage>
@@ -315,11 +306,6 @@
     <Key>FINETUN</Key>
     <Name>Puesta a punto</Name>
     <Description>Cuando el personaje reduce la cantidad de Tensión de sistemas sufrida por una nave espacial o vehículo, cada rango de este talento le permite reducir 1 punto adicional de Tensión de sistemas.</Description>
-    <Sources>
-      <Source Page="135">Edge of the Empire Core Rulebook</Source>
-      <Source Page="147">Age of Rebellion Core Rulebook</Source>
-      <Source Page="143">Force and Destiny Core Rulebook</Source>
-    </Sources>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
@@ -371,7 +357,7 @@
   </Talent>
   <Talent>
     <Key>GALMAP</Key>
-    <Name>Cartógrafo galáctico</Name>
+    <Name>mapeador galactico</Name>
     <Description>Cada rango de este talento elimina [SE] de todas las tiradas de Astronavegación que haga el personaje. Además, sus tiradas de Astronavegación consumen la mitad del tiempo habitual (esta duración no se reduce con rangos adicionales de este talento).</Description>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
@@ -487,11 +473,6 @@
     <Key>INSPRHETIMP</Key>
     <Name>Retórica inspiradora (Mejorada)</Name>
     <Description>Todo aliado afectado por la Retórica inspiradora añade [BO] a todas sus tiradas de habilidad durante tantos asaltos como los rangos de Liderazgo del personaje. Este beneficio no es acumulativo.</Description>
-    <Sources>
-      <Source Page="137">Edge of the Empire Core Rulebook</Source>
-      <Source Page="149">Age of Rebellion Core Rulebook</Source>
-      <Source Page="32">Unlimited Power</Source>
-    </Sources>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
@@ -499,10 +480,6 @@
     <Key>INSPRHETSUP</Key>
     <Name>Retórica inspiradora  (Suprema)</Name>
     <Description>El personaje puede sufrir voluntariamente 1 de Tensión para usar la Retórica inspiradora con una maniobra en lugar de una acción</Description>
-    <Sources>
-      <Source Page="137">Edge of the Empire Core Rulebook</Source>
-      <Source Page="149">Age of Rebellion Core Rulebook</Source>
-    </Sources>
     <Ranked>false</Ranked>
     <ActivationValue>taIncidental</ActivationValue>
   </Talent>
@@ -510,11 +487,6 @@
     <Key>INTENSFOC</Key>
     <Name>Concentración intensa</Name>
     <Description>Antes de hacer una tirada de habilidad, el personaje puede realizar una maniobra de Concentración intensa y sufrir 1 de Tensión para incrementar 1 vez la Capacidad de esa tirada.</Description>
-    <Sources>
-      <Source Page="137">Edge of the Empire Core Rulebook</Source>
-      <Source Page="150">Age of Rebellion Core Rulebook</Source>
-      <Source Page="28">Disciples of Harmony</Source>
-    </Sources>
     <Ranked>false</Ranked>
     <ActivationValue>taManeuver</ActivationValue>
   </Talent>
@@ -726,10 +698,6 @@
     <Key>NATPIL</Key>
     <Name>Piloto nato</Name>
     <Description>Una vez por partida, el personaje puede repetir 1 tirada de Pilotar vehículo espacial o de Artillería.</Description>
-    <Sources>
-      <Source Page="139">Edge of the Empire Core Rulebook</Source>
-      <Source Page="153">Age of Rebellion Core Rulebook</Source>
-    </Sources>
     <Ranked>false</Ranked>
     <ActivationValue>taIncidental</ActivationValue>
   </Talent>
@@ -967,7 +935,6 @@
     <Key>SITAWARE</Key>
     <Name>Situational Awareness</Name>
     <Description>Please see page 156 of the Age of Rebellion Core Rulebook for details.</Description>
-    <Source Page="156">Age of Rebellion Core Rulebook</Source>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
@@ -1149,7 +1116,7 @@
   <Talent>
     <Key>SUPREF</Key>
     <Name>Reflejos superiores</Name>
-    <Description>El personaje gana +1 a la Defensa contra ataques cuerpo а сuегро.</Description>
+    <Description>El personaje gana +1 a la Defensa contra ataques cuerpo a cuerpo.</Description>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
     <Attributes>
@@ -1174,7 +1141,6 @@
     <Key>TACTTRAIN</Key>
     <Name>Tactical Combat Training</Name>
     <Description>Please see page 158 of the Age of Rebellion Core Rulebook for details.</Description>
-    <Source Page="158">Age of Rebellion Core Rulebook</Source>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
     <ChooseCareerSkills>
