@@ -357,7 +357,7 @@
   </Talent>
   <Talent>
     <Key>GALMAP</Key>
-    <Name>mapeador galactico</Name>
+    <Name>Cartógrafo galáctico</Name>
     <Description>Cada rango de este talento elimina [SE] de todas las tiradas de Astronavegación que haga el personaje. Además, sus tiradas de Astronavegación consumen la mitad del tiempo habitual (esta duración no se reduce con rangos adicionales de este talento).</Description>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
