@@ -8,6 +8,19 @@
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
   <Talent>
+    <Key>GALMAP</Key>
+    <Name>Cartógrafo galactico</Name>
+    <Description>Cada rango de este talento elimina [SE] de todas las tiradas de Astronavegación que haga el personaje. Además, sus tiradas de Astronavegación consumen la mitad del tiempo habitual (esta duración no se reduce con rangos adicionales de este talento).</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <DieModifiers>
+      <DieModifier>
+        <SkillKey>MECH</SkillKey>
+        <SetbackCount>1</SetbackCount>
+      </DieModifier>
+    </DieModifiers>
+  </Talent>
+  <Talent>
     <Key>ANAT</Key>
     <Name>Lecciones de anatomía</Name>
     <Description>Después de efectuar un ataque con éxito utilizando un arma que no pertenezca a un vehículo o astronave, el personaje puede gastar 1 punto de Destino para añadir tanto daño adicional como su Intelecto a 1 de los impactos del ataque.</Description>
@@ -180,7 +193,7 @@
   </Talent>
   <Talent>
     <Key>DEADIMP</Key>
-    <Name>Impacto directo (Improved)</Name>
+    <Name>Impacto directo (Mejorado)</Name>
     <Description>El personaje puede gastar I punto de Destino para añadir tanto daño adicional como su Agilidad a1 impacto de un ataque realizado con éxito usando un arma de nave o vehículo. Este efecto sustituye al del talento Impacto directo.</Description>
     <Ranked>false</Ranked>
     <ActivationValue>taIncidental</ActivationValue>
@@ -217,7 +230,7 @@
   </Talent>
   <Talent>
     <Key>DEFSLIIMP</Key>
-    <Name>Programación defensiva (Improved)</Name>
+    <Name>Programación defensiva (Mejorado)</Name>
     <Description>Cuando el personaje intente defender un sistema computerizado contra cualquier tipo de intrusión, cada rango de Programación defensiva incrementa 1 vez la Dificultad de las tiradas de sus oponentes. Esto reemplaza los beneficios habituales del talento Programación defensiva.</Description>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
@@ -354,19 +367,6 @@
     <Description>Cuando el personaje utiliza con éxito la Aceleración máxima, la Velocidad máxima de la nave aumenta 2 puntos (en vez de 1) durante tantos asaltos como su Astucia.</Description>
     <Ranked>false</Ranked>
     <ActivationValue>taPassive</ActivationValue>
-  </Talent>
-  <Talent>
-    <Key>GALMAP</Key>
-    <Name>Cartógrafo galáctico</Name>
-    <Description>Cada rango de este talento elimina [SE] de todas las tiradas de Astronavegación que haga el personaje. Además, sus tiradas de Astronavegación consumen la mitad del tiempo habitual (esta duración no se reduce con rangos adicionales de este talento).</Description>
-    <Ranked>true</Ranked>
-    <ActivationValue>taPassive</ActivationValue>
-    <DieModifiers>
-      <DieModifier>
-        <SkillKey>ASTRO</SkillKey>
-        <SetbackCount>1</SetbackCount>
-      </DieModifier>
-    </DieModifiers>
   </Talent>
   <Talent>
     <Key>GEARHD</Key>
@@ -932,13 +932,6 @@
     <ActivationValue>taManeuver</ActivationValue>
   </Talent>
   <Talent>
-    <Key>SITAWARE</Key>
-    <Name>Situational Awareness</Name>
-    <Description>Please see page 156 of the Age of Rebellion Core Rulebook for details.</Description>
-    <Ranked>false</Ranked>
-    <ActivationValue>taPassive</ActivationValue>
-  </Talent>
-  <Talent>
     <Key>SIXSENSE</Key>
     <Name>Sexto sentido</Name>
     <Description>El personaje gana + 1 a la Defensa contra ataques a distancia.</Description>
@@ -1138,20 +1131,6 @@
     <ActivationValue>taPassive</ActivationValue>
   </Talent>
   <Talent>
-    <Key>TACTTRAIN</Key>
-    <Name>Tactical Combat Training</Name>
-    <Description>Please see page 158 of the Age of Rebellion Core Rulebook for details.</Description>
-    <Ranked>false</Ranked>
-    <ActivationValue>taPassive</ActivationValue>
-    <ChooseCareerSkills>
-      <SkillCount>0</SkillCount>
-      <NewSkills>
-        <Key>MELEE</Key>
-        <Key>RANGHVY</Key>
-      </NewSkills>
-    </ChooseCareerSkills>
-  </Talent>
-  <Talent>
     <Key>TARGBL</Key>
     <Name>Golpe dirigido</Name>
     <Description>Después de efectuar un ataque con éxito empleando un arma que no pertenezca a una nave o vehículo, el personaje puede gastar 1 punto de Destino para añadir tanto daño adicional como su Agilidad a 1 de los impactos del ataque.</Description>
@@ -1256,5 +1235,32 @@
     <Description>Cuando el personaje venda objetos a un comerciante o establecimiento honrado, cada rango que tenga en este talento aumenta en un 10% el valor en créditos de los artículos vendidos (calculado a partir de su precio de venta original).</Description>
     <Ranked>true</Ranked>
     <ActivationValue>taPassive</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>SECWIND</Key>
+    <Name>Fuerzas de flaqueza</Name>
+    <Description>Una vez en cada encuentro, el personaje puede llevar a cabo una actividad menor para sacar Fuerzas de flaqueza y recuperar tanta tensión como su rango de talento.</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>DEADACC</Key>
+    <Name>Precisión letal</Name>
+    <Description>El personaje debe elegir 1 habilidad de combate cada vez que adquiere este talento. Cada rango de entrenamiento básico que tenga en esta habilidad añade 1 punto de daño adicional a 1 impacto causado al atacar con éxito usando la habilidad, siempre y cuando esté utilizando armas que no sean de naves espaciales ni vehículos. No se puede elegir una misma habilidad de combate dos veces.</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <SkillChoice>
+      <TypeValue>stCombat</TypeValue>
+      <SkillCount>1</SkillCount>
+      <AddDamagePerSkillRank>true</AddDamagePerSkillRank>
+      <AddSkillsPerRank>true</AddSkillsPerRank>
+    </SkillChoice>
+  </Talent>
+    <Talent>
+    <Key>TRUEAIM</Key>
+    <Name>Disparo certero</Name>
+    <Description>Una vez por asalto, antes de efectuar un ataque a distancia, el personaje puede llevar a cabo una maniobra de Disparo certero para obtener los beneficios de apuntar con el arma e incrementar una tirada de combate tantas veces como su rango en este talento.</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taManeuver</ActivationValue>
   </Talent>
 </Talents>
