@@ -1263,4 +1263,43 @@
     <Ranked>true</Ranked>
     <ActivationValue>taManeuver</ActivationValue>
   </Talent>
+
+  <!-- Horizontes Lejanos-->
+  <Talent>
+    <Key>SOUNDINV</Key>
+    <Name>Inversiones rentables</Name>
+    <Description>Al comienzo de cada partida, el personaje recibe tantos créditos como el rango de este talento multiplicado por 100. El motivo de estos ingresos deben concretario el jugador y el DJ: podrían representar los réditos de una inversión lucrativa, los beneficios de una empresa o incluso algún negocio legítimo o chanchullo ocasional. El DJ también puede decidir que estos fondos no estén disponibles temporalmente debido a las circunstancias concretas de la aventura.</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>GREASE</Key>
+    <Name>Untar manos</Name>
+    <Description>Antes de efectuar una tirada de interacción social, el personaje puede llevar a cabo una maniobra de Untar manos y gastar un máximo de 50 créditos por cada rango que tenga en este talento. Por cada 50 créditos gastados de este modo, el personaje incrementa 1 vez la Capacidad de su tirada de habilidad. Decidir el modo en que el dinero beneficia a la tirada se deja en manos del jugador y del DJ, pero podría consistir en un soborno, algún tipo de obsequio o incluso haber pagado por información que proporcione al personaje una cierta ventaja en la posterior interacción.</Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taManeuver</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>THROWCRED</Key>
+    <Name>Tirar los créditos</Name>
+    <Description>Al comienzo de cada partida (después de que el DJ haya hecho la tirada para activar la Obligación), el personaje tiene la opción de gastar 100 créditos. Si lo hace, ignora cualquier penalización a su umbral de Tension provocada por la activación de una Obligación (si es la suya propia la que se ha activado, aún puede introducir complicaciones en la trama, pero la penalización al umbral de Tensión se ignora). De esta manera se puede representar que el personaje ha podido suavizar un poco el inconveniente causado por la Obligación gastando unos pocos créditos, o que simplemente se ha permitido algún tipo de distracción que le ha ayudado a olvidarse de sus problemas.</Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>BOUGHT</Key>
+    <Name>Comprar información</Name>
+    <Description>Cuando el personaje tenga que efectuar una tirada de alguna habilidad de conocimiento, en vez de eso puede realizar una acción de Comprar información. Para ello ha de gastar tantos créditos como la dificultad de la tirada multiplicada por 50, y se considera que tiene éxito en esta si obtiene al menos un [SU] no anulado. A discreción del DJ, el personaje podría no ser capaz de utilizar este talento si la información que busca es notoriamente dificil de encontrar, o si se encuentra en una situación en la que le resulta imposible disponer de esa información (por ejemplo, varado en un planeta sin acceso a la HoloRed).</Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taAction</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>NATMERCH</Key>
+    <Name>Mercader nato</Name>
+    <Description>Una vez por partida, el personaje puede repetir cualquier tirada de Callejeo o de Negociación.</Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
 </Talents>
