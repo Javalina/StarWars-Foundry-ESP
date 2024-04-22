@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARCONA</Key>
+  <Name>Arcona</Name>
+  <Description>Los arconas son humanoides estilizados con reminiscencias de reptiles cuyas manos y pies acaban en garras. Tienen grandes y luminosos ojos compuestos. Su piel, sin pelo ni escamas, tiene un tacto parecido al de la madera y es de color verde, marrón o casi negra. [P]La forma de la cabeza de los arconas es muy característica y se asemeja a un triángulo invertido que se estrecha a medida que se acerca al cuello, lo que les confiere un aspecto un tanto serpentino.
+    [P]Los arconas necesitan suplementos de amoniaco cuando están fuera de Cona, su mundo natal. Su sentido de la vista es pobre y sus garras son más útiles para cavar que para luchar. Sin embargo, son más robustos de lo que podría parecer. Cona es un mundo peligroso, por lo que los arconas están acostumbrados a sobrevivir contra todo pronóstico. Su capacidad de alerta y su adaptabilidad compensan otras debilidades físicas. Tienen una gran fuerza de voluntad, se les da bien trabajar en equipo y siempre están pendientes de los peligros.
+    [P]Los arconas otorgan una enorme importancia a la familia y tienen un fuerte sentido de la comunidad. Viajan en grupo con frecuencia, y dado su espíritu viajero es fácil encontrar estos grupos por toda la galaxia. Se trata de una especie pacífica y tranquila, por lo que en muchos mundos son bien recibidos como nuevos habitantes. Su capacidad de observación, junto con su espíritu comunitario, les facilitan las interacciones sociales con otras especies.
+    [P]Fisiología: Los arconas provienen de Cona, un planeta cálido y seco donde las temperaturas ardientes se extienden de polo a polo y permanecen así durante todo el año. Si bien sobreviven en climas más fríos, muestran preferencia por temperaturas similares a las de su planeta natal.
+    [P]La protuberancia que tienen entre los ojos es un organo sensorial de infrarrojos de increíble sensibilidad. Es capaz de detectar cambios mínimos en las señales de calor de todos los seres. Los arconas huelen con la lengua, por lo que a menudo extienden este delgado apendice en el aire en un rápido gesto que a otras especies puede resultarles molesto o incluso ofensivo. El uso combinado de ambos sentidos les permite discernir a la perfección estados de ánimo y emociones en otras especies.
+    [P]La atmósfera de Cona contiene altas concentraciones de vapor de amoniaco. Esta sustancia produce enzimas en el cuerpo de los arconas que les resultan necesarias para vivir. Dado que necesitan de la presencia de amoniaco, cuando viajan a otros mundos deben hacerlo con suplementos de amoniaco que han de ingerir en una proporción similar a la que siguen los humanos que precisan suplementos vitamínicos. Un arcona puede sobrevivir largos periodos de tiempo sin el amoniaco, aunque a largo plazo puede afectarle a la salud.
+    [P]Sociedad:[b] El sentido de comunidad de los arconas es tan fuerte que piensan en sí mismos como parte de un colectivo. Consideran que formar y desarrollar una familia es tanto un deber como un privilegio. Los arconas esperan de cada miembro de la sociedad que anteponga el bienestar de ésta al suyo propio, y en la mayoría de los casos así ocurre. En su mundo natal, los arconas viven en nidos familiares que se agolpan en torno a un gran nido desde el cual un líder supervisa las decisiones comunitarias. En las familias los machos son quienes se encargan del cuidado de sus miembros, pues, desde el punto de vista de los arconas, las hembras son demasiado volubles y poco fiables.
+    [P]Cualquier arcona que, por el motivo que sea, viaja solo, se enfrenta a un periodo de ajuste mientras se adapta a vivir alejado de su sociedad colmena. Por suerte, tal y como se ha comprobado una y otra vez, los arconas son capaces de amoldarse con rapidez y sobrevivir.
+    [P][B]Mundo natal:[b] Cona se encuentra en el Borde Interior. Orbita alrededor de una estrella azul, Teke Ro, y es un planeta seco y caluroso como cualquier mundo desértico. La vegetación que filtra el oxígeno y el amoniaco hasta descomponerlos en agua es abundante. Este fenómeno resulta fundamental para la supervivencia de los arconas. La atmósfera del planeta se compone de nitrógeno, hidrógeno y altos niveles de amoniaco. La mayoría de las especies necesitan algún tipo de ayuda respiratoria para visitar la superficie, e incluso así la peste a amoniaco reina en el ambiente.
+    [P]Cona también es rico en minerales y metales, lo cual ha sido la cara y la cruz de los habitantes del planeta. Estos recursos atraen a perforadores y comerciantes que en un principio intercambiaban agua por derechos mineros, pero descubrieron la tendencia de los arconas a caer en la adicción a la sal. Este compuesto actúa para ellos como un alucinógeno y la adicción acaba siendo fatal. Por desgracia, a los comerciantes les resultaba más fácil y barato transportar sal en vez de agua, así que empezaron a importarla, poniendo así en riesgo a toda la sociedad arcona. La República y el gobierno arcona intervinieron con rapidez, evitando así la ruptura total de la sociedad. Idioma: Los arconas son más pragmáticos que orgullosos. Fuera de su planeta, muchos enseñan a sus hijos el básico antes incluso que su propia lengua, el arconés. Si bien la mayoría de los arconas adultos hablan ambos idiomas con fluidez, sus lenguas serpentinas añaden una resonancia como de silbido a su habla. En ocasiones ﻿también tienen problemas con los pronombres personales, pues dicen "nosotros" en lugar de "yo". Esto, más que una incorrección gramatical, es el reflejo de una actitud basada en la comunidad.
+    [P][B]Vida en los confines:[b] Los arconas son grandes viajeros; una curiosidad innata y una pasión por los descubrimientos los impulsan. Se han extendido por toda la galaxia, a menudo viajando en grandes grupos familiares. Sin embargo, dado el problema que los comerciantes provocaron en Cona, se han vuelto un poco más recelosos ante otras especies y algo temerosos ante la posibilidad de ser explotados.</Description>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>100</Experience>
+    <ForceRating>0</ForceRating>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ARCONAOC1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC1OP1</Key>
+          <Name>Environment</Name>
+          <Description>Arcona may remove [SETBACK] imposed due to arid or hot environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ARCONAOC2</Key>
+      <Name>Mood</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC2OP1</Key>
+          <Name>Mood Readers</Name>
+          <Description>
+            Arcona add [ADVANTAGE] to any Charm or Negotiation checks they make.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>NEG</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+  </WeaponModifiers>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

@@ -1302,4 +1302,109 @@
     <ActivationValue>taIncidental</ActivationValue>
     <JuryRigged>false</JuryRigged>
   </Talent>
+  <Talent>
+    <Key>GOODCOP</Key>
+    <Name>Poli bueno</Name>
+    <Description>
+      El personaje puede gastar [AD][AD]de una tirada de Carisma o Negociación para incrementar la Capacidad de un único aliado cuando posteriormente éste realice una tirada de interacción social contra el mismo objetivo y durante el mismo encuentro. Se incrementan tantos dados de Capacidad como el número de rangos de Poli bueno que tenga el personaje. Una misma tirada sólo puede beneficiarse de un uso de este talento.
+      </Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>BADCOP</Key>
+    <Name>Poli malo</Name>
+    <Description>
+      El personaje puede gastar [AD][AD] de una tirada de Coacción o Engaño para incrementar la Capacidad de un único aliado cuando posteriormente éste realice una tirada de interacción social contra el mismo objetivo y durante el mismo encuentro. Se incrementan tantos dados de Capacidad como el número de rangos de Poli malo que tenga el personaje. Una misma tirada sólo puede beneficiarse de un uso de este talento.
+      </Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>UNRELSKEP</Key>
+    <Name>Escepticismo</Name>
+    <Description>
+      Cuando se realice una tirada de Engaño contra el personaje, éste añade automaticamente a la tirada tantos [FA] como los rangos que tenga en Alerta.
+      </Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>UNRELSKEPIMP</Key>
+    <Name>Escepticismo (Mejorado)</Name>
+    <Description>
+      Cuando una tirada de Engaño efectuada contra el personaje falle, éste puede gastar 1 punto de Destino para añadir [DE] de manera retroactiva al resultado de la tirada.
+      </Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>DISBEH</Key>
+    <Name>Distracción</Name>
+    <Description>
+      El personaje puede realizar una maniobra de Distracción y sufrir una cantidad de Tensión no mayor que su rango de Astucia. Si lo hace, un número igual de adversarios o PNJ que tenga a alcance de interacción sufren [TH] en las tiradas que realicen hasta el principio del siguiente turno del personaje. El alcance de esta maniobra se incrementa en 1 intervalo por cada rango de Distracción.
+      [P]El personaje escoge quién se ve afectado por la Distracción; puede elegir que este talento no afecte a PNJ aliados. Esto puede deberse a que haya explicado previamente su táctica a los PNJ, o a que éstos conozcan lo suficiente al personaje como para estar acostumbrados a sus payasadas.
+      </Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taManeuver</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>DISBEHIMP</Key>
+    <Name>Distracción (Mejorada)</Name>
+    <Description>
+      Los PNJ que se vean afectados por la Distracción sufrirán [TH][TH]en lugar de [TH] al realizar tiradas contra los aliados del personaje.
+      </Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>CONGENIAL</Key>
+    <Name>Simpático</Name>
+    <Description>Please see page 32 of the Far Horizons Sourcebook, page 32 of the Fly Casual Sourcebook, page 28 of the Disciples of Harmony Sourcebook, or page 32 of the Unlimited Power Sourcebook, for details.
+    </Description>
+    <Ranked>true</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+  </Talent>
+  <Talent>
+    <Key>NATATHL</Key>
+    <Name>Atleta nato</Name>
+    <Description>
+      Una vez por partida, el personaje puede repetir cualquier tirada de Atletismo o de Coordinación.
+      </Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>BIGGESTFAN</Key>
+    <Name>Tu mayor admirador</Name>
+    <Description>Una vez por partida, el personaje puede realizar una acción de Tu mayor admirador para hacer una tirada Difícil [DI][DI][DI] de Carisma . Si tiene éxito, un PNJ de su elección que esté presente en este encuentro resultará ser su autoproclamado "mayor admirador". El efecto exacto varía según el PNJ y la situación. Puede ir desde una reducción drástica en la dificultad de las tiradas de habilidades de interacción social que el personaje haga contra su mayor admirador, hasta que el admirador esté dispuesto a hacer favores pequeños o incluso relevantes al personaje, pasando por que el PNJ se convierta en un aliado recurrente a lo largo de la narración.
+      [P]A discreción del DJ, este talento no podrá utilizarse contra ciertos PNJ cuya oposición resulte vital para la trama, ni contra PNJ incapaces de apreciar el trabajo del personaje, como por ejemplo criaturas no inteligentes, droides de trabajo o soldados de asalto imperiales.</Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taAction</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>DECEPTAUNT</Key>
+    <Name>Burla engañosa</Name>
+    <Description>Una vez por partida, el personaje puede llevar a cabo una acción de Burla engañosa. Para ello hace una tirada enfrentada de Engaño contra un PNJ que esté a alcance medio. Si tiene éxito, el PNJ deberá atacarle durante su siguiente turno. Si el PNJ no puede hacerlo, dedicará todos sus turnos siguientes a maniobrar hasta llegar a una posición desde la que pueda efectuar un ataque cuerpo a cuerpo o a distancia contra el personaje. Una vez realizado este ataque, el PNJ dejará de verse afectado por la Burla engañosa. Si el personaje resulta incapacitado o abandona el encuentro, el PNJ también dejará de verse afectado por la Burla engañosa.
+      [P]Si se usa este talento fuera del combate, el PNJ objetivo puede, a discreción del DJ, optar por efectuar un ataque no letal si la situación lo permite. Si el encuentro tiene lugar en una fiesta, por ejemplo, el PNJ puede decidir pegarle un puñetazo al personaje en vez de usar un cuchillo o un blaster.</Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taAction</ActivationValue>
+    <JuryRigged>false</JuryRigged>
+  </Talent>
+  <Talent>
+    <Key>COORDODGE</Key>
+    <Name>Esquiva con coordinación</Name>
+    <Description>
+      Cuando el personaje sea declarado objetivo de una tirada de combate, puede gastar 1 punto de Destino para añadir a la tirada tantos [FA] como su rango de Coordinación.
+      </Description>
+    <Ranked>false</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+  </Talent>
 </Talents>

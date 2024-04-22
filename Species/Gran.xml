@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GRAN</Key>
+  <Name>Gran</Name>
+  <Description>
+    Los gran, humanoides de tres ojos, son una visión familiar en toda la galaxia. Habituales en rutas comerciales y puertos espaciales, viajando en grupos como comerciantes o turistas, los gran parecen estar por todas partes. Aunque saben apañarselas si se ven obligados a luchar, estos autoproclamados pacifistas son oradores por naturaleza. Puede que sean amistosos y abiertos o inteligentes y manipuladores, pero en cualquier caso presumen de sus depuradas habilidades sociales. Se les da bien obtener de sus interlocutores información que éstos no tenían intención de compartir. La mayoría de viajeros han sido victimas en algún momento de una batería de preguntas por parte de un amistoso gran.
+[P]Los gran tienen un espíritu comunitario y cooperan trabajando en aras del bien común. Han evolucionado desde sus pacíficas raíces herbívoras; en Kinyen, su mundo natal, hacían las veces de presas más que de cazadores, por lo que vivían en grandes grupos para protegerse. Sin embargo, los gran se han adaptado desde que empezaron a viajar por las estrellas, llegando a convertirse a veces en cazadores y trabajando como pistoleros a sueldo o cazarrecompensas.
+[P]Son muchos los sectores donde pueden encontrarse colonias gran, puesto que la especie se ha diseminado por toda la galaxia con rapidez y entusiasmo. Las más relevantes de esas colonias son las de Hok y Malastare, de donde los gran locales se consideran a sí mismos nativos. Los gran de dichas colonias han desarrollado diferentes códigos y prácticas sociales; son distintos a los gran de Kinyen, a quienes consideran sólo genéticamente similares. Las colonias gran que están lejos de su mundo natal no suelen ser un microcosmos reflejo de Kinyen durante mucho tiempo, aun cuando lo fueran en un principio.
+[P][B]Fisiología:[b] Los gran tienen un agudo sentido de la vista y pueden ver más allá del espectro disponible para la mayoría de especies, incluido el infrarrojo. También pueden detectar cambios fisiológicos mínimos entre los miembros de su raza que desvelan sus emociones. Los gran tienen dos estómagos y digieren la comida lentamente, lo que les permite permanecer sin comer durante días si es necesario.
+[P][B]Sociedad:[b] Como especie, los gran son socialistas y pacifistas acerrimos, pero no todos los individuos gran practican lo que su sociedad aconseja. Tienen un gran sentido de la comunidad; en Kinyen crían a sus hijos para que desempeñen carreras específicas de manera que la comunidad en su conjunto se vea beneficiada. Esto significa que, si bien los gran no son tontos, su educación puede ser algo limitada. Los gran vivían en rebaños en el pasado, confiando en el número para mantener su seguridad. Ahora, los gran dependen emocionalmente de sus familiares y odian la soledad. De hecho ésta puede desequilibrarlos o hacer que se conviertan en delincuentes. La condena más dura para un gran es el exilio, dado que le obliga a abandonar a su familia y amigos para siempre; para ellos es un destino peor que la muerte.
+[P]Mientras que la mayoría de los gran aceptan lo pragmático de su sistema educativo, siempre hay excepciones. De vez en cuando un gran opina que la estructura es demasiado rígida y desea abandonar el planeta para hacer algo distinto de la tarea que le tenían asignada. 
+[P][B]Mundo natal:[b] Kinyen se encuentra en la Región de Expansión. Está ubicado en la Columna Comercial Corelliana, lo cual es uno de los motivos por los que los gran se han diseminado hasta tan lejos por toda la galaxia. Muchos gran siguen viviendo en las coloridas ciudades de su planeta natal, para deleite de su agudo sentido de la vista. El planeta presume de bosques exuberantes y extensas praderas de egilope, uno de los alimentos preferidos de los gran. Algunos gran consideran Malastare como su mundo natal y piensan que sus orígenes en Kinyen son sólo historia. Centro de comercio y carreras de vainas, este planeta de alta gravedad debe su diversidad a la afluencia de especies, inteligentes o no, que llegan a través de la Vía Hydiana.
+[P][B]Idioma:[b] Todos los gran hablan su lengua natal (el gran) y casi todos también básico, pues les encanta hablar con todo el mundo. Cuando les resulta necesario a fin de no perder oportunidades para conversar, los gran también aprenden idiomas de otras especies.﻿
+[P][B]Vida en los confines:[b] Aunque no son tan abundantes como los humanos, los gran son casi igualmente versátiles. Su capacidad de adaptación y de establecer su hogar y sus vidas en cualquier parte los convierte en exitosos colonos. Los gran que viajan por las estrellas por decisión propia (y son muchos) suelen tener bastante éxito. Su naturaleza amable les permite establecer una convivencia fácil con otras especies y su mentalidad positiva les ayuda a ver la roca más estéril como su hogar. Hay muchos gran que incluso viajan en solitario, pero sólo les gusta hacerlo si durante sus travesías se encuentran con multitud de seres inteligentes.
+[P]Los gran de Kinyen, por lo general pacíficos, luchan en defensa propia cuando es necesario. En la zona fronteriza, donde las vidas y las circunstancias son muy distintas, no son raros los gran violentos. Algunos no viajan por decisión propia, sino que se ven obligados por el destierro. Estos mutantes y delincuentes en su planeta natal se dan a la bebida o al consumo de especia para olvidar sus problemas, y suelen cometer delitos para pagar sus vicios.
+  </Description>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GRANCH1</Key>
+      <Name>Skills</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>GRANCH1OP1</Key>
+          <Name>One rank in Charm</Name>
+          <Description>Gran may take one rank in Charm</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GRANCH1OP2</Key>
+          <Name>One rank in Negotiation</Name>
+          <Description>Gran may take one rank in Negotiation</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GRANCH2</Key>
+      <Name>Vision</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>GRANCH2OP1</Key>
+          <Name>Enhanced Vision</Name>
+          <Description>When making ranged combat or Perception checks, Gran remove up to [SETBACK][SETBACK] imposed due to environmental conditions or concealment (but not defense).</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>
